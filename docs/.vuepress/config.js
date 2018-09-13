@@ -3,6 +3,16 @@ module.exports = {
   description: 'Just playing around',
   themeConfig: {
     displayAllHeaders: true,
+    sidebar: [
+      {
+        title: "Coding",
+        collapsable: false,
+        children: [
+          "/coding/process/",
+          "/coding/process/pullrequest",
+        ],
+      }
+    ],
     nav: [
       { text: 'Home', link: '/' },
       /*
@@ -10,19 +20,6 @@ module.exports = {
       { text: 'Pull Requests', link: 'https://bitbucket.org/nanovr_dev/nanome-core/pull-requests/' },
       { text: 'Contribute', link: 'https://bitbucket.org/nanovr_dev/nanome-core-doc/src/master/' },
       */
-    ],
-    sidebar: [
-      {
-        title: 'Group 1',
-        collapsable: false,
-        children: [
-          '/'
-        ]
-      },
-      {
-        title: 'Group 2',
-        children: [ /* ... */ ]
-      }
     ],
   },
 }
