@@ -1,16 +1,6 @@
 {
-  "name": "nanome-core-doc",
-  "version": "1.0.0",
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
-  },
-  "dependencies": {
-    "vuepress": "^0.14.3"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@bitbucket.org/nanovr_dev/nanome-core-doc.git"
-  },
-  "homepage": "https://bitbucket.org/nanovr_dev/nanome-core-doc#readme"
+  }
 }

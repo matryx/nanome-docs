@@ -1,6 +1,5 @@
 ---
 home: true
-heroImage: /hero.png
 actionText: Get Started →
 actionLink: /guide/
 features:
@@ -21,5 +20,5 @@ This is cool
 
 :::
 
-* [Coding Style](./coding/style/)
+* [Coding Process](./coding/process/)
 
