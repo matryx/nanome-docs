@@ -1,14 +1,12 @@
 {
   "name": "nanome-core-doc",
   "version": "1.0.0",
-  "main": "index.js",
-  "dependencies": {
-    "vuepress": "^0.14.3"
-  },
-  "devDependencies": {},
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "vuepress": "^0.14.3"
   },
   "repository": {
     "type": "git",
