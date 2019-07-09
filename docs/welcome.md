@@ -1,7 +1,6 @@
 ---
-title: Welcome to the VuePress + Netlify Example 
+title: Welcome to the VuePress + Netlify Example
 ---
+This is a very interesting project...
 
-## Netlify
-
-## Vuepres
+Im checking it out and testing how it goes.
