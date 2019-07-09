@@ -1,6 +1,7 @@
 backend:
   name: github
   repo: matryx/nanome-docs
+  site_domain: cms.netlify.com
   # branch: master
 
 # publish_mode: editorial_workflow
