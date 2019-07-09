@@ -1,24 +1,15 @@
 ---
 home: true
-actionText: Get Started →
-actionLink: /guide/
+heroImage: ./assets/img/netlify_vuepress.png
+actionText: Go contents page →
+actionLink: /welcome
 features:
-- title: Simplicity First
-  details: Minimal setup with markdown-centered project structure helps you focus on writing.
-- title: Vue-Powered
-  details: Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue.
-- title: Performant
-  details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
+- title: Markdown Editing 
+  details: Netlify's CMS provides a flexible Markdown Editor 
+- title: Asset Management 
+  details: Easily upload images to your repo with an uploader 
+- title: Powerful Deployments
+  details: Leverage the power of netlify and VuePress to deploy statically 
 footer: MIT Licensed | Copyright © 2018-present Evan You
+title: FRONT PAGE
 ---
-
-# Welcome to Nanome Core Documentation
-
-::: danger
-
-This is cool
-
-:::
-
-* [Coding Process](./coding/process/)
-

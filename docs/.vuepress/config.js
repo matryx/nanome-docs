@@ -1,25 +1,27 @@
+const fs = require('fs');
+const path = require('path');
+
+var dirpath = "./docs"
+
+// generate sidenav order by update time
+var sb = fs.readdirSync(dirpath).filter(f => {
+    return f.match(/\.(md)$/i) && f !== 'README.md'
+}).map(f => {
+  return {
+    path:  '/' + f,
+    mtime: fs.statSync(dirpath +  '/' + f).mtime
+  }
+})
+.sort((a, b) => a.mtime - b.mtime)
+.map(f => f.path)
+
 module.exports = {
-  title: 'Nanome Core',
-  description: 'Just playing around',
-  themeConfig: {
-    displayAllHeaders: true,
-    sidebar: [
-      {
-        title: "Coding",
-        collapsable: false,
-        children: [
-          "/coding/process/",
-          "/coding/process/pullrequest",
-        ],
-      }
-    ],
-    nav: [
-      { text: 'Home', link: '/' },
-      /*
-      { text: 'Backlog', link: 'https://nanome.atlassian.net/secure/RapidBoard.jspa?projectKey=NP&rapidView=1&view=planning' },
-      { text: 'Pull Requests', link: 'https://bitbucket.org/nanovr_dev/nanome-core/pull-requests/' },
-      { text: 'Contribute', link: 'https://bitbucket.org/nanovr_dev/nanome-core-doc/src/master/' },
-      */
-    ],
-  },
-}
+    title: 'Netlify CMS + VuePress',
+    description: 'Netlify + VuePress',
+    themeConfig: {
+      docsDir: 'docs',
+      repo: 'toshilow/netlify-cms-vuepress',
+      sidebar: sb,
+      lastUpdated: 'Last Updated'
+    }
+  }
