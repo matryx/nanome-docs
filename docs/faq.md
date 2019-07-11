@@ -2,13 +2,13 @@
 title: FAQ
 ---
 
-### What is Nanome?
+## What is Nanome?
 Nanome Inc is our company which creates virtual reality tools for scientists, researchers and educators. Nanome is the premiere Virtual Reality software solution for molecular modeling and protein visualization. Understanding molecular structures in Nanome is intuitive, hands on, and efficient. The word Nanome is like Genome where we are exploring the entire field of Nano-sciences and Nanotechnology - everything at the Nanoscale!
 
-### Why was Nanome founded?
+## Why was Nanome founded?
 Nanome’s mission is to democratize science. By creating intuitive and immersive tools, we hope to empower today’s scientists and inspire tomorrow’s. Nanome values powerful interfaces, open access, and collaboration. We are committed to elevating access to science and technology.
 
-### What problem are you solving?
+## What problem are you solving?
 Innovators in molecular sciences face three major difficulties:
 
 The physical world at the nanoscale is invisible and conceptually abstract.
@@ -17,32 +17,32 @@ Current software used to visualize the nanoscale is unintuitive and frustrating 
 
 It is impossible for teams to collaborate effectively in the same digital workspace with 2D software. https://www.youtube.com/watch?v=jrdpHPAbi48
 
-### Who typically uses Nanome?
+## Who typically uses Nanome?
 Nanome was developed with pharmaceutical scientists and computational chemists in mind. Nanome partners with major pharmaceutical companies and various research institutions to help increase productivity in Nanoscaled design. Nanome is also a “sandbox” tool and is used by thousands of people passionate or curious about science, ranging from gamers and hobbyists to educators and students.
 
 Here's one of our premiere users: https://www.youtube.com/watch?v=6g7_HZrTxSo
 
-### Where can I download Nanome?
+## Where can I download Nanome?
 Nanome can be downloaded for free from all major Virtual Reality stores including Oculus, VivePort, and Steam. Premium versions with upgraded features are available for purchase from our website at https://nanome.ai/pricing/
 
-### How does Nanome help researchers?
+## How does Nanome help researchers?
 Understanding complex 3D geometries and relationships on legacy interfaces can be frustrating, difficult and slow. Using 3D visualization and interaction, researchers understand concepts and innovate more rapidly.
 
 https://youtu.be/xB9DyUJr1PU?t=1m12s
 
-### Can I get Nanome/CalcFlow for my school? How is Nanome’s software used in education?
+## Can I get Nanome/CalcFlow for my school?
 Nanome tools are made for communicating and sharing traditionally complicated concepts. Collaborative interaction paired with 2D viewing mode makes Nanome perfect for giving lectures, creating presentations, and making homework more engaging. See some example of educators using Nanome at www.twitch.tv/nanome_inc
 
-### What is Nanotechnology?
+## What is Nanotechnology?
 Nanotechnology refers to any design or engineering occurring at the molecular or atomic level. Simple drugs are the earliest form of nanotechnology, but today almost every industry is becoming a nano-industry. Faster computers, powerful batteries, and advanced robotics all rely on nanoscale design. Learn more on our blog at blog.matryx.ai
 
-### Is VR really better than my monitor?
+## Is VR really better than my monitor?
 An immersive, virtual environment adds an additional dimension to learning and research, like having superpowers. VR enables users to immerse themselves inside complex concepts and not just visualize, but experience them.
 
-### I want to inquire about a special interest or investment.
+## I want to inquire about a special interest or investment.
 Please contact Nanome at hello@nanome.ai for more information.
 
-### Software Features
+## Software Features
 What makes Nanome different from existing molecular design software?
 Nanome makes nanoscience immediately obvious and accessible. Other scientific software requires users to write code and have extensive scientific background to perform even simple tasks. Nanome is specially designed for usability, collaboration, and immersion.
 
@@ -52,7 +52,7 @@ Collaboration: The internet has increased collaboration amongst scientists, but 
 
 Immersion: Virtual reality, the cornerstone of the Nanome software, has potential far beyond gaming. Nanome is the first company to utilize VR to make tools specifically for scientists and enthusiasts. Three-dimensional visualization and interaction bring clarity to complex scientific concepts.
 
-### What are the main features of the Nanome Software?
+## What are the main features of the Nanome Software?
 Nanome Users can….
 
 Import molecular structures from online databases such as RCSB Protein Databank, Pubchem and Drugbank.
@@ -81,24 +81,26 @@ Join public and/or private virtual rooms to collaborate.
 
 Save and export modified or created molecules and nano-structures
 
-### What file types are compatible with Nanome? How can a user import them?
+## What file types are compatible with Nanome?
 Nanome supports .pdb, .sdf, and features limited compatibility with other atomic coordinate files, like .cif. While .pdb or .sdf format are the most stable formats, we are always improving our parser’s ability to handle anomalies.
 
 Structures may be imported directly from RCSB Protein Data Bank, PubChem, DrugBank, and other online databases from the VR Molecular Loading Menu.
 
 We recommend setting Nanome as your default software for opening .pdb files. Double clicking on any local .pdb will automatically open the file with the Nanome software.
 
-### Nanome currently supports up to 20 collaborators in a room. Soon, more spectators will be able to join in 2D.
+## How many users can I have inside of Nanome
+Nanome currently supports up to 20 VR collaborators in a room. Our 2D user allows for up to 100 users in a single room.
 
-### What kinds of computations are possible with Nanome? Can Nanome replace other Molecular Visualization or simulation software?
-Nanome integrates with existing workflows by replacing current visualization and design interfaces, but only provides classical force field simulations. Nanome users can utilize other simulation software through exporting .sdf and .pdb files to 3rd part simulation software, then importing the final .pdb or .sdf results back into Nanome after computations have been run.
+## What kinds of computations are possible with Nanome? 
+Nanome has a Python based API to integrate with user's computational tools to augment and benefit existing scientific workflows. With a plugin script capable of interfacing with any of the existing applications, the computation possiblities are endless. While this feature is limited to users with a Plugin Server (Enterprise only), we do natively support classical force field simulations for local minimization.  Nanome users can also utilize other simulation software through just exporting as a .sdf and .pdb file and into 3rd part simulation software, then importing the final .pdb or .sdf results back into Nanome after computations have been run.
+
 
 We’re streamlining this process with an API pipeline, so users can send their work directly to their GPU or a cloud service running alternative molecular simulation software.
 
-### What is 2D mode? Do I need a license?
+## What is 2D mode?
 2D mode is a free feature for all Nanome account holders. In 2D mode, users may join a Nanome room from a 2D interface. A 2D user moves a camera with their mouse and keyboard, enabling them to spectate and record sessions, but cannot interact with structures. 2D mode can be accessed on Steam or if Nanome is downloaded on our website. While 2D mode can also be accessed on Oculus, you’ll need to have a headset connected.
 
-### What features are currently in development?
+## What features are currently in development?
 In-app voice commands
 
 Recording and Playback
@@ -117,13 +119,13 @@ Guided Educational STEM Curriculum
 
 Matryx Blockchain Platform Integration
 
-### What is Matryx? What does Nanome use blockchain for?
+## What is Matryx?
 Nanome created Matryx, a blockchain platform and ERC20 token [MTX] to foster global collaboration in the sciences. On the Matryx blockchain platform, Nanome users may upload and timestamp their creations and designs, enabling immutable attribution for their work. Matryx users may post bounties with their MTX tokens, hosting tournaments for the design, revision, or solutions to a scientific problems or other tasks. To learn more about the Matryx platform, check out our blog and read our whitepaper.
 
-### How do I use Matryx with Nanome?
+## How do I use Matryx with Nanome?
 Currently, the Matryx testnet is accessible via CalcFlow and a web interface at alpha.matryx.ai while seamless Nanome integration is coming soon.
 
-### System Requirements
+## What are the System Requirements
 What kind of computer/system requirements do I need to run Nanome?
 Recommended system requirements:
 
@@ -145,10 +147,10 @@ Memory: 4GB RAM
 
 Graphics: GTX 1060
 
-### What Virtual and Augmented Headsets does Nanome currently support?
-Nanome is built for Oculus Rift (recommended), HTC Vive and Windows Mixed Reality headsets. Calcflow is compatible with Oculus Rift and HTC Vive.
+## What Virtual and Augmented Reality Headsets are supported?
+Nanome is built for Oculus Rift and Rift-S (recommended), the HTC Vive, and the Oculus Quest (BETA). Calcflow is compatible with Oculus Rift and HTC Vive.
 
-### What kind of Internet connection do I need?
+## What kind of Internet connection do I need?
 A stable Internet connection is highly recommended when using Nanome, especially when collaborating with other users. Access to the web is also necessary to download structures from databases like RCSB and DrugBank Databases. For solo users with structures stored on their local machines, internet access is not required.
 
 Premium Licenses
@@ -160,16 +162,16 @@ Premium features include increased number of chemical entities, private rooms, a
 ### What types of payment do you accept?
 Nanome accepts most common credit and debit cards. For bulk and enterprise purchases, Nanome accepts alternative payments like wire transfer or cryptocurrency, please contact us at hello@nanome.ai for more information.
 
-### How does the license system work? Isn’t Nanome free?
+## How does the license system work?
 All users are granted access to the free version of Nanome, which can be downloaded from major VR stores like Oculus, VivePort, and Steam). Licenses for premium versions can be purchased from our website. Purchasing a license will unlock special features like private rooms, the ability to export content, private server access, and custom software integration. After making a purchase, the appropriate features will be unlocked when you next log into Nanome.
 
-### How many Licenses can I buy?
+## How many Licenses can I buy?
 There is a 70 license personal maximum. Wholesale purchasers may reach out to Nanome directly for custom enterprise solutions.
 
-### Have a Coupon Code? Here's how to redeem it.
+## How to Redeem a coupon code
 First create an account or login at https://nanome.ai/pricing/ Once you're logged in, you'll notice a sidebar on the right with various options. Click plans and products and you'll see our different premium tiers along with annual and monthly plans on top. Select the plan your coupon covers. On the next menu you'll see a form for credit card information as well as a space to put in your coupon. You will have to put in your CC information, but the coupon should make sure you aren't charged. If you are, contact us directly at support@nanome.ai and we'll issue a refund immediately.
 
-### Network Tips
+## Network Tips
 Nanome Software Network Requirements
 For the Nanome Software Please allow outbound connections to ports 80 and 443 for the following domains:
 

@@ -19,12 +19,21 @@ var sb = fs
   .map(f => f.path);
 
 module.exports = {
-  title: "Nanome",
   description: "Documentation site for Nanome software.",
   themeConfig: {
+    home:true,
+    title: "Documentation",
     docsDir: "docs",
+    logo: '../assets/nanome-logo.png',
     // repo: 'toshilow/netlify-cms-vuepress',
     sidebar: sb,
-    lastUpdated: "Last Updated"
+    lastUpdated: "Last Updated",
+    nav: [
+      { text: 'Home', link: '/' },
+      { text: 'Nanome.ai', link: 'https://nanome.ai/' },
+      { text: 'Download', link: 'https://nanome.ai/setup' },
+    ],
+    ga: 'UA-79179574-15'
   }
 };
+
