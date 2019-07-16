@@ -67,4 +67,5 @@ You can create a Nanome account inside of the Nanome application and on the [Nan
 
 You can upgrade your account on the [Nanome Account site](https://home.nanome.ai)
 
+We have a Free, Plus, Pro, Academic, and Enterprise Version.
 
