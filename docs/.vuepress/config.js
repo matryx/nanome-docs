@@ -4,19 +4,19 @@ const path = require("path");
 var dirpath = "./docs";
 
 // generate sidenav order by update time
-var sb = fs
-  .readdirSync(dirpath)
-  .filter(f => {
-    return f.match(/\.(md)$/i) && f !== "README.md";
-  })
-  .map(f => {
-    return {
-      path: "/" + f,
-      mtime: fs.statSync(dirpath + "/" + f).mtime
-    };
-  })
-  .sort((a, b) => a.mtime - b.mtime)
-  .map(f => f.path);
+// var sb = fs
+//   .readdirSync(dirpath)
+//   .filter(f => {
+//     return f.match(/\.(md)$/i) && f !== "README.md";
+//   })
+//   .map(f => {
+//     return {
+//       path: "/" + f,
+//       mtime: fs.statSync(dirpath + "/" + f).mtime
+//     };
+//   })
+//   .sort((a, b) => a.mtime - b.mtime)
+//   .map(f => f.path);
 
 module.exports = {
   description: "Documentation site for Nanome software.",
@@ -24,9 +24,17 @@ module.exports = {
     home:true,
     title: "Documentation",
     docsDir: "docs",
-    logo: '../assets/nanome-logo.png',
+    logo: '../assets//features-page/nanome-logo.png',
     // repo: 'toshilow/netlify-cms-vuepress',
-    sidebar: sb,
+    sidebar: [
+      '/',
+      '/gettingStarted',
+      '/features',
+      '/Plugins',
+      '/faq',
+      '/troubleshooting',
+      '/contact'
+    ],
     lastUpdated: "Last Updated",
     nav: [
       { text: 'Home', link: '/' },

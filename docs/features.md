@@ -24,32 +24,35 @@ Customize your virtual workspace and save you VR sessions for future presenting 
 Both VR users and 2D users can collaborate in a virtual space.
 
 
-![](/assets/collaboration.gif)
+![](/assets/features-page/collaboration.gif)
 
 
 
 ## Medicinal Chemistry Toolkit (MedChem)
-![](/assets/medchem.gif)
+![](/assets/features-page/medchem.gif)
 
 
 ## Torsion tool
 
 Users can rotate structures around each other and measure the resulting bond angles and lengths through the torsion tool.
 
-![](/assets/measure-torsion.gif)
+![](/assets/features-page/measure-torsion.gif)
 
 ## Electron Density Maps
-![](/assets/edm.gif)
+![](/assets/features-page/edm.gif)
 
 
 
 ## Trajectories
-![](/assets/nanome-gif-downsized_large.gif)
+![](/assets/features-page/nanome-gif-downsized_large.gif)
 
 ## Tools Menu  
 Press and hold the Right Hand button to pull up the tools menu to easily switch between your favorite tools.
 
-![](/assets/hand-tools.gif)
+![](/assets/features-page/hand-tools.gif)
 
+
+# Molecular Surfaces
+The default surface type is Solvent Excluded Surfaces.
 
 

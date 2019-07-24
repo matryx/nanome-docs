@@ -1,5 +1,5 @@
 ---
-title: Documenation
+title: Home
 ---
 
 # 
