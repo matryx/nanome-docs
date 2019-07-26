@@ -103,7 +103,7 @@ Required dependencies:
 5. Install GhostScript
  - https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs927/gs927w64.exe
 6. Install ImageMagick
- - https://imagemagick.org/download/binaries/ImageMagick-7.0.8-50-Q16-x64-dll.exe
+ - https://imagemagick.org/download/binaries/ImageMagick-7.0.8-56-Q16-x64-dll.exe
 7. Install Libre Office
  - https://www.libreoffice.org/donate/dl/win-x86_64/6.2.4/en-US/LibreOffice_6.2.4_Win_x64.msi
 8. Add Libre Office to the PATH environmental variable
