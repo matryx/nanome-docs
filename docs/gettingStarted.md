@@ -16,9 +16,13 @@ Users can load molecular structures from various common libraries such as [PDB.o
 
 ## Hardware Requirements
 
-#### The recommended Virtual Reality Headset
-![](/assets/oculus-rift-s.png)
+#### The recommended Virtual Reality Headsets
 
+Oculus Rift-S
+![](/assets/features-page/oculus-rift-s.png)
+
+HTC Vive Pro
+![]()
 
 Note* 
 We also support the Oculus Rift (CV1), HTC Vive, and the Oculus Quest all-in-one VR headset (in BETA).
