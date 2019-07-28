@@ -7,8 +7,8 @@ title: Nanome Plugins
 
 **Overview**
 
-The Nanome Plugin API provides a way to interface and integrate external software with Nanome's molecular modeling VR software. 
-Through this API, users can link up external computational such as molecular dynamics or docking software. 
+The Nanome Plugin API provides a way to interface and integrate external software with Nanome's molecular modeling VR software.
+Through this API, users can link up external computational such as molecular dynamics or docking software.
 The extended functionality inclues the ability to create new windows inside of the virtual environment and is easily customizable through a drag and drop user interface.
 
 Plugins can be designed and ran from different environments including Windows, Linux, and Mac operating systems depending on the requirements needed from the plugin.
@@ -19,7 +19,7 @@ Some examples of plugins that our customers love are:
  - Running custom molecular dynamics
  - All of our public plugins are available on our `Github <https://github.com/nanome-ai>`_.
 
-The primary requirements for running plugins is the Nanome Virtual Reality Software and the Nanome Plugin Server (NTS). The Nanome Plugin Server acts as a relay to forward plugin information and processes into the Nanome virtual environment. 
+The primary requirements for running plugins is the Nanome Virtual Reality Software and the Nanome Plugin Server (NTS). The Nanome Plugin Server acts as a relay to forward plugin information and processes into the Nanome virtual environment.
 
 The Nanome Virtual Reality Software can be acquired directly from Nanome or in any of the VR stores here:
 
@@ -93,8 +93,8 @@ Required dependencies:
 
 *Instructions*
 
-1. First, you need to install Python 
- - https://www.python.org/ftp/python/3.7.3/python-3.7.3.exe 
+1. First, you need to install Python
+ - https://www.python.org/ftp/python/3.7.3/python-3.7.3.exe
  - Don’t forget to click the checkbox to add Python3 to PATH
 2. Open a command prompt
 3. Type ``python`` to verify the version is Python 3.0+, then exit()
@@ -109,7 +109,7 @@ Required dependencies:
 8. Add Libre Office to the PATH environmental variable
  - Search ‘env’ from the Windows Search Bar and click on the ‘Edit System Environment Variables’ in the control panel.
 
- ![](./.vuepress/public/assets/plugins-page/search_env.png
+  ![](./.vuepress/public/assets/plugins-page/search_env.png)
 
  - Click on the ‘Environment Variables’ button
 
@@ -128,12 +128,12 @@ Required dependencies:
  - enter ``pip install nanome``
 10. Install the Nanome Loaders Plugin
  - Enter ``pip install nanome-loaders``
-11. Run the Nanome Loaders’ WebLoader plugin 
+11. Run the Nanome Loaders’ WebLoader plugin
  - Enter ``nanome-web-loader -a localhost``
  - The ``-a`` denotes the address of the Plugin Server IP
 
 ![](./.vuepress/public/assets/plugins-page/running_plugin.png)
-   
+
 12. You now can open up your browser and go to http://localhost to see the Web Interface
 
 ![](./.vuepress/public/assets/plugins-page/webloader_browserprompt.png)
@@ -150,5 +150,3 @@ Required dependencies:
 ![](./.vuepress/public/assets/plugins-page/2Dmode_plugins.png)
 
 15. Activate the plugin, select your uploaded file and click Load. This will open a new window with your PDF and is resizable.
-
-
