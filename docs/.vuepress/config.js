@@ -7,9 +7,9 @@ module.exports = {
     logo: '../assets/features-page/nanome-logo.png',
     sidebar: [
       '/',
-      '/gettingStarted',
+      '/getting-started',
       '/features',
-      '/Plugins',
+      '/plugins',
       '/faq',
       '/troubleshooting',
       '/contact'
