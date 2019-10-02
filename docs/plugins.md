@@ -4,7 +4,6 @@ title: Nanome Plugins
 
 # How to use Plugins
 
-
 **Overview**
 
 The Nanome Plugin API provides a way to interface and integrate external software with Nanome's molecular modeling VR software.
@@ -14,43 +13,40 @@ The extended functionality inclues the ability to create new windows inside of t
 Plugins can be designed and ran from different environments including Windows, Linux, and Mac operating systems depending on the requirements needed from the plugin.
 
 Some examples of plugins that our customers love are:
- - Running and viewing docking results
- - Loading PDFs and PowerPoints
- - Running custom molecular dynamics
- - All of our public plugins are available on our `Github <https://github.com/nanome-ai>`_.
+
+- Running and viewing docking results
+- Loading PDFs and PowerPoints
+- Running custom molecular dynamics
+- All of our public plugins are available on our `Github <https://github.com/nanome-ai>`\_.
 
 The primary requirements for running plugins is the Nanome Virtual Reality Software and the Nanome Plugin Server (NTS). The Nanome Plugin Server acts as a relay to forward plugin information and processes into the Nanome virtual environment.
 
 The Nanome Virtual Reality Software can be acquired directly from Nanome or in any of the VR stores here:
 
- * Oculus Store: https://www.oculus.com/experiences/rift/1873145426039242
- * Viveport: https://www.viveport.com/apps/0a467f78-2ed2-43eb-ada8-9d677d5acf54
- * Steam: https://store.steampowered.com/app/493430/Nanome/
+- Oculus Store: https://www.oculus.com/experiences/rift/1873145426039242
+- Viveport: https://www.viveport.com/apps/0a467f78-2ed2-43eb-ada8-9d677d5acf54
+- Steam: https://store.steampowered.com/app/493430/Nanome/
 
 Please contact sales@nanome.ai for the Nanome Plugin Server (NTS.exe)
 
-
-
-
 ## Plugin List
-* Nanome Loaders
-    * Load Proteins, PPT and through either a drag and drop website or directly from a URL
-* Minimization
-* RMSD
-* Real-time Scoring
-* Ligand Focus
-* Docking
-* Molecular Dynamics
+
+- Nanome Loaders
+  - Load Proteins, PPT and through either a drag and drop website or directly from a URL
+- Minimization
+- RMSD
+- Real-time Scoring
+- Ligand Focus
+- Docking
+- Molecular Dynamics
 
 ## Using Plugins
 
-
 ## Web Loader
-
 
 **In order to use a plugin**
 
-*Editing the Config File*
+_Editing the Config File_
 
 First, you want to locate the Config file (nanome-config.ini) of the Nanome Application in the builds folder.
 If you downloaded Nanome through the Oculus store, it will be available here:
@@ -62,7 +58,7 @@ Open the nanome-config.ini file in a text editor and scroll down to the section 
 Plugin-server-addr = 127.0.0.1
 Plugin-server-port = 8888
 
-*Launch a local Plugin Server*
+_Launch a local Plugin Server_
 
 Next, we want to launch the Plugin Server locally. Go ahead and launch the NTS.exe file and a command prompt should open with the server running on port 8888.
 
@@ -74,63 +70,75 @@ You should see that the NTS is connected and there are no current running plugin
 
 Let’s go ahead and run a basic plugin to make sure it is working…
 
-
-
-
-*Installing your first plugin: Nanome Web Loader*
-
+_Installing your first plugin: Nanome Web Loader_
 
 The Nanome Web Loader allows for the distribution of files (PDB, SDF, PDF, PPT) to be drag-and-dropped into a web interface and then available inside of the Nanome VR software.
 
-*Windows
+\*Windows
 Required dependencies:
- - Python3 & Pip
- - Ghostscript
- - ImageMagick
- - Nanome Library
- - Libre Office
- - Nanome-Loaders Plugin
 
-*Instructions*
+- Python3 & Pip
+- Ghostscript
+- ImageMagick
+- Nanome Library
+- Libre Office
+- Nanome-Loaders Plugin
+
+_Instructions_
 
 1. First, you need to install Python
- - https://www.python.org/ftp/python/3.7.3/python-3.7.3.exe
- - Don’t forget to click the checkbox to add Python3 to PATH
+
+- https://www.python.org/ftp/python/3.7.3/python-3.7.3.exe
+- Don’t forget to click the checkbox to add Python3 to PATH
+
 2. Open a command prompt
-3. Type ``python`` to verify the version is Python 3.0+, then exit()
+3. Type `python` to verify the version is Python 3.0+, then exit()
 4. Upgrade your Pip library
- - ``python -m pip install --upgrade pip``
+
+- `python -m pip install --upgrade pip`
+
 5. Install GhostScript
- - https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs927/gs927w64.exe
+
+- https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs927/gs927w64.exe
+
 6. Install ImageMagick
- - https://imagemagick.org/download/binaries/ImageMagick-7.0.8-56-Q16-x64-dll.exe
+
+- https://imagemagick.org/download/binaries/ImageMagick-7.0.8-56-Q16-x64-dll.exe
+
 7. Install Libre Office
- - https://www.libreoffice.org/donate/dl/win-x86_64/6.2.4/en-US/LibreOffice_6.2.4_Win_x64.msi
+
+- https://www.libreoffice.org/donate/dl/win-x86_64/6.2.4/en-US/LibreOffice_6.2.4_Win_x64.msi
+
 8. Add Libre Office to the PATH environmental variable
- - Search ‘env’ from the Windows Search Bar and click on the ‘Edit System Environment Variables’ in the control panel.
 
-  ![](./.vuepress/public/assets/plugins-page/search_env.png)
+- Search ‘env’ from the Windows Search Bar and click on the ‘Edit System Environment Variables’ in the control panel.
 
- - Click on the ‘Environment Variables’ button
+![](./.vuepress/public/assets/plugins-page/search_env.png)
 
-  ![](./.vuepress/public/assets/plugins-page/find_env.png)
+- Click on the ‘Environment Variables’ button
 
- - Click the Edit button for the PATH variable
+![](./.vuepress/public/assets/plugins-page/find_env.png)
 
-  ![](./.vuepress/public/assets/plugins-page/edit_path.png)
+- Click the Edit button for the PATH variable
 
- - Click the Browse button and select LibraOffice/program in the Program Files
+![](./.vuepress/public/assets/plugins-page/edit_path.png)
 
-  ![](./.vuepress/public/assets/plugins-page/browse_path.png)
+- Click the Browse button and select LibraOffice/program in the Program Files
 
+![](./.vuepress/public/assets/plugins-page/browse_path.png)
 
 9. Install the latest Nanome Lib through Pip
- - enter ``pip install nanome``
+
+- enter `pip install nanome`
+
 10. Install the Nanome Loaders Plugin
- - Enter ``pip install nanome-loaders``
+
+- Enter `pip install nanome-loaders`
+
 11. Run the Nanome Loaders’ WebLoader plugin
- - Enter ``nanome-web-loader -a localhost``
- - The ``-a`` denotes the address of the Plugin Server IP
+
+- Enter `nanome-web-loader -a localhost`
+- The `-a` denotes the address of the Plugin Server IP
 
 ![](./.vuepress/public/assets/plugins-page/running_plugin.png)
 
@@ -144,9 +152,13 @@ Required dependencies:
 
 14. Go ahead and launch Nanome and create a room in 2D mode. Navigate to the Plugins Menu through the button on the Entry Menu to see your plugin populated.
 
-*You can move windows around in 2D mode by right-clicking and dragging the window.
-** Hit the escape key to see the controls and make changes to the application
+\*You can move windows around in 2D mode by right-clicking and dragging the window.
+\*\* Hit the escape key to see the controls and make changes to the application
 
 ![](./.vuepress/public/assets/plugins-page/2Dmode_plugins.png)
 
 15. Activate the plugin, select your uploaded file and click Load. This will open a new window with your PDF and is resizable.
+
+## Create Your Own
+
+[Learn how to create your own plugins](https://nanome.readthedocs.io/en/latest/)

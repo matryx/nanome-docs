@@ -1,25 +1,29 @@
 module.exports = {
-  description: 'Documentation site for Nanome software.',
+  description: "Documentation site for Nanome software.",
   themeConfig: {
     home: true,
-    title: 'Documentation',
-    docsDir: 'docs',
-    logo: '../assets/features-page/nanome-logo.png',
+    title: "Documentation",
+    docsDir: "docs",
+    logo: "../assets/features-page/nanome-logo.png",
     sidebar: [
-      '/',
-      '/getting-started',
-      '/features',
-      '/plugins',
-      '/faq',
-      '/troubleshooting',
-      '/contact'
+      "/",
+      "/getting-started",
+      "/navigating",
+      "/features",
+      "/plugins",
+      "/macros",
+      "how-to",
+      "/faq",
+      "/account-tiers",
+      "/troubleshooting",
+      "/contact"
     ],
-    lastUpdated: 'Last Updated',
+    lastUpdated: "Last Updated",
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Nanome.ai', link: 'https://nanome.ai/' },
-      { text: 'Download', link: 'https://home.nanome.ai/setup' }
+      { text: "Home", link: "/" },
+      { text: "Nanome.ai", link: "https://nanome.ai/" },
+      { text: "Download", link: "https://home.nanome.ai/setup" }
     ],
-    ga: 'UA-79179574-15'
+    ga: "UA-79179574-15"
   }
-}
+};
