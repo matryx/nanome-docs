@@ -6,9 +6,15 @@ title: Navigating Nanome
 
 ## Lobby
 
-![](/assets/navigating-page/Lobby-Signin.jpg)
+![](/assets/navigating-page/Lobby.jpg)
 
 The Nanome Lobby allows is where users can sign into an account or sign up. By toggling the 'Remember Me' button, users can automatically be signed in the next time they start Nanome. Users can also start the tutorial by selecting 'Start Tutorial'.
+
+![](/assets/navigating-page/Lobby-Tutorial.jpg)
+
+![](/assets/navigating-page/Lobby-Tutorial-Grab.jpg)
+
+![](/assets/navigating-page/Lobby-Tutorial-Complete.jpg)
 
 ### Creating an Account
 
@@ -119,20 +125,19 @@ Insert gifs from here: https://drive.google.com/open?id=1RSWEm6qcZUeXlG9I6cWhBKm
 
 ## Entry Menus Navigation
 
-![](/assets/navigating-page/Entry-MenusNavigation.jpg)
+![](/assets/navigating-page/Entry.jpg)
 
 From the Entry Menu, the Load, Plugin, Display, Color, modify, Select, and Macro Menus can be displayed. 
 
 ### Entry List
 
-![](/assets/navigating-page/Entry.jpg)
+![](/assets/navigating-page/Entry-List.jpg)
 
 The Entry List is a list of all of the structures that have been loaded into the environment. 
 
 #### Hierarchy Buttons
 
 ![](/assets/navigating-page/Entry-Hierarchy.jpg)
-![](/assets/navigating-page/Entry-List.jpg)
 
 Hierachy buttons can be used to navigate the sturcture's substructures such as chains and residues. 
 
@@ -188,6 +193,8 @@ The Electron Density tab shows the configuration of viewing the Electron Density
 
 ![](/assets/navigating-page/Entry-Export.jpg)
 
+![](/assets/navigating-page/Entry-ExportLocation.jpg)
+
 #### Align
 
 ![](/assets/navigating-page/Entry-Align.jpg)
@@ -236,7 +243,7 @@ My Files tab allows users to load structures from their local directory (P
 
 ### Display
 
-### Atom
+#### Atom
 
 - Wire
 
@@ -384,7 +391,7 @@ NEED Techincal/Scientific explanation of implementation for each scheme below.
 
 ![](/assets/navigating-page/Modify-Tools.jpg)
 
-### Mutate
+#### Mutate
 
 ![](/assets/navigating-page/Mutate.jpg)
 
@@ -442,7 +449,7 @@ NEED Techincal/Scientific explanation of implementation for each scheme below.
 
 ![](/assets/navigating-page/Wrist-AdvancedSettings.jpg)
 
-## Action Menu Navigation
+## Context/Action Menu Navigation
 
 ## Tools Menu Navigation
 
@@ -464,17 +471,38 @@ NEED Techincal/Scientific explanation of implementation for each scheme below.
 
 ### Med Chem Toolkit (MedChem)
 
+#### Prep
+
 ![](/assets/navigating-page/Medchem-Prep.jpg)
+
+#### Build
+
 ![](/assets/navigating-page/Medchem-Build.jpg)
-![](/assets/navigating-page/Tool-Medchem2.jpg)
-![](/assets/navigating-page/Tool-Medchem.jpg)
+
+#### Periodic Table
+
 ![](/assets/navigating-page/Medchem-PeriodicTable.jpg)
 
 ## 2D UI
 
-![](/assets/navigating-page/2D-Room.jpg)
 ![](/assets/navigating-page/2D.jpg)
+
+### Room
+
+![](/assets/navigating-page/2D-Room.jpg)
+
+### Menu Management
+
 ![](/assets/navigating-page/2D-Menu.jpg)
+
+### View Navigation
+
 ![](/assets/navigating-page/2D-View.jpg)
+
+### Settings
+
 ![](/assets/navigating-page/2D-Setting.jpg)
+
+### Controls
+
 ![](/assets/navigating-page/2D-Control.jpg)
