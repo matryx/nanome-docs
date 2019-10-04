@@ -6,9 +6,15 @@ title: Navigating Nanome
 
 ## Lobby
 
-![](/assets/navigating-page/Lobby-Signin.jpg)
+![](/assets/navigating-page/Lobby.jpg)
 
 ### Tutorial
+
+![](/assets/navigating-page/Lobby-Tutorial.jpg)
+
+![](/assets/navigating-page/Lobby-Tutorial-Grab.jpg)
+
+![](/assets/navigating-page/Lobby-Tutorial-Complete.jpg)
 
 ### Creating an Account
 
@@ -78,16 +84,15 @@ Indicates Nanome version
 
 ## Entry Menus Navigation
 
-![](/assets/navigating-page/Entry-MenusNavigation.jpg)
+![](/assets/navigating-page/Entry.jpg)
 
 ### Entry List
 
-![](/assets/navigating-page/Entry.jpg)
+![](/assets/navigating-page/Entry-List.jpg)
 
 #### Hierarchy Buttons
 
 ![](/assets/navigating-page/Entry-Hierarchy.jpg)
-![](/assets/navigating-page/Entry-List.jpg)
 
 #### Different Viewing Modes (Small, Medium, Large)
 
@@ -135,6 +140,8 @@ Indicates Nanome version
 
 ![](/assets/navigating-page/Entry-Export.jpg)
 
+![](/assets/navigating-page/Entry-ExportLocation.jpg)
+
 #### Align
 
 ![](/assets/navigating-page/Entry-Align.jpg)
@@ -173,7 +180,7 @@ Load molecules or structures into your workspace.
 
 ### Display
 
-### Atom
+#### Atom
 
 - Wire
 
@@ -319,7 +326,7 @@ Load molecules or structures into your workspace.
 
 ![](/assets/navigating-page/Modify-Tools.jpg)
 
-### Mutate
+#### Mutate
 
 ![](/assets/navigating-page/Mutate.jpg)
 
@@ -377,7 +384,7 @@ Load molecules or structures into your workspace.
 
 ![](/assets/navigating-page/Wrist-AdvancedSettings.jpg)
 
-## Action Menu Navigation
+## Context/Action Menu Navigation
 
 ## Tools Menu Navigation
 
@@ -399,17 +406,38 @@ Load molecules or structures into your workspace.
 
 ### Med Chem Toolkit (MedChem)
 
+#### Prep
+
 ![](/assets/navigating-page/Medchem-Prep.jpg)
+
+#### Build
+
 ![](/assets/navigating-page/Medchem-Build.jpg)
-![](/assets/navigating-page/Tool-Medchem2.jpg)
-![](/assets/navigating-page/Tool-Medchem.jpg)
+
+#### Periodic Table
+
 ![](/assets/navigating-page/Medchem-PeriodicTable.jpg)
 
 ## 2D UI
 
-![](/assets/navigating-page/2D-Room.jpg)
 ![](/assets/navigating-page/2D.jpg)
+
+### Room
+
+![](/assets/navigating-page/2D-Room.jpg)
+
+### Menu Management
+
 ![](/assets/navigating-page/2D-Menu.jpg)
+
+### View Navigation
+
 ![](/assets/navigating-page/2D-View.jpg)
+
+### Settings
+
 ![](/assets/navigating-page/2D-Setting.jpg)
+
+### Controls
+
 ![](/assets/navigating-page/2D-Control.jpg)
