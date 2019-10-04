@@ -95,22 +95,46 @@ In order to join a room, select a room from the lobby.
 
 ## Environment Navigation
 
+In addition to physically moving around in VR, users can teleport around the environment by pointing to a spot on the floor and clicking and holding with their index finger.
+
 ### Environment Scaling
 
+Insert gif from here: https://drive.google.com/open?id=17TpEfb9JldQxxHrIHPKqFmHDolhftDVV
+
+In order to scale the environment or molecular structures, press down on the middle finger 'grip' button on each controller. Then bring the controllers together to scale the environment down, apart to scale the environment up. 
+
+### Structure Grabbing & Moving
+
+Insert gif from here: https://drive.google.com/open?id=1cPu_vQHZ37ujJVWjv8LxPBT-qMDDHqeV
+
+In order to grab a structure, reach out and press the middle finger 'grip' button on one of the left or right controllers. Users can also grab structures from afar by pointing their ray/laser then pressing the 'grip' button. 
+
+Insert yet to be captured gif of push/pulling structure here. 
+
+Once the structure is grabbed, users can use the joystick or touchpad of their controllers to move the structure closer or further away from them. 
+
 ### Entry Menu Grabbing & Scaling
+
+Insert gifs from here: https://drive.google.com/open?id=1RSWEm6qcZUeXlG9I6cWhBKmmI3CXpmQv
 
 ## Entry Menus Navigation
 
 ![](/assets/navigating-page/Entry-MenusNavigation.jpg)
 
+From the Entry Menu, the Load, Plugin, Display, Color, modify, Select, and Macro Menus can be displayed. 
+
 ### Entry List
 
 ![](/assets/navigating-page/Entry.jpg)
+
+The Entry List is a list of all of the structures that have been loaded into the environment. 
 
 #### Hierarchy Buttons
 
 ![](/assets/navigating-page/Entry-Hierarchy.jpg)
 ![](/assets/navigating-page/Entry-List.jpg)
+
+Hierachy buttons can be used to navigate the sturcture's substructures such as chains and residues. 
 
 #### Different Viewing Modes (Small, Medium, Large)
 
@@ -118,13 +142,19 @@ In order to join a room, select a room from the lobby.
 ![](/assets/navigating-page/Entry-SmallIcon.jpg)
 ![](/assets/navigating-page/Entry-Atom.jpg)
 
+Different Viewing Modes can be toggled to modify the substructure icon sizes in each menu.
+
 #### Frame Data
 
 ![](/assets/navigating-page/Entry-FrameData.jpg)
 
+Frame data allows users to navigate and modify different frames of the same structure (pro and above only). 
+
 #### Electron Density Maps
 
 ![](/assets/navigating-page/Entry-ElectronDensity.jpg)
+
+The Electron Density tab shows the configuration of viewing the Electron Density Map of the structure (pro and above only).
 
 #### Select/Deselect All
 
@@ -162,6 +192,8 @@ In order to join a room, select a room from the lobby.
 
 ![](/assets/navigating-page/Entry-Align.jpg)
 
+NEED Technical description here- ASK VINCENT/KAI on how the alignment is calculated and insert here
+
 #### Delete
 
 ![](/assets/navigating-page/Entry-Delete.jpg)
@@ -178,13 +210,21 @@ Load molecules or structures into your workspace.
 
 ![](/assets/navigating-page/Load-Database.jpg)
 
+From the Database tab, structures can be directly loaded from RCSB, DrugBank (plus and above only), or Pubchem (plus and above only). 
+
+custom database?
+
 #### Keyword
 
 ![](/assets/navigating-page/Load-Keyword.jpg)
 
+From the Keyword tab, structure can be loaded from a keyword search.
+
 #### My Files
 
 ![](/assets/navigating-page/Load-MyFiles.jpg)
+
+My Files tab allows users to load structures from their local directory (P
 
 #### Recent
 
@@ -289,6 +329,8 @@ Load molecules or structures into your workspace.
 ![](/assets/navigating-page/Color-Monochrome.jpg)
 
 #### Schemes
+
+NEED Techincal/Scientific explanation of implementation for each scheme below.
 
 - Monochrome
 
