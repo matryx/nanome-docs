@@ -5,6 +5,7 @@ title: Navigating Nanome
 # Navigating Nanome
 
 ## Lobby
+The Nanome Lobby allows is where users can sign into an account or sign up. By toggling the 'Remember Me' button, users can automatically be signed in the next time they start Nanome. Users can also start the tutorial by selecting 'Start Tutorial'.
 
 ![](/assets/navigating-page/Lobby-Signin.jpg)
 
