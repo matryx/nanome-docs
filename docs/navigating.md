@@ -5,21 +5,35 @@ title: Navigating Nanome
 # Navigating Nanome
 
 ## Lobby
-The Nanome Lobby allows is where users can sign into an account or sign up. By toggling the 'Remember Me' button, users can automatically be signed in the next time they start Nanome. Users can also start the tutorial by selecting 'Start Tutorial'.
 
 ![](/assets/navigating-page/Lobby-Signin.jpg)
 
-### Tutorial
+The Nanome Lobby allows is where users can sign into an account or sign up. By toggling the 'Remember Me' button, users can automatically be signed in the next time they start Nanome. Users can also start the tutorial by selecting 'Start Tutorial'.
 
 ### Creating an Account
 
 ![](/assets/navigating-page/Lobby-Signup.jpg)
 
+In order to create an account an email address is required. 
+
 **Terms & Conditions**: TODO
 
-### Logging In
 
-![](/assets/navigating-page/Lobby-Signin.jpg)
+### Tutorial
+
+INSERT TUTORIAL SCREEN SHOT #1 HERE
+
+The tutorial consists of 19 levels. Follow the insturctions on the Level Panel and the narrated audio to complete the levels.  
+
+#### Navigating the Tutorial Using Level Panels
+
+INSERT TUTORIAL SCREEN SHOT #2 HERE
+
+Users can visit previous levels by selecting the 'back' button on the Level Panel. Users can skip the current tutorial level by selecting the 'Skip' button on the Level Panel. 
+
+INSERT TUTORIAL SCREEN SHOT #3 HERE
+
+Users can restart the level by selecting the refresh icon on the left of the Level Panel once a level is complete. Users can move onto the next level by selecting the right arrow on the right of the Level Panel once a level is complete.
 
 ### Lobby Navigation Bar Buttons
 
@@ -29,21 +43,29 @@ Refresh, Creating a Room, and Settings
 
 #### Refresh
 
+Users can refresh the available room list by selecting the 'Refresh' button at the top of the Lobby Navigation Bar Buttons.
+
 #### Creating a Room
 
 ![](/assets/navigating-page/Lobby-CreateRoom.jpg)
 
+There are three Room Types a user can create depending on their Nanome Licence.
+
 Room Types:
 
-- Public Rooms
-- Private Rooms
-- Single User
+- Public Rooms: Anyone can join in the room. available to all Nanome licenses
+- Private Rooms: A password is set for the room. Available to plus licenses and above. 
+- Single User: Offline mode which no one else can join. Available to pro licenses and above.
 
 #### Settings
 
 ![](/assets/navigating-page/Lobby-Setting.jpg)
 
+In the Setting tab, users can adjust various settings.
+
 - Configuration Viewer
+
+By selecting the Configuration button in the Setting tab, users can view the Nanome Configuration file, which contain additional settings that cannot be controlled directly from within the app. The Configuratino file can be located in the same directory as the app build directory.
 
 ![](/assets/navigating-page/Lobby-ConfigurationViewer.jpg)
 
@@ -63,13 +85,13 @@ Indicates Nanome version
 
 ![](/assets/navigating-page/Lobby-UpdateBanner.jpg)
 
-### Refresh
-
-### Settings
+The update banner features the latest features that are added in the build that the users are in.
 
 ### Joining a Room
 
 ![](/assets/navigating-page/Lobby-JoiningRoom.jpg)
+
+In order to join a room, select a room from the lobby.
 
 ## Environment Navigation
 
