@@ -10,12 +10,6 @@ title: Navigating Nanome
 
 The Nanome Lobby allows is where users can sign into an account or sign up. By toggling the 'Remember Me' button, users can automatically be signed in the next time they start Nanome. Users can also start the tutorial by selecting 'Start Tutorial'.
 
-![](/assets/navigating-page/Lobby-Tutorial.jpg)
-
-![](/assets/navigating-page/Lobby-Tutorial-Grab.jpg)
-
-![](/assets/navigating-page/Lobby-Tutorial-Complete.jpg)
-
 ### Creating an Account
 
 ![](/assets/navigating-page/Lobby-Signup.jpg)
@@ -27,17 +21,17 @@ In order to create an account an email address is required.
 
 ### Tutorial
 
-INSERT TUTORIAL SCREEN SHOT #1 HERE
+![](/assets/navigating-page/Lobby-Tutorial.jpg)
 
 The tutorial consists of 19 levels. Follow the insturctions on the Level Panel and the narrated audio to complete the levels.  
 
 #### Navigating the Tutorial Using Level Panels
 
-INSERT TUTORIAL SCREEN SHOT #2 HERE
+![](/assets/navigating-page/Lobby-Tutorial-Grab.jpg)
 
 Users can visit previous levels by selecting the 'back' button on the Level Panel. Users can skip the current tutorial level by selecting the 'Skip' button on the Level Panel. 
 
-INSERT TUTORIAL SCREEN SHOT #3 HERE
+![](/assets/navigating-page/Lobby-Tutorial-Complete.jpg)
 
 Users can restart the level by selecting the refresh icon on the left of the Level Panel once a level is complete. Users can move onto the next level by selecting the right arrow on the right of the Level Panel once a level is complete.
 
@@ -105,13 +99,13 @@ In addition to physically moving around in VR, users can teleport around the env
 
 ### Environment Scaling
 
-Insert gif from here: https://drive.google.com/open?id=17TpEfb9JldQxxHrIHPKqFmHDolhftDVV
+![](/assets/navigating-page/Scale_Molecule.gif)
 
 In order to scale the environment or molecular structures, press down on the middle finger 'grip' button on each controller. Then bring the controllers together to scale the environment down, apart to scale the environment up. 
 
 ### Structure Grabbing & Moving
 
-Insert gif from here: https://drive.google.com/open?id=1cPu_vQHZ37ujJVWjv8LxPBT-qMDDHqeV
+![](/assets/navigating-page/Grab_Molecule.gif)
 
 In order to grab a structure, reach out and press the middle finger 'grip' button on one of the left or right controllers. Users can also grab structures from afar by pointing their ray/laser then pressing the 'grip' button. 
 
@@ -121,7 +115,9 @@ Once the structure is grabbed, users can use the joystick or touchpad of their c
 
 ### Entry Menu Grabbing & Scaling
 
-Insert gifs from here: https://drive.google.com/open?id=1RSWEm6qcZUeXlG9I6cWhBKmmI3CXpmQv
+![](/assets/navigating-page/Grab_Menu.gif)
+
+![](/assets/navigating-page/Scale_Menu.gif)
 
 ## Entry Menus Navigation
 
@@ -165,45 +161,66 @@ The Electron Density tab shows the configuration of viewing the Electron Density
 
 ![](/assets/navigating-page/Entry-SelectAll.jpg)
 
+Select or deselect all present structures.
+
 #### Invert Selection
 
 ![](/assets/navigating-page/Entry-InvertSelection.jpg)
+
+Invert current selection.
 
 #### Toggle Lock
 
 ![](/assets/navigating-page/Entry-ToggleLock.jpg)
 
+Lock or unlock selected entities.
+
 #### Toggle Box
 
 ![](/assets/navigating-page/Entry-ToggleBox.jpg)
+
+Show or hide the box frame of selected entities.
 
 #### Toggle Visibility
 
 ![](/assets/navigating-page/Entry-ToggleVisibility.jpg)
 
+Show or hide the selected entities.
+
+
 #### Save
 
 ![](/assets/navigating-page/Entry-Save.jpg)
+
+Save the current workspace.
 
 #### New Workspace
 
 ![](/assets/navigating-page/Entry-New.jpg)
 
+Discard the current workspace and create a new one.
+
 #### Export
 
 ![](/assets/navigating-page/Entry-Export.jpg)
 
+Export
+
 ![](/assets/navigating-page/Entry-ExportLocation.jpg)
+
+Export the selected structures in a generic format.
 
 #### Align
 
 ![](/assets/navigating-page/Entry-Align.jpg)
 
-NEED Technical description here- ASK VINCENT/KAI on how the alignment is calculated and insert here
+Align the selected entities and place them in the same position under the same coordinate system. Caution: this does not necessarily align the entities by their atom position, and the entities could end up not overlapping after the alignment.
 
 #### Delete
 
 ![](/assets/navigating-page/Entry-Delete.jpg)
+
+Delete the selected entities.
 
 ### Load
 
@@ -213,13 +230,13 @@ Load molecules or structures into your workspace.
 
 ![](/assets/navigating-page/Load-Featured.jpg)
 
+Molecules featured by Nanome for their interesting properties or background.
+
 #### Database
 
 ![](/assets/navigating-page/Load-Database.jpg)
 
-From the Database tab, structures can be directly loaded from RCSB, DrugBank (plus and above only), or Pubchem (plus and above only). 
-
-custom database?
+From the Database tab, structures can be directly loaded from RCSB, DrugBank (plus and above only), or Pubchem (plus and above only). Custom database can be added by changing the config file.
 
 #### Keyword
 
@@ -237,6 +254,8 @@ My Files tab allows users to load structures from their local directory (P
 
 ![](/assets/navigating-page/Load-Recent.jpg)
 
+Recent files loaded in Nanome.
+
 ### Plugin
 
 ![](/assets/navigating-page/Plugin-List.jpg)
@@ -245,41 +264,59 @@ My Files tab allows users to load structures from their local directory (P
 
 #### Atom
 
+This tab contains options for the visual of atoms and bonds.
+
 - Wire
 
 ![](/assets/navigating-page/Display-Atom-Wire.jpg)
+
+Hide atoms and show bonds in thin wire visual.
 
 - Stick
 
 ![](/assets/navigating-page/Display-Atom-Stick.jpg)
 
+Show small atoms and bonds in volumetric stick visual.
+
 - Van Der Waals
 
 ![](/assets/navigating-page/Display-Atom-Vanderwal.jpg)
+
+Show atoms in thin Van Der Waals visual and hide bonds.
 
 - Adaptive
 
 ![](/assets/navigating-page/Display-Atom-Adaptive.jpg)
 
+Show atoms with radius proportion to their b-factor value and hide bonds.
+
 - Ball & Stick
 
 ![](/assets/navigating-page/Display-Atom-BallnStick.jpg)
 
-- Hide
+- Hide all atoms and bonds.
 
 #### Ribbon
+
+This tab contains options for the visual of ribbons.
 
 - Cartoon
 
 ![](/assets/navigating-page/Display-Ribbon-Cartoon.jpg)
 
+Show ribbon in cartoon visual that highlight secondary structures using helix and arrows.
+
 - Coil
 
 ![](/assets/navigating-page/Display-Ribbon-Tube.jpg)
 
+Show ribbon in uniform tube visual.
+
 - Putty
 
 ![](/assets/navigating-page/Display-Ribbon-Putty.jpg)
+
+Show ribbon in tube with widths proportion to the atoms' b-factor value.
 
 #### Surface
 
@@ -287,9 +324,13 @@ My Files tab allows users to load structures from their local directory (P
 
 ![](/assets/navigating-page/Display-Surface-On.jpg)
 
+Show the solvent-exclusive-surface.
+
 - Opacity
 
 ![](/assets/navigating-page/Display-Surface-Opacity.jpg)
+
+Change the opacity of the surface.
 
 #### Sub Structure
 
@@ -297,17 +338,25 @@ My Files tab allows users to load structures from their local directory (P
 
 ![](/assets/navigating-page/Display-SubStructure-None.jpg)
 
+Hide hetatoms, waters and hydrogen.
+
 - Hetatoms
 
 ![](/assets/navigating-page/Display-SubStructure-Hetatoms.jpg)
+
+Show hetatoms.
 
 - Waters
 
 ![](/assets/navigating-page/Display-SubStructure-Water.jpg)
 
+Show hetatoms, including water.
+
 - Hydrogens
 
 ![](/assets/navigating-page/Display-SubStructure-Hydrogen.jpg)
+
+Show hydrogens.
 
 #### Labels
 
@@ -315,9 +364,13 @@ My Files tab allows users to load structures from their local directory (P
 
 ![](/assets/navigating-page/Display-Label-Atom.jpg)
 
+Show labels on atoms.
+
 - Residue
 
 ![](/assets/navigating-page/Display-Label-Residue.jpg)
+
+Show labels on residues.
 
 - Chain
 
@@ -325,19 +378,27 @@ My Files tab allows users to load structures from their local directory (P
 
 ### Color
 
+Apply a solid color or a color scheme on the selected structures.
+
 #### Picker
+
+Colors picked in picker are applied in a solid style.
 
 - Carbonite
 
 ![](/assets/navigating-page/Color-Carbonite.jpg)
 
+Carbonite color applies only to carbons.
+
 - Monochrome
 
 ![](/assets/navigating-page/Color-Monochrome.jpg)
 
+Monochrome color applies to all atoms indifferently.
+
 #### Schemes
 
-NEED Techincal/Scientific explanation of implementation for each scheme below.
+Colors picked in schemes are applied in a certain pattern.
 
 - Monochrome
 
@@ -347,27 +408,43 @@ NEED Techincal/Scientific explanation of implementation for each scheme below.
 
 ![](/assets/navigating-page/Color-Scheme-Carbonite.jpg)
 
-- Type
-
-- Occupancy
-
-- Bfactor
-
-- Rainbow
-
-- Chain
-
-- Element
-
-- Donor Acceptor
-
-- Cartoon
-
 - YRB Hydrophobe
 
 ![](/assets/navigating-page/Color-Scheme.jpg)
 
+Color selected structures by their hydrophobicity with yellow, red, blue colors.
+
 - Hydrophobe
+
+- Type
+
+Color selected structures by their residue types.
+
+- Occupancy
+
+Color selected structures by their occupancy.
+
+- Bfactor
+
+Color selected structures by their b-factor value.
+
+- Rainbow
+
+Color selected structures in a rainbow pattern.
+
+- Chain
+
+Color selected structures by chains.
+
+- Element
+
+Color selected structures by the atom elements.
+
+- Donor Acceptor
+
+Color selected structures and highlight the donors and receptors.
+
+- Cartoon
 
 ### Modify
 
@@ -375,31 +452,47 @@ NEED Techincal/Scientific explanation of implementation for each scheme below.
 
 ![](/assets/navigating-page/Modify-Edit.jpg)
 
+Edit the selected structures by applying actions from the buttons.
+
 #### Compute
 
 ![](/assets/navigating-page/Modify-Compute.jpg)
+
+Apply certain computations on the selected structures and modify them according to the result.
 
 - Calculate Hbond
 
 ![](/assets/navigating-page/Modify-Compute-Hbond.jpg)
 
+Config the threshold for generating h-bonds. 
+
 - Minimize
 
 ![](/assets/navigating-page/Modify-Compute-Minimize.jpg)
+
+Config forcefield and step for minimizing potential energy of selected structures.
 
 #### Tools
 
 ![](/assets/navigating-page/Modify-Tools.jpg)
 
+Switch to a certain tool to directly apply modification to the structures.
+
 #### Mutate
 
 ![](/assets/navigating-page/Mutate.jpg)
 
+Mutate the R-groups of the selected amino acids.
+
 ### Select
+
+Quickly modify selection range using certain criteria.
 
 #### Refine
 
 ![](/assets/navigating-page/Selection-Refine.jpg)
+
+Refine selection by applying certain changes.
 
 - Replace Selection
 
@@ -411,25 +504,37 @@ NEED Techincal/Scientific explanation of implementation for each scheme below.
 
 ![](/assets/navigating-page/Selection.jpg)
 
+Select or deselect certain types of atoms.
+
 #### Residue Type
 
 ![](/assets/navigating-page/Selection-ResidueType.jpg)
+
+Select or deselect certain types of residues.
 
 #### Distance
 
 ![](/assets/navigating-page/Selection-Distance.jpg)
 
+Expand or shrink the selection range by physical proximity.
+
 ### Macro
 
 ![](/assets/navigating-page/Macro.jpg)
+
+Show all the macros loaded. Each macro is a batch of commands that can be run with a single button press.
 
 ## Wrist Menu Navigation
 
 ![](/assets/navigating-page/Wrist.jpg)
 
+Wrist menu contains access to features independent from the content of the workspace such as quick menu access, room management.
+
 ### Quick Menus
 
 ![](/assets/navigating-page/Wrist-QuickMenus.jpg)
+
+Toggle on and off each menu quickly or all at once.
 
 #### Room
 
@@ -437,17 +542,25 @@ NEED Techincal/Scientific explanation of implementation for each scheme below.
 
 ![](/assets/navigating-page/Wrist-Room-ManageUsers.jpg)
 
+Manage users by giving them the presenter privilage or teleporting them.
+
 - Presenter Requests
 
 ![](/assets/navigating-page/Wrist-Room-PresenterRequests.jpg)
+
+View the presenter requests and grant presenter priviledge.
 
 #### Menu Layouts
 
 ![](/assets/navigating-page/Wrist-Menu.jpg)
 
+Quickly manage the enabled menus and format them in certain layouts.
+
 #### Settings
 
 ![](/assets/navigating-page/Wrist-AdvancedSettings.jpg)
+
+Change settings such as volumes and environment background.
 
 ## Context/Action Menu Navigation
 
@@ -457,52 +570,80 @@ NEED Techincal/Scientific explanation of implementation for each scheme below.
 
 ![](/assets/navigating-page/Tool-Hand.jpg)
 
+Hand Tool is the default state of the hand, allowing most basic interaction including grabbing and clicking.
+
 ### Measurement Tool
 
 ![](/assets/navigating-page/Tool-Measurement.jpg)
+
+Measurement Tool places measurement points and measure the distances and angles between atoms and points of interests.
 
 ### Selection Tool
 
 ![](/assets/navigating-page/Tool-Selection.jpg)
 
+Selection Tool selects structures directly in the workspace.
+
 ### Torsion Tool
 
 ![](/assets/navigating-page/Tool-Torsion.jpg)
 
+Torsion Tool twists the bonds and change the diahedral angles between atoms.
+
 ### Med Chem Toolkit (MedChem)
+
+Med Chem Toolkit enables editing the atoms directly using hands, bundling a rich set of features including atom addition and removal.
 
 #### Prep
 
 ![](/assets/navigating-page/Medchem-Prep.jpg)
 
+Offers options to quickly access binding sites and config the auxiliary features such as auto-minimization.
+
 #### Build
 
 ![](/assets/navigating-page/Medchem-Build.jpg)
+
+Select a substructure from the build menu and build it on top of existing atoms using medchem tool.
 
 #### Periodic Table
 
 ![](/assets/navigating-page/Medchem-PeriodicTable.jpg)
 
+Select an atom of any element from the periodic table.
+
 ## 2D UI
 
 ![](/assets/navigating-page/2D.jpg)
+
+Nanoem is accessible from a keyboard and mouse setup on a 2D monitor as well.
 
 ### Room
 
 ![](/assets/navigating-page/2D-Room.jpg)
 
+Manage users or request presenter privilege.
+
 ### Menu Management
 
 ![](/assets/navigating-page/2D-Menu.jpg)
+
+Toggle or manage menus.
 
 ### View Navigation
 
 ![](/assets/navigating-page/2D-View.jpg)
 
+Change options for view control.
+
 ### Settings
 
 ![](/assets/navigating-page/2D-Setting.jpg)
 
+Change settings including volume and environment background.
+
 ### Controls
 
 ![](/assets/navigating-page/2D-Control.jpg)
+
+The control scheme is accessible any moment from pressing [H] key on the keyboard.
