@@ -4,6 +4,9 @@ title: How To
 
 # How To
 
+Coming soon...
+
+<!-- 
 ## How to load molecules or workspace
 
 ## How to save my molecules or workspace
@@ -46,4 +49,4 @@ title: How To
 
 ## How to teleport
 
-## How to build/modify a macro
+## How to build/modify a macro -->

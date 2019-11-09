@@ -16,8 +16,7 @@ The Nanome Lobby allows is where users can sign into an account or sign up. By t
 
 In order to create an account an email address is required. 
 
-**Terms & Conditions**: TODO
-
+**Terms & Conditions**: https://nanome.ai/terms/
 
 ### Tutorial
 
@@ -95,6 +94,8 @@ In order to join a room, select a room from the lobby.
 
 ## Environment Navigation
 
+![](/assets/features-page/collaboration.gif)
+
 In addition to physically moving around in VR, users can teleport around the environment by pointing to a spot on the floor and clicking and holding with their index finger.
 
 ### Environment Scaling
@@ -109,8 +110,6 @@ In order to scale the environment or molecular structures, press down on the mid
 
 In order to grab a structure, reach out and press the middle finger 'grip' button on one of the left or right controllers. Users can also grab structures from afar by pointing their ray/laser then pressing the 'grip' button. 
 
-Insert yet to be captured gif of push/pulling structure here. 
-
 Once the structure is grabbed, users can use the joystick or touchpad of their controllers to move the structure closer or further away from them. 
 
 ### Entry Menu Grabbing & Scaling
@@ -121,11 +120,13 @@ Once the structure is grabbed, users can use the joystick or touchpad of their c
 
 ## Entry Menus Navigation
 
+![](/assets/features-page/nanome-gif-downsized_large.gif)
+
 ![](/assets/navigating-page/Entry.jpg)
 
 From the Entry Menu, the Load, Plugin, Display, Color, modify, Select, and Macro Menus can be displayed. 
 
-### Entry List
+## Entry List
 
 ![](/assets/navigating-page/Entry-List.jpg)
 
@@ -147,13 +148,14 @@ Different Viewing Modes can be toggled to modify the substructure icon sizes in 
 
 #### Frame Data
 
+
 ![](/assets/navigating-page/Entry-FrameData.jpg)
 
 Frame data allows users to navigate and modify different frames of the same structure (pro and above only). 
 
 #### Electron Density Maps
 
-![](/assets/navigating-page/Entry-ElectronDensity.jpg)
+![](/assets/features-page/edm.gif)
 
 The Electron Density tab shows the configuration of viewing the Electron Density Map of the structure (pro and above only).
 
@@ -186,7 +188,6 @@ Show or hide the box frame of selected entities.
 ![](/assets/navigating-page/Entry-ToggleVisibility.jpg)
 
 Show or hide the selected entities.
-
 
 #### Save
 
@@ -222,7 +223,7 @@ Align the selected entities and place them in the same position under the same c
 
 Delete the selected entities.
 
-### Load
+## Load
 
 Load molecules or structures into your workspace.
 
@@ -248,7 +249,7 @@ From the Keyword tab, structure can be loaded from a keyword search.
 
 ![](/assets/navigating-page/Load-MyFiles.jpg)
 
-My Files tab allows users to load structures from their local directory (P
+My Files tab allows users to load structures from their local directory.
 
 #### Recent
 
@@ -256,11 +257,13 @@ My Files tab allows users to load structures from their local directory (P
 
 Recent files loaded in Nanome.
 
-### Plugin
+### [Plugin](https://docs.nanome.ai/plugins.html#plugin-list)
 
 ![](/assets/navigating-page/Plugin-List.jpg)
 
-### Display
+All available [plugins](https://docs.nanome.ai/plugins.html#plugin-list) are listed here.
+
+## Display
 
 #### Atom
 
@@ -374,9 +377,9 @@ Show labels on residues.
 
 - Chain
 
-(Not Implemented)
+Coming soon...
 
-### Color
+## Color
 
 Apply a solid color or a color scheme on the selected structures.
 
@@ -414,39 +417,10 @@ Colors picked in schemes are applied in a certain pattern.
 
 Color selected structures by their hydrophobicity with yellow, red, blue colors.
 
-- Hydrophobe
 
-- Type
+Other available color schemes include coloring by occupancy, b-factor, rainbow and so on.
 
-Color selected structures by their residue types.
-
-- Occupancy
-
-Color selected structures by their occupancy.
-
-- Bfactor
-
-Color selected structures by their b-factor value.
-
-- Rainbow
-
-Color selected structures in a rainbow pattern.
-
-- Chain
-
-Color selected structures by chains.
-
-- Element
-
-Color selected structures by the atom elements.
-
-- Donor Acceptor
-
-Color selected structures and highlight the donors and receptors.
-
-- Cartoon
-
-### Modify
+## Modify
 
 #### Edit
 
@@ -518,11 +492,11 @@ Select or deselect certain types of residues.
 
 Expand or shrink the selection range by physical proximity.
 
-### Macro
+## [Macro](https://docs.nanome.ai/macros.html)
 
 ![](/assets/navigating-page/Macro.jpg)
 
-Show all the macros loaded. Each macro is a batch of commands that can be run with a single button press.
+Show all the [macros](https://docs.nanome.ai/macros.html) loaded. Each [macro](https://docs.nanome.ai/macros.html) is a batch of commands that can be run with a single button press.
 
 ## Wrist Menu Navigation
 
@@ -566,6 +540,8 @@ Change settings such as volumes and environment background.
 
 ## Tools Menu Navigation
 
+![](/assets/features-page/hand-tools.gif)
+
 ### Hand Tool
 
 ![](/assets/navigating-page/Tool-Hand.jpg)
@@ -576,11 +552,15 @@ Hand Tool is the default state of the hand, allowing most basic interaction incl
 
 ![](/assets/navigating-page/Tool-Measurement.jpg)
 
+![](/assets/navigating-page/Measurement_Distance.gif)
+
 Measurement Tool places measurement points and measure the distances and angles between atoms and points of interests.
 
 ### Selection Tool
 
 ![](/assets/navigating-page/Tool-Selection.jpg)
+
+![](/assets/navigating-page/Selection_Residue.gif)
 
 Selection Tool selects structures directly in the workspace.
 
@@ -591,6 +571,8 @@ Selection Tool selects structures directly in the workspace.
 Torsion Tool twists the bonds and change the diahedral angles between atoms.
 
 ### Med Chem Toolkit (MedChem)
+
+![](/assets/features-page/medchem.gif)
 
 Med Chem Toolkit enables editing the atoms directly using hands, bundling a rich set of features including atom addition and removal.
 
@@ -616,7 +598,7 @@ Select an atom of any element from the periodic table.
 
 ![](/assets/navigating-page/2D.jpg)
 
-Nanoem is accessible from a keyboard and mouse setup on a 2D monitor as well.
+Nanome is accessible from a keyboard and mouse setup on a 2D monitor as well.
 
 ### Room
 

@@ -4,6 +4,64 @@ title: Macros
 
 # Macros
 
-[About](https://blog.matryx.ai/nanome-1-11-the-power-of-macros-7a7a1446724d)
+![](/assets/macros-page/macros.gif)
 
-[Github](https://blog.matryx.ai/nanome-1-11-the-power-of-macros-7a7a1446724d)
+Macros are custom shortcuts you’ll be able to program yourself to speed up your work.
+
+## Using Macros
+
+To access macros, you’ll simply open up the new Macro submenu on your wrist or under the Entry Menu. We’ve set up some preset Macros already as seen here. These macros help focus the protein structure on the ligand.
+
+## Building Your Own Macros
+
+To customize and/or create your own, open up your Nanome download files in Windows as shown below. You’ll find them in your Oculus, Steam or Vive folder.
+
+![](/assets/macros-page/macros1.png)
+
+Click the folder named ‘Build’, then ‘Build Assets’, then ‘Macros’ to open up the folder seen below.
+
+![](/assets/macros-page/macros2.png)
+
+Each of these LUA files will appear in your Macro menu as a separate Macro.
+
+1. Create a new file: “MyNewMacro.lua” (or MyNewMacro.lua.txt) on your desktop
+2. Edit and save the macro file
+3. Start the macro “MyNewMacro” within Nanome
+
+## Hello world!
+A macro can be just a few lines of code
+
+```
+--[[
+    You can add a small description to the macro here (This is optional)
+]]
+function main ()
+    Command_Notification("Hello world, my first macro!");
+    return "SUCCESS";
+end;
+```
+
+The programming language used here is Lua.
+See: [https://www.lua.org/start.html](https://www.lua.org/start.html)
+
+## Available Commands
+A macro has access to all of Nanome’s capabilities through custom functions:
+
+See: [https://github.com/nanome-ai/nanome-macros/blob/master/Documentation/API.md](https://github.com/nanome-ai/nanome-macros/blob/master/Documentation/API.md)
+
+## Sharing Macros
+Macros can be shared simply by copy/pasting the “.lua” file on different machines.
+
+You can store the macros in one of the following supported folders (configurable in the config-file):
+
+C://Users/{{USERNAME}}/Desktop/
+
+C://Users/{{USERNAME}}/Downloads/
+
+C://Users/{{USERNAME}}/Documents/
+
+C://Users/{{USERNAME}}/Documents/Nanome/
+
+C://Users/{{USERNAME}}/Documents/Nanome/Macros/
+
+Optionally, a macro can be hosted through an HTTP server (configurable in the config-file)

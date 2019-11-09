@@ -7,14 +7,14 @@ module.exports = {
     logo: "../assets/features-page/nanome-logo.png",
     sidebar: [
       "/",
-      "/getting-started",
       "/navigating",
-      "/features",
+      "/home.nanome.ai",
       "/plugins",
       "/macros",
-      "how-to",
+      "/how-to",
       "/faq",
       "/account-tiers",
+      "/hardware-requirement",
       "/troubleshooting",
       "/contact"
     ],

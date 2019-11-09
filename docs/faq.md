@@ -2,7 +2,11 @@
 title: FAQ
 ---
 
-## What is Nanome?
+# FAQ
+
+Coming soon...
+
+<!-- ## What is Nanome?
 Nanome Inc is our company which creates virtual reality tools for scientists, researchers and educators. Nanome is the premiere Virtual Reality software solution for molecular modeling and protein visualization. Understanding molecular structures in Nanome is intuitive, hands on, and efficient. The word Nanome is like Genome where we are exploring the entire field of Nano-sciences and Nanotechnology - everything at the Nanoscale!
 
 ## Why was Nanome founded?
@@ -192,3 +196,4 @@ https://www.drugbank.ca
 https://pubchem.ncbi.nlm.nih.gov
 
 For multiplayer networking, please unblock ports UDP 5055, 5056, 5058 for IP address 13.56.83.235
+ -->
