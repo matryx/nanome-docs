@@ -1,5 +1,5 @@
 ---
-title: FAQ
+title: FAQ (Coming Soon)
 ---
 
 # FAQ
