@@ -1,5 +1,5 @@
 ---
-title: How To
+title: How To (Coming Soon)
 ---
 
 # How To
