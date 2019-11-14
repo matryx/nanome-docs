@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: matryx/nanome-docs
+  repo: nanome-ai/nanome-docs
   # branch: master
 
 # publish_mode: editorial_workflow
