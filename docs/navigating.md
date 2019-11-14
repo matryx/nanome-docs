@@ -8,13 +8,13 @@ title: Navigating Nanome
 
 ![](/assets/navigating-page/Lobby.jpg)
 
-The Nanome Lobby allows is where users can sign into an account or sign up. By toggling the 'Remember Me' button, users can automatically be signed in the next time they start Nanome. Users can also start the tutorial by selecting 'Start Tutorial'.
+The Nanome Lobby is where users can sign into an account or sign up. By toggling the 'Remember Me' button, users can automatically be signed in the next time they start Nanome. Users can also start the tutorial by selecting 'Start Tutorial'.
 
 ### Creating an Account
 
 ![](/assets/navigating-page/Lobby-Signup.jpg)
 
-In order to create an account an email address is required. 
+An email address is required to create a Nanome account
 
 **Terms & Conditions**: https://nanome.ai/terms/
 
@@ -22,13 +22,13 @@ In order to create an account an email address is required.
 
 ![](/assets/navigating-page/Lobby-Tutorial.jpg)
 
-The tutorial consists of 19 levels. Follow the insturctions on the Level Panel and the narrated audio to complete the levels.  
+The tutorial consists of 19 levels. Follow the insturctions on the Level Panel and the narrated audio to complete the levels.
 
 #### Navigating the Tutorial Using Level Panels
 
 ![](/assets/navigating-page/Lobby-Tutorial-Grab.jpg)
 
-Users can visit previous levels by selecting the 'back' button on the Level Panel. Users can skip the current tutorial level by selecting the 'Skip' button on the Level Panel. 
+Users can visit previous levels by selecting the 'back' button on the Level Panel. Users can skip the current tutorial level by selecting the 'Skip' button on the Level Panel.
 
 ![](/assets/navigating-page/Lobby-Tutorial-Complete.jpg)
 
@@ -53,8 +53,8 @@ There are three Room Types a user can create depending on their Nanome Licence.
 Room Types:
 
 - Public Rooms: Anyone can join in the room. available to all Nanome licenses
-- Private Rooms: A password is set for the room. Available to plus licenses and above. 
-- Single User: Offline mode which no one else can join. Available to pro licenses and above.
+- Private Rooms: A password is set for the room. Available to Academic and Enterprise
+- Single User: Offline mode which no one else can join. Available to Academic and Enterprise
 
 #### Settings
 
@@ -64,7 +64,7 @@ In the Setting tab, users can adjust various settings.
 
 - Configuration Viewer
 
-By selecting the Configuration button in the Setting tab, users can view the Nanome Configuration file, which contain additional settings that cannot be controlled directly from within the app. The Configuratino file can be located in the same directory as the app build directory.
+By selecting the Configuration button in the Setting tab, users can view the Nanome Configuration file, which contains additional settings that cannot be controlled directly from within the app. The Configuration file can be located in the same directory as the app build directory.
 
 ![](/assets/navigating-page/Lobby-ConfigurationViewer.jpg)
 
@@ -102,15 +102,15 @@ In addition to physically moving around in VR, users can teleport around the env
 
 ![](/assets/navigating-page/Scale_Molecule.gif)
 
-In order to scale the environment or molecular structures, press down on the middle finger 'grip' button on each controller. Then bring the controllers together to scale the environment down, apart to scale the environment up. 
+In order to scale the environment or molecular structures, press down on the middle finger 'grip' button on each controller. Next, bring the controllers together to scale the environment smaller or pull them apart to scale the environment larger.
 
 ### Structure Grabbing & Moving
 
 ![](/assets/navigating-page/Grab_Molecule.gif)
 
-In order to grab a structure, reach out and press the middle finger 'grip' button on one of the left or right controllers. Users can also grab structures from afar by pointing their ray/laser then pressing the 'grip' button. 
+In order to grab a structure, reach out and press the middle finger 'grip' button on one of the left or right controllers. Users can also grab structures from afar by pointing their ray/laser then pressing the 'grip' button.
 
-Once the structure is grabbed, users can use the joystick or touchpad of their controllers to move the structure closer or further away from them. 
+Once the structure is grabbed, users can use the joystick or touchpad of their controllers to move the structure closer or further away from them.
 
 ### Entry Menu Grabbing & Scaling
 
@@ -124,19 +124,19 @@ Once the structure is grabbed, users can use the joystick or touchpad of their c
 
 ![](/assets/navigating-page/Entry.jpg)
 
-From the Entry Menu, the Load, Plugin, Display, Color, modify, Select, and Macro Menus can be displayed. 
+The Load, Plugin, Display, Color, Modify, Select, and Macro Menus can be displayed by clicking their respective icons located at the bottom of the Entry Menu.
 
 ## Entry List
 
 ![](/assets/navigating-page/Entry-List.jpg)
 
-The Entry List is a list of all of the structures that have been loaded into the environment. 
+The Entry List is a list of all of the structures that have been loaded into the environment.
 
 #### Hierarchy Buttons
 
 ![](/assets/navigating-page/Entry-Hierarchy.jpg)
 
-Hierachy buttons can be used to navigate the sturcture's substructures such as chains and residues. 
+Hierachy buttons can be used to navigate the sturcture's substructures such as chains and residues.
 
 #### Different Viewing Modes (Small, Medium, Large)
 
@@ -151,13 +151,13 @@ Different Viewing Modes can be toggled to modify the substructure icon sizes in 
 
 ![](/assets/navigating-page/Entry-FrameData.jpg)
 
-Frame data allows users to navigate and modify different frames of the same structure (pro and above only). 
+Frame data allows users to navigate and modify different frames of the same structure (Academic and Enterprise only)
 
 #### Electron Density Maps
 
 ![](/assets/features-page/edm.gif)
 
-The Electron Density tab shows the configuration of viewing the Electron Density Map of the structure (pro and above only).
+The Electron Density tab shows the configuration of viewing the Electron Density Map of the structure (Academic and Enterprise only).
 
 #### Select/Deselect All
 
@@ -237,7 +237,7 @@ Molecules featured by Nanome for their interesting properties or background.
 
 ![](/assets/navigating-page/Load-Database.jpg)
 
-From the Database tab, structures can be directly loaded from RCSB, DrugBank (plus and above only), or Pubchem (plus and above only). Custom database can be added by changing the config file.
+From the Database tab, structures can be directly loaded from RCSB, DrugBank (Academic and Enterprise only), or Pubchem (Academic and Enterprise only). Custom database can also be added by changing the config file.
 
 #### Keyword
 
@@ -327,7 +327,7 @@ Show ribbon in tube with widths proportion to the atoms' b-factor value.
 
 ![](/assets/navigating-page/Display-Surface-On.jpg)
 
-Show the solvent-exclusive-surface.
+Show the solvent-excluded-surface.
 
 - Opacity
 
@@ -438,7 +438,7 @@ Apply certain computations on the selected structures and modify them according 
 
 ![](/assets/navigating-page/Modify-Compute-Hbond.jpg)
 
-Config the threshold for generating h-bonds. 
+Config the threshold for generating h-bonds.
 
 - Minimize
 
@@ -542,11 +542,13 @@ Change settings such as volumes and environment background.
 
 ![](/assets/features-page/hand-tools.gif)
 
+Press the right thumb button to activate the tool selection menu, hover over the desired selection and then release the button. If no selection is made, the hand tool will be chosen by default.
+
 ### Hand Tool
 
 ![](/assets/navigating-page/Tool-Hand.jpg)
 
-Hand Tool is the default state of the hand, allowing most basic interaction including grabbing and clicking.
+The Hand Tool is the default state of the hand and allows for basic interaction including grabbing and clicking.
 
 ### Measurement Tool
 
@@ -568,7 +570,7 @@ Selection Tool selects structures directly in the workspace.
 
 ![](/assets/navigating-page/Tool-Torsion.jpg)
 
-Torsion Tool twists the bonds and change the diahedral angles between atoms.
+Torsion Tool twists rotatable bonds and changes the dihedral angles between atoms.
 
 ### Med Chem Toolkit (MedChem)
 
@@ -592,7 +594,7 @@ Select a substructure from the build menu and build it on top of existing atoms 
 
 ![](/assets/navigating-page/Medchem-PeriodicTable.jpg)
 
-Select an atom of any element from the periodic table.
+Select any atom type from the periodic table to use in build mode.
 
 ## 2D UI
 
@@ -628,4 +630,4 @@ Change settings including volume and environment background.
 
 ![](/assets/navigating-page/2D-Control.jpg)
 
-The control scheme is accessible any moment from pressing [H] key on the keyboard.
+The control scheme can be accessed at any time by pressing the [H] key on the keyboard.

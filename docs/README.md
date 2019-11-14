@@ -11,9 +11,10 @@ Collaborative virtual reality tools for nanoscale design.
 
 1.14 Build Info: 104 MB on October 23, 2019
 or download on...
-System Requirements
-Minimum
-OS: Windows 10
+
+**Minimum System Specifications**
+
+Operating System: Windows 10
 
 Processor: i5-4590
 
@@ -23,8 +24,9 @@ Graphics: GTX 780
 
 Storage: 104 MB
 
-Recommended
-OS: Windows 10
+**Recommended System Specifications**
+
+Operating System: Windows 10
 
 Processor: Intel i7
 
