@@ -2,7 +2,7 @@
 title: Nanome Plugins
 ---
 
-# How to use Plugins
+# How to use Plugins (Enterprise Only)
 
 **Overview**
 
