@@ -1,8 +1,8 @@
 ---
 title: Home
 ---
+# 
 
-#
 # Nanome Documentation
 
 Collaborative virtual reality tools for nanoscale design.
@@ -14,26 +14,18 @@ or download on...
 
 **Minimum System Specifications**
 
-Operating System: Windows 10
-
-Processor: i5-4590
-
-Memory: 4 GB RAM
-
-Graphics: NVIDIA GTX 780 (or AMD R9 290)
-
+Operating System: Windows 10\
+Processor: i5-4590\
+Memory: 4 GB RAM\
+Graphics: NVIDIA GTX 780 (or AMD R9 290)\
 Storage: 104 MB
 
 **Recommended System Specifications**
 
-Operating System: Windows 10
-
-Processor: Intel i7
-
-Memory: 8 GB RAM
-
-Graphics: NVIDIA GTX 1070 (or AMD RX Vega 56)
-
+Operating System: Windows 10\
+Processor: Intel i7\
+Memory: 8 GB RAM\
+Graphics: NVIDIA GTX 1070 (or AMD RX Vega 56)\
 Storage: 256 GB SSD
 
 <div id="home-video">
