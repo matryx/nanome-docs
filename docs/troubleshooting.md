@@ -6,21 +6,21 @@ title: Troubleshooting
 
 ## Having Trouble Hearing Anything?
 
-### Windows Audio Troubleshooting
+#### Windows Audio Troubleshooting
 
 [How to fix Windows audio](https://support.microsoft.com/en-us/help/4520288/windows-10-fix-sound-problems)
 
-### Oculus Audio Troubleshooting
+#### Oculus Audio Troubleshooting
 
 [How to fix Oculus audio](https://support.oculus.com/948087951934283/)
 
-### Nanome Audio Troubleshooting
+#### Nanome Audio Troubleshooting
 
 [My Windows and Oculus audio are working, but I can't hear anything in Nanome](https://docs.nanome.ai/navigating.html#settings)
 
 ## Having Trouble Logging into Nanome?
 
-### Required Ports for Firewall
+#### Required Ports for Firewall
 
 Allowing Traffic to the application
 

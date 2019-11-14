@@ -6,7 +6,7 @@ title: Account Tiers
 
 ## Enterprise
 
-### Features
+#### Features
 
 - Data Security and Private Secure Server
 - [Plugin System](/plugins.html)
@@ -17,7 +17,7 @@ title: Account Tiers
 
 ## Pro
 
-### Features
+#### Features
 
 - PDB Trajectory Animation
 - SDF Ligand support
@@ -28,7 +28,7 @@ title: Account Tiers
 
 ## Plus
 
-### Features
+#### Features
 
 - Load from PubChem, Drugbank
 - Load from your computer
@@ -44,7 +44,7 @@ title: Account Tiers
 
 The free version of Nanome, also refered to as Personal
 
-### Features
+#### Features
 
 - Molecular modeling
 - Observe public collaborations

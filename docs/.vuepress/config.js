@@ -18,6 +18,7 @@ module.exports = {
       "/troubleshooting",
       "/contact"
     ],
+    sidebarDepth: 2,
     lastUpdated: "Last Updated",
     nav: [
       { text: "Home", link: "/" },
@@ -26,4 +27,4 @@ module.exports = {
     ],
     ga: "UA-79179574-15"
   }
-};
+}
