@@ -7,21 +7,22 @@ title: Home
 
 Collaborative virtual reality tools for nanoscale design.
 
+Nanome is available for Windows and the Oculus Quest (closed beta). \
+Please contact us at support@nanome.ai to be added to the Quest  beta.
+
 [Download Nanome for Windows 10](https://home.nanome.ai/setup)
 
 1.14 Build Info: 104 MB on October 23, 2019
-or download on...
+or download on Oculus and Steam
 
-**Minimum System Specifications**
-
+**Minimum System Specifications**\
 Operating System: Windows 10\
 Processor: i5-4590\
 Memory: 4 GB RAM\
 Graphics: NVIDIA GTX 780 (or AMD R9 290)\
 Storage: 104 MB
 
-**Recommended System Specifications**
-
+**Recommended System Specifications**\
 Operating System: Windows 10\
 Processor: Intel i7\
 Memory: 8 GB RAM\
