@@ -14,7 +14,7 @@ The Nanome Lobby is where users can sign into an account or sign up. By toggling
 
 ![](/assets/navigating-page/Lobby-Signup.jpg)
 
-An email address is required to create a Nanome account
+An email address is required to create a Nanome account.
 
 **Terms & Conditions**: https://nanome.ai/terms/
 
@@ -151,7 +151,7 @@ Different Viewing Modes can be toggled to modify the substructure icon sizes in 
 
 ![](/assets/navigating-page/Entry-FrameData.jpg)
 
-Frame data allows users to navigate and modify different frames of the same structure (Academic and Enterprise only)
+Frame data allows users to navigate and modify different frames of the same structure (Academic and Enterprise only).
 
 #### Electron Density Maps
 
@@ -225,7 +225,8 @@ Delete the selected entities.
 
 ## Load
 
-Load molecules or structures into your workspace.
+Load molecules or structures into your workspace. Supported file formats include:
+.pdb, .cif, .mmcif, .sdf, .mol, .xyz, .moe, .mae, .mol2, .ccp4, .dsn6, .pse, .nanome, .png, .jpg, .jpeg, .pdf
 
 #### Featured
 
@@ -257,11 +258,11 @@ My Files tab allows users to load structures from their local directory.
 
 Recent files loaded in Nanome.
 
-### [Plugin](https://docs.nanome.ai/plugins.html#plugin-list)
+## Plugin
 
 ![](/assets/navigating-page/Plugin-List.jpg)
 
-All available [plugins](https://docs.nanome.ai/plugins.html#plugin-list) are listed here.
+[Please view the plug in page to learn more.](https://docs.nanome.ai/plugins.html)
 
 ## Display
 
@@ -492,11 +493,11 @@ Select or deselect certain types of residues.
 
 Expand or shrink the selection range by physical proximity.
 
-## [Macro](https://docs.nanome.ai/macros.html)
+## Macro
 
 ![](/assets/navigating-page/Macro.jpg)
 
-Show all the [macros](https://docs.nanome.ai/macros.html) loaded. Each [macro](https://docs.nanome.ai/macros.html) is a batch of commands that can be run with a single button press.
+[Please view the macros page to learn more.](https://docs.nanome.ai/macros.html)
 
 ## Wrist Menu Navigation
 
@@ -542,7 +543,7 @@ Change settings such as volumes and environment background.
 
 ![](/assets/features-page/hand-tools.gif)
 
-Press the right thumb button to activate the tool selection menu, hover over the desired selection and then release the button. If no selection is made, the hand tool will be chosen by default.
+Press and hold the menu button to activate the tool selection menu, hover over the desired selection and then release the button. If no selection is made, the hand tool will be chosen by default. If you are using a Vive system, press and hold the touch pad on your right controller to activate the menu. If you are using an Oculus system, press and hold the B button on your right controller to activate the menu.
 
 ### Hand Tool
 
