@@ -20,7 +20,7 @@ Processor: i5-4590
 
 Memory: 4 GB RAM
 
-Graphics: GTX 780
+Graphics: NVIDIA GTX 780 (or AMD R9 290)
 
 Storage: 104 MB
 
@@ -32,7 +32,7 @@ Processor: Intel i7
 
 Memory: 8 GB RAM
 
-Graphics: GTX 1070
+Graphics: NVIDIA GTX 1070 (or AMD RX Vega 56)
 
 Storage: 256 GB SSD
 
