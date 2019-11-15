@@ -4,11 +4,11 @@ title: Nanome Plugins
 
 # How to use Plugins (Enterprise Only)
 
-**Overview**
+## Overview
 
 The Nanome Plugin API provides a way to interface and integrate external software with Nanome's molecular modeling VR software.
-Through this API, users can link up external computational such as molecular dynamics or docking software.
-The extended functionality inclues the ability to create new windows inside of the virtual environment and is easily customizable through a drag and drop user interface.
+Through this API, users can seamlessly interface with external computational tools for tasks such as molecular dynamics and docking.
+The extended functionality includes the ability to create new windows inside of the virtual environment and is easily customizable through a graphical user interface.
 
 Plugins can be designed and ran from different environments including Windows, Linux, and Mac operating systems depending on the requirements needed from the plugin.
 
@@ -29,22 +29,7 @@ The Nanome Virtual Reality Software can be acquired directly from Nanome or in a
 
 Please contact sales@nanome.ai for the Nanome Plugin Server (NTS.exe)
 
-## Plugin List
-
-- Nanome Loaders
-  - Load Proteins, PPT and through either a drag and drop website or directly from a URL
-- Minimization
-- RMSD
-- Real-time Scoring
-- Ligand Focus
-- Docking
-- Molecular Dynamics
-
-## Using Plugins
-
-## Web Loader
-
-**In order to use a plugin**
+## Setting Up
 
 _Editing the Config File_
 
@@ -68,7 +53,19 @@ Now, we want to check to make sure that the Plugin Server is connected. Go ahead
 
 You should see that the NTS is connected and there are no current running plugins. If it says that “No NTS is connected”, that means it is unable to see the Plugin server and it is entered incorrectly on the Config file or in the Admin settings for home.nanome.ai.
 
-Let’s go ahead and run a basic plugin to make sure it is working…
+## Plugins By Nanome
+The following is the list of plugins Nanome itself has created to date.
+
+- [Web Loader](./plugins.md#web-loader)
+  - Load Proteins, PPT and through either a drag and drop website or directly from a URL
+- [Minimization](./plugins.md#minimization)
+- RMSD
+- [Real-time Scoring](./plugins.md#real-time-scoring)
+- Ligand Focus
+- [Docking](./plugins.md#docking)
+- Molecular Dynamics
+
+### Web Loader
 
 _Installing your first plugin: Nanome Web Loader_
 
@@ -158,6 +155,35 @@ _Instructions_
 ![](./.vuepress/public/assets/plugins-page/2Dmode_plugins.png)
 
 15. Activate the plugin, select your uploaded file and click Load. This will open a new window with your PDF and is resizable.
+
+### Minimization
+The minimization plugin arranges the selected molecule to find a geometry where inter-atomic forces are as close to zero as possible.
+
+To use the minimization plugin, Activate it from the plugin menu, select one or more complexes from the entry menu, then press Run.
+The selected structures will have their bounding boxes turned on and their energies minimized.
+
+The minimization process can be stopped at any time by pressing the Stop button.
+
+![](./.vuepress/public/assets/plugins-page/minimization_plugin.png)
+
+### Real-time Scoring
+The Real-time Scoring plugin lets you score ligands against a receptor to determine binding affinity for their current structure, position and rotation.
+
+
+![](./.vuepress/public/assets/plugins-page/realtimescoring_plugin.png)
+
+To use this plugin, simply select a receptor (left pane), the ligands you would like to score (right pane), and press "Start scoring". Each ligand's score will appear on the scoring window. Atom scores will be shown via their radii and atom's will be labeled with their symbol.
+
+### Docking
+The docking plugin interfaces with a variety of docking software to dock ligands to a receptor and display the result in Nanome. Currently supported docking software includes:
+- Smina
+- Autodock 4
+- Rhodium
+
+![](./.vuepress/public/assets/plugins-page/docking_plugin.gif)
+
+To use the plugin, select a receptor to bind to. Then, select one or more ligands to bind. Finally, if your chosen docking software supports it, select the site
+at which to dock the ligands. You will receive notifications when docking has finished.
 
 ## Create Your Own
 
