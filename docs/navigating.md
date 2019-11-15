@@ -14,7 +14,7 @@ The Nanome Lobby is where users can sign into an account or sign up. By toggling
 
 ![](/assets/navigating-page/Lobby-Signup.jpg)
 
-An email address is required to create a Nanome account
+An email address is required to create a Nanome account.
 
 **Terms & Conditions**: https://nanome.ai/terms/
 
@@ -34,7 +34,7 @@ Users can visit previous levels by selecting the 'back' button on the Level Pane
 
 Users can restart the level by selecting the refresh icon on the left of the Level Panel once a level is complete. Users can move onto the next level by selecting the right arrow on the right of the Level Panel once a level is complete.
 
-### Lobby Navigation Bar Buttons
+### Bar Buttons
 
 Refresh, Creating a Room, and Settings
 
@@ -68,7 +68,7 @@ By selecting the Configuration button in the Setting tab, users can view the Nan
 
 ![](/assets/navigating-page/Lobby-ConfigurationViewer.jpg)
 
-### Lobby Navigation Bar Statuses
+### Bar Statuses
 
 ![](/assets/navigating-page/Lobby-ServerTypeAndVersion.jpg)
 
@@ -92,7 +92,7 @@ The update banner features the latest features that are added in the build that 
 
 In order to join a room, select a room from the lobby.
 
-## Environment Navigation
+## Environment
 
 ![](/assets/features-page/collaboration.gif)
 
@@ -118,7 +118,7 @@ Once the structure is grabbed, users can use the joystick or touchpad of their c
 
 ![](/assets/navigating-page/Scale_Menu.gif)
 
-## Entry Menus Navigation
+## Menus
 
 ![](/assets/features-page/nanome-gif-downsized_large.gif)
 
@@ -126,7 +126,7 @@ Once the structure is grabbed, users can use the joystick or touchpad of their c
 
 The Load, Plugin, Display, Color, Modify, Select, and Macro Menus can be displayed by clicking their respective icons located at the bottom of the Entry Menu.
 
-## Entry List
+### Entry List
 
 ![](/assets/navigating-page/Entry-List.jpg)
 
@@ -148,10 +148,9 @@ Different Viewing Modes can be toggled to modify the substructure icon sizes in 
 
 #### Frame Data
 
-
 ![](/assets/navigating-page/Entry-FrameData.jpg)
 
-Frame data allows users to navigate and modify different frames of the same structure (Academic and Enterprise only)
+Frame data allows users to navigate and modify different frames of the same structure (Academic and Enterprise only).
 
 #### Electron Density Maps
 
@@ -223,9 +222,10 @@ Align the selected entities and place them in the same position under the same c
 
 Delete the selected entities.
 
-## Load
+### Load
 
-Load molecules or structures into your workspace.
+Load molecules or structures into your workspace. Supported file formats include:
+.pdb, .cif, .mmcif, .sdf, .mol, .xyz, .moe, .mae, .mol2, .ccp4, .dsn6, .pse, .nanome, .png, .jpg, .jpeg, .pdf
 
 #### Featured
 
@@ -257,13 +257,13 @@ My Files tab allows users to load structures from their local directory.
 
 Recent files loaded in Nanome.
 
-### [Plugin](https://docs.nanome.ai/plugins.html#plugin-list)
+### Plugin
 
 ![](/assets/navigating-page/Plugin-List.jpg)
 
-All available [plugins](https://docs.nanome.ai/plugins.html#plugin-list) are listed here.
+[Please view the plug in page to learn more.](https://docs.nanome.ai/plugins.html)
 
-## Display
+### Display
 
 #### Atom
 
@@ -379,7 +379,7 @@ Show labels on residues.
 
 Coming soon...
 
-## Color
+### Color
 
 Apply a solid color or a color scheme on the selected structures.
 
@@ -417,10 +417,9 @@ Colors picked in schemes are applied in a certain pattern.
 
 Color selected structures by their hydrophobicity with yellow, red, blue colors.
 
-
 Other available color schemes include coloring by occupancy, b-factor, rainbow and so on.
 
-## Modify
+### Modify
 
 #### Edit
 
@@ -492,13 +491,13 @@ Select or deselect certain types of residues.
 
 Expand or shrink the selection range by physical proximity.
 
-## [Macro](https://docs.nanome.ai/macros.html)
+### Macro
 
 ![](/assets/navigating-page/Macro.jpg)
 
-Show all the [macros](https://docs.nanome.ai/macros.html) loaded. Each [macro](https://docs.nanome.ai/macros.html) is a batch of commands that can be run with a single button press.
+[Please view the macros page to learn more.](https://docs.nanome.ai/macros.html)
 
-## Wrist Menu Navigation
+## Wrist Menus
 
 ![](/assets/navigating-page/Wrist.jpg)
 
@@ -510,7 +509,7 @@ Wrist menu contains access to features independent from the content of the works
 
 Toggle on and off each menu quickly or all at once.
 
-#### Room
+### Room
 
 - Manage Users
 
@@ -524,25 +523,25 @@ Manage users by giving them the presenter privilage or teleporting them.
 
 View the presenter requests and grant presenter priviledge.
 
-#### Menu Layouts
+### Menu Layouts
 
 ![](/assets/navigating-page/Wrist-Menu.jpg)
 
 Quickly manage the enabled menus and format them in certain layouts.
 
-#### Settings
+### Settings
 
 ![](/assets/navigating-page/Wrist-AdvancedSettings.jpg)
 
 Change settings such as volumes and environment background.
 
-## Context/Action Menu Navigation
+## Context / Action Menu
 
-## Tools Menu Navigation
+## Tools Menu
 
 ![](/assets/features-page/hand-tools.gif)
 
-Press the right thumb button to activate the tool selection menu, hover over the desired selection and then release the button. If no selection is made, the hand tool will be chosen by default.
+Press and hold the menu button to activate the tool selection menu, hover over the desired selection and then release the button. If no selection is made, the hand tool will be chosen by default. If you are using a Vive system, press and hold the touch pad on your right controller to activate the menu. If you are using an Oculus system, press and hold the B button on your right controller to activate the menu.
 
 ### Hand Tool
 
@@ -572,11 +571,11 @@ Selection Tool selects structures directly in the workspace.
 
 Torsion Tool twists rotatable bonds and changes the dihedral angles between atoms.
 
-### Med Chem Toolkit (MedChem)
+### MedChem Tools
 
 ![](/assets/features-page/medchem.gif)
 
-Med Chem Toolkit enables editing the atoms directly using hands, bundling a rich set of features including atom addition and removal.
+MedChem Tools enable editing the atoms directly using hands, bundling a rich set of features including atom addition and removal.
 
 #### Prep
 
