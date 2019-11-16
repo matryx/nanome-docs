@@ -225,7 +225,7 @@ Delete the selected entities.
 ### Load
 
 Load molecules or structures into your workspace. Supported file formats include:
-.pdb, .cif, .mmcif, .sdf, .mol, .xyz, .moe, .mae, .mol2, .ccp4, .dsn6, .pse, .nanome, .png, .jpg, .jpeg, .pdf
+.pdb, .cif, .mmcif, .sdf, .mol, .xyz, .mol2, .ccp4, .dsn6, .pse, .nanome, .png, .jpg, .jpeg, .pdf
 
 #### Featured
 

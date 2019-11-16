@@ -61,7 +61,6 @@ The following is the list of plugins Nanome itself has created to date.
 - [Minimization](./plugins.md#minimization)
 - [RMSD](./plugins.md#rmsd)
 - [Real-time Scoring](./plugins.md#real-time-scoring)
-- Ligand Focus
 - [Docking](./plugins.md#docking)
 - [Molecular Dynamics](./plugins.md#molecular-dynamics)
 
