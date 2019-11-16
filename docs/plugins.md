@@ -59,11 +59,11 @@ The following is the list of plugins Nanome itself has created to date.
 - [Web Loader](./plugins.md#web-loader)
   - Load Proteins, PPT and through either a drag and drop website or directly from a URL
 - [Minimization](./plugins.md#minimization)
-- RMSD
+- [RMSD](./plugins.md#rmsd)
 - [Real-time Scoring](./plugins.md#real-time-scoring)
 - Ligand Focus
 - [Docking](./plugins.md#docking)
-- Molecular Dynamics
+- [Molecular Dynamics](./plugins.md#molecular-dynamics)
 
 ### Web Loader
 
@@ -166,9 +166,15 @@ The minimization process can be stopped at any time by pressing the Stop button.
 
 ![](./.vuepress/public/assets/plugins-page/minimization_plugin.png)
 
+### RMSD
+The RMSD plugin allows users to select multiple molecules, run an Root-Mean-Squared-Distance calculation, and auto-align the structures.
+
+![](./.vuepress/public/assets/plugins-page/rmsd_plugin.gif)
+
+To use this plugin, select your input structures to align, the target structure to align to and hit Run. If you intend to align entire structures, make sure that the Selected Only button is toggled off.
+
 ### Real-time Scoring
 The Real-time Scoring plugin lets you score ligands against a receptor to determine binding affinity for their current structure, position and rotation.
-
 
 ![](./.vuepress/public/assets/plugins-page/realtimescoring_plugin.png)
 
@@ -184,6 +190,18 @@ The docking plugin interfaces with a variety of docking software to dock ligands
 
 To use the plugin, select a receptor to bind to. Then, select one or more ligands to bind. Finally, if your chosen docking software supports it, select the site
 at which to dock the ligands. You will receive notifications when docking has finished.
+
+### Molecular Dynamics
+The Molecular Dynamics plugin runs simple molecular dynamics simulations on single complexes within the workspace.
+
+This plugin requires a working version of openmm. To install:
+- Install Anaconda3
+- conda install -c omnia openmm
+- pip install nanome-molecular-dynamics
+
+![](./.vuepress/public/assets/plugins-page/moleculardynamics_plugin.png)
+
+To use the plugin, simply select the target complex you'd like to run a simulation on and press Start. If you add an additional complex to the workspace, pressing the Refresh button will update your Target complex list, allowing you to run a simulation on the new desired target.
 
 ## Create Your Own
 
