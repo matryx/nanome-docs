@@ -1,16 +1,30 @@
 ---
-title: Macros
+title: Macros In Nanome
 ---
 
-# Macros
+# Macros In Nanome
+Macros are custom shortcuts you’ll be able to program yourself to speed up your work.
 
 ![](/assets/macros-page/macros.gif)
 
-Macros are custom shortcuts you’ll be able to program yourself to speed up your work.
+## Summary
+
+Nanome macros provide functionality for all of the following:
+  - Selection manipulation (Highlight and Focus on certains parts of the loaded entities)
+  - Command scheduling (edit the rendering and content of the selection)
+  - Molecular manipulation (read and write Workspace,Complexes,Molecules,Chains,Residues,Atoms)
+  - Search and find (Easily locate, search or find molecular structures, residues, atoms etc within the scene)
+  - Menus manipulation (read, locate and move the UI menus available to the user)
+  - User manipulation (read, locate and move the User that is using the macro)
+  - Store manipulation (allow you to save/load states between macros)
+  - System manipulation (The basics functions to read and write files locally)
+  - Primitive types (The basics types functions used by the different API functions)
+  - Network manipulation (FOR EXPERTS, allow you to fine-tune everything that the user can see)
+
 
 ## Using Macros
 
-To access macros, you’ll simply open up the new Macro submenu on your wrist or under the Entry Menu. We’ve set up some preset Macros already as seen here. These macros help focus the protein structure on the ligand.
+To access macros, you’ll simply open up the new Macro submenu on your wrist or under the Entry Menu. We’ve set up some preset Macros already as seen on these menus. These macros allow you to easily focus on the active site(s) of a protein.
 
 ## Building Your Own Macros
 

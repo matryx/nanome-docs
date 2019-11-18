@@ -7,9 +7,6 @@ module.exports = {
     logo: "../assets/features-page/nanome-logo.png",
     sidebar: [
       "/",
-      "/how-to",
-      "/macros",
-      "/account-tiers",
       {
         title: 'Nanome Navigation',   // required
         path: '/navigation/',  // optional, which should be a absolute path.
@@ -43,6 +40,35 @@ module.exports = {
         ]
       },
       {
+        title: 'Nanome Macros',   // required
+        path: '/macros/',         // optional, which should be a absolute path.
+        collapsable: true,        // optional, defaults to true
+        sidebarDepth: 1,          // optional, defaults to 1
+        children: [
+          '/macros/overview'
+        ]
+      },
+      {
+        title: 'How To',   // required
+        path: '/howto/',  // optional, which should be a absolute path.
+        collapsable: true,     // optional, defaults to true
+        sidebarDepth: 1,       // optional, defaults to 1
+        children: [
+          '/howto/comingsoon'
+        ]
+      },
+      {
+        title: 'home.nanome.ai',   // required
+        path: '/home.nanome.ai/',  // optional, which should be a absolute path.
+        collapsable: true,     // optional, defaults to true
+        sidebarDepth: 1,       // optional, defaults to 1
+        children: [
+          '/home.nanome.ai/overview',
+          "/home.nanome.ai/accounttiers",
+          '/home.nanome.ai/invoice'
+        ]
+      },
+      {
         title: 'Help',   // required
         path: '/help/',  // optional, which should be a absolute path.
         collapsable: true,     // optional, defaults to true
@@ -53,16 +79,6 @@ module.exports = {
           '/help/hardwarerequirements',
           '/help/faq',
           '/help/contact'
-        ]
-      },
-      {
-        title: 'home.nanome.ai',   // required
-        path: '/home.nanome.ai/',  // optional, which should be a absolute path.
-        collapsable: true,     // optional, defaults to true
-        sidebarDepth: 1,       // optional, defaults to 1
-        children: [
-          '/home.nanome.ai/overview',
-          '/home.nanome.ai/invoice'
         ]
       }
     ],

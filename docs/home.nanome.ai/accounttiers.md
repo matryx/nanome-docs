@@ -9,7 +9,7 @@ title: Account Tiers
 #### Features
 
 - Data Security and Private Secure Server
-- [Plugin System](/plugins.html)
+- [Plugin System](/plugins/overview.html)
 - Offline mode
 - Custom development
 - Customer support
