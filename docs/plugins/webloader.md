@@ -41,7 +41,7 @@ _Instructions_
 
 7. Install Libre Office
 
-- https://www.libreoffice.org/donate/dl/win-x86_64/6.2.4/en-US/LibreOffice_6.2.4_Win_x64.msi
+- https://www.libreoffice.org/donate/dl/win-x86_64/6.3.3/en-US/LibreOffice_6.3.3_Win_x64.msi
 
 8. Add Libre Office to the PATH environmental variable
 
@@ -57,7 +57,7 @@ _Instructions_
 
 ![](/assets/plugins-page/edit_path.png)
 
-- Click the Browse button and select LibraOffice/program in the Program Files
+- Click the Browse button and select LibreOffice/program in the Program Files
 
 ![](/assets/plugins-page/browse_path.png)
 
