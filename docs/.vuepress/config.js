@@ -55,7 +55,16 @@ module.exports = {
           '/help/contact'
         ]
       },
-      "/home.nanome.ai",
+      {
+        title: 'home.nanome.ai',   // required
+        path: '/home.nanome.ai/',  // optional, which should be a absolute path.
+        collapsable: true,     // optional, defaults to true
+        sidebarDepth: 1,       // optional, defaults to 1
+        children: [
+          '/home.nanome.ai/overview',
+          '/home.nanome.ai/invoice'
+        ]
+      }
     ],
     sidebarDepth: 2,
     lastUpdated: "Last Updated",
