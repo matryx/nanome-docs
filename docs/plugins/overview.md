@@ -17,7 +17,7 @@ Some examples of plugins that our customers love are:
 - Running and viewing docking results
 - Loading PDFs and PowerPoints
 - Running custom molecular dynamics
-- All of our public plugins are available on our `Github <https://github.com/nanome-ai>`\_.
+- All of our public plugins are available on our [Github](https://github.com/nanome-ai).
 
 The primary requirements for running plugins is the Nanome Virtual Reality Software and the Nanome Plugin Server (NTS). The Nanome Plugin Server acts as a relay to forward plugin information and processes into the Nanome virtual environment.
 
