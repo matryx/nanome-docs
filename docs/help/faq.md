@@ -95,7 +95,7 @@ We recommend setting Nanome as your default software for opening .pdb files. Dou
 ## How many users can I have inside of Nanome
 Nanome currently supports up to 20 VR collaborators in a room. Our 2D user allows for up to 100 users in a single room.
 
-## What kinds of computations are possible with Nanome? 
+## What kinds of computations are possible with Nanome?
 Nanome has a Python based API to integrate with user's computational tools to augment and benefit existing scientific workflows. With a plugin script capable of interfacing with any of the existing applications, the computation possiblities are endless. While this feature is limited to users with a Plugin Server (Enterprise only), we do natively support classical force field simulations for local minimization.  Nanome users can also utilize other simulation software through just exporting as a .sdf and .pdb file and into 3rd part simulation software, then importing the final .pdb or .sdf results back into Nanome after computations have been run.
 
 
