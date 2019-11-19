@@ -1,7 +1,6 @@
 ---
 title: Navigating Nanome
 ---
-
 # Navigating Nanome
 
 ## Lobby
@@ -22,7 +21,7 @@ An email address is required to create a Nanome account.
 
 ![](/assets/navigating-page/Lobby-Tutorial.jpg)
 
-The tutorial consists of 19 levels. Follow the insturctions on the Level Panel and the narrated audio to complete the levels.
+The tutorial consists of 19 levels. Follow the instructions on the Level Panel and the narrated audio to complete the levels.
 
 #### Navigating the Tutorial Using Level Panels
 
@@ -48,13 +47,13 @@ Users can refresh the available room list by selecting the 'Refresh' button at t
 
 ![](/assets/navigating-page/Lobby-CreateRoom.jpg)
 
-There are three Room Types a user can create depending on their Nanome Licence.
+There are three Room Types a user can create depending on their Nanome License.
 
 Room Types:
 
-- Public Rooms: Anyone can join in the room. available to all Nanome licenses
-- Private Rooms: A password is set for the room. Available to Academic and Enterprise
-- Single User: Offline mode which no one else can join. Available to Academic and Enterprise
+* Public Rooms: Anyone can join in the room. available to all Nanome licenses
+* Private Rooms: A password is set for the room. Available to Academic and Enterprise
+* Single User: Offline mode which no one else can join. Available to Academic and Enterprise
 
 #### Settings
 
@@ -62,7 +61,7 @@ Room Types:
 
 In the Setting tab, users can adjust various settings.
 
-- Configuration Viewer
+* Configuration Viewer
 
 By selecting the Configuration button in the Setting tab, users can view the Nanome Configuration file, which contains additional settings that cannot be controlled directly from within the app. The Configuration file can be located in the same directory as the app build directory.
 
@@ -108,7 +107,7 @@ In order to scale the environment or molecular structures, press down on the mid
 
 ![](/assets/navigating-page/Grab_Molecule.gif)
 
-In order to grab a structure, reach out and press the middle finger 'grip' button on one of the left or right controllers. Users can also grab structures from afar by pointing their ray/laser then pressing the 'grip' button.
+In order to grab a structure, reach out and press the middle finger 'grip' button on one of the left or right controllers. Users can also grab structures from a distance by pointing their ray/laser and then pressing the 'grip' button.
 
 Once the structure is grabbed, users can use the joystick or touchpad of their controllers to move the structure closer or further away from them.
 
@@ -136,7 +135,7 @@ The Entry List is a list of all of the structures that have been loaded into the
 
 ![](/assets/navigating-page/Entry-Hierarchy.jpg)
 
-Hierachy buttons can be used to navigate the sturcture's substructures such as chains and residues.
+Hierarchy buttons can be used to navigate the structure's substructures such as chains and residues.
 
 #### Different Viewing Modes (Small, Medium, Large)
 
@@ -237,7 +236,7 @@ Molecules featured by Nanome for their interesting properties or background.
 
 ![](/assets/navigating-page/Load-Database.jpg)
 
-From the Database tab, structures can be directly loaded from RCSB, DrugBank (Academic and Enterprise only), or Pubchem (Academic and Enterprise only). Custom database can also be added by changing the config file.
+From the Database tab, structures can be directly loaded from RCSB, DrugBank (Academic and Enterprise only), or PubChem (Academic and Enterprise only). Custom database can also be added by changing the config file.
 
 #### Keyword
 
@@ -269,53 +268,53 @@ Recent files loaded in Nanome.
 
 This tab contains options for the visual of atoms and bonds.
 
-- Wire
+* Wire
 
 ![](/assets/navigating-page/Display-Atom-Wire.jpg)
 
 Hide atoms and show bonds in thin wire visual.
 
-- Stick
+* Stick
 
 ![](/assets/navigating-page/Display-Atom-Stick.jpg)
 
 Show small atoms and bonds in volumetric stick visual.
 
-- Van Der Waals
+* Van Der Waals
 
 ![](/assets/navigating-page/Display-Atom-Vanderwal.jpg)
 
 Show atoms in thin Van Der Waals visual and hide bonds.
 
-- Adaptive
+* Adaptive
 
 ![](/assets/navigating-page/Display-Atom-Adaptive.jpg)
 
 Show atoms with radius proportion to their b-factor value and hide bonds.
 
-- Ball & Stick
+* Ball & Stick
 
 ![](/assets/navigating-page/Display-Atom-BallnStick.jpg)
 
-- Hide all atoms and bonds.
+* Hide all atoms and bonds.
 
 #### Ribbon
 
 This tab contains options for the visual of ribbons.
 
-- Cartoon
+* Cartoon
 
 ![](/assets/navigating-page/Display-Ribbon-Cartoon.jpg)
 
 Show ribbon in cartoon visual that highlight secondary structures using helix and arrows.
 
-- Coil
+* Coil
 
 ![](/assets/navigating-page/Display-Ribbon-Tube.jpg)
 
 Show ribbon in uniform tube visual.
 
-- Putty
+* Putty
 
 ![](/assets/navigating-page/Display-Ribbon-Putty.jpg)
 
@@ -323,13 +322,13 @@ Show ribbon in tube with widths proportion to the atoms' b-factor value.
 
 #### Surface
 
-- Show Surface
+* Show Surface
 
 ![](/assets/navigating-page/Display-Surface-On.jpg)
 
 Show the solvent-excluded-surface.
 
-- Opacity
+* Opacity
 
 ![](/assets/navigating-page/Display-Surface-Opacity.jpg)
 
@@ -337,25 +336,25 @@ Change the opacity of the surface.
 
 #### Sub Structure
 
-- None
+* None
 
 ![](/assets/navigating-page/Display-SubStructure-None.jpg)
 
 Hide hetatoms, waters and hydrogen.
 
-- Hetatoms
+* Hetatoms
 
 ![](/assets/navigating-page/Display-SubStructure-Hetatoms.jpg)
 
 Show hetatoms.
 
-- Waters
+* Waters
 
 ![](/assets/navigating-page/Display-SubStructure-Water.jpg)
 
 Show hetatoms, including water.
 
-- Hydrogens
+* Hydrogens
 
 ![](/assets/navigating-page/Display-SubStructure-Hydrogen.jpg)
 
@@ -363,19 +362,19 @@ Show hydrogens.
 
 #### Labels
 
-- Atoms
+* Atoms
 
 ![](/assets/navigating-page/Display-Label-Atom.jpg)
 
 Show labels on atoms.
 
-- Residue
+* Residue
 
 ![](/assets/navigating-page/Display-Label-Residue.jpg)
 
 Show labels on residues.
 
-- Chain
+* Chain
 
 Coming soon...
 
@@ -387,13 +386,13 @@ Apply a solid color or a color scheme on the selected structures.
 
 Colors picked in picker are applied in a solid style.
 
-- Carbonite
+* Carbonite
 
 ![](/assets/navigating-page/Color-Carbonite.jpg)
 
 Carbonite color applies only to carbons.
 
-- Monochrome
+* Monochrome
 
 ![](/assets/navigating-page/Color-Monochrome.jpg)
 
@@ -403,15 +402,15 @@ Monochrome color applies to all atoms indifferently.
 
 Colors picked in schemes are applied in a certain pattern.
 
-- Monochrome
+* Monochrome
 
 ![](/assets/navigating-page/Color-Scheme-Monochrome.jpg)
 
-- Carbonite
+* Carbonite
 
 ![](/assets/navigating-page/Color-Scheme-Carbonite.jpg)
 
-- YRB Hydrophobe
+* YRB Hydrophobe
 
 ![](/assets/navigating-page/Color-Scheme.jpg)
 
@@ -433,13 +432,13 @@ Edit the selected structures by applying actions from the buttons.
 
 Apply certain computations on the selected structures and modify them according to the result.
 
-- Calculate Hbond
+* Calculate Hbond
 
 ![](/assets/navigating-page/Modify-Compute-Hbond.jpg)
 
 Config the threshold for generating h-bonds.
 
-- Minimize
+* Minimize
 
 ![](/assets/navigating-page/Modify-Compute-Minimize.jpg)
 
@@ -467,7 +466,7 @@ Quickly modify selection range using certain criteria.
 
 Refine selection by applying certain changes.
 
-- Replace Selection
+* Replace Selection
 
 ![](/assets/navigating-page/Selection-Sub-Chain.jpg)
 ![](/assets/navigating-page/Selection-Sub-Residue.jpg)
@@ -511,17 +510,17 @@ Toggle on and off each menu quickly or all at once.
 
 ### Room
 
-- Manage Users
+* Manage Users
 
 ![](/assets/navigating-page/Wrist-Room-ManageUsers.jpg)
 
 Manage users by giving them the presenter privilage or teleporting them.
 
-- Presenter Requests
+* Presenter Requests
 
 ![](/assets/navigating-page/Wrist-Room-PresenterRequests.jpg)
 
-View the presenter requests and grant presenter priviledge.
+View the presenter requests and grant presenter privilege.
 
 ### Menu Layouts
 
@@ -587,7 +586,7 @@ Offers options to quickly access binding sites and config the auxiliary features
 
 ![](/assets/navigating-page/Medchem-Build.jpg)
 
-Select a substructure from the build menu and build it on top of existing atoms using medchem tool.
+Select a substructure from the build menu and build it on top of existing atoms using MedChem Tool.
 
 #### Periodic Table
 
@@ -629,4 +628,4 @@ Change settings including volume and environment background.
 
 ![](/assets/navigating-page/2D-Control.jpg)
 
-The control scheme can be accessed at any time by pressing the [H] key on the keyboard.
+The control scheme can be accessed at any time by pressing the \[H] key on the keyboard.
