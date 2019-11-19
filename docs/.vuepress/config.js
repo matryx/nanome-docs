@@ -49,7 +49,7 @@ module.exports = {
         ]
       },
       {
-        title: 'How To',   // required
+        title: 'How To (coming soon...)',   // required
         path: '/howto/',  // optional, which should be a absolute path.
         collapsable: true,     // optional, defaults to true
         sidebarDepth: 1,       // optional, defaults to 1
