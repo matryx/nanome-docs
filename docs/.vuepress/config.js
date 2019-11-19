@@ -74,7 +74,7 @@ module.exports = {
         collapsable: true,     // optional, defaults to true
         sidebarDepth: 1,       // optional, defaults to 1
         children: [
-          '/help/howto',
+          // '/help/howto',
           '/help/troubleshooting',
           '/help/hardwarerequirements',
           '/help/faq',
