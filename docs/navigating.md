@@ -494,7 +494,7 @@ Expand or shrink the selection range by physical proximity.
 
 ![](/assets/navigating-page/Macro.jpg)
 
-[Please view the macros page to learn more.](https://docs.nanome.ai/macros.html)
+[Please view the macros page to learn more.](https://docs.nanome.ai/macros/overview.html#summary)
 
 ## Wrist Menus
 
