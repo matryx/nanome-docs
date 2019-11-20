@@ -8,8 +8,7 @@ title: Account Tiers
 
 ### Peronal
 
-#### Free
-
+[Download](https://home.nanome.ai/setup)
 - Load structures from RCSB
 - Host public workspaces
 - Join public workspaces
