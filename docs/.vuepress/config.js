@@ -1,5 +1,7 @@
 module.exports = {
+  title: 'Nanome Docs',
   description: 'Documentation site for Nanome software.',
+  head: [['link', { rel: 'icon', href: '/assets/favicon.ico' }]],
   themeConfig: {
     home: true,
     title: 'Documentation',
@@ -58,10 +60,7 @@ module.exports = {
         path: '/home.nanome.ai/',
         collapsable: true,
         sidebarDepth: 1,
-        children: [
-          '/home.nanome.ai/accounttiers',
-          '/home.nanome.ai/invoice'
-        ]
+        children: ['/home.nanome.ai/accounttiers', '/home.nanome.ai/invoice']
       },
       {
         title: 'Help',
