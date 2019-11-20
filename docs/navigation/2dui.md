@@ -2,7 +2,7 @@
 Title: 2D UI
 ---
 
-# 2D UI Navigation
+# 2D UI
 
 ![](/assets/navigating-page/2D.jpg)
 

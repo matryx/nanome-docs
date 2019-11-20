@@ -2,7 +2,7 @@
 title: Environment
 ---
 
-# Environment Navigation
+# Environment
 
 ![](/assets/features-page/collaboration.gif)
 

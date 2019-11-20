@@ -2,7 +2,7 @@
 title: Lobby
 ---
 
-# Lobby Navigation
+# Lobby
 
 ![](/assets/navigating-page/Lobby.jpg)
 

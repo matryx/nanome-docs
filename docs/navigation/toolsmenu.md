@@ -2,7 +2,7 @@
 title: Tools Menu
 ---
 
-# Tool Menu Navigation
+# Tool Menu
 
 ![](/assets/features-page/hand-tools.gif)
 
