@@ -4,9 +4,7 @@ title: Account Tiers
 
 # Account Tiers
 
-## Lifetime offer available for a limited time
-
-### Peronal
+## Peronal
 
 [Download](https://home.nanome.ai/setup)
 - Load structures from RCSB
@@ -16,7 +14,7 @@ title: Account Tiers
 - Basic molecular views
 - Basic editing features
 
-### Academic
+## Academic
 
 [Purchase](https://home.nanome.ai/purchase?plan=early-adopter-edu)
 - Includes everything in Personal
@@ -32,7 +30,7 @@ title: Account Tiers
 - Electron Density Map Support (CCP4 & DSN6)
 - Load unlimited molecules
 
-### Enterprise
+## Enterprise
 
 [Request a Quote](https://home.nanome.ai/quote)
 - Includes everything in Academic
