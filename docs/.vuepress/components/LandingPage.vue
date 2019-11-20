@@ -95,14 +95,14 @@
 .landing-page .featured {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(3, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-auto-columns: 1fr;
-  margin-bottom: 2rem;
+  grid-gap: 1rem;
 }
 
 .landing-page .featured > a {
   text-align: center;
-  margin: 0 0.5em;
+  margin: 0 0 1rem;
 }
 
 .landing-page .featured h3 {
