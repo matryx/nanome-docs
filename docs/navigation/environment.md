@@ -6,7 +6,11 @@ title: Environment
 
 ![](/assets/features-page/collaboration.gif)
 
-In addition to physically moving around in VR, users can teleport around the environment by pointing to a spot on the floor and clicking and holding with their index finger.
+### Teleportation
+
+![](/assets/features-page/Teleportation.gif)
+
+In addition to physically moving around in VR, users can teleport around the environment by pointing to a spot on the floor and pressing and holding down the trigger button with their index finger.
 
 ### Scaling
 

@@ -32,17 +32,17 @@ Users can visit previous levels by selecting the 'back' button on the Level Pane
 
 Users can restart the level by selecting the refresh icon on the left of the Level Panel once a level is complete. Users can move onto the next level by selecting the right arrow on the right of the Level Panel once a level is complete.
 
-## Bar Buttons
+## Lobby Top Bar
 
 Refresh, Creating a Room, and Settings
 
 ![](/assets/navigating-page/Lobby-Navigation.jpg)
 
-### Refresh
+### (1) Refresh
 
 Users can refresh the available room list by selecting the 'Refresh' button at the top of the Lobby Navigation Bar Buttons.
 
-### Creating a Room
+### (2) Creating a Room
 
 ![](/assets/navigating-page/Lobby-CreateRoom.jpg)
 
@@ -54,7 +54,17 @@ Room Types:
 - Private Rooms: A password is set for the room. Available to Academic and Enterprise
 - Single User: Offline mode which no one else can join. Available to Academic and Enterprise
 
-### Settings
+![](/assets/navigating-page/Lobby-ServerTypeAndVersion.jpg)
+
+### (3) Server Type
+
+Indicates connection to Nanome Public Server or Custom Private Server
+
+### (4) Version
+
+Indicates Nanome version
+
+### (5) Settings
 
 ![](/assets/navigating-page/Lobby-Setting.jpg)
 
@@ -66,26 +76,9 @@ By selecting the Configuration button in the Setting tab, users can view the Nan
 
 ![](/assets/navigating-page/Lobby-ConfigurationViewer.jpg)
 
-## Bar Statuses
-
-![](/assets/navigating-page/Lobby-ServerTypeAndVersion.jpg)
-
-### Server Type
-
-Indicates connection to Nanome Public Server or Custom Private Server
-
-### Version
-
-Indicates Nanome version
 
 ## Update Banner
 
 ![](/assets/navigating-page/Lobby-UpdateBanner.jpg)
 
 The update banner features the latest features that are added in the build that the users are in.
-
-## Joining a Room
-
-![](/assets/navigating-page/Lobby-JoiningRoom.jpg)
-
-In order to join a room, select a room from the lobby.
