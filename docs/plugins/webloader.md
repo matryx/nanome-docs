@@ -4,91 +4,123 @@ Title: Web Loader
 
 # Web Loader
 
-_Installing your first plugin: Nanome Web Loader_
+The Nanome Web Loader allows for the distribution of files (PDB, SDF, PDF, PPT, etc.) to be drag-and-dropped into a web interface to be made available inside of the Nanome VR software.
 
-The Nanome Web Loader allows for the distribution of files (PDB, SDF, PDF, PPT) to be drag-and-dropped into a web interface and then available inside of the Nanome VR software.
+## Installation (Windows)
 
-\*Windows
 Required dependencies:
-
 - Python3 & Pip
-- Ghostscript
-- ImageMagick
 - Nanome Library
-- Libre Office
 - Nanome-Loaders Plugin
 
-_Instructions_
+Optional dependencies:
+- Ghostscript (required for pdf support)
+- ImageMagick (required for pdf support)
+- Libre Office (required for pdf, ppt, and odp support)
 
-1. First, you need to install Python
+### Installing Dependencies
 
-- https://www.python.org/ftp/python/3.7.3/python-3.7.3.exe
-- Don’t forget to click the checkbox to add Python3 to PATH
+1. Install Python
+   - <https://www.python.org/ftp/python/3.8.0/python-3.8.0.exe>
+   - Don’t forget to click the checkbox to add Python3 to PATH
 
-2. Open a command prompt
-3. Type `python` to verify the version is Python 3.0+, then exit()
-4. Upgrade your Pip library
+1. Open a command prompt
 
-- `python -m pip install --upgrade pip`
+1. Type `python --version` to verify the version is Python 3.0+
 
-5. Install GhostScript
+1. Upgrade your Pip library
+   - `python -m pip install --upgrade pip`
 
-- https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs927/gs927w64.exe
+1. Install the latest Nanome Lib with `pip`
+   - `pip install nanome`
 
-6. Install ImageMagick
+2. Install the Nanome Loaders Plugin with `pip`
+    - `pip install nanome-loaders`
 
-- https://imagemagick.org/download/binaries/ImageMagick-7.0.8-56-Q16-x64-dll.exe
+### Installing Optional Dependencies
 
-7. Install Libre Office
+1. Install GhostScript
+   - <https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs950/gs950w64.exe>
 
-- https://www.libreoffice.org/donate/dl/win-x86_64/6.3.3/en-US/LibreOffice_6.3.3_Win_x64.msi
+1. Install ImageMagick
+   - <https://imagemagick.org/download/binaries/ImageMagick-7.0.9-5-Q16-x64-dll.exe>
 
-8. Add Libre Office to the PATH environmental variable
+1. Install Libre Office
+   - <https://www.libreoffice.org/donate/dl/win-x86_64/6.3.3/en-US/LibreOffice_6.3.3_Win_x64.msi>
 
-- Search ‘env’ from the Windows Search Bar and click on the ‘Edit System Environment Variables’ in the control panel.
+1. Add Libre Office to the PATH environmental variable
+   - Search "env" from the Windows Search Bar and click on the "Edit System Environment Variables" in the control panel.
 
-![](/assets/plugins-page/search_env.png)
+   ![](/assets/plugins-page/search_env.png)
 
-- Click on the ‘Environment Variables’ button
+   - Click on the "Environment Variables" button
 
-![](/assets/plugins-page/find_env.png)
+   ![](/assets/plugins-page/find_env.png)
 
-- Click the Edit button for the PATH variable
+   - Click the Edit button for the PATH variable
 
-![](/assets/plugins-page/edit_path.png)
+   ![](/assets/plugins-page/edit_path.png)
 
-- Click the Browse button and select LibreOffice/program in the Program Files
+   - Click the Browse button and select LibreOffice/program in the Program Files
 
-![](/assets/plugins-page/browse_path.png)
+   ![](/assets/plugins-page/browse_path.png)
 
-9. Install the latest Nanome Lib through Pip
 
-- enter `pip install nanome`
+## Running Web Loader
 
-10. Install the Nanome Loaders Plugin
+Run the Nanome WebLoader plugin with:\
+`nanome-web-loader -a localhost`
 
-- Enter `pip install nanome-loaders`
-
-11. Run the Nanome Loaders’ WebLoader plugin
-
-- Enter `nanome-web-loader -a localhost`
-- The `-a` denotes the address of the Plugin Server IP
+The `-a` denotes the address of the Plugin Server IP
 
 ![](/assets/plugins-page/running_plugin.png)
 
-12. You now can open up your browser and go to http://localhost to see the Web Interface
 
-![](/assets/plugins-page/webloader_browserprompt.png)
+## Web Interface
 
-13. Drag and drop a sample PDF into the Web Interface. I have provided one for download here: https://drive.google.com/drive/folders/1JU4jVMH6X_uMjN03mIZCpm9rH62UCDVC?usp=sharing
+Once the Web Loader plugin is running, you can visit <http://localhost> in your browser to see the Web Interface.
 
-![](/assets/plugins-page/webloader_uploaded.png)
+![](/assets/plugins-page/nanome-vault/web.png)
 
-14. Go ahead and launch Nanome and create a room in 2D mode. Navigate to the Plugins Menu through the button on the Entry Menu to see your plugin populated.
+### Folders
 
-\*You can move windows around in 2D mode by right-clicking and dragging the window.
-\*\* Hit the escape key to see the controls and make changes to the application
+At the root level, there are two folders: **shared** and **account**.
 
-![](/assets/plugins-page/2Dmode_plugins.png)
+The **shared** folder is accessible to all users connected to the plugin, whereas the **account** folder is only accessible to your Nanome account.
 
-15. Activate the plugin, select your uploaded file and click Load. This will open a new window with your PDF and is resizable.
+To log in on the web interface, either click the "log in" next to "Welcome!", or double-click the **account** folder. Enter your Nanome account credentials in the popup that appears and click "log in".
+
+![](/assets/plugins-page/nanome-vault/web-login.png)
+
+Once you are logged in, you can use the **account** folder.
+
+![](/assets/plugins-page/nanome-vault/web-account.png)
+
+### Uploading and Managing Files
+
+To upload files, you can either drag and drop a file onto the webpage, or click the upload button.
+
+![](/assets/plugins-page/nanome-vault/web-upload.png)
+
+Try it out! Download a sample PDF and drag-and-drop it into the Web Interface. An example can be found here:\
+<https://drive.google.com/drive/folders/1JU4jVMH6X_uMjN03mIZCpm9rH62UCDVC>
+
+To create folders, you can either click the new folder button or right-click and select "new folder". This will prompt you for the folder name and create the folder in the current directory.
+
+To delete files or folders, right-click the item and select "delete", and then confirm in the dialog that appears.
+
+## VR Interface
+
+Launch Nanome and create a room. Open the Plugins Menu with the button on the Entry Menu to see your plugin populated.
+
+![](/assets/plugins-page/nanome-vault/plugin-list.png)
+
+Like the web interface, at the root level there are two folders: **shared** and **account**.
+
+![](/assets/plugins-page/nanome-vault/plugin.png)
+
+You can browse and load items from the folder structure by clicking on items in the list.
+
+![](/assets/plugins-page/nanome-vault/plugin-shared.png)
+
+To upload structures from your workspace, browse to the directory you want to upload to and click on the "upload here" button. This will prompt you to select a structure. After you select a structure, upload it by selecting the format you want (PDB, SDF, or MMCIF).
