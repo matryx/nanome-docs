@@ -36,7 +36,7 @@
         <h3>Tools Menu</h3>
         <span>All the tools of Nanome</span>
       </a>
-      <a href="/macros/overview.html">
+      <a href="/plugins/overview.html">
         <div class="home-video">
           <video
             src="https://media.giphy.com/media/XbOZ8ZJiLGeobFiwxt/giphy.mp4"
