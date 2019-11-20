@@ -2,8 +2,9 @@
   font-size 1.1em
   font-weight bold
   color #999
+  transition color 0.15s ease
 
-  &.active
+  &.active, &:hover
     color inherit
 
 .icon.outbound
@@ -12,18 +13,19 @@
 .theme-container .page .content
   max-width 900px
 
-#home-video
+.home-video
   position relative
   width 100%
   height 0
   padding-bottom 56.25%
 
-  iframe
+  iframe, video
     position absolute
     left 0
     top 0
     width 100%
     height 100%
+    object-fit cover
 
 .btn
   display inline-block
