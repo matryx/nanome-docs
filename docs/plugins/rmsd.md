@@ -3,7 +3,7 @@ Title: RMSD
 ---
 
 # RMSD
-The RMSD plugin allows users to select multiple molecules, run an Root-Mean-Squared-Deviation calculation, and auto-align the structures.
+The RMSD plugin allows users to select multiple molecules, run an root-mean-squared deviation calculation, and auto-align the structures.
 
 ![](/assets/plugins-page/rmsd_plugin.gif)
 
