@@ -260,7 +260,7 @@ Recent files loaded in Nanome.
 
 ![](/assets/navigating-page/Plugin-List.jpg)
 
-[Please view the plug in page to learn more.](https://docs.nanome.ai/plugins.html)
+[Please view the plug in page to learn more.](https://docs.nanome.ai/plugins/overview.html#how-to-use-plugins-enterprise-only)
 
 ### Display
 
