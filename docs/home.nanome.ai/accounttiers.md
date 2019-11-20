@@ -4,53 +4,43 @@ title: Account Tiers
 
 # Account Tiers
 
-## Enterprise
+## Lifetime offer available for a limited time
 
-#### Features
+### Peronal
 
-- Data Security and Private Secure Server
-- [Plugin System](/plugins/overview.html)
-- Offline mode
-- Custom development
-- Customer support
-- Includes everything in Pro
+#### Free
 
-## Pro
+- Load structures from RCSB
+- Host public workspaces
+- Join public workspaces
+- Load up to 2 molecules at a time
+- Basic molecular views
+- Basic editing features
 
-#### Features
+### Academic
 
-- PDB Trajectory Animation
-- SDF Ligand support
+[Purchase](https://home.nanome.ai/purchase?plan=early-adopter-edu)
+- Includes everything in Personal
+- Load from PubChem, Drugbank
+- Load from your local computer
+- Host private workspaces with passwords
+- Join private workspaces
+- Save VR workspaces
+- Assign presenter & block users
+- Export molecules in PDB/SDF format
+- Play PDB Trajectory Animations
+- Multi SDF Ligand support
 - Electron Density Map Support (CCP4 & DSN6)
 - Load unlimited molecules
-- Room capacity: 20
-- Includes everything in Plus
 
-## Plus
+### Enterprise
 
-#### Features
-
-- Load from PubChem, Drugbank
-- Load from your computer
-- Save your VR workspace
-- Assign presenter & block users
-- Export your molecules in PDB format
-- Host a password protected room
-- Load up to 4 molecules
-- Room capacity: 5
-- Includes everything in Free
-
-## Free
-
-The free version of Nanome, also refered to as Personal
-
-#### Features
-
-- Molecular modeling
-- Observe public collaborations
-- Duplicate, Split, Color molecules
-- Minimization Simulations
-- Load structures from RCSB
-- Host a public room
-- Load up to 2 molecules
-- Room capacity: 20 Round Robin
+[Request a Quote](https://home.nanome.ai/quote)
+- Includes everything in Academic
+- Private server deployment
+- Plugin server deployment
+- Plugin integration support
+- Offline mode
+- Internal database integration
+- Custom development
+- Premium customer support
