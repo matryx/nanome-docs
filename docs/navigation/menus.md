@@ -145,7 +145,7 @@ Recent files loaded in Nanome.
 
 ![](/assets/navigating-page/Plugin-List.jpg)
 
-[Please view the plug in page to learn more.](https://docs.nanome.ai/plugins.html)
+[Please view the plug in page to learn more.](https://docs.nanome.ai/plugins/overview.html)
 
 ## Display
 
@@ -261,7 +261,7 @@ Show labels on residues.
 
 - Chain
 
-Coming soon...
+Show labels on Chains. (Coming Soon)
 
 ## Color
 

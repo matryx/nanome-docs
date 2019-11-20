@@ -23,9 +23,10 @@ The primary requirements for running plugins is the Nanome Virtual Reality Softw
 
 The Nanome Virtual Reality Software can be acquired directly from Nanome or in any of the VR stores here:
 
-- Oculus Store: https://www.oculus.com/experiences/rift/1873145426039242
-- Viveport: https://www.viveport.com/apps/0a467f78-2ed2-43eb-ada8-9d677d5acf54
-- Steam: https://store.steampowered.com/app/493430/Nanome/
+- Oculus Store: [https://www.oculus.com/experiences/rift/1873145426039242](https://sidequestvr.com/#/app/333)
+- Viveport: [https://www.viveport.com/apps/0a467f78-2ed2-43eb-ada8-9d677d5acf54](https://www.viveport.com/apps/0a467f78-2ed2-43eb-ada8-9d677d5acf54)
+- Steam: [https://store.steampowered.com/app/493430/Nanome/](https://store.steampowered.com/app/493430/Nanome/)
+- SideQuest: [https://sidequestvr.com/#/app/333](https://sidequestvr.com/#/app/333)
 
 Please contact sales@nanome.ai for the Nanome Plugin Server (NTS.exe)
 

@@ -17,6 +17,7 @@ module.exports = {
           '/navigation/environment',
           '/navigation/menus',
           '/navigation/wristmenu',
+          '/navigation/actionmenu',
           '/navigation/contextmenu',
           '/navigation/toolsmenu',
           '/navigation/2dui',
@@ -63,7 +64,6 @@ module.exports = {
         collapsable: true,     // optional, defaults to true
         sidebarDepth: 1,       // optional, defaults to 1
         children: [
-          '/home.nanome.ai/overview',
           "/home.nanome.ai/accounttiers",
           '/home.nanome.ai/invoice'
         ]

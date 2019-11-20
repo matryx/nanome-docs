@@ -1,5 +1,5 @@
 ---
-title: Generating Your Invoice
+title: Get a Copy of Your Invoice
 ---
 
 # How to Get a Copy of Your Receipt/Invoice
