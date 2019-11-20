@@ -2,7 +2,7 @@
 title: Action Menu
 ---
 
-# Action Menu Navigation
+# Action Menu
 
 ![](/assets/navigating-page/ActionMenu.jpg)
 

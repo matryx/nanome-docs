@@ -59,7 +59,6 @@ module.exports = {
         collapsable: true,
         sidebarDepth: 1,
         children: [
-          '/home.nanome.ai/overview',
           '/home.nanome.ai/accounttiers',
           '/home.nanome.ai/invoice'
         ]
