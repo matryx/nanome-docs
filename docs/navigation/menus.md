@@ -2,7 +2,7 @@
 title: Main Menus
 ---
 
-# Menu Navigation
+# Main Menus
 
 ![](/assets/features-page/nanome-gif-downsized_large.gif)
 

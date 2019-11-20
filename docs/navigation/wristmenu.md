@@ -2,7 +2,7 @@
 title: Wrist Menu
 ---
 
-# Wrist Menu Navigation
+# Wrist Menu
 
 ![](/assets/navigating-page/Wrist.jpg)
 

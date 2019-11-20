@@ -8,6 +8,50 @@
       the Quest beta.
     </p>
 
+    <h2>Featured Sections</h2>
+    <div class="featured">
+      <a href="/navigation/menus.html">
+        <div class="home-video">
+          <video
+            src="https://media.giphy.com/media/jq6CX2eDIckqP47Bk3/giphy.mp4"
+            loop
+            muted
+            autoplay
+            playsinline
+          ></video>
+        </div>
+        <h3>Main Menus</h3>
+        <span>All the menus of Nanome</span>
+      </a>
+      <a href="/navigation/toolsmenu.html">
+        <div class="home-video">
+          <video
+            src="https://media.giphy.com/media/PmeFrNjFWVwqJzClXm/giphy.mp4"
+            loop
+            muted
+            autoplay
+            playsinline
+          ></video>
+        </div>
+        <h3>Tools Menu</h3>
+        <span>All the tools of Nanome</span>
+      </a>
+      <a href="/macros/overview.html">
+        <div class="home-video">
+          <video
+            src="https://media.giphy.com/media/XbOZ8ZJiLGeobFiwxt/giphy.mp4"
+            loop
+            muted
+            autoplay
+            playsinline
+          ></video>
+        </div>
+        <h3>Nanome Plugins</h3>
+        <span>An overview of the plugin system</span>
+      </a>
+    </div>
+
+    <h2>Download Nanome</h2>
     <div class="text-center">
       <a class="btn" href="https://home.nanome.ai/setup" target="_blank">
         Download Nanome
@@ -34,7 +78,7 @@
       </div>
     </div>
 
-    <div id="home-video">
+    <div class="home-video">
       <iframe
         width="900"
         height="500"
@@ -48,6 +92,23 @@
 </template>
 
 <style>
+.landing-page .featured {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-auto-columns: 1fr;
+  grid-gap: 1rem;
+}
+
+.landing-page .featured > a {
+  text-align: center;
+  margin: 0 0 1rem;
+}
+
+.landing-page .featured h3 {
+  margin: 1rem 0 0;
+}
+
 .landing-page .requirements {
   margin: 0 auto;
   margin-bottom: 2em;
