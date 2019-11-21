@@ -1,5 +1,5 @@
 ---
-Title: RMSD
+title: RMSD
 ---
 
 # RMSD

@@ -1,5 +1,5 @@
 ---
-Title: Realtime Scoring
+title: Real-time Scoring
 ---
 
 # Real-time Scoring

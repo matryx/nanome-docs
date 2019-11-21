@@ -1,5 +1,5 @@
 ---
-Title: Molecular Dynamics
+title: Molecular Dynamics
 ---
 
 # Molecular Dynamics
