@@ -1,10 +1,10 @@
 ---
-Title: Nanome Vault
+Title: Vault
 ---
 
 # Nanome Vault
 
-The Nanome Nanome Vault allows for the distribution of files (PDB, SDF, PDF, PPT, etc.) to be drag-and-dropped into a web interface to be made available inside of the Nanome VR software.
+The Nanome Vault allows for the distribution of files (PDB, SDF, PDF, PPT, etc.) to be drag-and-dropped into a web interface to be made available inside of the Nanome VR software.
 
 ## Installation (Windows)
 
