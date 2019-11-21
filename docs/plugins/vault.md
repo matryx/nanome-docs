@@ -1,5 +1,5 @@
 ---
-Title: Vault
+title: Vault
 ---
 
 # Nanome Vault
