@@ -1,17 +1,17 @@
 ---
-Title: Web Loader
+Title: Nanome Vault
 ---
 
-# Web Loader
+# Nanome Vault
 
-The Nanome Web Loader allows for the distribution of files (PDB, SDF, PDF, PPT, etc.) to be drag-and-dropped into a web interface to be made available inside of the Nanome VR software.
+The Nanome Nanome Vault allows for the distribution of files (PDB, SDF, PDF, PPT, etc.) to be drag-and-dropped into a web interface to be made available inside of the Nanome VR software.
 
 ## Installation (Windows)
 
 Required dependencies:
 - Python3 & Pip
 - Nanome Library
-- Nanome-Loaders Plugin
+- Nanome Vault Plugin
 
 Optional dependencies:
 - Ghostscript (required for pdf support)
@@ -24,18 +24,18 @@ Optional dependencies:
    - <https://www.python.org/ftp/python/3.8.0/python-3.8.0.exe>
    - Don’t forget to click the checkbox to add Python3 to PATH
 
-1. Open a command prompt
+2. Open a command prompt
 
-1. Type `python --version` to verify the version is Python 3.0+
+3. Type `python --version` to verify the version is Python 3.0+
 
-1. Upgrade your Pip library
+4. Upgrade your Pip library
    - `python -m pip install --upgrade pip`
 
-1. Install the latest Nanome Lib with `pip`
+5. Install the latest Nanome Lib with `pip`
    - `pip install nanome`
 
-2. Install the Nanome Loaders Plugin with `pip`
-    - `pip install nanome-loaders`
+6. Install the Nanome Vault Plugin with `pip`
+    - `pip install nanome-vault`
 
 ### Installing Optional Dependencies
 
@@ -66,10 +66,10 @@ Optional dependencies:
    ![](/assets/plugins-page/browse_path.png)
 
 
-## Running Web Loader
+## Running Nanome Vault
 
-Run the Nanome WebLoader plugin with:\
-`nanome-web-loader -a localhost`
+Run the Nanome Vault plugin with:\
+`nanome-vault -a localhost`
 
 The `-a` denotes the address of the Plugin Server IP
 
@@ -78,7 +78,7 @@ The `-a` denotes the address of the Plugin Server IP
 
 ## Web Interface
 
-Once the Web Loader plugin is running, you can visit <http://localhost> in your browser to see the Web Interface.
+Once the Nanome Vault plugin is running, you can visit <http://localhost> in your browser to see the Web Interface.
 
 ![](/assets/plugins-page/nanome-vault/web.png)
 

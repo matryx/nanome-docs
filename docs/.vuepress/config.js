@@ -32,7 +32,7 @@ module.exports = {
         children: [
           '/plugins/overview',
           '/plugins/nanomeplugins',
-          '/plugins/webloader',
+          '/plugins/vault',
           '/plugins/minimization',
           '/plugins/rmsd',
           '/plugins/realtimescoring',
