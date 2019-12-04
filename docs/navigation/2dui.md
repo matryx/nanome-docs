@@ -1,5 +1,5 @@
 ---
-Title: 2D UI
+title: 2D UI
 ---
 
 # 2D UI
