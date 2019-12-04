@@ -4,7 +4,15 @@ title: How To (Coming Soon)
 
 # How To
 
-Coming soon...
+## How to view Windows content in Nanome
+
+![](/assets/gettingStarted-page/oculus-rift-s.png)
+
+When using the Oculus Rift/Rift S or Oculus Link (Quest connected to a desktop), users can take advantage of Oculus Dash to ‘pin’ windows or their entire desktop in VR and Nanome. This means users can view excel sheets, websites, and other 3rd party software while the headset is on. This way, users can seamlessly work in Nanome with their existing desktop apps.
+
+To view the documentation on how to use Oculus Dash please visit the official oculus support page: [https://support.oculus.com/166993604065478/](https://support.oculus.com/166993604065478/)
+
+To view a tutorial on how to use oculus dash to pin windows, we recommend this uploadVR article here: [https://uploadvr.com/oculus-dash-windows-button/](https://uploadvr.com/oculus-dash-windows-button/)
 
 <!--
 ## How to load molecules or workspace
