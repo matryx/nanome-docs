@@ -4,7 +4,7 @@ title: Account Tiers
 
 # Account Tiers
 
-## Peronal
+## Personal
 
 [Download](https://home.nanome.ai/setup)
 - Load structures from RCSB
