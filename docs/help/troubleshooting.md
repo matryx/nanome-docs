@@ -32,3 +32,16 @@ Allowing Traffic to the application
 Additional:
 
 - TCP Ports 8888 & 4530 to 'plugins.nanome.ai'
+
+Oculus for Business Only:
+Firewall 443 outbound connectivity to the following URLs:
+
+https://graph.oculus.com
+https://graph.facebook-hardware.com
+https://graph.facebook.com
+https://mqtt.facebook.com
+https://my.workplace.com
+
+
+Oculus for Business FAQ
+https://developer.oculus.com/documentation/ofb/latest/concepts/ofb-developer-reference/
