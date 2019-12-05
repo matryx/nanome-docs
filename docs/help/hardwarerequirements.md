@@ -6,13 +6,9 @@ title: Hardware Requirements
 
 #### The recommended Virtual Reality Headsets
 
-Oculus Rift-S
+Supported headsets
 
-![](/assets/gettingStarted-page/oculus-rift-s.png)
-
-HTC Vive Pro
-
-![](/assets/gettingStarted-page/vive-pro-eye_full-kit_1.png)
+![](/assets/gettingStarted-page/headsets.png)
 
 Note\*
 We also support the Oculus Rift (CV1), HTC Vive, and the Oculus Quest all-in-one VR headset (in BETA).

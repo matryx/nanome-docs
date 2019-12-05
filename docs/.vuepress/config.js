@@ -49,7 +49,7 @@ module.exports = {
         children: ['/macros/overview']
       },
       {
-        title: 'How To (Coming Soon...)',
+        title: 'How To',
         path: '/howto/',
         collapsable: true,
         sidebarDepth: 1,
@@ -60,7 +60,10 @@ module.exports = {
         path: '/home.nanome.ai/',
         collapsable: true,
         sidebarDepth: 1,
-        children: ['/home.nanome.ai/accounttiers', '/home.nanome.ai/invoice']
+        children: [
+          '/home.nanome.ai/accounttiers', 
+          '/home.nanome.ai/invoice', 
+          '/home.nanome.ai/licenses']
       },
       {
         title: 'Help',
