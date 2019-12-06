@@ -36,11 +36,11 @@ Additional:
 Oculus for Business Only:
 Firewall 443 outbound connectivity to the following URLs:
 
-https://graph.oculus.com
-https://graph.facebook-hardware.com
-https://graph.facebook.com
-https://mqtt.facebook.com
-https://my.workplace.com
+- https://graph.oculus.com
+- https://graph.facebook-hardware.com
+- https://graph.facebook.com
+- https://mqtt.facebook.com
+- https://my.workplace.com
 
 
 Oculus for Business FAQ
