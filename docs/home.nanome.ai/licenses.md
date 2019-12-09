@@ -16,6 +16,11 @@ title: Manage Licenses
 
 ![](/assets/nanome-page/Licenses2.png)
 
+### Step 4: Click on Done once you finish assigning your licenses in order to finalize the changes.
+
+![](/assets/nanome-page/Licenses5.png)
+
+
 ## Assign Licenses
 
 ![](/assets/nanome-page/Licenses3.png)
