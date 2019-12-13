@@ -45,7 +45,7 @@
       </label>
       <label>
         <h3>How did you hear about Nanome?</h3>
-        <select v-model="referer">
+        <select v-model="referrer">
           <option value="" selected disabled></option>
           <option value="Facebook">Facebook</option>
           <option value="Twitter">Twitter</option>
@@ -88,7 +88,7 @@ export default {
     email: "",
     organizationName: "",
     profession: "",
-    referer: "",
+    referrer: "",
     content: "",
     success: false,
     error: ""
@@ -141,8 +141,8 @@ export default {
         comment.body += `Profession: ${this.profession} \n\n`;
       }
 
-      if (this.referer) {
-        comment.body += `Referer: ${this.referer} \n\n`;
+      if (this.referrer) {
+        comment.body += `Referrer: ${this.referrer} \n\n`;
       }
 
       comment.body += `Message: \n ${this.content}`;
