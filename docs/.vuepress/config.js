@@ -78,8 +78,7 @@ module.exports = {
           "/help/faq",
           "/help/contact"
         ]
-      },
-      "/contact"
+      }
     ],
     sidebarDepth: 2,
     lastUpdated: "Last Updated",

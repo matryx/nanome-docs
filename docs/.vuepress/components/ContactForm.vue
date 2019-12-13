@@ -1,64 +1,83 @@
 <template>
-  <form @submit.prevent="onSubmit" class="contact">
-    <label>
-      <h3>First Name <span class="required">*</span></h3>
-      <input v-model="firstName" type="text" required />
-    </label>
-    <label>
-      <h3>Last Name</h3>
-      <input v-model="lastName" type="text" />
-    </label>
-    <label>
-      <h3>Email <span class="required">*</span></h3>
-      <input v-model="email" type="email" />
-    </label>
-    <label>
-      <h3>Organization / Affiliation Name</h3>
-      <input v-model="organizationName" type="text" />
-    </label>
-    <label>
-      <h3>Which of the following do you identify most closely with?</h3>
-      <select v-model="profession">
-        <option value="" selected="" disabled=""></option>
-        <option value="it-professional">IT Professional</option>
-        <option value="computational-chemist">Computational Chemist</option>
-        <option value="structural-biologist">Structural Biologist</option>
-        <option value="medicinal-chemist">Medicinal Chemist</option>
-        <option value="crystallographer">Crystallographer</option>
-        <option value="protein-engineer">Protein Engineer</option>
-        <option value="educator">Educator</option>
-        <option value="student">Student</option>
-        <option value="press">Press</option>
-        <option value="blockchain-enthusiast">Blockchain Enthusiast</option>
-        <option value="government-employee">Government Employee</option>
-        <option value="philanthropist">Philanthropist</option>
-        <option value="other">Other</option>
-      </select>
-    </label>
-    <label>
-      <h3>How did you hear about Nanome?</h3>
-      <select v-model="referer" name="referer">
-        <option value="" selected="" disabled=""></option>
-        <option value="facebook">Facebook</option>
-        <option value="twitter">Twitter</option>
-        <option value="instagram">Instagram</option>
-        <option value="reddit">Reddit</option>
-        <option value="linkedIn">LinkedIn</option>
-        <option value="medium">Medium</option>
-        <option value="friend">Friend</option>
-        <option value="conference">Conference</option>
-        <option value="digital-publication">Digital Publication</option>
-        <option value="other">Other</option>
-      </select>
-    </label>
-    <label>
-      <h3>I'm interested in... <span class="required">*</span></h3>
-      <textarea v-model="content" cols="30" rows="10"></textarea>
-    </label>
-    <button type="submit">
-      <h3>Send</h3>
-    </button>
-  </form>
+  <div>
+    <form v-if="!success" @submit.prevent="onSubmit" class="contact">
+      <h2>
+        Tell us more about yourself and the right team will contact you.
+      </h2>
+      <div class="row">
+        <label>
+          <h3>First Name <span class="required">*</span></h3>
+          <input v-model="firstName" type="text" required />
+        </label>
+        <label style="flex-grow:1">
+          <h3>Last Name</h3>
+          <input v-model="lastName" type="text" />
+        </label>
+      </div>
+      <div class="row">
+        <label>
+          <h3>Email <span class="required">*</span></h3>
+          <input v-model="email" type="email" />
+        </label>
+        <label>
+          <h3>Organization / Affiliation Name</h3>
+          <input v-model="organizationName" type="text" />
+        </label>
+      </div>
+      <label>
+        <h3>Which of the following do you identify most closely with?</h3>
+        <select v-model="profession">
+          <option value="" selected disabled></option>
+          <option value="IT Professional">IT Professional</option>
+          <option value="Computational Chemist">Computational Chemist</option>
+          <option value="Structural Biologist">Structural Biologist</option>
+          <option value="Medicinal-Chemist">Medicinal Chemist</option>
+          <option value="Crystallographer">Crystallographer</option>
+          <option value="Protein Engineer">Protein Engineer</option>
+          <option value="Educator">Educator</option>
+          <option value="Student">Student</option>
+          <option value="Press">Press</option>
+          <option value="Blockchain Enthusiast">Blockchain Enthusiast</option>
+          <option value="Government Employee">Government Employee</option>
+          <option value="Philanthropist">Philanthropist</option>
+          <option value="Other">Other</option>
+        </select>
+      </label>
+      <label>
+        <h3>How did you hear about Nanome?</h3>
+        <select v-model="referer" name="referer">
+          <option value="" selected disabled></option>
+          <option value="Facebook">Facebook</option>
+          <option value="Twitter">Twitter</option>
+          <option value="Instagram">Instagram</option>
+          <option value="Reddit">Reddit</option>
+          <option value="LinkedIn">LinkedIn</option>
+          <option value="Medium">Medium</option>
+          <option value="Friend">Friend</option>
+          <option value="Conference">Conference</option>
+          <option value="Digital-publication">Digital Publication</option>
+          <option value="Other">Other</option>
+        </select>
+      </label>
+      <label>
+        <h3>I'm interested in... <span class="required">*</span></h3>
+        <textarea v-model="content" cols="30" rows="10"></textarea>
+      </label>
+      <div v-if="!success && error" class="error">
+        {{ error }}
+      </div>
+      <button type="submit" :disabled="!!error">
+        <h3>Send</h3>
+      </button>
+    </form>
+    <div v-else>
+      <h3>Your request has was sent!</h3>
+      <p>
+        Your request was received by our staff, we will get back to you shortly
+        by the email your provided.
+      </p>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -71,34 +90,28 @@ export default {
     profession: "",
     referer: "",
     content: "",
-
-    success: true
+    success: false,
+    error: ""
   }),
 
   methods: {
     async onSubmit() {
-      const url = "https://nanome.zendesk.com/api/v2/requests.json";
+      const url = "https://tryston.zendesk.com/api/v2/requests.json";
 
       const request = this.buildRequest();
-
-      const body = JSON.stringify({ request });
-
-      console.log(body);
 
       const res = await fetch(url, {
         method: "POST",
         headers: {
-          "Content-Type": "application/json"
+          "Content-type": "application/json"
         },
-        mode: "no-cors",
-        body
+        body: JSON.stringify({ request })
       });
 
-      console.log(res);
-
-      if (res.status !== 200) {
-        console.error("An error occurred processing your request");
-        return;
+      if (!res.ok) {
+        this.error =
+          "There was an error processing your request. Please try again later.";
+        return (this.success = false);
       }
 
       this.success = true;
@@ -121,18 +134,18 @@ export default {
       requester.email = this.email;
 
       if (this.organizationName) {
-        comment.body += `Organization / Affiliation Name: ${this.organizationName}`;
+        comment.body += `Organization / Affiliation Name: ${this.organizationName} \n\n`;
       }
 
       if (this.profession) {
-        comment.body += `Profession: ${this.profession}`;
+        comment.body += `Profession: ${this.profession} \n\n`;
       }
 
       if (this.referer) {
-        comment.body += `Referer: ${this.referer}`;
+        comment.body += `Referer: ${this.referer} \n\n`;
       }
 
-      comment.body += `Message: ${this.content}`;
+      comment.body += `Message: \n ${this.content}`;
 
       return {
         requester,
@@ -145,6 +158,23 @@ export default {
 </script>
 
 <style scoped>
+.contact h2 {
+  border-bottom: 2px solid #29a1ff;
+  padding: 1rem 0;
+}
+
+.contact .row {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: 1;
+}
+
+@media screen and (min-width: 1000px) {
+  .contact .row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 .contact label {
   display: block;
   margin-bottom: 1rem;
@@ -152,31 +182,44 @@ export default {
 
 .contact h3 {
   margin: 0;
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.5rem;
 }
 
 .contact input,
 .contact textarea,
-.contact select {
+.contact select,
+.contact button {
   display: block;
   width: 100%;
   font-size: 1.1rem;
   padding: 0.5rem;
-  border: 1px solid #2c3e508a;
+  border: 1px solid #2c3e503f;
   box-sizing: border-box;
+  border-radius: 4px;
 }
 
-.contact span.required {
+.contact span.required,
+.contact .error {
   color: #f04040;
+}
+
+.error {
+  margin-bottom: 1rem;
+  font-weight: bold;
 }
 
 .contact button {
   width: 100%;
   padding: 0.5rem;
-  background: #2c3e50;
+  background: #29a1ff;
   color: white;
   border: 0;
   cursor: pointer;
+}
+
+.contact button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
 }
 
 .contact button h3 {

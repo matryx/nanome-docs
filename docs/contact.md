@@ -1,7 +1,0 @@
----
-title: Contact
----
-
-# Contact
-
-<ContactForm />
