@@ -96,7 +96,7 @@ export default {
 
   methods: {
     async onSubmit() {
-      const url = "https://tryston.zendesk.com/api/v2/requests.json";
+      const url = "https://nanome.zendesk.com/api/v2/requests.json";
 
       const request = this.buildRequest();
 
