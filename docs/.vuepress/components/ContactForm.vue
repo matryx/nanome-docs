@@ -9,7 +9,7 @@
           <h3>First Name <span class="required">*</span></h3>
           <input v-model="firstName" type="text" required />
         </label>
-        <label style="flex-grow:1">
+        <label>
           <h3>Last Name</h3>
           <input v-model="lastName" type="text" />
         </label>
@@ -17,7 +17,7 @@
       <div class="row">
         <label>
           <h3>Email <span class="required">*</span></h3>
-          <input v-model="email" type="email" />
+          <input v-model="email" type="email" required />
         </label>
         <label>
           <h3>Organization / Affiliation Name</h3>
@@ -45,7 +45,7 @@
       </label>
       <label>
         <h3>How did you hear about Nanome?</h3>
-        <select v-model="referer" name="referer">
+        <select v-model="referer">
           <option value="" selected disabled></option>
           <option value="Facebook">Facebook</option>
           <option value="Twitter">Twitter</option>
@@ -61,12 +61,12 @@
       </label>
       <label>
         <h3>I'm interested in... <span class="required">*</span></h3>
-        <textarea v-model="content" cols="30" rows="10"></textarea>
+        <textarea v-model="content" cols="30" rows="10" required></textarea>
       </label>
       <div v-if="!success && error" class="error">
         {{ error }}
       </div>
-      <button type="submit" :disabled="!!error">
+      <button type="submit" :disabled="!!error" class="btn">
         <h3>Send</h3>
       </button>
     </form>
@@ -210,16 +210,6 @@ export default {
 
 .contact button {
   width: 100%;
-  padding: 0.5rem;
-  background: #29a1ff;
-  color: white;
-  border: 0;
-  cursor: pointer;
-}
-
-.contact button:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
 }
 
 .contact button h3 {
