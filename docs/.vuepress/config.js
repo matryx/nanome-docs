@@ -53,7 +53,7 @@ module.exports = {
         path: '/howto/',
         collapsable: true,
         sidebarDepth: 1,
-        children: ['/howto/comingsoon']
+        children: ['/howto/howto']
       },
       {
         title: 'home.nanome.ai',
