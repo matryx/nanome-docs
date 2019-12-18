@@ -111,7 +111,8 @@ export default {
       if (!res.ok) {
         this.error =
           "There was an error processing your request. Please try again later.";
-        return (this.success = false);
+        this.success = false;
+        return; 
       }
 
       this.success = true;
