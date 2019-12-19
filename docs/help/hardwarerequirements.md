@@ -8,7 +8,7 @@ title: Hardware Requirements
 
 Supported headsets
 
-![](/assets/gettingStarted-page/headsets.png)
+![](/assets/compressed/gettingStarted-page/headsets.png)
 
 Note\*
 We also support the Oculus Rift (CV1), HTC Vive, and the Oculus Quest all-in-one VR headset (in BETA).
