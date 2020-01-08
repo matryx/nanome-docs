@@ -65,7 +65,7 @@
         <div><b>Processor:</b> i5-4590</div>
         <div><b>Memory:</b> 4 GB RAM</div>
         <div><b>Graphics:</b> NVIDIA GTX 780 (or AMD R9 290)</div>
-        <div><b>Storage:</b> 104 MB</div>
+        <div><b>Storage:</b> 2 GB</div>
       </div>
 
       <div>
