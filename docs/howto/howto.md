@@ -8,15 +8,19 @@ title: How to
 
 When using the Oculus Rift/Rift S or Oculus Link (Quest connected to a desktop), users can take advantage of Oculus Dash to ‘pin’ windows or their entire desktop in VR and Nanome. This means users can view excel sheets, websites, and other 3rd party software while the headset is on. This way, users can seamlessly work in Nanome with their existing desktop apps.
 
-To view the documentation on how to use Oculus Dash please visit the official oculus support page: [https://support.oculus.com/166993604065478/](https://support.oculus.com/166993604065478/)
+To view the documentation on how to use Oculus Dash, please visit the official oculus support page: [https://support.oculus.com/166993604065478/](https://support.oculus.com/166993604065478/)
 
 To view a tutorial on how to use oculus dash to pin windows, we recommend this uploadVR article here: [https://uploadvr.com/oculus-dash-windows-button/](https://uploadvr.com/oculus-dash-windows-button/)
+
+## How to capture 2D videos in Oculus Quest
+
+To view a tutorial on how to capture 2D videos and retrieve them in Oculus Quest, we recommend this uploadVR article here: [https://uploadvr.com/how-to-transfer-screenshots-videos-quest/](https://uploadvr.com/how-to-transfer-screenshots-videos-quest/)
 
 ## How to find the log file of a previous session
 
 ![](/assets/compressed/howto-page/LogFile.png)
 
-If you had a crashed session or encountered any issues in Nanome, you can go to "C:\Users\[USERNAME]\AppData\LocalLow\Nanome Inc\_\Nanome\History" to retrieve the log file and send it to us at support@nanome.ai so that we can help you troubleshoot the problem.
+If you had a crashed session or encountered any issues in Nanome, you can go to "C:\Users\\[USERNAME]\AppData\LocalLow\Nanome Inc\_\Nanome\History" to retrieve the log file and send it to us at support@nanome.ai so that we can help you troubleshoot the problem.
 
 A log file's name follows the format of "YYYY-MM-DD_HH-MM-SS_details.txt" and is determined by the starting time of the session.
 
@@ -24,15 +28,16 @@ A log file's name follows the format of "YYYY-MM-DD_HH-MM-SS_details.txt" and is
 
 ### 1. In the Start menu click Settings, and then enter Firewall in the Find a Setting search box.
 
-![](/assets/compressed/howto-page/Firewall1.png)
-
 ### 2. Click Windows Firewall in the search results. In the resulting Windows Firewall window, click Allow an App or Feature through Windows Firewall.
 
-![](/assets/compressed/howto-page/Firewall2.png)
+![](/assets/howto-page/Firewall1.png)
 
 ### 3. In the Allowed Apps window that appears, click the Change Settings button, and then select the check box for Nanome.
 
+![](/assets/howto-page/Firewall2.png)
+
 If you can't find Nanome in this list, click the Allow another app button, and type in the path to Nanome.exe or click the Browse button and select it.
+![](/assets/howto-page/Firewall3.png)
 
 #### Find Nanome.exe if you installed Nanome using Oculus
 

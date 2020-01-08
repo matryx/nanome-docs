@@ -33,46 +33,51 @@ Optional dependencies:
 
 4. Upgrade your Pip library
 
-   - `python -m pip install --upgrade pip`
+   `python -m pip install --upgrade pip`
 
 5. Install the latest Nanome Lib with `pip`
 
-   - `pip install nanome`
+   `pip install nanome`
 
 6. Install the Nanome Vault Plugin with `pip`
-   - `pip install nanome-vault`
+
+   `pip install nanome-vault`
 
 ### Installing Optional Dependencies
 
+<toggle-section>
+
 1. Install GhostScript
 
-   - <https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs950/gs950w64.exe>
+   <https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs950/gs950w64.exe>
 
-1. Install ImageMagick
+2. Install ImageMagick
 
-   - <https://imagemagick.org/download/binaries/ImageMagick-7.0.9-5-Q16-x64-dll.exe>
+   <https://imagemagick.org/download/binaries/ImageMagick-7.0.9-5-Q16-x64-dll.exe>
 
-1. Install Libre Office
+3. Install Libre Office
 
-   - <https://www.libreoffice.org/donate/dl/win-x86_64/6.3.3/en-US/LibreOffice_6.3.3_Win_x64.msi>
+   <https://www.libreoffice.org/donate/dl/win-x86_64/6.3.3/en-US/LibreOffice_6.3.3_Win_x64.msi>
 
-1. Add Libre Office to the PATH environmental variable
+4. Add Libre Office to the PATH environmental variable
 
-   - Search "env" from the Windows Search Bar and click on the "Edit System Environment Variables" in the control panel.
+   Search "env" from the Windows Search Bar and click on the "Edit System Environment Variables" in the control panel.
 
    ![](/assets/compressed/plugins-page/search_env.png)
 
-   - Click on the "Environment Variables" button
+   Click on the "Environment Variables" button
 
    ![](/assets/compressed/plugins-page/find_env.png)
 
-   - Click the Edit button for the PATH variable
+   Click the Edit button for the PATH variable
 
    ![](/assets/compressed/plugins-page/edit_path.png)
 
-   - Click the Browse button and select LibreOffice/program in the Program Files
+   Click the Browse button and select LibreOffice/program in the Program Files
 
-   ![](/assets/compressed/plugins-page/browse_path.png)
+   ![](/assets/plugins-page/browse_path.png)
+
+</toggle-section>
 
 ## Running Nanome Vault
 
@@ -81,7 +86,7 @@ Run the Nanome Vault plugin with:\
 
 The `-a` denotes the address of the Plugin Server IP
 
-![](/assets/compressed/plugins-page/running_plugin.png)
+![](/assets/plugins-page/running_plugin.png)
 
 ## Web Interface
 
