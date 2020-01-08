@@ -2,11 +2,13 @@
   "scripts": {
     "dev": "npm run docs:dev",
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
+    "docs:build": "npm run docs:compress; vuepress build docs",
     "docs:compress": "node ./docs/.vuepress/compress.js"
   },
   "devDependencies": {
-    "vuepress": "0.14.11",
-    "sharp": "^0.23.4"
+    "imagemin": "^7.0.1",
+    "imagemin-gifsicle": "^6.0.1",
+    "sharp": "^0.23.4",
+    "vuepress": "0.14.11"
   }
 }
