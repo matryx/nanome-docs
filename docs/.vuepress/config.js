@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Nanome Docs',
+  title: 'Docs',
   description: 'Documentation site for Nanome software.',
   head: [['link', { rel: 'icon', href: '/assets/favicon.ico' }]],
   themeConfig: {
@@ -11,7 +11,6 @@ module.exports = {
       '/',
       {
         title: 'Nanome Navigation',
-        path: '/navigation/',
         collapsable: true,
         sidebarDepth: 1,
         children: [
@@ -26,7 +25,6 @@ module.exports = {
       },
       {
         title: 'Nanome Plugins',
-        path: '/plugins/',
         collapsable: true,
         sidebarDepth: 1,
         children: [
@@ -43,31 +41,28 @@ module.exports = {
       },
       {
         title: 'Nanome Macros',
-        path: '/macros/',
         collapsable: true,
         sidebarDepth: 1,
         children: ['/macros/overview']
       },
       {
         title: 'How To',
-        path: '/howto/',
         collapsable: true,
         sidebarDepth: 1,
         children: ['/howto/howto']
       },
       {
         title: 'home.nanome.ai',
-        path: '/home.nanome.ai/',
         collapsable: true,
         sidebarDepth: 1,
         children: [
-          '/home.nanome.ai/accounttiers', 
-          '/home.nanome.ai/invoice', 
-          '/home.nanome.ai/licenses']
+          '/home.nanome.ai/accounttiers',
+          '/home.nanome.ai/invoice',
+          '/home.nanome.ai/licenses'
+        ]
       },
       {
         title: 'Help',
-        path: '/help/',
         collapsable: true,
         sidebarDepth: 1,
         children: [
@@ -85,7 +80,7 @@ module.exports = {
       { text: 'Home', link: '/' },
       { text: 'Nanome.ai', link: 'https://nanome.ai/' },
       { text: 'Download', link: 'https://home.nanome.ai/setup' }
-    ],
-    ga: 'UA-79179574-15'
-  }
+    ]
+  },
+  plugins: [['@vuepress/google-analytics', { ga: 'UA-79179574-15' }]]
 }
