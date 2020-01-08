@@ -2,7 +2,7 @@
   "scripts": {
     "dev": "npm run docs:dev",
     "docs:dev": "vuepress dev docs",
-    "docs:build": "npm run docs:compress; vuepress build docs",
+    "docs:build": "vuepress build docs",
     "docs:compress": "node ./docs/.vuepress/compress.js"
   },
   "devDependencies": {
