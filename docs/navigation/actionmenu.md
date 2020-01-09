@@ -4,7 +4,7 @@ title: Action Menu
 
 # Action Menu
 
-![](/assets/compressed/navigating-page/ActionMenu.jpg)
+<vimg src="navigating-page/ActionMenu.jpg" />
 
 ![](/assets/compressed/navigating-page/ActionMenu.gif)
 

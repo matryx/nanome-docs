@@ -1,7 +1,7 @@
 <template>
   <img
-    src="https://i.imgur.com/GRi9JAU_d.jpg"
-    data-original="https://i.imgur.com/GRi9JAU.png"
+    :src="`/assets/compressed/${src}`"
+    :data-original="`/assets/original/${src}`"
   />
 </template>
 
