@@ -36,21 +36,6 @@ async function compressDir(dir) {
     fs.mkdirSync(`${compressedDir}/${dir}`);
   }
 
-  if (dir) {
-    console.log(`Compressing all images and gifs in ${dir}`);
-  }
-
-  // Compress gifs
-  await imagemin([`docs/.vuepress/public/assets/original/${dir}/*.gif`], {
-    destination: `docs/.vuepress/public/assets/compressed/${dir}`,
-    plugins: [
-      imageminGifsicle({
-        optimizationLevel: 3,
-        colors: 128
-      })
-    ]
-  });
-
   const files = await getFiles(`${assetDir}/${dir}`);
 
   // Loop through all files in dir
@@ -60,7 +45,11 @@ async function compressDir(dir) {
     const format = match[2];
 
     // If file type is a match
-    if (/^(png|jpg|jpeg|)$/.test(format.toLowerCase())) {
+    if (/png|jpg|jpeg/i.test(format)) {
+      if (fs.existsSync(`${compressedDir}${dir}/${fileName}.jpg`)) {
+        continue;
+      }
+
       let image = await sharp(`${assetDir}/${dir}/${files[i]}`);
       const data = await image.metadata();
 
@@ -90,9 +79,32 @@ async function compressDir(dir) {
         .toFormat("jpeg")
         .toFile(`${compressedDir}/${dir}/${fileName}.jpg`);
     }
+
+    // If file type is gif, compress
+    else if (/gif/i.test(format)) {
+      if (fs.existsSync(`${compressedDir}${dir}/${fileName}.gif`)) {
+        continue;
+      }
+
+      await imagemin(
+        [`docs/.vuepress/public/assets/original/${dir}/${fileName}.gif`],
+        {
+          destination: `docs/.vuepress/public/assets/compressed/${dir}`,
+          plugins: [
+            imageminGifsicle({
+              optimizationLevel: 3,
+              colors: 128
+            })
+          ]
+        }
+      );
+    }
+
+    console.log(`- Compressed ${dir}/${files[i]}`);
   }
 }
 
+// Get all directories by directory name
 function getDirs(dirname) {
   return fs
     .readdirSync(dirname, {
@@ -102,6 +114,7 @@ function getDirs(dirname) {
     .map(dirent => dirent.name);
 }
 
+// Get all files by directory name
 function getFiles(dirname) {
   return fs
     .readdirSync(dirname, {
