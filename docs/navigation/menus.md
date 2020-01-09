@@ -24,21 +24,23 @@ Hierachy buttons can be used to navigate the sturcture's substructures such as c
 
 ### Different Viewing Modes (Small, Medium, Large)
 
-![](/assets/navigating-page/Entry-BigIcon.jpg)
 ![](/assets/navigating-page/Entry-SmallIcon.jpg)
-![](/assets/navigating-page/Entry-Atom.jpg)
+![](/assets/navigating-page/Entry-MediumIcon.jpg)
+![](/assets/navigating-page/Entry-BigIcon.jpg)
 
 Different Viewing Modes can be toggled to modify the substructure icon sizes in each menu.
 
 ### Frame Data
 
 ![](/assets/navigating-page/Entry-FrameData.jpg)
+![](/assets/navigating-page/Entry-FrameData2.jpg)
 
 Frame data allows users to navigate and modify different frames of the same structure (Academic and Enterprise only).
 
 ### Electron Density Maps
 
 ![](/assets/features-page/edm.gif)
+![](/assets/navigating-page/Entry-EDM.jpg)
 
 The Electron Density tab shows the configuration of viewing the Electron Density Map of the structure (Academic and Enterprise only).
 
@@ -109,7 +111,7 @@ Delete the selected entities.
 ## Load
 
 Load molecules or structures into your workspace. Supported file formats include:
-.pdb, .cif, .mmcif, .sdf, .mol, .xyz, .mol2, .ccp4, .dsn6, .pse, .nanome, .png, .jpg, .jpeg, .pdf
+.pdb, .cif, .mmcif, .sdf, .mol, .xyz, .mol2, .ccp4, .dsn6, .dcd, .gro, .pqr, .trr, .xtc, .psf, .pse, .nanome, .png, .jpg, .jpeg, .pdf
 
 ### Featured
 

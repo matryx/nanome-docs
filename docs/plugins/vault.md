@@ -9,11 +9,13 @@ The Nanome Vault allows for the distribution of files (PDB, SDF, PDF, PPT, etc.)
 ## Installation (Windows)
 
 Required dependencies:
+
 - Python3 & Pip
 - Nanome Library
 - Nanome Vault Plugin
 
 Optional dependencies:
+
 - Ghostscript (required for pdf support)
 - ImageMagick (required for pdf support)
 - Libre Office (required for pdf, ppt, and odp support)
@@ -21,6 +23,7 @@ Optional dependencies:
 ### Installing Dependencies
 
 1. Install Python
+
    - <https://www.python.org/ftp/python/3.8.0/python-3.8.0.exe>
    - Don’t forget to click the checkbox to add Python3 to PATH
 
@@ -29,42 +32,52 @@ Optional dependencies:
 3. Type `python --version` to verify the version is Python 3.0+
 
 4. Upgrade your Pip library
-   - `python -m pip install --upgrade pip`
+
+   `python -m pip install --upgrade pip`
 
 5. Install the latest Nanome Lib with `pip`
-   - `pip install nanome`
+
+   `pip install nanome`
 
 6. Install the Nanome Vault Plugin with `pip`
-    - `pip install nanome-vault`
+
+   `pip install nanome-vault`
 
 ### Installing Optional Dependencies
 
+<toggle-section>
+
 1. Install GhostScript
-   - <https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs950/gs950w64.exe>
 
-1. Install ImageMagick
-   - <https://imagemagick.org/download/binaries/ImageMagick-7.0.9-5-Q16-x64-dll.exe>
+   <https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs950/gs950w64.exe>
 
-1. Install Libre Office
-   - <https://www.libreoffice.org/donate/dl/win-x86_64/6.3.3/en-US/LibreOffice_6.3.3_Win_x64.msi>
+2. Install ImageMagick
 
-1. Add Libre Office to the PATH environmental variable
-   - Search "env" from the Windows Search Bar and click on the "Edit System Environment Variables" in the control panel.
+   <https://imagemagick.org/download/binaries/ImageMagick-7.0.9-5-Q16-x64-dll.exe>
+
+3. Install Libre Office
+
+   <https://www.libreoffice.org/donate/dl/win-x86_64/6.3.3/en-US/LibreOffice_6.3.3_Win_x64.msi>
+
+4. Add Libre Office to the PATH environmental variable
+
+   Search "env" from the Windows Search Bar and click on the "Edit System Environment Variables" in the control panel.
 
    ![](/assets/plugins-page/search_env.png)
 
-   - Click on the "Environment Variables" button
+   Click on the "Environment Variables" button
 
    ![](/assets/plugins-page/find_env.png)
 
-   - Click the Edit button for the PATH variable
+   Click the Edit button for the PATH variable
 
    ![](/assets/plugins-page/edit_path.png)
 
-   - Click the Browse button and select LibreOffice/program in the Program Files
+   Click the Browse button and select LibreOffice/program in the Program Files
 
    ![](/assets/plugins-page/browse_path.png)
 
+</toggle-section>
 
 ## Running Nanome Vault
 
@@ -74,7 +87,6 @@ Run the Nanome Vault plugin with:\
 The `-a` denotes the address of the Plugin Server IP
 
 ![](/assets/plugins-page/running_plugin.png)
-
 
 ## Web Interface
 
