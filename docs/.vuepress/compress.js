@@ -1,19 +1,19 @@
-const sharp = require("sharp");
-const imagemin = require("imagemin");
-const imageminGifsicle = require("imagemin-gifsicle");
-const fs = require("fs");
+const sharp = require('sharp');
+// const imagemin = require('imagemin');
+// const imageminGifsicle = require('imagemin-gifsicle');
+const fs = require('fs');
 
-const assetDir = __dirname + "/public/assets/original";
-const compressedDir = __dirname + "/public/assets/compressed";
+const assetDir = __dirname + '/public/assets/original';
+const compressedDir = __dirname + '/public/assets/compressed';
 
 const regex = {
   file: /^(.+)\.(.+)$/
 };
 
 (async function() {
-  console.log("Compressing images and gifs");
-  await recursiveCompress("");
-  console.log("Done compressing");
+  console.log('Compressing images and gifs');
+  await recursiveCompress('');
+  console.log('Done compressing');
 })();
 
 async function recursiveCompress(dir) {
@@ -45,7 +45,7 @@ async function compressDir(dir) {
     const format = match[2];
 
     // If file type is a match
-    if (/png|jpg|jpeg/i.test(format)) {
+    if (/png|jpg|jpeg|gif/i.test(format)) {
       if (fs.existsSync(`${compressedDir}${dir}/${fileName}.jpg`)) {
         continue;
       }
@@ -76,29 +76,29 @@ async function compressDir(dir) {
       }
 
       await image
-        .toFormat("jpeg")
+        .toFormat('jpeg')
         .toFile(`${compressedDir}/${dir}/${fileName}.jpg`);
     }
 
     // If file type is gif, compress
-    else if (/gif/i.test(format)) {
-      if (fs.existsSync(`${compressedDir}${dir}/${fileName}.gif`)) {
-        continue;
-      }
+    // if (/gif/i.test(format)) {
+    //   if (fs.existsSync(`${compressedDir}${dir}/${fileName}.gif`)) {
+    //     continue;
+    //   }
 
-      await imagemin(
-        [`docs/.vuepress/public/assets/original/${dir}/${fileName}.gif`],
-        {
-          destination: `docs/.vuepress/public/assets/compressed/${dir}`,
-          plugins: [
-            imageminGifsicle({
-              optimizationLevel: 3,
-              colors: 128
-            })
-          ]
-        }
-      );
-    }
+    //   await imagemin(
+    //     [`docs/.vuepress/public/assets/original/${dir}/${fileName}.gif`],
+    //     {
+    //       destination: `docs/.vuepress/public/assets/compressed/${dir}`,
+    //       plugins: [
+    //         imageminGifsicle({
+    //           optimizationLevel: 3,
+    //           colors: 128
+    //         })
+    //       ]
+    //     }
+    //   );
+    // }
 
     console.log(`- Compressed ${dir}/${files[i]}`);
   }
