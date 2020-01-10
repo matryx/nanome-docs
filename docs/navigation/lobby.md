@@ -78,6 +78,6 @@ By selecting the Configuration button in the Setting tab, users can view the Nan
 
 ## Update Banner
 
-<vimg src="navigating-page/Lobby-UpdateBanner.jpg`" />
+<vimg src="navigating-page/Lobby-UpdateBanner.jpg" />
 
 The update banner features the latest features that are added in the build that the users are in.
