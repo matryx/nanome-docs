@@ -84,6 +84,14 @@ module.exports = {
   },
   plugins: [
     ['@vuepress/google-analytics', { ga: 'UA-79179574-15' }],
-    ['vuepress-plugin-zooming', { delay: 2000 }]
+    [
+      'vuepress-plugin-zooming',
+      {
+        delay: 2000,
+        options: {
+          scaleBase: 0.8
+        }
+      }
+    ]
   ]
 };
