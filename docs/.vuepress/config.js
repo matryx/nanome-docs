@@ -1,86 +1,86 @@
 module.exports = {
-  title: "Docs",
-  description: "Documentation site for Nanome software.",
-  head: [["link", { rel: "icon", href: "/assets/favicon.ico" }]],
+  title: 'Docs',
+  description: 'Documentation site for Nanome software.',
+  head: [['link', { rel: 'icon', href: '/assets/favicon.ico' }]],
   themeConfig: {
     home: true,
-    title: "Documentation",
-    docsDir: "docs",
-    logo: "../assets/features-page/nanome-logo.png",
+    title: 'Documentation',
+    docsDir: 'docs',
+    logo: '../assets/features-page/nanome-logo.png',
     sidebar: [
-      "/",
+      '/',
       {
-        title: "Nanome Navigation",
+        title: 'Nanome Navigation',
         collapsable: true,
         sidebarDepth: 1,
         children: [
-          "/navigation/lobby",
-          "/navigation/environment",
-          "/navigation/menus",
-          "/navigation/wristmenu",
-          "/navigation/actionmenu",
-          "/navigation/toolsmenu",
-          "/navigation/2dui"
+          '/navigation/lobby',
+          '/navigation/environment',
+          '/navigation/menus',
+          '/navigation/wristmenu',
+          '/navigation/actionmenu',
+          '/navigation/toolsmenu',
+          '/navigation/2dui'
         ]
       },
       {
-        title: "Nanome Plugins",
+        title: 'Nanome Plugins',
         collapsable: true,
         sidebarDepth: 1,
         children: [
-          "/plugins/overview",
-          "/plugins/nanomeplugins",
-          "/plugins/vault",
-          "/plugins/minimization",
-          "/plugins/rmsd",
-          "/plugins/realtimescoring",
-          "/plugins/docking",
-          "/plugins/moleculardynamics",
-          "/plugins/createyourown"
+          '/plugins/overview',
+          '/plugins/nanomeplugins',
+          '/plugins/vault',
+          '/plugins/minimization',
+          '/plugins/rmsd',
+          '/plugins/realtimescoring',
+          '/plugins/docking',
+          '/plugins/moleculardynamics',
+          '/plugins/createyourown'
         ]
       },
       {
-        title: "Nanome Macros",
+        title: 'Nanome Macros',
         collapsable: true,
         sidebarDepth: 1,
-        children: ["/macros/overview"]
+        children: ['/macros/overview']
       },
       {
-        title: "How To",
+        title: 'How To',
         collapsable: true,
         sidebarDepth: 1,
-        children: ["/howto/howto"]
+        children: ['/howto/howto']
       },
       {
-        title: "home.nanome.ai",
+        title: 'home.nanome.ai',
         collapsable: true,
         sidebarDepth: 1,
         children: [
-          "/home.nanome.ai/accounttiers",
-          "/home.nanome.ai/invoice",
-          "/home.nanome.ai/licenses"
+          '/home.nanome.ai/accounttiers',
+          '/home.nanome.ai/invoice',
+          '/home.nanome.ai/licenses'
         ]
       },
       {
-        title: "Help",
+        title: 'Help',
         collapsable: true,
         sidebarDepth: 1,
         children: [
           // '/help/howto',
-          "/help/troubleshooting",
-          "/help/hardwarerequirements",
-          "/help/faq",
-          "/help/contact"
+          '/help/troubleshooting',
+          '/help/hardwarerequirements',
+          '/help/faq',
+          '/help/contact'
         ]
       }
     ],
     sidebarDepth: 2,
-    lastUpdated: "Last Updated",
+    lastUpdated: 'Last Updated',
     nav: [
-      { text: "Home", link: "/" },
-      { text: "Nanome.ai", link: "https://nanome.ai/" },
-      { text: "Download", link: "https://home.nanome.ai/setup" }
+      { text: 'Home', link: '/' },
+      { text: 'Nanome.ai', link: 'https://nanome.ai/' },
+      { text: 'Download', link: 'https://home.nanome.ai/setup' }
     ]
   },
-  plugins: [["@vuepress/google-analytics", { ga: "UA-79179574-15" }]]
-};
+  plugins: [['@vuepress/google-analytics', { ga: 'UA-79179574-15' }]]
+}
