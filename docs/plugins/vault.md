@@ -63,15 +63,15 @@ Optional dependencies:
 
    Search "env" from the Windows Search Bar and click on the "Edit System Environment Variables" in the control panel.
 
-   ![](/assets/compressed/plugins-page/search_env.png)
+   <vimg src="plugins-page/search_env.png" />
 
    Click on the "Environment Variables" button
 
-   ![](/assets/compressed/plugins-page/find_env.png)
+   <vimg src="plugins-page/find_env.png" />
 
    Click the Edit button for the PATH variable
 
-   ![](/assets/compressed/plugins-page/edit_path.png)
+   <vimg src="plugins-page/edit_path.png" />
 
    Click the Browse button and select LibreOffice/program in the Program Files
 
@@ -92,7 +92,7 @@ The `-a` denotes the address of the Plugin Server IP
 
 Once the Nanome Vault plugin is running, you can visit <http://localhost> in your browser to see the Web Interface.
 
-![](/assets/compressed/plugins-page/nanome-vault/web.png)
+<vimg src="plugins-page/nanome-vault/web.png" />
 
 ### Folders
 
@@ -102,17 +102,17 @@ The **shared** folder is accessible to all users connected to the plugin, wherea
 
 To log in on the web interface, either click the "log in" next to "Welcome!", or double-click the **account** folder. Enter your Nanome account credentials in the popup that appears and click "log in".
 
-![](/assets/compressed/plugins-page/nanome-vault/web-login.png)
+<vimg src="plugins-page/nanome-vault/web-login.png" />
 
 Once you are logged in, you can use the **account** folder.
 
-![](/assets/compressed/plugins-page/nanome-vault/web-account.png)
+<vimg src="plugins-page/nanome-vault/web-account.png" />
 
 ### Uploading and Managing Files
 
 To upload files, you can either drag and drop a file onto the webpage, or click the upload button.
 
-![](/assets/compressed/plugins-page/nanome-vault/web-upload.png)
+<vimg src="plugins-page/nanome-vault/web-upload.png" />
 
 Try it out! Download a sample PDF and drag-and-drop it into the Web Interface. An example can be found here:\
 <https://drive.google.com/drive/folders/1JU4jVMH6X_uMjN03mIZCpm9rH62UCDVC>
@@ -125,14 +125,14 @@ To delete files or folders, right-click the item and select "delete", and then c
 
 Launch Nanome and create a room. Open the Plugins Menu with the button on the Entry Menu to see your plugin populated.
 
-![](/assets/compressed/plugins-page/nanome-vault/plugin-list.png)
+<vimg src="plugins-page/nanome-vault/plugin-list.png" />
 
 Like the web interface, at the root level there are two folders: **shared** and **account**.
 
-![](/assets/compressed/plugins-page/nanome-vault/plugin.png)
+<vimg src="plugins-page/nanome-vault/plugin.png" />
 
 You can browse and load items from the folder structure by clicking on items in the list.
 
-![](/assets/compressed/plugins-page/nanome-vault/plugin-shared.png)
+<vimg src="plugins-page/nanome-vault/plugin-shared.png" />
 
 To upload structures from your workspace, browse to the directory you want to upload to and click on the "upload here" button. This will prompt you to select a structure. After you select a structure, upload it by selecting the format you want (PDB, SDF, or MMCIF).

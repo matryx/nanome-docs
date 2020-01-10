@@ -19,31 +19,31 @@ Our feature list is the following:
 
 Both VR users and 2D users can collaborate in a virtual space.
 
-![](/assets/compressed/features-page/collaboration.gif)
+<vimg src="features-page/collaboration.gif" />
 
 ## Medicinal Chemistry Toolkit (MedChem)
 
-![](/assets/compressed/features-page/medchem.gif)
+<vimg src="features-page/medchem.gif" />
 
 ## Torsion tool
 
 Users can rotate structures around each other and measure the resulting bond angles and lengths through the torsion tool.
 
-![](/assets/compressed/features-page/measure-torsion.gif)
+<vimg src="features-page/measure-torsion.gif" />
 
 ## Electron Density Maps
 
-![](/assets/compressed/features-page/edm.gif)
+<vimg src="features-page/edm.gif" />
 
 ## Trajectories
 
-![](/assets/compressed/features-page/nanome-gif-downsized_large.gif)
+<vimg src="features-page/nanome-gif-downsized_large.gif" />
 
 ## Tools Menu
 
 Press and hold the Right Hand button to pull up the tools menu to easily switch between your favorite tools.
 
-![](/assets/compressed/features-page/hand-tools.gif)
+<vimg src="features-page/hand-tools.gif" />
 
 ## Molecular Surfaces
 

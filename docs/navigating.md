@@ -94,19 +94,19 @@ In order to join a room, select a room from the lobby.
 
 ## Environment
 
-![](/assets/compressed/features-page/collaboration.gif)
+<vimg src="features-page/collaboration.gif" />
 
 In addition to physically moving around in VR, users can teleport around the environment by pointing to a spot on the floor and clicking and holding with their index finger.
 
 ### Environment Scaling
 
-![](/assets/compressed/navigating-page/Scale_Molecule.gif)
+<vimg src="navigating-page/Scale_Molecule.gif" />
 
 In order to scale the environment or molecular structures, press down on the middle finger 'grip' button on each controller. Next, bring the controllers together to scale the environment smaller or pull them apart to scale the environment larger.
 
 ### Structure Grabbing & Moving
 
-![](/assets/compressed/navigating-page/Grab_Molecule.gif)
+<vimg src="navigating-page/Grab_Molecule.gif" />
 
 In order to grab a structure, reach out and press the middle finger 'grip' button on one of the left or right controllers. Users can also grab structures from a distance by pointing their ray/laser and then pressing the 'grip' button.
 
@@ -114,13 +114,13 @@ Once the structure is grabbed, users can use the joystick or touchpad of their c
 
 ### Entry Menu Grabbing & Scaling
 
-![](/assets/compressed/navigating-page/Grab_Menu.gif)
+<vimg src="navigating-page/Grab_Menu.gif" />
 
-![](/assets/compressed/navigating-page/Scale_Menu.gif)
+<vimg src="navigating-page/Scale_Menu.gif" />
 
 ## Menus
 
-![](/assets/compressed/features-page/nanome-gif-downsized_large.gif)
+<vimg src="features-page/nanome-gif-downsized_large.gif" />
 
 <vimg src="navigating-page/Entry.jpg" />
 
@@ -154,7 +154,7 @@ Frame data allows users to navigate and modify different frames of the same stru
 
 #### Electron Density Maps
 
-![](/assets/compressed/features-page/edm.gif)
+<vimg src="features-page/edm.gif" />
 
 The Electron Density tab shows the configuration of viewing the Electron Density Map of the structure (Academic and Enterprise only).
 
@@ -539,7 +539,7 @@ Change settings such as volumes and environment background.
 
 ## Tools Menu
 
-![](/assets/compressed/features-page/hand-tools.gif)
+<vimg src="features-page/hand-tools.gif" />
 
 Press and hold the menu button to activate the tool selection menu, hover over the desired selection and then release the button. If no selection is made, the hand tool will be chosen by default. If you are using a Vive system, press and hold the touch pad on your right controller to activate the menu. If you are using an Oculus system, press and hold the B button on your right controller to activate the menu.
 
@@ -553,7 +553,7 @@ The Hand Tool is the default state of the hand and allows for basic interaction 
 
 <vimg src="navigating-page/Tool-Measurement.jpg" />
 
-![](/assets/compressed/navigating-page/Measurement_Distance.gif)
+<vimg src="navigating-page/Measurement_Distance.gif" />
 
 Measurement Tool places measurement points and measure the distances and angles between atoms and points of interests.
 
@@ -561,7 +561,7 @@ Measurement Tool places measurement points and measure the distances and angles 
 
 <vimg src="navigating-page/Tool-Selection.jpg" />
 
-![](/assets/compressed/navigating-page/Selection_Residue.gif)
+<vimg src="navigating-page/Selection_Residue.gif" />
 
 Selection Tool selects structures directly in the workspace.
 
@@ -573,7 +573,7 @@ Torsion Tool twists rotatable bonds and changes the dihedral angles between atom
 
 ### MedChem Tools
 
-![](/assets/compressed/features-page/medchem.gif)
+<vimg src="features-page/medchem.gif" />
 
 MedChem Tools enable editing the atoms directly using hands, bundling a rich set of features including atom addition and removal.
 

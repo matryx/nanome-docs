@@ -11,4 +11,4 @@ The selected structures will have their bounding boxes turned on and their energ
 
 The minimization process can be stopped at any time by pressing the Stop button.
 
-![](/assets/compressed/plugins-page/minimization_plugin.png)
+<vimg src="plugins-page/minimization_plugin.png" />

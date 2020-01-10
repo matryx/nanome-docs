@@ -48,7 +48,7 @@ _Launch a local Plugin Server_
 
 Next, we want to launch the Plugin Server locally. Go ahead and launch the NTS.exe file and a command prompt should open with the server running on port 8888.
 
-![](/assets/compressed/plugins-page/runningNTS.png)
+<vimg src="plugins-page/runningNTS.png" />
 
 Now, we want to check to make sure that the Plugin Server is connected. Go ahead and launch Nanome, then log in using your credentials. Create a room and Start in 2D and click on the Plugins Icon on the bottom of the Entry Menu.
 

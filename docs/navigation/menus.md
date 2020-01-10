@@ -4,7 +4,7 @@ title: Main Menus
 
 # Main Menus
 
-![](/assets/compressed/features-page/nanome-gif-downsized_large.gif)
+<vimg src="features-page/nanome-gif-downsized_large.gif" />
 
 <vimg src="navigating-page/Entry.jpg" />
 
