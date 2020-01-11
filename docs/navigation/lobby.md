@@ -4,13 +4,13 @@ title: Lobby
 
 # Lobby
 
-![](/assets/navigating-page/Lobby.jpg)
+<vimg src="navigating-page/Lobby.jpg" />
 
 The Nanome Lobby is where users can sign into an account or sign up. By toggling the 'Remember Me' button, users can automatically be signed in the next time they start Nanome. Users can also start the tutorial by selecting 'Start Tutorial'.
 
 ## Creating an Account
 
-![](/assets/navigating-page/Lobby-Signup.jpg)
+<vimg src="navigating-page/Lobby-Signup.jpg" />
 
 An email address is required to create a Nanome account.
 
@@ -18,17 +18,17 @@ An email address is required to create a Nanome account.
 
 ## Tutorial
 
-![](/assets/navigating-page/Lobby-Tutorial.jpg)
+<vimg src="navigating-page/Lobby-Tutorial.jpg" />
 
 The tutorial consists of 19 levels. Follow the insturctions on the Level Panel and the narrated audio to complete the levels.
 
 ### Navigating the Tutorial Using Level Panels
 
-![](/assets/navigating-page/Lobby-Tutorial-Grab.jpg)
+<vimg src="navigating-page/Lobby-Tutorial-Grab.jpg" />
 
 Users can visit previous levels by selecting the 'back' button on the Level Panel. Users can skip the current tutorial level by selecting the 'Skip' button on the Level Panel.
 
-![](/assets/navigating-page/Lobby-Tutorial-Complete.jpg)
+<vimg src="navigating-page/Lobby-Tutorial-Complete.jpg" />
 
 Users can restart the level by selecting the refresh icon on the left of the Level Panel once a level is complete. Users can move onto the next level by selecting the right arrow on the right of the Level Panel once a level is complete.
 
@@ -36,7 +36,7 @@ Users can restart the level by selecting the refresh icon on the left of the Lev
 
 Refresh, Creating a Room, and Settings
 
-![](/assets/navigating-page/Lobby-Navigation.jpg)
+<vimg src="navigating-page/Lobby-Navigation.jpg" />
 
 ### (1) Refresh
 
@@ -44,7 +44,7 @@ Users can refresh the available room list by selecting the 'Refresh' button at t
 
 ### (2) Creating a Room
 
-![](/assets/navigating-page/Lobby-CreateRoom.jpg)
+<vimg src="navigating-page/Lobby-CreateRoom.jpg" />
 
 There are three Room Types a user can create depending on their Nanome Licence.
 
@@ -54,7 +54,7 @@ Room Types:
 - Private Rooms: A password is set for the room. Available to Academic and Enterprise
 - Single User: Offline mode which no one else can join. Available to Academic and Enterprise
 
-![](/assets/navigating-page/Lobby-ServerTypeAndVersion.jpg)
+<vimg src="navigating-page/Lobby-ServerTypeAndVersion.jpg" />
 
 ### (3) Server Type
 
@@ -66,7 +66,7 @@ Indicates Nanome version
 
 ### (5) Settings
 
-![](/assets/navigating-page/Lobby-Setting.jpg)
+<vimg src="navigating-page/Lobby-Setting.jpg" />
 
 In the Setting tab, users can adjust various settings.
 
@@ -74,11 +74,10 @@ In the Setting tab, users can adjust various settings.
 
 By selecting the Configuration button in the Setting tab, users can view the Nanome Configuration file, which contains additional settings that cannot be controlled directly from within the app. The Configuration file can be located in the same directory as the app build directory.
 
-![](/assets/navigating-page/Lobby-ConfigurationViewer.jpg)
-
+<vimg src="navigating-page/Lobby-ConfigurationViewer.jpg" />
 
 ## Update Banner
 
-![](/assets/navigating-page/Lobby-UpdateBanner.jpg)
+<vimg src="navigating-page/Lobby-UpdateBanner.jpg" />
 
 The update banner features the latest features that are added in the build that the users are in.
