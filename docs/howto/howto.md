@@ -30,14 +30,14 @@ A log file's name follows the format of "YYYY-MM-DD_HH-MM-SS_details.txt" and is
 
 ### 2. Click Windows Firewall in the search results. In the resulting Windows Firewall window, click Allow an App or Feature through Windows Firewall.
 
-![](/assets/howto-page/Firewall1.png)
+<vimg src="howto-page/Firewall1.png" />
 
 ### 3. In the Allowed Apps window that appears, click the Change Settings button, and then select the check box for Nanome.
 
-![](/assets/howto-page/Firewall2.png)
+<vimg src="howto-page/Firewall2.png" />
 
 If you can't find Nanome in this list, click the Allow another app button, and type in the path to Nanome.exe or click the Browse button and select it.
-![](/assets/howto-page/Firewall3.png)
+<vimg src="howto-page/Firewall3.png" />
 
 #### Find Nanome.exe if you installed Nanome using Oculus
 

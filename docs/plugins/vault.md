@@ -75,7 +75,7 @@ Optional dependencies:
 
    Click the Browse button and select LibreOffice/program in the Program Files
 
-   ![](/assets/plugins-page/browse_path.png)
+   <vimg src="plugins-page/browse_path.png" />
 
 </toggle-section>
 
@@ -86,7 +86,7 @@ Run the Nanome Vault plugin with:\
 
 The `-a` denotes the address of the Plugin Server IP
 
-![](/assets/plugins-page/running_plugin.png)
+<vimg src="plugins-page/running_plugin.png" />
 
 ## Web Interface
 

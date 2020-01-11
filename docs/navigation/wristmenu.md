@@ -42,6 +42,6 @@ Change settings such as volumes and environment background.
 
 ## Screenshot Tool
 
-![](/assets/navigating-page/Wrist-ScreenshotTool.gif)
+<vimg src="navigating-page/Wrist-ScreenshotTool.gif" />
 
 Use the screenshot tool to take a screenshot of your workspace and send it via email.
