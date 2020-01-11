@@ -31,7 +31,7 @@ Yes, Nanome has a 2D desktop mode for users without VR devices. In 2D mode, user
 - Windows 10 Operating System
 
 ## Can I use Nanome on Mac/Linux?
-Nanome does not currently support Mac or Linux. Windows is the primary operating system for using VR headsets and represents the best way to use Nanome. Additionally, Nanome is compatible with the Oculus Quest mobile headset. 
+Nanome does not currently support Mac or Linux. Windows is the primary operating system for using VR headsets and represents the best way to use Nanome. Additionally, Nanome is compatible with the Oculus Quest mobile headset.
 
 ## Do I need Internet connection to use Nanome?
 A stable Internet connection is highly recommended when using Nanome, especially when collaborating with other users. Access to the web is also necessary to download structures from databases like RCSB and DrugBank Databases. For solo users with structures stored on their local machines, internet access is not required.
@@ -39,10 +39,10 @@ A stable Internet connection is highly recommended when using Nanome, especially
 ## How many users can join a Nanome session at the same time?
 Nanome currently supports up to 20 collaborators in a room. Soon, more spectators will be able to join in 3D.
 
-## What file formats doe Nanome support? How can I import them?
+## What file formats does Nanome support? How can I import them?
 Nanome supports .pdb, .sdf, and features limited compatibility with other atomic coordinate files, like .cif. While .pdb or .sdf format are the most stable formats, we are always improving our parser’s ability to handle anomalies.
 
-An exhaustive list of supported file formats includes: pdb, .cif, .mmcif, .sdf, .mol, .xyz, .mol2, .ccp4, .dsn6, .dcd, .gro, .pqr, .trr, .xtc, .psf, .pse, .nanome, .png, .jpg, .jpeg, .pdf
+An exhaustive list of supported file formats includes: .pdb, .cif, .mmcif, .sdf, .mol, .xyz, .mol2, .ccp4, .dsn6, .dcd, .gro, .pqr, .trr, .xtc, .psf, .pse, .nanome, .png, .jpg, .jpeg, .pdf
 
 Structures may be imported directly from RCSB Protein Data Bank, PubChem, DrugBank, and other online databases from the VR Molecular Loading Menu.
 
@@ -58,7 +58,7 @@ Currently, plugins are only available with an Enterprise license. We may open up
 A limited version of Nanome is free for all users which can be downloaded at any major Virtual Reality store including [Oculus](https://nanome.ai/pricing/), [Steam](https://nanome.ai/pricing/), and [VivePort](https://www.viveport.com/apps/0a467f78-2ed2-43eb-ada8-9d677d5acf54/Nanome/), or directly from [https://home.nanome.ai/setup](https://home.nanome.ai/setup). Licenses for premium capabilities can be purchased from the Nanome website [https://nanome.ai/pricing/](https://nanome.ai/pricing/). 
 
 ## Do you have a site subscription license?
-Yes, for Nanome site licenses please contact sales@nanome.ai	
+Yes, for Nanome site licenses please contact sales@nanome.ai
 
 ## What services do you offer once I purchase a license? [Enterprise Only]
 We provide full support for private data security, database integration, computational plugin integration, plugin development and customization.
