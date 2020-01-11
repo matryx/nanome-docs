@@ -16,7 +16,8 @@ We also support the Oculus Rift (CV1), HTC Vive, and the Oculus Quest all-in-one
 #### The recommended specs for desktop computer:
 
 - Intel i7 or Xeon
-- GTX 1070 GPU, 1080, 1080Ti, Titan Xp 8GB RAM
+- GTX 1070 GPU, 1080, 1080Ti, Titan Xp 
+- 8GB RAM
 - 256 GB SSD
 - Windows 10 Operating System
 

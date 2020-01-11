@@ -20,7 +20,10 @@ title: Troubleshooting
 
 ## Having Trouble Logging into Nanome?
 
-#### Required Ports for Firewall
+#### Allow Nanome through firewall
+[How to allow Nanome through Windows Firewall](https://docs.nanome.ai/howto/howto.html#how-to-allow-nanome-through-windows-firewall)
+
+#### Open these ports for Firewall
 
 Allowing Traffic to the application
 
@@ -28,6 +31,7 @@ Allowing Traffic to the application
 - TCP Ports 80 & 443 open for ‘nanome.ai’
 - TCP Ports 80 & 443 open for ‘api.nanome.ai’
 - TCP Ports 80 & 443 open for ‘home.nanome.ai’
+
 
 Additional:
 
@@ -43,5 +47,5 @@ Firewall 443 outbound connectivity to the following URLs:
 - https://my.workplace.com
 
 
-Oculus for Business FAQ
-https://developer.oculus.com/documentation/ofb/latest/concepts/ofb-developer-reference/
+Oculus for Business FAQ  
+[https://developer.oculus.com/documentation/ofb/latest/concepts/ofb-developer-reference/](https://developer.oculus.com/documentation/ofb/latest/concepts/ofb-developer-reference/)
