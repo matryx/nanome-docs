@@ -56,13 +56,10 @@
       <a class="btn" href="https://home.nanome.ai/setup" target="_blank">
         Download Nanome
       </a>
+      <img class="headsets" src="/assets/original/gettingStarted-page/headsets.png" alt="headsets" />
     </div>
 
     <div class="requirements">
-      <div>
-        <img src="/assets/original/gettingStarted-page/headsets.png" alt="headsets" />
-      </div>
-
       <div>
         <h3><a href="https://docs.nanome.ai/help/hardwarerequirements.html">Minimum Requirements</a></h3>
         <div><b>Operating System:</b> Windows 10</div>
@@ -109,11 +106,14 @@
   margin: 0 0 1rem;
 }
 
-.landing-page .featured h3 {
+.landing-page .featured h3,
+.landing-page .headsets {
   margin: 1rem 0 0;
 }
 
 .landing-page .requirements {
+  display: flex;
+  justify-content: center;
   margin: 0 auto;
   margin-bottom: 2em;
 }
