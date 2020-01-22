@@ -16,6 +16,10 @@ To view a tutorial on how to use oculus dash to pin windows, we recommend this u
 
 To view a tutorial on how to capture 2D videos and retrieve them in Oculus Quest, we recommend this uploadVR article here: [https://uploadvr.com/how-to-transfer-screenshots-videos-quest/](https://uploadvr.com/how-to-transfer-screenshots-videos-quest/)
 
+## How to capture mixed reality video on an Oculus system
+
+To view a tutorial on how to capture mixed reality videos on an Oculus system, we recommend this VRfocus article here: [https://www.vrfocus.com/2017/07/a-guide-to-mixed-reality-capture-on-oculus-rift](https://www.vrfocus.com/2017/07/a-guide-to-mixed-reality-capture-on-oculus-rift)
+
 ## How to find the log file of a previous session
 
 <vimg src="howto-page/LogFile.png" />

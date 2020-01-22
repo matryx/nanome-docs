@@ -60,6 +60,10 @@
 
     <div class="requirements">
       <div>
+        <img src="/assets/original/gettingStarted-page/headsets.png" alt="headsets" />
+      </div>
+
+      <div>
         <h3><a href="https://docs.nanome.ai/help/hardwarerequirements.html">Minimum Requirements</a></h3>
         <div><b>Operating System:</b> Windows 10</div>
         <div><b>Processor:</b> i5-4590</div>
