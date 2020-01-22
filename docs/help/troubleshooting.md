@@ -21,8 +21,31 @@ title: Troubleshooting
 ## Having Trouble Logging into Nanome?
 
 #### Allow Nanome through firewall
-[How to allow Nanome through Windows Firewall](https://docs.nanome.ai/howto/howto.html#how-to-allow-nanome-through-windows-firewall)
 
+### 1. In the Start menu click Settings, and then enter Firewall in the Find a Setting search box.
+
+### 2. Click Windows Firewall in the search results. In the resulting Windows Firewall window, click Allow an App or Feature through Windows Firewall.
+![](/assets/howto-page/Firewall1.png)
+
+### 3. In the Allowed Apps window that appears, click the Change Settings button, and then select the check box for Nanome.
+![](/assets/howto-page/Firewall2.png)
+
+If you can't find Nanome in this list, click the Allow another app button, and type in the path to Nanome.exe or click the Browse button and select it.
+![](/assets/howto-page/Firewall3.png)
+
+#### Find Nanome.exe if you installed Nanome using Oculus
+
+![](/assets/howto-page/Path_Oculus0.png)
+![](/assets/howto-page/Path_Oculus1.png)
+If you installed Nanome using Oculus, click on the three dots button and click Details. You can find the location of Nanome to the right.
+
+#### Find Nanome.exe if you installed Nanome using Steam
+
+![](/assets/howto-page/Path_Steam0.png)
+![](/assets/howto-page/Path_Steam1.png)
+If you installed Nanome using Steam, right click on Nanome in the library and click Properties. Select Local Files tab and click Browse Local Files to open the folder containing Nanome.
+
+### 4. Click OK and then click the Close button to close the Windows Firewall window.
 #### Open these ports for Firewall
 
 Allowing Traffic to the application
