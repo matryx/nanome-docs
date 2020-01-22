@@ -6,7 +6,7 @@ module.exports = {
     home: true,
     title: 'Documentation',
     docsDir: 'docs',
-    logo: '../assets/features-page/nanome-logo.png',
+    logo: '../assets/original/features-page/nanome-logo.png',
     sidebar: [
       '/',
       {
@@ -82,5 +82,16 @@ module.exports = {
       { text: 'Download', link: 'https://home.nanome.ai/setup' }
     ]
   },
-  plugins: [['@vuepress/google-analytics', { ga: 'UA-79179574-15' }]]
+  plugins: [
+    ['@vuepress/google-analytics', { ga: 'UA-79179574-15' }],
+    [
+      'vuepress-plugin-zooming',
+      {
+        delay: 2000,
+        options: {
+          scaleBase: 0.8
+        }
+      }
+    ]
+  ]
 }

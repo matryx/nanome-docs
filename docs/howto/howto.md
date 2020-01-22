@@ -4,7 +4,7 @@ title: How to
 
 ## How to view Windows content in Nanome
 
-![](/assets/howto-page/WindowsContent.gif)
+<vimg src="howto-page/WindowsContent.gif" />
 
 When using the Oculus Rift/Rift S or Oculus Link (Quest connected to a desktop), users can take advantage of Oculus Dash to ‘pin’ windows or their entire desktop in VR and Nanome. This means users can view excel sheets, websites, and other 3rd party software while the headset is on. This way, users can seamlessly work in Nanome with their existing desktop apps. However, please note that this pinned window is not visible to other users in the same room. If you want to collaboratively view a PDF file with your colleague in Nanome, please [load](https://docs.nanome.ai/navigation/menus.html#load) the PDF file into your workspace.
 
@@ -18,7 +18,7 @@ To view a tutorial on how to capture 2D videos and retrieve them in Oculus Quest
 
 ## How to find the log file of a previous session
 
-![](/assets/howto-page/LogFile.png)
+<vimg src="howto-page/LogFile.png" />
 
 If you had a crashed session or encountered any issues in Nanome, you can go to "C:\Users\\[USERNAME]\AppData\LocalLow\Nanome Inc_\Nanome\History" to retrieve the log file and send it to us at support@nanome.ai so that we can help you troubleshoot the problem.
 

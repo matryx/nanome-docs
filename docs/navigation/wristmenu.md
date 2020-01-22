@@ -4,13 +4,13 @@ title: Wrist Menu
 
 # Wrist Menu
 
-![](/assets/navigating-page/Wrist.jpg)
+<vimg src="navigating-page/Wrist.jpg" />
 
 Wrist menu contains access to features independent from the content of the workspace such as quick menu access, room management.
 
 ## Quick Menus
 
-![](/assets/navigating-page/Wrist-QuickMenus.jpg)
+<vimg src="navigating-page/Wrist-QuickMenus.jpg" />
 
 Toggle on and off each menu quickly or all at once.
 
@@ -18,30 +18,30 @@ Toggle on and off each menu quickly or all at once.
 
 - Manage Users
 
-![](/assets/navigating-page/Wrist-Room-ManageUsers.jpg)
+<vimg src="navigating-page/Wrist-Room-ManageUsers.jpg" />
 
 Manage users by giving them the presenter privilage or teleporting them.
 
 - Presenter Requests
 
-![](/assets/navigating-page/Wrist-Room-PresenterRequests.jpg)
+<vimg src="navigating-page/Wrist-Room-PresenterRequests.jpg" />
 
 View the presenter requests and grant presenter priviledge.
 
 ## Menu Layouts
 
-![](/assets/navigating-page/Wrist-Menu.jpg)
+<vimg src="navigating-page/Wrist-Menu.jpg" />
 
 Quickly manage the enabled menus and format them in certain layouts.
 
 ## Settings
 
-![](/assets/navigating-page/Wrist-AdvancedSettings.jpg)
+<vimg src="navigating-page/Wrist-AdvancedSettings.jpg" />
 
 Change settings such as volumes and environment background.
 
 ## Screenshot Tool
 
-![](/assets/navigating-page/Wrist-ScreenshotTool.gif)
+<vimg src="navigating-page/Wrist-ScreenshotTool.gif" />
 
 Use the screenshot tool to take a screenshot of your workspace and send it via email.
