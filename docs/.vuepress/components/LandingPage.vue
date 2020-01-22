@@ -60,7 +60,7 @@
 
     <div class="requirements">
       <div>
-        <h3>Minimum Requirements</h3>
+        <h3><a href="https://docs.nanome.ai/help/hardwarerequirements.html">Minimum Requirements</a></h3>
         <div><b>Operating System:</b> Windows 10</div>
         <div><b>Processor:</b> i5-4590</div>
         <div><b>Memory:</b> 4 GB RAM</div>
@@ -69,7 +69,7 @@
       </div>
 
       <div>
-        <h3>Recommended Requirements</h3>
+        <h3><a href="https://docs.nanome.ai/help/hardwarerequirements.html">Recommended Requirements</a></h3>
         <div><b>Operating System:</b> Windows 10</div>
         <div><b>Processor:</b> Intel i7</div>
         <div><b>Memory:</b> 8 GB RAM</div>
