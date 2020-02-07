@@ -29,7 +29,6 @@ module.exports = {
         sidebarDepth: 1,
         children: [
           '/plugins/overview',
-          '/plugins/nanomeplugins',
           '/plugins/vault',
           '/plugins/minimization',
           '/plugins/rmsd',

@@ -32,7 +32,7 @@ Please contact sales@nanome.ai for the Nanome Plugin Server (NTS.exe)
 
 ## Setting Up
 
-_Editing the Config File_
+#### Editing the Config File
 
 First, you want to locate the Config file (nanome-config.ini) of the Nanome Application in the builds folder.
 If you downloaded Nanome through the Oculus store, it will be available here:
@@ -44,7 +44,7 @@ Open the nanome-config.ini file in a text editor and scroll down to the section 
 Plugin-server-addr = 127.0.0.1
 Plugin-server-port = 8888
 
-_Launch a local Plugin Server_
+#### Launch a local Plugin Server
 
 Next, we want to launch the Plugin Server locally. Go ahead and launch the NTS.exe file and a command prompt should open with the server running on port 8888.
 
@@ -53,3 +53,17 @@ Next, we want to launch the Plugin Server locally. Go ahead and launch the NTS.e
 Now, we want to check to make sure that the Plugin Server is connected. Go ahead and launch Nanome, then log in using your credentials. Create a room and Start in 2D and click on the Plugins Icon on the bottom of the Entry Menu.
 
 You should see that the NTS is connected and there are no current running plugins. If it says that “No NTS is connected”, that means it is unable to see the Plugin server and it is entered incorrectly on the Config file or in the Admin settings for home.nanome.ai.
+
+## Nanome Plugins
+
+The following is the list of plugins made by Nanome to date.
+
+- [Vault](vault.md)
+- [Minimization](minimization.md)
+- [RMSD](rmsd.md)
+- [Real-time Scoring](realtimescoring.md)
+- [Docking](docking.md)
+- [Molecular Dynamics](moleculardynamics.md)
+- Chemical Properties prediction using RDKit
+- OpenMM Molecular Dynamics Simulations
+
