@@ -2,6 +2,18 @@
 title: How to
 ---
 
+## How to export a molecule for future access or other softwares
+
+1. Select the structure you want to save.
+2. On the Entry List menu, click the ["Export" button](https://docs.nanome.ai/navigation/menus.html#export)
+3. On the menu that appears after clicking Export, select where on your computer you want to save the structure (Desktop or Documents), and then select the file format you want to export to (pdb, sdf, or mmcif).
+
+## How to load a structure stored on local computer
+
+1. Go to the [Load menu](https://docs.nanome.ai/navigation/menus.html#load).
+2. Click on [Files](https://docs.nanome.ai/navigation/menus.html#my-files) and then select the location (Desktop or Documents) where you saved the structure.
+3. You should then see the filename for the structure you saved. Click on the file, then click "load files".
+
 ## How to view Windows content in Nanome
 
 <vimg src="howto-page/WindowsContent.gif" />

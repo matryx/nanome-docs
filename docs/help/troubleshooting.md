@@ -92,6 +92,10 @@ If you installed Nanome using Steam, right click on Nanome in the library and cl
 
 [How to fix Oculus audio](https://support.oculus.com/948087951934283/)
 
+#### Vive Audio Troubleshooting
+
+[How to fix Vive audio](https://www.vive.com/uk/support/vive/category_howto/no-audio-while-using-extension-cable.html)
+
 #### Nanome Audio Troubleshooting
 
 [My Windows and Oculus audio are working, but I can't hear anything in Nanome](https://docs.nanome.ai/navigating.html#settings)
