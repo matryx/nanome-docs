@@ -102,6 +102,13 @@ Export the selected structures in a generic format.
 
 Align the selected entities and place them in the same position under the same coordinate system. Caution: this does not necessarily align the entities by their atom position, and the entities could end up not overlapping after the alignment.
 
+### Sequence
+
+<vimg src="navigating-page/Entry-Sequence.jpg" />
+<vimg src="navigating-page/Entry-SequenceMenu.jpg" />
+
+View the seqences of multiple chains and align them.
+
 ### Delete
 
 <vimg src="navigating-page/Entry-Delete.jpg" />
@@ -318,6 +325,12 @@ Edit the selected structures by applying actions from the buttons.
 <vimg src="navigating-page/Modify-Compute.jpg" />
 
 Apply certain computations on the selected structures and modify them according to the result.
+
+- Calculate Clashes
+
+<vimg src="navigating-page/Modify-Compute-Clashes.jpg" />
+
+Config the tolerance of atom clashes.
 
 - Calculate Hbond
 
