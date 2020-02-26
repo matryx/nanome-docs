@@ -17,7 +17,7 @@ The Load, Plugin, Display, Color, Modify, Select, and Macro Menus can be display
 ## Hierarchy Menu
 
 <vimg src="navigating-page/Entry-Hierarchy.jpg" />
-<vimg src="navigating-page/Entry-List.jpg" />
+<vimg src="navigating-page/Entry-HierarchyMenu.jpg" />
 
 Hierarchy menus lists out the component of an entity, such as chains and residues, in hierarchical levels.
 
