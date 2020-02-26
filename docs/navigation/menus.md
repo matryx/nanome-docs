@@ -6,23 +6,22 @@ title: Main Menus
 
 <vimg src="features-page/nanome-gif-downsized_large.gif" />
 
+# Entry List
+
 <vimg src="navigating-page/Entry.jpg" />
-
-The Load, Plugin, Display, Color, Modify, Select, and Macro Menus can be displayed by clicking their respective icons located at the bottom of the Entry Menu.
-
-## Entry List
-
-<vimg src="navigating-page/Entry-List.jpg" />
 
 The Entry List is a list of all of the structures that have been loaded into the environment.
 
-### Hierarchy Buttons
+The Load, Plugin, Display, Color, Modify, Select, and Macro Menus can be displayed by clicking their respective icons located at the bottom of the Entry List.
+
+## Hierarchy Menu
 
 <vimg src="navigating-page/Entry-Hierarchy.jpg" />
+<vimg src="navigating-page/Entry-List.jpg" />
 
-Hierachy buttons can be used to navigate the sturcture's substructures such as chains and residues.
+Hierarchy menus lists out the component of an entity, such as chains and residues, in hierarchical levels.
 
-### Different Viewing Modes (Small, Medium, Large)
+### Different Browsing Modes (Small, Medium, Large)
 
 <vimg src="navigating-page/Entry-SmallIcon.jpg" />
 <vimg src="navigating-page/Entry-MediumIcon.jpg" />
@@ -184,7 +183,7 @@ Show atoms in thin Van Der Waals visual and hide bonds.
 
 <vimg src="navigating-page/Display-Atom-Adaptive.jpg" />
 
-Show atoms with radius proportion to their b-factor value and hide bonds.
+Show atoms with radius proportion to their color value and hide bonds.
 
 - Ball & Stick
 
@@ -212,7 +211,7 @@ Show ribbon in uniform tube visual.
 
 <vimg src="navigating-page/Display-Ribbon-Putty.jpg" />
 
-Show ribbon in tube with widths proportion to the atoms' b-factor value.
+Show ribbon in tube with widths proportion to the atoms' color value.
 
 ### Surface
 

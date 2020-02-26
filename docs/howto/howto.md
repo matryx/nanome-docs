@@ -5,7 +5,7 @@ title: How to
 ## How to export a molecule for future access or other softwares
 
 1. Select the structure you want to save.
-2. On the Entry List menu, click the ["Export" button](https://docs.nanome.ai/navigation/menus.html#export)
+2. On the Entry List menu, click the [Export button](https://docs.nanome.ai/navigation/menus.html#export)
 3. On the menu that appears after clicking Export, select where on your computer you want to save the structure (Desktop or Documents), and then select the file format you want to export to (pdb, sdf, or mmcif).
 
 ## How to load a structure stored on local computer
@@ -13,6 +13,61 @@ title: How to
 1. Go to the [Load menu](https://docs.nanome.ai/navigation/menus.html#load).
 2. Click on [Files](https://docs.nanome.ai/navigation/menus.html#my-files) and then select the location (Desktop or Documents) where you saved the structure.
 3. You should then see the filename for the structure you saved. Click on the file, then click "load files".
+
+## How to open the Frame Menu and execute frame operations
+
+Find the entity containing multiple frames that you have loaded on the [Entry Menu](https://docs.nanome.ai/navigation/menus.html#main-menus). Click on the second button from the right on the same row. This is the [Frame Menu](https://docs.nanome.ai/navigation/menus.html#frame-data) Button.
+
+#### How to change frame
+
+Click on the arrow buttons on the left side of the [Frame Menu](https://docs.nanome.ai/navigation/menus.html#frame-data) to change frame.
+
+#### How to duplicate a frame 
+
+Click on the Duplicate Frame button on the right side of the [Frame Menu](https://docs.nanome.ai/navigation/menus.html#frame-data) to change frame.
+
+#### How to swap molecules from the list of frames
+
+1. Click on the Frames Tab Button on the top left to switch to the Frames Tab.
+2. Click on one of the models in the list to switch to that molecule.
+
+#### How to show meta data on frame
+
+Click on the Meta Data Tab Button on the top right to switch to Meta Data Tab.
+
+## How to access the MedChem tool and build molecules
+
+Hold down the B Button on the right controller to bring up the [Tool Menu](https://docs.nanome.ai/navigation/toolsmenu.html#tool-menu), hover the ray over the [MedChem Tool](https://docs.nanome.ai/navigation/toolsmenu.html#medchem-tools) button to the bottom left and release B button.
+
+#### How to open the library of molecules 
+
+Click on the [Build Menu](https://docs.nanome.ai/navigation/toolsmenu.html#build) Tab Button on the top right of the MedChem menu on the left hand
+
+#### How to build molecules using the MedChem tool
+
+1. Click on a structure on the [Build menu](https://docs.nanome.ai/navigation/toolsmenu.html#build) to select it for placement.
+2. Overlap the structure on the right controller with an atom on the ligand. Once a yellow outline encloese the atom(s) that you want to build on, press down trigger button on your right controller in order to place the structure.
+
+## How to use the Measurement tool
+
+1. Hold down the B Button on the right controller to bring up the [Tool Menu](https://docs.nanome.ai/navigation/toolsmenu.html#tool-menu), hover the ray over the [Measurement Tool](https://docs.nanome.ai/navigation/toolsmenu.html#measurement-tool) button to the top right and release B button
+2. Overlap the tip of the tool with the atom that you want to measure and press trigger on the right hand controller to place a measurement point.
+3. Do the same action for another atom in order to create a distance measurement between the two atoms
+
+## How to change the color of your avatar
+
+VR: 
+
+1.Press the Y Button on the left controller to bring up the [Action Menu](https://docs.nanome.ai/navigation/actionmenu.html#action-menu).
+
+Desktop: 
+
+1.Right-click anywhere in the window.  
+
+2.Click on the Settings Button at the bottom of the [Action Menu](https://docs.nanome.ai/navigation/actionmenu.html#action-menu) to open Settings Submenu.
+3.Click on the Change My Color button to change avatar color.
+
+
 
 ## How to view Windows content in Nanome
 
