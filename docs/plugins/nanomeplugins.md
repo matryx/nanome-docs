@@ -12,5 +12,5 @@ The following is the list of plugins Nanome itself has created to date.
 - [Real-time Scoring](realtimescoring.md)
 - [Docking](docking.md)
 - [Molecular Dynamics](moleculardynamics.md)
-- Chemical Properties prediction using RDKit
+- [Chemical Properties](chemicalproperties.md)
 - OpenMM Molecular Dynamics Simulations

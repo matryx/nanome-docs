@@ -35,6 +35,7 @@ module.exports = {
           '/plugins/realtimescoring',
           '/plugins/docking',
           '/plugins/moleculardynamics',
+          '/plugins/chemicalproperties',
           '/plugins/createyourown'
         ]
       },
