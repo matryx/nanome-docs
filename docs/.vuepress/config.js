@@ -36,6 +36,7 @@ module.exports = {
           '/plugins/docking',
           '/plugins/moleculardynamics',
           '/plugins/chemicalproperties',
+          '/plugins/structureprep',
           '/plugins/createyourown'
         ]
       },

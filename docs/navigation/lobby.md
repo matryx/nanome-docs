@@ -14,7 +14,7 @@ The Nanome Lobby is where users can sign into an account or sign up. By toggling
 
 An email address is required to create a Nanome account.
 
-**Terms & Conditions**: https://nanome.ai/terms/
+**Terms & Conditions**: [https://nanome.ai/terms/](https://nanome.ai/terms/)
 
 ## Tutorial
 
