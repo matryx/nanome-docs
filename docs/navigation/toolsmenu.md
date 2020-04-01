@@ -54,6 +54,10 @@ Offers options to quickly access binding sites and config the auxiliary features
 
 Select a substructure from the build menu and build it on top of existing atoms using medchem tool.
 
+<vimg src="navigating-page/Medchem-Place.jpg" />
+
+Hold down trigger at an empty space to place a new structure.
+
 ## Periodic Table
 
 <vimg src="navigating-page/Medchem-PeriodicTable.jpg" />

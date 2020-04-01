@@ -89,11 +89,11 @@ Discard the current workspace and create a new one.
 
 <vimg src="navigating-page/Entry-Export.jpg" />
 
-Export
+Export Configuration
 
 <vimg src="navigating-page/Entry-ExportLocation.jpg" />
 
-Export the selected structures in a generic format.
+Export the selected structures in a desired format.
 
 ### Align
 
@@ -321,9 +321,15 @@ Edit the selected structures by applying actions from the buttons.
 
 ### Compute
 
-<vimg src="navigating-page/Modify-Compute.jpg" />
+<vimg src="navigating-page/Modify-Comput.jpg" />
 
 Apply certain computations on the selected structures and modify them according to the result.
+
+- Calculate ESP
+
+<vimg src="navigating-page/Modify-ESP.jpg" />
+
+Generate the Electron Potential Map of the selected structure.
 
 - Calculate Clashes
 
