@@ -20,7 +20,8 @@ module.exports = {
           '/navigation/wristmenu',
           '/navigation/actionmenu',
           '/navigation/toolsmenu',
-          '/navigation/2dui'
+          '/navigation/2dui',
+          '/navigation/voicecommand'
         ]
       },
       {
