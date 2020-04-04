@@ -18,20 +18,20 @@ title: How to
 
 Find the entity containing multiple frames that you have loaded on the [Entry Menu](https://docs.nanome.ai/navigation/menus.html#main-menus). Click on the second button from the right on the same row. This is the [Frame Menu](https://docs.nanome.ai/navigation/menus.html#frame-data) Button.
 
-#### How to change frame
+### How to change frame
 
 Click on the arrow buttons on the left side of the [Frame Menu](https://docs.nanome.ai/navigation/menus.html#frame-data) to change frame.
 
-#### How to duplicate a frame 
+### How to duplicate a frame 
 
 Click on the Duplicate Frame button on the right side of the [Frame Menu](https://docs.nanome.ai/navigation/menus.html#frame-data) to change frame.
 
-#### How to swap molecules from the list of frames
+### How to swap molecules from the list of frames
 
 1. Click on the Frames Tab Button on the top left to switch to the Frames Tab.
 2. Click on one of the models in the list to switch to that molecule.
 
-#### How to show meta data on frame
+### How to show meta data on frame
 
 Click on the Meta Data Tab Button on the top right to switch to Meta Data Tab.
 
@@ -39,11 +39,11 @@ Click on the Meta Data Tab Button on the top right to switch to Meta Data Tab.
 
 Hold down the B Button on the right controller to bring up the [Tool Menu](https://docs.nanome.ai/navigation/toolsmenu.html#tool-menu), hover the ray over the [MedChem Tool](https://docs.nanome.ai/navigation/toolsmenu.html#medchem-tools) button to the bottom left and release B button.
 
-#### How to open the library of molecules 
+### How to open the library of molecules 
 
 Click on the [Build Menu](https://docs.nanome.ai/navigation/toolsmenu.html#build) Tab Button on the top right of the MedChem menu on the left hand
 
-#### How to build molecules using the MedChem tool
+### How to build molecules using the MedChem tool
 
 1. Click on a structure on the [Build menu](https://docs.nanome.ai/navigation/toolsmenu.html#build) to select it for placement.
 2. Overlap the structure on the right controller with an atom on the ligand. Once a yellow outline encloese the atom(s) that you want to build on, press down trigger button on your right controller in order to place the structure.
@@ -79,7 +79,7 @@ To view the documentation on how to use Oculus Dash, please visit the official o
 
 To view a tutorial on how to use oculus dash to pin windows, we recommend this uploadVR article here: [https://uploadvr.com/oculus-dash-windows-button/](https://uploadvr.com/oculus-dash-windows-button/)
 
-## How to capture 2D videos in Oculus Quest
+### How to capture 2D videos in Oculus Quest
 
 To view a tutorial on how to capture 2D videos and retrieve them in Oculus Quest, we recommend this uploadVR article here: [https://uploadvr.com/how-to-transfer-screenshots-videos-quest/](https://uploadvr.com/how-to-transfer-screenshots-videos-quest/)
 

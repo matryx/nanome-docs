@@ -50,7 +50,7 @@ module.exports = {
       {
         title: 'How To',
         collapsable: true,
-        sidebarDepth: 1,
+        sidebarDepth: 2,
         children: ['/howto/howto']
       },
       {
