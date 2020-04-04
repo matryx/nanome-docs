@@ -4,8 +4,6 @@ title: Main Menus
 
 # Main Menus
 
-<vimg src="features-page/nanome-gif-downsized_large.gif" />
-
 # Entry List
 
 <vimg src="navigating-page/Entry.jpg" />
