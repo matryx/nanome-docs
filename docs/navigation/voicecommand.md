@@ -9,8 +9,6 @@ Nanome is voiced-powered. In order to activate voice command, either hold down Y
 Here are the voice commands and combinations currently available:
 
 #### Close menu
-#### Select attached chain(s)
-#### Select parent chain
 #### Select all
 #### Deselect all
 #### Clear selection
@@ -52,6 +50,7 @@ Here are the voice commands and combinations currently available:
 - Violet / To violet
 - White / To white
 - Yellow / To yellow
+<!--
 #### Select chain / Deselect chain +
 - A / Alpha
 - B / Bravo 
@@ -105,3 +104,4 @@ Here are the voice commands and combinations currently available:
 - H X / Hetero X / Hetero X-ray
 - H Y / Hetero Y / Hetero Yankee
 - H Z / Hetero Z / Hetero Zul
+-->
