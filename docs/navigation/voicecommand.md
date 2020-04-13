@@ -50,6 +50,7 @@ Here are the voice commands and combinations currently available:
 - Violet / To violet
 - White / To white
 - Yellow / To yellow
+
 <!--
 #### Select chain / Deselect chain +
 - A / Alpha
@@ -103,5 +104,4 @@ Here are the voice commands and combinations currently available:
 - H W / Hetero W / Hetero Whiskey
 - H X / Hetero X / Hetero X-ray
 - H Y / Hetero Y / Hetero Yankee
-- H Z / Hetero Z / Hetero Zul
--->
+- H Z / Hetero Z / Hetero Zul -->
