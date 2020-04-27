@@ -38,7 +38,8 @@ module.exports = {
           '/plugins/moleculardynamics',
           '/plugins/chemicalproperties',
           '/plugins/structureprep',
-          '/plugins/createyourown'
+          '/plugins/createyourown',
+          '/plugins/stackstudio'
         ]
       },
       {
