@@ -138,3 +138,30 @@ Open the file dropdown menu and select [Export].
 <vimg src="plugins-page/pluginator/integrate.JPG" />
 
 Be sure to check that this is the same folder as the plugin script that you are writing.
+
+## Hotkeys
+__ctrl-n__ – spawn a new menu
+
+__n__ – add a layoutnode
+
+__c__ – add a content
+
+__1,2,3__ – change tabs on the inspector
+
+__up, down__ – change selected node to the one above, below
+
+__left, right__ – change selected node to parent, child.
+
+__ctrl-up, ctrl-down__ – move selected node up/down
+
+__ctrl-left, ctrl-right__ – deparent, parent selected node
+
+__ctrl-c, ctrl-x, ctrl-v__ – copy, cut , paste selected node
+
+__ctrl-shift-c, ctrl-shift-v__ – copy node to clipboard, paste node from clipboard
+
+__ctrl-s, ctrl-o__ – export import
+
+__F2__ – rename selected node
+
+__delete, backspace__ – delete selected node
