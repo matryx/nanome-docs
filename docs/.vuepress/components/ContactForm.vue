@@ -71,10 +71,10 @@
       </button>
     </form>
     <div v-else>
-      <h3>Your request has was sent!</h3>
+      <h3>Your request has been sent!</h3>
       <p>
         Your request was received by our staff, we will get back to you shortly
-        by the email your provided.
+        by the email you've provided.
       </p>
     </div>
   </div>
