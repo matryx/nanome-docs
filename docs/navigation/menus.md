@@ -119,7 +119,11 @@ Load molecules or structures into your workspace. Supported file formats include
 
 ### Featured
 
-<vimg src="navigating-page/Load-Featured.jpg" />
+<vimg src="navigating-page/Load-Featured-Workspace.jpg" />
+
+Workspaces that contain featured structures and tutorials.
+
+<vimg src="navigating-page/Load-Featured-Molecule.jpg" />
 
 Molecules featured by Nanome for their interesting properties or background.
 

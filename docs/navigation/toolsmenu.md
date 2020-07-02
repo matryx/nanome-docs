@@ -10,6 +10,10 @@ Press and hold the menu button to activate the tool selection menu, hover over t
 
 ## Hand Tool
 
+<vimg src="navigating-page/Tool-Laser.jpg" />
+
+Holding down the joystick at any moment to trigger your laser pointer that is visible to other users in the room. You can use this laser to point at a point of interest for your colleagues.
+
 <vimg src="navigating-page/Tool-Hand.jpg" />
 
 The Hand Tool is the default state of the hand and allows for basic interaction including grabbing and clicking.

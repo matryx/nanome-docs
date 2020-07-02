@@ -40,6 +40,10 @@ Quickly manage the enabled menus and format them in certain layouts.
 
 Change settings such as volumes and environment background.
 
+<vimg src="navigating-page/Wrist-Volume.jpg" />
+
+The center area of the settings menu has an indicator for your current mic volume. You can use this indicator to check if your mic is working.
+
 ## Screenshot Tool
 
 <vimg src="navigating-page/Wrist-ScreenshotTool.gif" />
