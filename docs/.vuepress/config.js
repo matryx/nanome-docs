@@ -25,7 +25,7 @@ module.exports = {
         ]
       },
       {
-        title: 'Nanome Plugins',
+        title: 'Nanome Stack',
         collapsable: true,
         sidebarDepth: 1,
         children: [
