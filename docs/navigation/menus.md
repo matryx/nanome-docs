@@ -12,6 +12,15 @@ The Entry List is a list of all of the structures that have been loaded into the
 
 The Load, Plugin, Display, Color, Modify, Select, and Macro Menus can be displayed by clicking their respective icons located at the bottom of the Entry List.
 
+# Quest Limiter
+
+<vimg src="navigating-page/Limiter.jpg" />
+
+The Quest Limiter is an indicator that shows how close the current amount of atoms is to hitting the limit of Quest's computing capability. This indicator only shows up in the Quest version of Nanome software. When the amount of atoms approaches or hit the limit, the following prompts will show up.
+
+<vimg src="navigating-page/Limiter-Close.jpg" />
+<vimg src="navigating-page/Limiter-Max.jpg" />
+
 ## Hierarchy Menu
 
 <vimg src="navigating-page/Entry-Hierarchy.jpg" />
