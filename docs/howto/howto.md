@@ -14,6 +14,17 @@ title: How to
 2. Click on [Files](https://docs.nanome.ai/navigation/menus.html#my-files) and then select the location (Desktop or Documents) where you saved the structure.
 3. You should then see the filename for the structure you saved. Click on the file, then click "load files".
 
+## How to load a MD trajectory file
+
+<vimg src="howto-page/LoadTrajectory.gif" />
+
+Nanome supports the following MD trajectory files: .PDB, .PSE, .DCD, .GRO, .XTC, .TRR. 
+1. Go to the [Load menu](https://docs.nanome.ai/navigation/menus.html#load).
+2. Click on [Files](https://docs.nanome.ai/navigation/menus.html#my-files). Navigate to the folder that contains your trajectories and press load (you may also have to multi-select the topology file for trajectories generated via Gromacs or Desmond.
+If a trajectory doesn’t load properly, please try reducing its frame count and/or export as a multi-model .PDB. Additionally, please let us know some details about the problematic files and we can look into resolving them. Relevant details would include the file format type and the number of frames. Typically, the shorter the trajectory the easier time you’ll have to load it in. 
+3. Once loaded, you can play the trajectory by launching the “Frame” menu represented by this icon on the [Entry List](https://docs.nanome.ai/navigation/menus.html#entry-list): 
+<vimg src="howto-page/FrameMenuIcon.png" />
+
 ## How to open the Frame Menu and execute frame operations
 
 Find the entity containing multiple frames that you have loaded on the [Entry Menu](https://docs.nanome.ai/navigation/menus.html#main-menus). Click on the second button from the right on the same row. This is the [Frame Menu](https://docs.nanome.ai/navigation/menus.html#frame-data) Button.
