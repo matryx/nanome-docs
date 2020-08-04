@@ -50,76 +50,24 @@ Frame data allows users to navigate and modify different frames of the same stru
 
 The Electron Density tab shows the configuration of viewing the Electron Density Map of the structure (Academic and Enterprise only).
 
-### Select/Deselect All
+## Menu Actions
 
-<vimg src="navigating-page/Entry-SelectAll.jpg" />
+<vimg src="navigating-page/Entry.jpg" />
+Action buttons on the Entry List provide quick access to common actions on the workspace.
 
-Select or deselect all present structures.
-
-### Invert Selection
-
-<vimg src="navigating-page/Entry-InvertSelection.jpg" />
-
-Invert current selection.
-
-### Toggle Lock
-
-<vimg src="navigating-page/Entry-ToggleLock.jpg" />
-
-Lock or unlock selected entities.
-
-### Toggle Box
-
-<vimg src="navigating-page/Entry-ToggleBox.jpg" />
-
-Show or hide the box frame of selected entities.
-
-### Toggle Visibility
-
-<vimg src="navigating-page/Entry-ToggleVisibility.jpg" />
-
-Show or hide the selected entities.
-
-### Save
-
-<vimg src="navigating-page/Entry-Save.jpg" />
-
-Save the current workspace.
-
-### New Workspace
-
-<vimg src="navigating-page/Entry-New.jpg" />
-
-Discard the current workspace and create a new one.
-
-### Export
-
-<vimg src="navigating-page/Entry-Export.jpg" />
-
-Export Configuration
-
-<vimg src="navigating-page/Entry-ExportLocation.jpg" />
-
-Export the selected structures in a desired format.
-
-### Align
-
-<vimg src="navigating-page/Entry-Align.jpg" />
-
-Align the selected entities and place them in the same position under the same coordinate system. Caution: this does not necessarily align the entities by their atom position, and the entities could end up not overlapping after the alignment.
-
-### Sequence
-
-<vimg src="navigating-page/Entry-Sequence.jpg" />
-<vimg src="navigating-page/Entry-SequenceMenu.jpg" />
-
-View the seqences of multiple chains and align them.
-
-### Delete
-
-<vimg src="navigating-page/Entry-Delete.jpg" />
-
-Delete the selected entities.
+| Action        | Description   |Additional Menu|
+|:-------------:|:-------------:|:-----:|
+|<vimg src="navigating-page/Entry-SelectAll-Button.jpg" /><vimg src="navigating-page/Entry-DeselectAll-Button.jpg" />Select/Deselect All| Select or deselect all present structures.||
+|<vimg src="navigating-page/Entry-InvertSelection-Button.jpg" />Invert Selection | Invert current selection.||
+|<vimg src="navigating-page/Entry-ToggleLock-Button.jpg" />Toggle Lock | Lock or unlock selected entities.||
+|<vimg src="navigating-page/Entry-ToggleBox-Button.jpg" />Toggle Box | Show or hide the box frame of selected entities.||
+|<vimg src="navigating-page/Entry-ToggleVisibility-Button.jpg" />Toggle Visibility| Show or hide the selected entities.||
+|<vimg src="navigating-page/Entry-Save-Button.jpg" />Save| Save the current workspace.||
+|<vimg src="navigating-page/Entry-New-Button.jpg" />New Workspace | Discard the current workspace and create a new one.||
+|<vimg src="navigating-page/Entry-Export-Button.jpg" />Export| Export the selected structures in a desired format.| <vimg src="navigating-page/Entry-ExportLocation.jpg" /> |
+|<vimg src="navigating-page/Entry-Align-Button.jpg" />Align | Align the selected entities and place them in the same position under the same coordinate system. Caution: this does not necessarily align the entities by their atom position, and the entities could end up not overlapping after the alignment.| |
+|<vimg src="navigating-page/Entry-SequenceMenu-Button.jpg" />Sequence | View the seqences of multiple chains and align them.| <vimg src="navigating-page/Entry-SequenceMenu.jpg" /> |
+|<vimg src="navigating-page/Entry-Delete-Button.jpg" /> Delete | Delete the selected entities.||
 
 ## Load
 
@@ -168,61 +116,31 @@ Recent files loaded in Nanome.
 
 ## Display
 
+
 ### Atom
 
+<vimg src="navigating-page/Display-Atom-Menu.jpg" />
+
 This tab contains options for the visual of atoms and bonds.
-
-- Wire
-
-<vimg src="navigating-page/Display-Atom-Wire.jpg" />
-
-Hide atoms and show bonds in thin wire visual.
-
-- Stick
-
-<vimg src="navigating-page/Display-Atom-Stick.jpg" />
-
-Show small atoms and bonds in volumetric stick visual.
-
-- Van Der Waals
-
-<vimg src="navigating-page/Display-Atom-Vanderwal.jpg" />
-
-Show atoms in thin Van Der Waals visual and hide bonds.
-
-- Adaptive
-
-<vimg src="navigating-page/Display-Atom-Adaptive.jpg" />
-
-Show atoms with radius proportion to their color value and hide bonds.
-
-- Ball & Stick
-
-<vimg src="navigating-page/Display-Atom-BallnStick.jpg" />
-
-- Hide all atoms and bonds.
+| Option        | Description   |Fig.  |
+|:-------------:|:-------------:|:-----:|
+| <vimg src="navigating-page/Display-Atom-Wire-Button.jpg" />Wire      | Hide atoms and show bonds in thin wire visual. | <vimg src="navigating-page/Display-Atom-Wire-Small.jpg" /> |
+| <vimg src="navigating-page/Display-Atom-Stick-Button.jpg" />Stick      | Show small atoms and bonds in volumetric stick visual.      |   <vimg src="navigating-page/Display-Atom-Stick-Small.jpg" /> |
+| <vimg src="navigating-page/Display-Atom-Vanderwal-Button.jpg" />Van Der Waals | Show atoms in thin Van Der Waals visual and hide bonds.      |    <vimg src="navigating-page/Display-Atom-Vanderwal-Small.jpg" /> |
+| <vimg src="navigating-page/Display-Atom-Adaptive-Button.jpg" />Adaptive | Show atoms with radius proportion to their color value and hide bonds.      |    <vimg src="navigating-page/Display-Atom-Adaptive-Small.jpg" /> |
+| <vimg src="navigating-page/Display-Atom-BallnStick-Button.jpg" />Ball & Stick | Hide all atoms and bonds. | <vimg src="navigating-page/Display-Atom-BallnStick-Small.jpg" /> |
 
 ### Ribbon
 
+<vimg src="navigating-page/Display-Ribbon-Menu.jpg" />
+
 This tab contains options for the visual of ribbons.
 
-- Cartoon
-
-<vimg src="navigating-page/Display-Ribbon-Cartoon.jpg" />
-
-Show ribbon in cartoon visual that highlight secondary structures using helix and arrows.
-
-- Coil
-
-<vimg src="navigating-page/Display-Ribbon-Tube.jpg" />
-
-Show ribbon in uniform tube visual.
-
-- Putty
-
-<vimg src="navigating-page/Display-Ribbon-Putty.jpg" />
-
-Show ribbon in tube with widths proportion to the atoms' color value.
+| Visual        | Description   |Fig.  |
+|:-------------:|:-------------:|:-----:|
+| <vimg src="navigating-page/Display-Ribbon-Cartoon-Button.jpg" />Cartoon | Show ribbon in cartoon visual that highlight secondary structures using helix and arrows. | <vimg src="navigating-page/Display-Ribbon-Cartoon-Small.jpg" /> |
+| <vimg src="navigating-page/Display-Ribbon-Coil-Button.jpg" />Coil | Show ribbon in uniform tube visual.| <vimg src="navigating-page/Display-Ribbon-Coil-Small.jpg" />|
+| <vimg src="navigating-page/Display-Ribbon-Putty-Button.jpg" />Putty | Show ribbon in tube with widths proportion to the atoms' color value.| <vimg src="navigating-page/Display-Ribbon-Putty-Small.jpg" />|
 
 ### Surface
 
