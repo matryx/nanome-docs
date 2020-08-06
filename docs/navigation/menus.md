@@ -108,11 +108,11 @@ My Files tab allows users to load structures from their local directory.
 
 Recent files loaded in Nanome.
 
-## Plugin
+## Stacks
 
 <vimg src="navigating-page/Plugin-List.jpg" />
 
-[Please view the plug in page to learn more.](https://docs.nanome.ai/plugins/overview.html)
+[Please view the Nanome Stacks page to learn more.](https://docs.nanome.ai/plugins/overview.html)
 
 ## Display
 
@@ -250,7 +250,7 @@ Edit the selected structures by applying actions from the buttons.
 
 ### Compute
 
-<vimg src="navigating-page/Modify-Comput.jpg" />
+<vimg src="navigating-page/Modify-Compute.jpg" />
 
 Apply certain computations on the selected structures and modify them according to the result.
 
