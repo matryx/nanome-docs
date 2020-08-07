@@ -144,6 +144,8 @@ This tab contains options for the visual of ribbons.
 
 ### Surface
 
+<vimg src="navigating-page/Display-Surface-Menu.jpg" />
+
 - Show Surface
 
 <vimg src="navigating-page/Display-Surface-On.jpg" />
@@ -158,47 +160,22 @@ Change the opacity of the surface.
 
 ### Sub Structure
 
-- None
+<vimg src="navigating-page/Display-SubStructure-Menu.jpg" />
 
-<vimg src="navigating-page/Display-SubStructure-None.jpg" />
-
-Hide hetatoms, waters and hydrogen.
-
-- Hetatoms
-
-<vimg src="navigating-page/Display-SubStructure-Hetatoms.jpg" />
-
-Show hetatoms.
-
-- Waters
-
-<vimg src="navigating-page/Display-SubStructure-Water.jpg" />
-
-Show hetatoms, including water.
-
-- Hydrogens
-
-<vimg src="navigating-page/Display-SubStructure-Hydrogen.jpg" />
-
-Show hydrogens.
+| Option        | Description   |Fig.  |
+|:-------------:|:-------------:|:-----:|
+| <vimg src="navigating-page/Display-SubStructure-Hetatoms-Button.jpg" />Hetatoms | Show hetatoms. | <vimg src="navigating-page/Display-SubStructure-Hetatoms-Small.jpg" /> |
+| <vimg src="navigating-page/Display-SubStructure-Water-Button.jpg" />Waters | Show hetatoms, including water.| <vimg src="navigating-page/Display-SubStructure-Water-Small.jpg" />|
+| <vimg src="navigating-page/Display-SubStructure-Hydrogen-Button.jpg" />Hydrogens | Show hydrogens.| <vimg src="navigating-page/Display-SubStructure-Hydrogen-Small.jpg" />|
 
 ### Labels
 
-- Atoms
+<vimg src="navigating-page/Display-Label-Menu.jpg" />
 
-<vimg src="navigating-page/Display-Label-Atom.jpg" />
-
-Show labels on atoms.
-
-- Residue
-
-<vimg src="navigating-page/Display-Label-Residue.jpg" />
-
-Show labels on residues.
-
-- Chain
-
-Show labels on Chains. (Coming Soon)
+| Option        | Description   |Fig.  |
+|:-------------:|:-------------:|:-----:|
+| <vimg src="navigating-page/Display-Label-Atom-Button.jpg" />Atoms | Show labels on atoms. | <vimg src="navigating-page/Display-Label-Atom-Small.jpg" /> |
+| <vimg src="navigating-page/Display-Label-Residue-Button.jpg" />Residue | Show labels on residues.| <vimg src="navigating-page/Display-Label-Residue-Small.jpg" />|
 
 ## Color
 
@@ -206,37 +183,32 @@ Apply a solid color or a color scheme on the selected structures.
 
 ### Picker
 
+<vimg src="navigating-page/Color-Picker-Menu.jpg" />
+
 Colors picked in picker are applied in a solid style.
 
-- Carbonite
-
-<vimg src="navigating-page/Color-Carbonite.jpg" />
-
-Carbonite color applies only to carbons.
-
-- Monochrome
-
-<vimg src="navigating-page/Color-Monochrome.jpg" />
-
-Monochrome color applies to all atoms indifferently.
+| Option        | Description   |Fig.  |
+|:-------------:|:-------------:|:-----:|
+| <vimg src="navigating-page/Color-Carbonite-Button.jpg" />Carbonite | Carbonite color applies only to carbons. | <vimg src="navigating-page/Color-Carbonite-Small.jpg" /> |
+| <vimg src="navigating-page/Color-Monochrome-Button.jpg" />Monochrome | Monochrome color applies to all atoms indifferently.| <vimg src="navigating-page/Color-Monochrome-Small.jpg" />|
 
 ### Schemes
 
+<vimg src="navigating-page/Color-Scheme-Menu.jpg" />
+
 Colors picked in schemes are applied in a certain pattern.
-
-- Monochrome
-
-<vimg src="navigating-page/Color-Scheme-Monochrome.jpg" />
-
-- Carbonite
-
-<vimg src="navigating-page/Color-Scheme-Carbonite.jpg" />
 
 - YRB Hydrophobe
 
-<vimg src="navigating-page/Color-Scheme.jpg" />
+<vimg src="navigating-page/Color-Hydrophobe-Small.jpg" />
 
 Color selected structures by their hydrophobicity with yellow, red, blue colors.
+
+- IMGT
+
+<vimg src="navigating-page/Color-IMGT-Small.jpg" />
+
+Color selected antibody structures by their regions.
 
 Other available color schemes include coloring by occupancy, b-factor, rainbow and so on.
 
