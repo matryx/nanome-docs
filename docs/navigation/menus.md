@@ -146,17 +146,7 @@ This tab contains options for the visual of ribbons.
 
 <vimg src="navigating-page/Display-Surface-Menu.jpg" />
 
-- Show Surface
-
-<vimg src="navigating-page/Display-Surface-On.jpg" />
-
-Show the solvent-excluded-surface.
-
-- Opacity
-
-<vimg src="navigating-page/Display-Surface-Opacity.jpg" />
-
-Change the opacity of the surface.
+Toggle the visibility of solvent-excluded-surface or change its opacity.
 
 ### Sub Structure
 
