@@ -59,6 +59,7 @@ Requirements:
 2. Admin access to your Windows 10 PC
 3. Have VPN Credentials on hand
 4. Validate your Wireless card can support this! https://www.quora.com/How-do-i-know-if-i-have-Qualcomm-Atheros-wireless-card
+
 Once all requirements are met, follow these steps to create a VPN-enabled hotspot:
 Step 1: Open your VPN Software, Enter your credentials, and connect to your VPN
 Verify you have an internet connection through the VPN and check your IP address to validate it changed and note the location/IP for later (https://whatismyipaddress.com/)
