@@ -51,6 +51,26 @@ Firewall 443 outbound connectivity to the following URLs:
 - https://mqtt.facebook.com
 - https://my.workplace.com
 
+#### Tips to use your Oculus Quest in a VPN network
+
+Method 1: VPN-enabled Hotspot from a Windows 10 PC
+Requirements: 
+1. An existing organizational VPN and VPN software on your PC
+2. Admin access to your Windows 10 PC
+3. Have VPN Credentials on hand
+4. Validate your Wireless card can support this! https://www.quora.com/How-do-i-know-if-i-have-Qualcomm-Atheros-wireless-card
+Once all requirements are met, follow these steps to create a VPN-enabled hotspot:
+Step 1: Open your VPN Software, Enter your credentials, and connect to your VPN
+Verify you have an internet connection through the VPN and check your IP address to validate it changed and note the location/IP for later (https://whatismyipaddress.com/)
+Step 2: Hit Windows Key + type Mobile Hotspot
+Open Mobile Hotspot and change your wifi name and password then turn on the hotspot
+Step 3: Open your Control Panel > Network and Internet > Network and Sharing Center > Change adapter settings. 
+Step 4. Identify which connection is your Ethernet # with the indicator "Unidentified Network, TAP-<VPNType> Windows Adapter 
+Step 5: Right click it and go to the Sharing tab
+Step 6: Check allow sharing for other users in the network. From the dropdown, select your mobile hotspot connection "Local Area Connection #". It should be labeled as Wifi Direct Virtual Adapter
+Step 7: Join the Mobile Hotspot Wifi from your Oculus Quest
+Step 8: Verify you have the VPN applied by checking your IP/location (https://whatismyipaddress.com/)
+Step 9: Launch and enjoy Nanome behind your firewall!
 
 Oculus for Business FAQ  
 [https://developer.oculus.com/documentation/ofb/latest/concepts/ofb-developer-reference/](https://developer.oculus.com/documentation/ofb/latest/concepts/ofb-developer-reference/)
