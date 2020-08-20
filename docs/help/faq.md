@@ -68,3 +68,6 @@ First, create an account or login at [https://nanome.ai/pricing/](https://nanome
 
 ## I have requests/ideas for new features, where can I send them?
 Please email your requests to support@nanome.ai. We take all our users' feedback seriously, and your idea might just turn into the next big feature in Nanome.
+
+## I am from a country with GDPR, How do I request to Delete or Request to View my customer data?
+Please contact support@nanome.ai to Request for the deletion of your customer data or a downloadable version. Please note this is a manual process and will take 2-3 weeks to procure.
