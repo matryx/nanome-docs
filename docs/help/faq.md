@@ -8,7 +8,7 @@ title: FAQ
 Nanome is a collaborative virtual-reality molecular modelling tool made for professional researchers working on structures and proteins at the nano scale. Analyze the 3D arrangement of molecules while inside of a protein binding pocket, surround your self in crystal data, or communicate your ligand design to your colleagues in the same virtual room. No matter what you do, Nanome empowers your research and enhances your understanding like no other tools have before. Whether you are a structural biologist, crystallographer, computational chemist, medicinal chemist, or a protein engineer, you will find your daily workflow much more intrigueing and effective in Nanome because of the power of VR. 
 
 ## What VR headsets does Nanome support?
-Nanome is available on the Oculus Rift/S, HTC Vive, Vive Cosmos, Vive Pro, Valve Index, Windows Mixed Reality, and the Oculus Quest.
+Nanome is available on the Oculus Rift/S, HTC Vive, Vive Cosmos, Vive Pro, Valve Index, Windows Mixed Reality, Samsung Odyssey+, and the Oculus Quest.
 
 ## Where can I download Nanome?
 Nanome can be downloaded for free from all major Virtual Reality stores including [Oculus](https://nanome.ai/pricing/), [Steam](https://nanome.ai/pricing/), and [VivePort](https://www.viveport.com/apps/0a467f78-2ed2-43eb-ada8-9d677d5acf54/Nanome/), or directly from [https://home.nanome.ai/setup](https://home.nanome.ai/setup). Premium versions with upgraded features are available for purchase from our website at [https://nanome.ai/pricing/](https://nanome.ai/pricing/).
