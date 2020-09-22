@@ -46,7 +46,7 @@
             playsinline
           ></video>
         </div>
-        <h3>Nanome Plugins</h3>
+        <h3>Nanome Stacks</h3>
         <span>An overview of the plugin system</span>
       </a>
     </div>

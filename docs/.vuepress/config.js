@@ -25,7 +25,7 @@ module.exports = {
         ]
       },
       {
-        title: 'Nanome Stack',
+        title: 'Nanome Stacks',
         collapsable: true,
         sidebarDepth: 1,
         children: [
