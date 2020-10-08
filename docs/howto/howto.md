@@ -122,6 +122,19 @@ To view the documentation on how to use Oculus Dash please visit the official oc
 To view a tutorial on how to use oculus dash to pin windows, we recommend this UploadVR article here: 
 [https://uploadvr.com/oculus-dash-windows-button/](https://uploadvr.com/oculus-dash-windows-button/)
 
+## How to access pre-release beta versions of Nanome
+
+Prior to the official release of each new Nanome version, we will make available a beta release on the Steam and Oculus stores. These are strictly beta builds and are not meant for regular use; rather, you have an opportunity to preview the next version as we are putting the finishing touches on it.
+
+On the Steam store, you can switch to the beta release by following [this guide](https://partner.steamgames.com/doc/store/application/branches). On the Oculus store, refer to the following GIF. (Be sure to switch back to the ‘LIVE’ for the latest stable release.)
+
+<vimg src="howto-page/beta-release-oculus-store.gif" />
+
+If you are participating in our Oculus Quest Nanome beta, please request the pre-release beta of the next version by emailing [support@nanome.ai](mailto:support@nanome.ai).
+
+**REMINDER:** During collaborative sessions with other users, those on different versions will NOT be able to see each other’s lobbies or will have features that may not fully function. For collaborative sessions with other users, please ensure you are on the same version of Nanome.
+
+If you'd like to leave us any feedback on the beta releases, you can fill out [this form](https://forms.gle/DsTkDCuqAzhP4vJR8).
 
 <!--
 ## How to load molecules or workspace

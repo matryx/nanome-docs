@@ -41,6 +41,7 @@ async function compressDir(dir) {
   // Loop through all files in dir
   for (const file of files) {
     const match = file.match(regex.file)
+    if (!match) continue
     const [, fileName, format] = match
 
     // If file type is a match
