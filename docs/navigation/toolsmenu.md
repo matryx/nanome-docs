@@ -46,13 +46,13 @@ Torsion Tool twists rotatable bonds and changes the dihedral angles between atom
 
 MedChem Tools enable editing the atoms directly using hands, bundling a rich set of features including atom addition and removal.
 
-## Prep
+### Prep
 
 <vimg src="navigating-page/Medchem-Prep.jpg" />
 
 Offers options to quickly access binding sites and config the auxiliary features such as auto-minimization.
 
-## Build
+### Build
 
 <vimg src="navigating-page/Medchem-Build.jpg" />
 
@@ -62,8 +62,14 @@ Select a substructure from the build menu and build it on top of existing atoms 
 
 Hold down trigger at an empty space to place a new structure.
 
-## Periodic Table
+### Periodic Table
 
 <vimg src="navigating-page/Medchem-PeriodicTable.jpg" />
 
 Select any atom type from the periodic table to use in build mode.
+
+## Whiteboard Tool
+
+<vimg src="navigating-page/whiteboard.gif" />
+
+The Whiteboard Tool brings up a whiteboard that you can draw/write on. Toggle the right joystick sideways (left/right) to switch between your marker and eraser. To share your whiteboard with other users in your workspace, toggle the slider at the top of the menu on your left hand. In the same left-hand menu, you can change the marker color and save your image as a PNG file.

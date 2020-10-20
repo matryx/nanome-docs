@@ -6,7 +6,7 @@ title: Main Menus
 
 # Entry List
 
-<vimg src="navigating-page/Entry.jpg" />
+<vimg src="navigating-page/entry_list_updated.png" />
 
 The Entry List is a list of all of the structures that have been loaded into the environment.
 
@@ -38,7 +38,7 @@ Different Viewing Modes can be toggled to modify the substructure icon sizes in 
 
 ### Frame Data
 
-<vimg src="navigating-page/Entry-FrameData.jpg" />
+<vimg src="navigating-page/frame_menu_speeds.png" />
 <vimg src="navigating-page/Entry-FrameData2.jpg" />
 
 Frame data allows users to navigate and modify different frames of the same structure (Academic and Enterprise only).
@@ -52,7 +52,7 @@ The Electron Density tab shows the configuration of viewing the Electron Density
 
 ## Menu Actions
 
-<vimg src="navigating-page/Entry.jpg" />
+<vimg src="navigating-page/entry_list_updated.png" />
 Action buttons on the Entry List provide quick access to common actions on the workspace.
 
 | Action        | Description   |Additional Menu|
@@ -64,7 +64,7 @@ Action buttons on the Entry List provide quick access to common actions on the w
 |<vimg src="navigating-page/Entry-ToggleVisibility-Button.jpg" />Toggle Visibility| Show or hide the selected entities.||
 |<vimg src="navigating-page/Entry-Save-Button.jpg" />Save| Save the current workspace.||
 |<vimg src="navigating-page/Entry-New-Button.jpg" />New Workspace | Discard the current workspace and create a new one.||
-|<vimg src="navigating-page/Entry-Export-Button.jpg" />Export| Export the selected structures in a desired format.| <vimg src="navigating-page/Entry-ExportLocation.jpg" /> |
+|<vimg src="navigating-page/Entry-Export-Button.jpg" />Export| Export the selected structures in a desired format.| <vimg src="navigating-page/export_menu_update.png" /> |
 |<vimg src="navigating-page/Entry-Align-Button.jpg" />Align | Align the selected entities and place them in the same position under the same coordinate system. Caution: this does not necessarily align the entities by their atom position, and the entities could end up not overlapping after the alignment.| |
 |<vimg src="navigating-page/Entry-SequenceMenu-Button.jpg" />Sequence | View the seqences of multiple chains and align them.| <vimg src="navigating-page/Entry-SequenceMenu.jpg" /> |
 |<vimg src="navigating-page/Entry-Delete-Button.jpg" /> Delete | Delete the selected entities.||
