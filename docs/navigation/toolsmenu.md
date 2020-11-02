@@ -4,7 +4,7 @@ title: Tools Menu
 
 # Tool Menu
 
-<vimg src="features-page/hand-tools.gif" />
+<vimg src="navigating-page/tools-menu-updated.gif" />
 
 Press and hold the menu button to activate the tool selection menu, hover over the desired selection and then release the button. If no selection is made, the hand tool will be chosen by default. If you are using a Vive system, press and hold the touch pad on your right controller to activate the menu. If you are using an Oculus system, press and hold the B button on your right controller to activate the menu.
 

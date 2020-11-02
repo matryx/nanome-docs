@@ -26,7 +26,7 @@
       <a href="/navigation/toolsmenu.html">
         <div class="home-video">
           <video
-            src="https://media.giphy.com/media/PmeFrNjFWVwqJzClXm/giphy.mp4"
+            src="https://media.giphy.com/media/mIyglT252D52nxnXAH/giphy.mp4"
             loop
             muted
             autoplay

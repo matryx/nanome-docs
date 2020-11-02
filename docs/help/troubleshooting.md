@@ -18,7 +18,8 @@ Additionally, allow outbounds connection for UDP Ports 5055, 5056, 5058 to IP: '
 - oculus.com
 - facebook.com
 - fbcdn.net
-- akamaidh.net
+- akamaihd.net
+
 Additionally, allow outbound connections for ports 3478 TCP and/or 50000-59999 UDP
 
 #### If you want to download files from public protein and drug databases, please allow outbound connections to ports 80 and 443 for the following domains:
@@ -72,7 +73,7 @@ Open Mobile Hotspot and change your wifi name and password then turn on the hots
 
 Step 3: Open your Control Panel > Network and Internet > Network and Sharing Center > Change adapter settings. 
 
-Step 4. Identify which connection is your Ethernet # with the indicator "Unidentified Network, TAP-<VPNType> Windows Adapter 
+Step 4. Identify which connection is your Ethernet # with the indicator "Unidentified Network, TAP-&lt;VPNType&gt; Windows Adapter 
 
 Step 5: Right click it and go to the Sharing tab
 
