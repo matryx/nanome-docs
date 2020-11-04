@@ -8,11 +8,11 @@ title: Troubleshooting
 
 ### Open these ports for Firewall
 
-#### In order to use the Nanome application, please allow outbound connections to ports 80 and 443 for the following domains:
+#### In order to use the Nanome application, please allow outbound connections to ports 80 and 443 for the following domains on any client device:
 - api.nanome.ai
 - home.nanome.ai
 - nanome.ai
-Additionally, allow outbounds connection for UDP Ports 5055, 5056, 5058 to IP: '13.56.83.235' (public multi-user collaboration server)
+Additionally, allow outbounds connection for UDP Ports 5055, 5056, 5058 to (DNS: collaboration.nanome.ai or IP: '13.56.83.235') (Nanome's Secure Multi-user Collaboration server)
 
 #### If you are using an Oculus, please allow outbound connections to ports 80 and 443 for the following domains:
 - oculus.com
