@@ -4,11 +4,19 @@ title: Stack Studio
 
 # Stack Studio
 
-Stack studio is the graphical designer tool for creating plugin user interface(UI) in Nanome. A Nanome plugin usually contains two major components: plugin scripts and plugin UI. While the scripts contain the behavior and computation of the plugin, the plugin UI is what the users sees and accesses in Nanome software. To create a sophisticated Nanome plugin, it's very likely that you would need to both write the script and create the UI. By using Stack Studio, you can easily create a plugin UI for the plugin that you are developing.
+*A drag and drop interface for creating Plugin Menus*
+
+Stack studio is a GUI for creating plugin user interfaces that appear before users in Nanome. A Nanome plugin usually contains two major components: plugin scripts and plugin UI. While the scripts contain the behavior and computation of the plugin, the plugin UI is what the users sees and accesses in Nanome software. To create a sophisticated Nanome plugin, it's very likely that you would need to both write the script and create the UI. 
 
 ## Get Started
 
-Currently, Stack Studio is in beta and only available to selected users. Contact us at support@nanome.ai to get in to Nanome Stack beta program.
+Currently, Stack Studio is still in beta and we would love to hear your feedback! You can either send us an email (bugs@nanome.ai) or join our Slack user group to chat (https://nanome.ai/slack).
+
+### Download the latest StackStudio version 0.5.2:
+
+<a href="https://nanome.s3-us-west-1.amazonaws.com/installers/StackStudio/StackStudio_v5.2_Windows.zip" class="btn">Windows Download </a>
+<a href="https://nanome.s3-us-west-1.amazonaws.com/installers/StackStudio/StackStudio_v0.5_Mac.zip" class="btn">Mac Download </a>
+
 
 1. If you are a Nanome Stack beta user, please download Stack Studio from provided link and extract the compressed file. If you can't extract it, you can download any archiver such as [7zip](https://www.7-zip.org/download.html) to do so.
 
@@ -165,3 +173,5 @@ __ctrl-s, ctrl-o__ – export import
 __F2__ – rename selected node
 
 __delete, backspace__ – delete selected node
+
+

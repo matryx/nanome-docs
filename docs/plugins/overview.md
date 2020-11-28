@@ -4,9 +4,11 @@ title: Overview
 
 # Overview
 
-## Nanome Stacks and How to Use It
+*Nanome Stacks is a plugin API that provides a way to interface and integrate external software with Nanome's collaborative molecular modeling VR/AR software.*
 
-*Nanome Stacks is a plugin API that provides a way to interface and integrate external software with Nanome's collaborative molecular modeling VR/AR software.* This also allows the VR/AR software to off-board the heavy calculations and tools integrations into scalable cloud computing. Not only does API enable the current VR/AR standalone headsets which have low computation power. It also extends your scientific capabilities by leveraging existing expert tools and radically advanced computation techniques whose only limit is your AWS credits and creativity.
+## Nanome Stacks, Plugins and how to use them
+
+ Nanome stacks is a grouping of plugins, macros, and any other configurations. Plugins allow the VR/AR software to off-board the heavy calculations and tools integrations into scalable cloud computing. Not only does API enable the current VR/AR standalone headsets which have low computation power. It also extends your scientific capabilities by leveraging existing expert tools and radically advanced computation techniques whose only limit is your AWS credits and creativity.
 
 A rule of thumb is that any 3rd Party application that can interact using a command line or a python script would be easy to build a plugin for. Plugins can be designed and ran from different environments including Windows, Linux, and Mac operating systems depending on the requirements needed from the plugin.
 
@@ -25,7 +27,7 @@ If you would like to develop plugins for Nanome on your own, you can do so by ch
 
 ## Nanome Plugins Full List
 
-The following is the list of plugins made by Nanome to date.
+The following is the list of some our favorite plugins made by Nanome to date.
 
 - [Vault](vault.md)
 - [Minimization](minimization.md)
