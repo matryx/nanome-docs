@@ -56,7 +56,7 @@
       <a class="btn" href="https://home.nanome.ai/setup" target="_blank">
         Download Nanome
       </a>
-      <img class="headsets" src="/assets/original/gettingStarted-page/headsets.png" alt="headsets" />
+      <img class="headsets" src="/assets/original/gettingStarted-page/supportedheadsets2.png" alt="headsets" />
     </div>
 
     <div class="requirements">
