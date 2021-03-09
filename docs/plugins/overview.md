@@ -19,7 +19,7 @@ Some examples of plugins that our customers love are:
 - MD: Running molecular dynamics simulations from OpenMM
 - All of our public plugins are available on our [Github](https://github.com/nanome-ai).
 
-The primary requirements for running plugins is the Nanome Virtual Reality Software and to have a Stacks Server configured for your Nanome account. *This is Enterprise only at the moment, but Academic BETA users will start in Q2 2020*
+The primary requirements for running plugins is the Nanome Virtual Reality Software and to have a Stacks Server configured for your Nanome account. *This is Enterprise only at the moment, but Academic BETA users will start in 2021. 
 
 The Nanome Stacks Server is a crucial component that acts as a relay to forward information and processes from your running plugin into the Nanome virtual environment. The technical name is NTS or Nanome Transport Server.
 
