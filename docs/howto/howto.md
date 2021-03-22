@@ -107,7 +107,9 @@ To view a tutorial on how to capture mixed reality videos on an Oculus system, w
 
 <vimg src="howto-page/LogFile.png" />
 
-If you had a crashed session or encountered any issues in Nanome, you can go to "C:\Users\\[USERNAME]\AppData\LocalLow\Nanome Inc_\Nanome\History" to retrieve the log file and send it to us at support@nanome.ai so that we can help you troubleshoot the problem.
+If your session crashes or you encounter any issues in Nanome, you can go to "C:\Users\\[USERNAME]\AppData\LocalLow\Nanome Inc_\Nanome\History" to retrieve the log file and send it to us at support@nanome.ai so that we can help you troubleshoot the problem.
+
+If you are using the Oculus Quest or Oculus Quest 2 VR headsets, then you can plug your device into a computer and go to "Quest\Internal shared storage\Android\data\com.Nanome.NanomeCurie\files\History" to access the log file.
 
 A log file's name follows the format of "YYYY-MM-DD_HH-MM-SS_details.txt" and is determined by the starting time of the session.
 
