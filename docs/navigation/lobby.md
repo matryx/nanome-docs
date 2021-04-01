@@ -4,33 +4,33 @@ title: Lobby
 
 # Lobby
 
-<vimg src="navigating-page/Lobby.jpg" />
+<vimg src="navigating-page/main_lobby.png" />
 
-The Nanome Lobby is where users can sign into an account or sign up. By toggling the 'Remember Me' button, users can automatically be signed in the next time they start Nanome. Users can also start the tutorial by selecting 'Start Tutorial'.
+The Nanome Lobby is where users can sign into an account or sign up. By toggling the 'Remember Me' button, users can automatically be signed in the next time they start Nanome. Users can also start the Nanome Basics tutorial by selecting 'Start Tutorial'.
 
 ## Creating an Account
 
-<vimg src="navigating-page/Lobby-Signup.jpg" />
+<vimg src="navigating-page/lobby_sign_up.png" />
 
 An email address is required to create a Nanome account.
 
 **Terms & Conditions**: [https://nanome.ai/terms/](https://nanome.ai/terms/)
 
-## Tutorial
+## Nanome Basics
 
-<vimg src="navigating-page/Lobby-Tutorial.jpg" />
+<vimg src="navigating-page/nanome_basics.png" />
 
-The tutorial consists of 19 levels. Follow the insturctions on the Level Panel and the narrated audio to complete the levels.
+Nanome Basics is our introductory tutorial that gets the user acquainted with the Nanome virtual environment and controllers. The tutorial consists of 7 levels. Follow the instructions on the Level Panel and the narrated audio to complete the levels.
 
 ### Navigating the Tutorial Using Level Panels
 
-<vimg src="navigating-page/Lobby-Tutorial-Grab.jpg" />
+<vimg src="navigating-page/tutorial_task_panel.png" />
 
-Users can visit previous levels by selecting the 'back' button on the Level Panel. Users can skip the current tutorial level by selecting the 'Skip' button on the Level Panel.
+A checkmark will appear when each task is completed within a level panel. Users can visit previous levels by selecting the back arrow on the level panel, or skip the current level by selecting the forward arrow on the level panel.
 
-<vimg src="navigating-page/Lobby-Tutorial-Complete.jpg" />
+<vimg src="navigating-page/nanome_basics_completed.png" />
 
-Users can restart the level by selecting the refresh icon on the left of the Level Panel once a level is complete. Users can move onto the next level by selecting the right arrow on the right of the Level Panel once a level is complete.
+Once the Nanome Basics tutorial is completed, you can move onto Advanced Tutorials (which brings the user into a Nanome workspace and pulls up the Spatial Tutorials menu) or you can exit the tutorial to return to the Lobby.
 
 ## Lobby Top Bar
 
@@ -44,7 +44,7 @@ Users can refresh the available room list by selecting the 'Refresh' button at t
 
 ### (2) Creating a Room
 
-<vimg src="navigating-page/Lobby-CreateRoom.jpg" />
+<vimg src="navigating-page/create_room.png" />
 
 There are three Room Types a user can create depending on their Nanome Licence.
 
@@ -66,7 +66,7 @@ Indicates Nanome version
 
 ### (5) Settings
 
-<vimg src="navigating-page/Lobby-Setting.jpg" />
+<vimg src="navigating-page/settings_lobby.png" />
 
 In the Setting tab, users can adjust various settings.
 
@@ -78,6 +78,6 @@ By selecting the Configuration button in the Setting tab, users can view the Nan
 
 ## Update Banner
 
-<vimg src="navigating-page/Lobby-UpdateBanner.jpg" />
+<vimg src="navigating-page/update_banner_1-20.jpg" />
 
-The update banner features the latest features that are added in the build that the users are in.
+The update banner features the latest features that are added in the version that the users are in.

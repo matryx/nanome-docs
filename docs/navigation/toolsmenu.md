@@ -2,7 +2,7 @@
 title: Tools Menu
 ---
 
-# Tool Menu
+# Tools Menu
 
 <vimg src="navigating-page/tools-menu-updated.gif" />
 
@@ -68,8 +68,16 @@ Hold down trigger at an empty space to place a new structure.
 
 Select any atom type from the periodic table to use in build mode.
 
-## Whiteboard Tool
+## Draw Tool
 
 <vimg src="navigating-page/whiteboard.gif" />
 
-The Whiteboard Tool brings up a whiteboard that you can draw/write on. Toggle the right joystick sideways (left/right) to switch between your marker and eraser. To share your whiteboard with other users in your workspace, toggle the slider at the top of the menu on your left hand. In the same left-hand menu, you can change the marker color and save your image as a PNG file.
+The Draw Tool puts a marker in your hand and brings up a whiteboard that you can draw/write on. Toggle the right joystick sideways (left/right) to switch between your marker and eraser. Tn the right of the whiteboard, there are undo/redo buttons as well as a button to save your drawing as a PNG file.
+
+<vimg src="navigating-page/updated_whiteboard.png" />
+
+To share your whiteboard with other users in your workspace, toggle the slider at the top of the menu on your left hand. In the same left-hand menu, you can change the marker color and hide the whiteboard.
+
+<vimg src="navigating-page/pdf_drawing.gif" />
+
+Additionally, you can use the marker to draw on PDFs or images that are loaded into the workspace.

@@ -6,11 +6,11 @@ title: Main Menus
 
 # Entry List
 
-<vimg src="navigating-page/entry_list_updated.png" />
+<vimg src="navigating-page/entry_list_updated_1-20.png" />
 
 The Entry List is a list of all of the structures that have been loaded into the environment.
 
-The Load, Plugin, Display, Color, Modify, Select, and Macro Menus can be displayed by clicking their respective icons located at the bottom of the Entry List.
+The Load, Plugin, Display, Color, Modify, Select, Macro, and Spatial Tutorial Menus can be displayed by clicking their respective icons located at the bottom of the Entry List.
 
 # Quest Limiter
 
@@ -64,9 +64,9 @@ Action buttons on the Entry List provide quick access to common actions on the w
 |<vimg src="navigating-page/Entry-ToggleVisibility-Button.jpg" />Toggle Visibility| Show or hide the selected entities.||
 |<vimg src="navigating-page/Entry-Save-Button.jpg" />Save| Save the current workspace.||
 |<vimg src="navigating-page/Entry-New-Button.jpg" />New Workspace | Discard the current workspace and create a new one.||
-|<vimg src="navigating-page/Entry-Export-Button.jpg" />Export| Export the selected structures in a desired format.| <vimg src="navigating-page/export_menu_update.png" /> |
+|<vimg src="navigating-page/export_button_updated.png" />Export| Export the selected structures in a desired format.| <vimg src="navigating-page/export_menu_updated.png" /> |
 |<vimg src="navigating-page/Entry-Align-Button.jpg" />Align | Align the selected entities and place them in the same position under the same coordinate system. Caution: this does not necessarily align the entities by their atom position, and the entities could end up not overlapping after the alignment.| |
-|<vimg src="navigating-page/Entry-SequenceMenu-Button.jpg" />Sequence | View the seqences of multiple chains and align them.| <vimg src="navigating-page/Entry-SequenceMenu.jpg" /> |
+|<vimg src="navigating-page/sequence_menu_button_updated.png" />Sequence | View the seqences of multiple chains and align them.| <vimg src="navigating-page/Entry-SequenceMenu.jpg" /> |
 |<vimg src="navigating-page/Entry-Delete-Button.jpg" /> Delete | Delete the selected entities.||
 
 ## Load
@@ -291,3 +291,17 @@ Expand or shrink the selection range by physical proximity.
 <vimg src="navigating-page/Macro.jpg" />
 
 [Please view the macros page to learn more.](https://docs.nanome.ai/macros.html)
+
+## Spatial Tutorials
+
+<vimg src="navigating-page/advanced_tutorials.png" />
+
+Tutorials of advanced concepts and features in Nanome, presented using spatial recordings. Clicking "Record Your Own" will bring up the Spatial Recording Menu.
+
+### Spatial Recordings
+
+<vimg src="navigating-page/spat_rec_menu.png" />
+
+Record your entire workspace, including structures, menus, and virtual movements; then, playback at a later time. During the playback you can pause and even interact with the structures in the recording.
+
+As of April 2021 (Nanome 1.20), this feature is in BETA - in particular, spatial recordings created in version 1.20 will not be playable in future versions.
