@@ -4,37 +4,43 @@ title: Overview
 
 # Overview
 
-*Nanome Stacks is a plugin API that provides a way to interface and integrate external software with Nanome's collaborative molecular modeling VR/AR software.*
+*The Nanome Platform's flexibility and extensibility comes from a robust Python API known as the Plugin System. It allows scientists and users to highly customize everything from the user interface to the integration of external molecular simulation tools.*
 
-## Nanome Stacks, Plugins and how to use them
+## Plugin System and PythonAPI
 
- Nanome stacks is a grouping of plugins, macros, and any other configurations. Plugins allow the VR/AR software to off-board the heavy calculations and tools integrations into scalable cloud computing. Not only does API enable the current VR/AR standalone headsets which have low computation power. It also extends your scientific capabilities by leveraging existing expert tools and radically advanced computation techniques whose only limit is your AWS credits and creativity.
 
-A rule of thumb is that any 3rd Party application that can interact using a command line or a python script would be easy to build a plugin for. Plugins can be designed and ran from different environments including Windows, Linux, and Mac operating systems depending on the requirements needed from the plugin.
+The Plugin System was built with interface extensibility at its core and enables computational chemistry tools and calculations all to happen in the cloud. This is critical for supporting all-in-one devices such as the Oculus Quest 2 and standalone Augmented Reality glasses. Plugins are also easily configurable and swappable for different computation packages to easily adapt to different workflows. Plugins extend your scientific capabilities by leveraging existing expert tools and radically advanced computation techniques whose only limit is your AWS credits and creativity.
+
+Since there can be many different molecular computational packages for a wide variety of scientists and use-cases - it makes sense to group relevant plugins together which we call "*Nanome Stacks*". 
+
+For example, in our "MedChem Stack", it includes critical integrations that are most commonly used by Medicinal Chemists such as real-time Minimization, Chemical Property prediction, and Molecular Docking. These plugins were built with swappability and extensibility in mind. This means it is easy to change what software package or algorithm is doing the calculation. 
+
 
 Some examples of plugins that our customers love are:
 - Nanome Vault: Drag and Drop files on a website and access them on any device running Nanome (Amazing for Quest storage)
-- Docking: Running and viewing docking results (Autodock, etc)
-- ChemProps: Live chemical property prediction during design with RDKit 
-- MD: Running molecular dynamics simulations from OpenMM
-- All of our public plugins are available on our [Github](https://github.com/nanome-ai).
+- Molecular Docking: Running and viewing docking results (Autodock, etc)
+- Chemical Properties: Live chemical property prediction during design with RDKit 
+- All of our public plugins are available on our [Github](https://github.com/nanome-ai) with the "plugins-" prefix.
 
-The primary requirements for running plugins is the Nanome Virtual Reality Software and to have a Stacks Server configured for your Nanome account. *This is Enterprise only at the moment, but Academic BETA users will start soon.
+New users who sign up for a Nanome account get a 30-day free trial unlocking premium license capabilites and also early access to Nanome's cloud-hosted plugins. 
 
-The Nanome Stacks Server is a crucial component that acts as a relay to forward information and processes from your running plugin into the Nanome virtual environment. The technical name is NTS or Nanome Transport Server.
+If you would like to develop plugins for Nanome, please reach out to us at [contacting us](mail:hello@nanome.ai) and take a look at our development resources such as our [API documentation](https://nanome.readthedocs.org).
 
-If you would like to develop plugins for Nanome on your own, you can do so by checking to see if you are Stack-enabled on your account and [contacting us](mail:hello@nanome.ai) to get a copy of Stack Studio - a graphical drag and drop Nanome menu builder for your plugin.
+## Nanome Plugins List
 
-## Nanome Plugins Full List
-
-The following is the list of some our favorite plugins made by Nanome to date.
+The following is the list of some our favorite plugins we have made so far:
 
 - [Vault](vault.md)
 - [Minimization](minimization.md)
 - [RMSD](rmsd.md)
-- [Real-time Scoring](realtimescoring.md)
-- [Docking](docking.md)
-- [Molecular Dynamics](moleculardynamics.md)
+- [Real-time Atom Scoring](realtimescoring.md)
+- [Molecular Docking](docking.md)
 - [Chemical Properties](chemicalproperties.md)
 - [Structure Prep](structureprep.md)
-- OpenMM Molecular Dynamics Simulations
+- Hydrogens
+- Electrostatic Potential Maps
+- 2D Chemical Preview
+
+
+A general rule of thumb is that any 3rd Party application that can interact using a command line or a python script would be easy to build a plugin for. Plugins can be designed and ran from different environments including Windows, Linux, and Mac operating systems depending on the requirements needed from the plugin.
+

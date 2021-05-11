@@ -25,7 +25,7 @@ module.exports = {
         ]
       },
       {
-        title: 'Nanome Stacks',
+        title: 'Nanome Plugins (Stacks)',
         collapsable: true,
         sidebarDepth: 1,
         children: [
@@ -35,7 +35,6 @@ module.exports = {
           '/plugins/rmsd',
           '/plugins/realtimescoring',
           '/plugins/docking',
-          '/plugins/moleculardynamics',
           '/plugins/chemicalproperties',
           '/plugins/structureprep',
           '/plugins/createyourown',
