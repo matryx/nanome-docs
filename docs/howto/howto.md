@@ -113,6 +113,14 @@ If you are using the Oculus Quest or Oculus Quest 2 VR headsets, then you can pl
 
 A log file's name follows the format of "YYYY-MM-DD_HH-MM-SS_details.txt" and is determined by the starting time of the session.
 
+## How to access Nanome on the Oculus Quest family of headsets
+
+Nanome can be loaded onto the Oculus Quest or Oculus Quest 2 via a few different methods. In 2021, Nanome was added to the Oculus App Lab (see [here](https://www.oculus.com/experiences/quest/3077598929010226/)), which means Nanome can now be found in the Quest store. When searching for Nanome, the result will initially be hidden - you need to open the "App Lab" results to find the Nanome application. See the animation below for more details. (Note: this process was performed on a smartphone.)
+
+<vimg src="howto-page/nanome_on_oculus_quest.gif"/>
+
+Downloading Nanome from Oculus App Lab will be the easiest method for getting access to the software on your Quest device. For alternative methods (such as sideloading), you can refer to our [setup page](https://nanome.ai/setup).
+
 ## How to use Oculus Dash
 
 <vimg src="howto-page/OculusDash.gif" />
