@@ -155,14 +155,14 @@ function testHybrid() {
         },
         {
             "type": "script",
-            "script":
-                "function main()\n\
-                Selection_All();\n\
-                end;"
+            "script":`
+                function main()
+                Selection_All();
+                end;`
         }
     ]
 
-    const deep_link = "nanome:///" + btoa(JSON.stringify(hybrid));
+    const deep_link = "nanome://" + btoa(JSON.stringify(hybrid));
     window.open(deep_link);
 }
 ```
