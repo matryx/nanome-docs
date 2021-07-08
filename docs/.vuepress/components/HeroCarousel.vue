@@ -6,7 +6,13 @@
     :autoplay-speed="5000"
     dots
   >
-    <a v-for="(slide, i) in slides" :key="i" :href="slide.url" class="slide">
+    <a
+      v-for="(slide, i) in slides"
+      :key="i"
+      :href="slide.url"
+      class="slide"
+      target="_blank"
+    >
       <img :src="slide.img" />
       <div class="content">
         <h1>{{ slide.title }}</h1>
