@@ -1,7 +1,26 @@
 <template>
   <div class="home-carousel">
     <h2>{{ title }}</h2>
-    <carousel arrows center-mode :slides-to-show="numSlides" swipe-to-slide>
+    <carousel
+      arrows
+      center-mode
+      :responsive="[
+        {
+          breakpoint: 960,
+          settings: { slidesToShow: Math.max(1, numSlides - 1) },
+        },
+        {
+          breakpoint: 720,
+          settings: { slidesToShow: Math.max(1, numSlides - 2) },
+        },
+        {
+          breakpoint: 480,
+          settings: { slidesToShow: Math.max(1, numSlides - 3) },
+        },
+      ]"
+      :slides-to-show="numSlides"
+      swipe-to-slide
+    >
       <a
         v-for="(slide, i) in slides"
         :key="i"
