@@ -3,15 +3,12 @@ title: Home
 hero:
   - title: Nimbus Case Study
     img: https://placeimg.com/600/300/animals
-    description:
     url: https://drive.google.com/file/d/1TCVhg27YMvh223DH4JLPxKNHe7TqUiaf/view
   - title: Novartis Study
     img: https://placeimg.com/600/300/nature
-    description:
     url: https://drive.google.com/file/d/1tUNxT72rwmFEDi40arh8BAPsOEodpBw6/view
   - title: DiscEngine Blog
     img: https://placeimg.com/600/300/people
-    description:
     url: https://blog.matryx.ai/nanome-is-joining-forces-with-discngine-to-greatly-impact-the-sbdd-experience-1af0b83b3057
 carousels:
   - title: Advanced Tutorials
@@ -19,105 +16,88 @@ carousels:
     slides:
     - title: Tools
       img: https://placeimg.com/600/300/animals
-      description:
+      description: Building blocks at nanoscale with atoms and molecules
       url: https://nanome.ai
     - title: Quick Tips
       img: https://placeimg.com/600/300/nature
-      description:
+      description: Tips on some of the basic yet helpful functions of Nanome
       url: https://nanome.ai
     - title: Building Molecules
       img: https://placeimg.com/600/300/people
-      description:
+      description: Select elements from the periodic table to design small molecules
       url: https://nanome.ai
     - title: Docking
       img: https://placeimg.com/600/300/animals
-      description:
+      description: A demonstration of docking using the Autodock Smina Plugin
       url: https://nanome.ai
     - title: Medchem Workflow
       img: https://placeimg.com/600/300/nature
-      description:
+      description: The golden path of the Medchemist Workflow
       url: https://nanome.ai
     - title: RMSD
       img: https://placeimg.com/600/300/people
-      description:
+      description: Learn to superimpose molecules with this structural alignment plugin
       url: https://nanome.ai
     - title: Real-Time Atom Scoring
       img: https://placeimg.com/600/300/people
-      description:
+      description: Visualize individual atomic binding affinity using our plugin leveraging DSX
       url: https://nanome.ai
   - title: Nanome Youtube Channel
     numSlides: 4
     slides:
     - title: "COVID19 in VR: D614G mutation in SARS-CoV-2 Spike protein"
-      img: https://placeimg.com/600/300/animals
-      description:
+      img: https://i.ytimg.com/vi/de89sFYbc4E/hqdefault.jpg
       url: https://youtu.be/de89sFYbc4E
     - title: "KRAS in VR: Novel Covalent Allosteric Binders for KRAS G12C3"
-      img: https://placeimg.com/600/300/nature
-      description:
+      img: https://i.ytimg.com/vi/WbB6xFRkX-c/hqdefault.jpg
       url: https://youtu.be/WbB6xFRkX-c
     - title: "GPCRs in VR: Identification of Cannabinoid CB1 Receptor Allosteric Sites to Treat Epilepsy"
-      img: https://placeimg.com/600/300/people
-      description:
-      url: https://youtu.be/HcrOvRpmVkY&t=
+      img: https://i.ytimg.com/vi/HcrOvRpmVkY/hqdefault.jpg
+      url: https://youtu.be/HcrOvRpmVkY
     - title: "GPCRs in VR: Calcitonin Gene-Related Peptide (CGRP)"
-      img: https://placeimg.com/600/300/animals
-      description:
+      img: https://i.ytimg.com/vi/3WuqK088LN8/hqdefault.jpg
       url: https://youtu.be/3WuqK088LN8
     - title: "Immunomodulatory Drugs and DDB1-CRBN E3 Ubiquitin Ligase in virtual reality"
-      img: https://placeimg.com/600/300/nature
-      description:
+      img: https://i.ytimg.com/vi/uWy9yLV2mnE/hqdefault.jpg
       url: https://youtu.be/uWy9yLV2mnE
     - title: "GPCRs in VR: Psychedelic! Structure of LSD bound to human serotonin receptor"
-      img: https://placeimg.com/600/300/people
-      description:
+      img: https://i.ytimg.com/vi/cqH6PunEsac/hqdefault.jpg
       url: https://youtu.be/cqH6PunEsac
     - title: "GPCRs in VR: The Orexin System and Suvorexant"
-      img: https://placeimg.com/600/300/people
-      description:
+      img: https://i.ytimg.com/vi/QEfwzOD3KL8/hqdefault.jpg
       url: https://youtu.be/QEfwzOD3KL8
     - title: "Leveraging VR in the Chemistry Classroom - A Discussion with Chemistry Educators"
-      img: https://placeimg.com/600/300/people
-      description:
+      img: https://i.ytimg.com/vi/vI3tm_-ckiI/hqdefault.jpg
       url: https://youtu.be/vI3tm_-ckiI
     - title: "COVID19 in VR: Emerging U.S. Variants - L452R and Q677P/H"
-      img: https://placeimg.com/600/300/people
-      description:
+      img: https://i.ytimg.com/vi/5sZzMYOaaTQ/hqdefault.jpg
       url: https://youtu.be/5sZzMYOaaTQ
     - title: "Covid-19 in VR: Exploring Spike Protein Mutations with Dr. Kuiper from CSIRO Data61"
-      img: https://placeimg.com/600/300/people
-      description:
+      img: https://i.ytimg.com/vi/daaoazyBml8/hqdefault.jpg
       url: https://youtu.be/daaoazyBml8
   - title: Nanome Blog
     numSlides: 3
     slides:
     - title: "Scientists at Oak Ridge National Laboratory use virtual reality to study the structure and function of the COVID-19 viral main protease and to design drug candidates"
       img: https://placeimg.com/600/300/animals
-      description:
       url: https://blog.matryx.ai/scientists-at-oak-ridge-national-laboratory-use-virtual-reality-to-study-the-structure-and-function-ad5e8b6ff5a2
     - title: "Advanced Tutorials Series | Quick Tips — Tips on some basic yet helpful functions of Nanome"
       img: https://placeimg.com/600/300/nature
-      description:
       url: https://blog.matryx.ai/advanced-tutorials-series-quick-tips-tips-on-some-basic-yet-helpful-functions-of-nanome-3db720aea437
     - title: "SARS-CoV-2 spike protein mutations and the potential implications for antibody therapy and vaccine effectiveness"
       img: https://placeimg.com/600/300/people
-      description:
       url: https://blog.matryx.ai/sars-cov-2-spike-protein-mutations-and-the-potential-implications-for-antibody-therapy-and-vaccine-2a4f8b6057b4
     - title: "Nanome is joining forces with Discngine to greatly impact the SBDD experience"
       img: https://placeimg.com/600/300/animals
-      description:
       url: https://blog.matryx.ai/nanome-is-joining-forces-with-discngine-to-greatly-impact-the-sbdd-experience-1af0b83b3057
     - title: "New Harvard study shows the efficacy of Nanome & VR for Chemistry Education"
       img: https://placeimg.com/600/300/nature
-      description:
       url: https://blog.matryx.ai/new-harvard-study-shows-the-efficacy-of-nanome-vr-for-chemistry-education-cb45da304ea2
     - title: "New case study shows VR could save biopharmaceutical companies tens of thousands per year"
       img: https://placeimg.com/600/300/people
-      description:
       url: https://blog.matryx.ai/new-case-study-shows-virtual-reality-tools-could-save-biopharmaceutical-companies-tens-of-8421699bd8f7
     - title: "Exploring AI-generated Molecules from Insilico Medicine for SARS-CoV-2 in Virtual Reality"
       img: https://placeimg.com/600/300/people
-      description:
       url: https://blog.matryx.ai/exploring-ai-generated-molecules-from-insilico-medicine-for-sars-cov-2-in-virtual-reality-49d4c854fd54
 ---
 

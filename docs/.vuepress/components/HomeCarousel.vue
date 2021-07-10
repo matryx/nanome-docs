@@ -28,9 +28,11 @@
         target="_blank"
       >
         <div class="slide">
-          <img :src="slide.img" />
+          <div class="img"><img :src="slide.img" /></div>
           <div class="title">{{ slide.title }}</div>
-          <div class="description">{{ slide.description }}</div>
+          <div v-if="slide.description" class="description">
+            {{ slide.description }}
+          </div>
         </div>
       </a>
     </carousel>
@@ -44,8 +46,16 @@ export default {
 </script>
 
 <style scoped>
-.home-carousel img {
+.home-carousel .img {
   border-radius: 6px;
+  overflow: hidden;
+  aspect-ratio: 16/9;
+}
+
+.home-carousel .img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .home-carousel .slide {
@@ -53,9 +63,12 @@ export default {
 }
 
 .home-carousel .slide > .title {
-  font-weight: bold;
   margin-top: 1em;
   margin-bottom: 0.2em;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
 }
 
 .home-carousel .slide > .description {
