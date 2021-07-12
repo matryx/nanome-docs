@@ -15,31 +15,31 @@ carousels:
     numSlides: 4
     slides:
     - title: Tools
-      img: https://placeimg.com/600/300/animals
+      img: /assets/carousels/advanced-tutorials/tools.png
       description: Building blocks at nanoscale with atoms and molecules
       url: https://nanome.ai
     - title: Quick Tips
-      img: https://placeimg.com/600/300/nature
+      img: /assets/carousels/advanced-tutorials/quick-tips.png
       description: Tips on some of the basic yet helpful functions of Nanome
       url: https://nanome.ai
     - title: Building Molecules
-      img: https://placeimg.com/600/300/people
+      img: /assets/carousels/advanced-tutorials/building-molecules.png
       description: Select elements from the periodic table to design small molecules
       url: https://nanome.ai
     - title: Docking
-      img: https://placeimg.com/600/300/animals
+      img: /assets/carousels/advanced-tutorials/docking.png
       description: A demonstration of docking using the Autodock Smina Plugin
       url: https://nanome.ai
     - title: Medchem Workflow
-      img: https://placeimg.com/600/300/nature
+      img: /assets/carousels/advanced-tutorials/medchem-workflow.png
       description: The golden path of the Medchemist Workflow
       url: https://nanome.ai
     - title: RMSD
-      img: https://placeimg.com/600/300/people
+      img: /assets/carousels/advanced-tutorials/rmsd.png
       description: Learn to superimpose molecules with this structural alignment plugin
       url: https://nanome.ai
     - title: Real-Time Atom Scoring
-      img: https://placeimg.com/600/300/people
+      img: /assets/carousels/advanced-tutorials/rtas.png
       description: Visualize individual atomic binding affinity using our plugin leveraging DSX
       url: https://nanome.ai
   - title: Nanome Youtube Channel
@@ -83,7 +83,7 @@ carousels:
       url: https://blog.matryx.ai/scientists-at-oak-ridge-national-laboratory-use-virtual-reality-to-study-the-structure-and-function-ad5e8b6ff5a2
     - title: "Advanced Tutorials Series | Quick Tips — Tips on some basic yet helpful functions of Nanome"
       img: https://placeimg.com/600/300/nature
-      url: https://blog.matryx.ai/advanced-tutorials-series-quick-tips-tips-on-some-basic-yet-helpful-functions-of-nanome-3db720aea437
+      url: https://blog.matryx.ai/advanced-tutorialss-series-quick-tips-tips-on-some-basic-yet-helpful-functions-of-nanome-3db720aea437
     - title: "SARS-CoV-2 spike protein mutations and the potential implications for antibody therapy and vaccine effectiveness"
       img: https://placeimg.com/600/300/people
       url: https://blog.matryx.ai/sars-cov-2-spike-protein-mutations-and-the-potential-implications-for-antibody-therapy-and-vaccine-2a4f8b6057b4
