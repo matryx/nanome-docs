@@ -1,14 +1,11 @@
 ---
 title: Home
 hero:
-  - title: Nimbus Case Study
-    img: https://placeimg.com/600/300/animals
+  - img: /assets/carousels/hero/nimbus.png
     url: https://drive.google.com/file/d/1TCVhg27YMvh223DH4JLPxKNHe7TqUiaf/view
-  - title: Novartis Study
-    img: https://placeimg.com/600/300/nature
+  - img: /assets/carousels/hero/novartis.png
     url: https://drive.google.com/file/d/1tUNxT72rwmFEDi40arh8BAPsOEodpBw6/view
-  - title: DiscEngine Blog
-    img: https://placeimg.com/600/300/people
+  - img: /assets/carousels/hero/discengine.png
     url: https://blog.matryx.ai/nanome-is-joining-forces-with-discngine-to-greatly-impact-the-sbdd-experience-1af0b83b3057
 carousels:
   - title: Advanced Tutorials
@@ -79,25 +76,25 @@ carousels:
     numSlides: 3
     slides:
     - title: "Scientists at Oak Ridge National Laboratory use virtual reality to study the structure and function of the COVID-19 viral main protease and to design drug candidates"
-      img: https://placeimg.com/600/300/animals
+      img: /assets/carousels/blog/oakridge.png
       url: https://blog.matryx.ai/scientists-at-oak-ridge-national-laboratory-use-virtual-reality-to-study-the-structure-and-function-ad5e8b6ff5a2
     - title: "Advanced Tutorials Series | Quick Tips — Tips on some basic yet helpful functions of Nanome"
-      img: https://placeimg.com/600/300/nature
+      img: /assets/carousels/blog/advtutquicktips.png
       url: https://blog.matryx.ai/advanced-tutorialss-series-quick-tips-tips-on-some-basic-yet-helpful-functions-of-nanome-3db720aea437
     - title: "SARS-CoV-2 spike protein mutations and the potential implications for antibody therapy and vaccine effectiveness"
-      img: https://placeimg.com/600/300/people
+      img: /assets/carousels/blog/SARS-CoV-2spikes.png
       url: https://blog.matryx.ai/sars-cov-2-spike-protein-mutations-and-the-potential-implications-for-antibody-therapy-and-vaccine-2a4f8b6057b4
     - title: "Nanome is joining forces with Discngine to greatly impact the SBDD experience"
-      img: https://placeimg.com/600/300/animals
+      img: /assets/carousels/blog/discengine.png
       url: https://blog.matryx.ai/nanome-is-joining-forces-with-discngine-to-greatly-impact-the-sbdd-experience-1af0b83b3057
     - title: "New Harvard study shows the efficacy of Nanome & VR for Chemistry Education"
-      img: https://placeimg.com/600/300/nature
+      img: /assets/carousels/blog/harvardstudy.png
       url: https://blog.matryx.ai/new-harvard-study-shows-the-efficacy-of-nanome-vr-for-chemistry-education-cb45da304ea2
     - title: "New case study shows VR could save biopharmaceutical companies tens of thousands per year"
-      img: https://placeimg.com/600/300/people
+      img: /assets/carousels/blog/nimbus.png
       url: https://blog.matryx.ai/new-case-study-shows-virtual-reality-tools-could-save-biopharmaceutical-companies-tens-of-8421699bd8f7
     - title: "Exploring AI-generated Molecules from Insilico Medicine for SARS-CoV-2 in Virtual Reality"
-      img: https://placeimg.com/600/300/people
+      img: /assets/carousels/blog/insilicomedicine.png
       url: https://blog.matryx.ai/exploring-ai-generated-molecules-from-insilico-medicine-for-sars-cov-2-in-virtual-reality-49d4c854fd54
 ---
 

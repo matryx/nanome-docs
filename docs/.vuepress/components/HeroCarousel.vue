@@ -28,11 +28,21 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 .hero-carousel img {
   width: 100%;
-  max-height: 420px;
+  max-height: 450px;
   object-fit: cover;
+}
+
+.hero-carousel .slick-arrow {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.hero-carousel:hover .slick-arrow,
+.hero-carousel:focus .slick-arrow {
+  opacity: 1;
 }
 
 .hero-carousel .slide {
