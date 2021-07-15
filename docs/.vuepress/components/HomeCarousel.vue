@@ -24,7 +24,7 @@
       <a
         v-for="(slide, i) in slides"
         :key="i"
-        :href="slide.url"
+        :href="getSlideURL(slide)"
         target="_blank"
       >
         <div class="slide">
@@ -42,6 +42,26 @@
 <script>
 export default {
   props: ['numSlides', 'slides', 'title'],
+
+  methods: {
+    getSlideURL(slide) {
+      if (slide.url) return slide.url
+
+      if (slide.file) {
+        const match = navigator.userAgent.match(/Nanome\/(\d+\.\d+)/)
+        const version = match ? match[1] : '1.22'
+
+        const url = slide.file.replace('<version>', version)
+        const command = [
+          { type: 'load', sources: [{ type: 'http', path: url }] },
+        ]
+
+        return `nanome://${btoa(JSON.stringify(command))}`
+      }
+
+      return '/'
+    },
+  },
 }
 </script>
 
