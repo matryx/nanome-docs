@@ -6,32 +6,44 @@ title: Troubleshooting
 
 ## Having Trouble Logging into Nanome?
 
-### Open these ports for Firewall
+### These ports are REQUIRED from each machine/VR device:
 
-#### In order to use the Nanome application, please allow outbound connections to ports 80 and 443 for the following domains on any client device:
-- api.nanome.ai
-- home.nanome.ai
-- nanome.ai
-Additionally, allow outbounds connection for UDP Ports 5055, 5056, 5058 to (DNS: collaboration.nanome.ai or IP: '13.56.83.235') (Nanome's Secure Multi-user Collaboration server)
+- (Authentication) TCP Port 443 to DNS api.nanome.ai
+- (Collaboration) UDP Ports 5055-5058 to DNS collaboration.nanome.ai
+- (Plugins) TCP Port 8888 to DNS plugins.nanome.ai
 
-#### If you are using an Oculus, please allow outbound connections to ports 80 and 443 for the following domains:
+### These ports are OPTIONAL from each machine/VR device
+
+(Molecular Databases)
+- TCP 443 to DNS files.rcsb.org
+- TCP 443 to DNS pubchem.ncbi.nlm.nih.gov
+- TCP 443 to DNS www.drugbank.ca
+
+### If you are unable to get the Steam or Oculus applications to irrespective of Nanome, try these opening these ports from each device:
+
+#### Oculus (according to their documentation)
+
+TCP port 80 & 443 for 
 - oculus.com
 - facebook.com
 - fbcdn.net
 - akamaihd.net
 
-Additionally, allow outbound connections for ports 3478 TCP and/or 50000-59999 UDP
+They also recommend TCP 3478 and UDP 500000-59999 to each of the above sites, but the drivers tend to work without them.
 
-#### If you want to download files from public protein and drug databases, please allow outbound connections to ports 80 and 443 for the following domains:
-- https://files.rcsb.org
-- https://www.drugbank.ca
-- https://pubchem.ncbi.nlm.nih.gov
+#### Oculus for Business Only:
 
-#### If you are using Steam, please open these ports to log into Steam and download content:
-- HTTP (TCP port 80) and HTTPS (443)
-- UDP 27015 through 27030
-- TCP 27015 through 27030
-For generic Steam HTTP/HTTPS requests, your proxy should allow the following domains:
+TCP Port 443 for:
+- graph.oculus.com
+- graph.facebook-hardware.com
+- graph.facebook.com
+- mqtt.facebook.com
+- my.workplace.com
+
+
+#### Steam and SteamVR (according to their documentation)
+
+TCP port 80 & 443 for
 - steampowered.com
 - steamcommunity.com
 - steamgames.com
@@ -40,19 +52,16 @@ For generic Steam HTTP/HTTPS requests, your proxy should allow the following dom
 - steamstatic.com
 - akamaihd.net
 
-#### If you are using Nanome Plugin, please allow outbound connections to TCP Ports 8888 and 4530 for this domain:
--  plugins.nanome.ai
+They also recommend opening network traffic to the Steam application for UDP Ports 27015-27030 and TCP Ports 27015-27030 
 
-#### Oculus for Business Only:
-Firewall 443 outbound connectivity to the following URLs:
-
-- https://graph.oculus.com
-- https://graph.facebook-hardware.com
-- https://graph.facebook.com
-- https://mqtt.facebook.com
-- https://my.workplace.com
 
 #### Tips to use your Oculus Quest in a VPN network
+
+
+##### New Method
+The Oculus Quest 2 with the v29 firmware update from Oculus enables the use of arbitrary APK files (Android apps) to be used on the device. This means that you can sideload / install the APK file of your favorite VPN to the device, log in, and use as if you would for an Android device. Note that your VPN provider must offer an APK for this to work. We have seen it work properly with NordVPN, ExpressVPN, Cisco AnyConnect, and several others.
+
+##### Old method
 
 Method 1: VPN-enabled Hotspot from a Windows 10 PC
 Requirements: 
