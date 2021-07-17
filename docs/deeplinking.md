@@ -6,59 +6,53 @@ title: Deep Linking
 
 Deep linking (also known as application protocol) enables 3rd party applications to construct a URL to automatically launch Nanome with various parameters, files, and scripts programatically.
 
-An example of this would be having an Molecular Database Partner or  customer's internal web application that could have button to "Open in Nanome" for a single or specific set of molecules. Clicking on the button would then prompt the user to launch the pre-installed Nanome Application and to immediately load the files into the corresponding Nanome room seamlessly. 
+An example of this would be having an Molecular Database Partner or customer's internal web application that could have button to "Open in Nanome" for a single or specific set of molecules. Clicking on the button would then prompt the user to launch the pre-installed Nanome Application and to immediately load the files into the corresponding Nanome room seamlessly.
 
 Please note that:
 
-1. the deep linking/app protocol requires the Nanome application to be downloaded and requires Windows registry binding. Thus, users who want to use this method will needed to have installed Nanome using the  Windows Setup Installer located on the [nanome.ai/setup](https://nanome.ai/setup) page.
+1. the deep linking/app protocol requires the Nanome application to be downloaded and requires Windows registry binding. Thus, users who want to use this method will needed to have installed Nanome using the Windows Setup Installer located on the [nanome.ai/setup](https://nanome.ai/setup) page.
 
 2. All-in-one headsets do not yet have support for this deeplinking protocol unless invoked through the Nanome in-VR web browser.
 
 ## Use cases
 
-- Loading a single file 
-        
->A scientist visits a web page that is showing a single molecule or project with information about it. Clicking the "Open in Nanome" button would launch Nanome and automatically load in a PDB, Nanome/Pymol session file, or any of our supported file types.
+- Loading a single file
 
-<a href="nanome://eyJjb21tYW5kcyI6W3siam9pbiI6InRoaXMgaXMgbXkgcm9vbSJ9XX0=
-    " class="btn">Open a single file in Nanome</a>
+> A scientist visits a web page that is showing a single molecule or project with information about it. Clicking the "Open in Nanome" button would launch Nanome and automatically load in a PDB, Nanome/Pymol session file, or any of our supported file types.
 
-- Loading Multiple files 
+<a href="https://open.nanome.ai/#/eyJjb21tYW5kcyI6W3siam9pbiI6InRoaXMgaXMgbXkgcm9vbSJ9XX0=" class="btn">Open a single file in Nanome</a>
+
+- Loading Multiple files
 
 > A scientist visits a web page that has many ligands and a protein. The scientist could then select several compounds and click "Open in Nanome". The Nanome application launches automatically loading in the ligands aligned to the protein.
 
-<a href="nanome://eyJjb21tYW5kcyI6W3siam9pbiI6InRoaXMgaXMgbXkgcm9vbSJ9XX0=
-" class="btn">Open multiple files in Nanome</a>
-
+<a href="https://open.nanome.ai/#/eyJjb21tYW5kcyI6W3siam9pbiI6InRoaXMgaXMgbXkgcm9vbSJ9XX0=" class="btn">Open multiple files in Nanome</a>
 
 - Run a script
 
 > A scientist can click a button in the web browser and it would would load and run a Nanome Macro (written in LUA) in the room and apply changes such as changing the molecular representation for the secondary structure, doing modifying molecular operations
 
-<a href="nanome://eyJjb21tYW5kcyI6W3siam9pbiI6InRoaXMgaXMgbXkgcm9vbSJ9XX0=" class="btn">Run a script in Nanome</a>
+<a href="https://open.nanome.ai/#/eyJjb21tYW5kcyI6W3siam9pbiI6InRoaXMgaXMgbXkgcm9vbSJ9XX0=" class="btn">Run a script in Nanome</a>
 
 - Load molecule(s) and run a script (example code)
 
-> A scientist visits a web page for a project, selects multiple ligands and a protein, changes some aspect of the molecular representation (e.g. specific surface coloring) and  clicks *Open in Nanome*. The Nanome application launches automatically loading in the ligands, aligning them to the protein and rendering a specific surface coloring.
+> A scientist visits a web page for a project, selects multiple ligands and a protein, changes some aspect of the molecular representation (e.g. specific surface coloring) and clicks _Open in Nanome_. The Nanome application launches automatically loading in the ligands, aligning them to the protein and rendering a specific surface coloring.
 
-<a href="nanome://eyJjb21tYW5kcyI6W3siam9pbiI6InRoaXMgaXMgbXkgcm9vbSJ9XX0=
 " class="btn">Open files and run a script in Nanome</a>
 
 ## Usage
 
-
 ### Constructing the the URL
 
-Each URL contains a JSON stringified, base64 encoded JSON object and is appended to the "nanome" web data/type. 
+Each URL contains a JSON stringified, base64 encoded JSON object and is appended to the "nanome" web data/type.
 
 An example URL looks like:
-    
-     nanome://eyJjb21tYW5kcyI6W3siam9pbiI6InRoaXMgaXMgbXkgcm9vbSJ9XX0=
+  
+ nanome://eyJjb21tYW5kcyI6W3siam9pbiI6InRoaXMgaXMgbXkgcm9vbSJ9XX0=
 
 Entering this url in the browser would automatically launch Nanome from the Windows Registry (PC Setup Installer) or the in-VR web browser would automatically handle the commands.
 
-To create the URL, first create the commands JSON. This one is to load the Protein MMCIF file of PDB: 6LU7 (Covid19 Main Protease) 
-
+To create the URL, first create the commands JSON. This one is to load the Protein MMCIF file of PDB: 6LU7 (Covid19 Main Protease)
 
     const deep_link_commands = [
         {
@@ -72,18 +66,27 @@ To create the URL, first create the commands JSON. This one is to load the Prote
         }
     ];
 
-Now the JSON needs stringified and base64 encoded (btoa) then executed using the window.open() function: 
+Now the JSON needs stringified and base64 encoded (btoa) then executed using the window.open() function:
 
     const deep_link = "nanome://" + btoa(JSON.stringify(deep_link_commands));
     window.open(deep_link);
 
 Wrapping this entire thing into a function to be triggered on a button press in javascript would enable your web platform to automatically push data to Nanome as described.
 
+If you are accessing the button from inside the Nanome in-VR web browser, then it will be useful to only have the linking. You can detect if the source of the request is coming from the Nanome in-VR web browser by looking at the UserAgent for the website requests and seeing the Nanome version.
+
 Example button:
 
 <a href="nanome://eyJjb21tYW5kcyI6W3siam9pbiI6InRoaXMgaXMgbXkgcm9vbSJ9XX0=
 " class="btn">Open in Nanome Example Button</a>
 
+Alternatively, you can pass it through Nanome's deep linking landing page by adding your URL to the end of this url "https://open.nanome.ai/#/"
+
+An example is below:
+
+<a href="https://open.nanome.ai/#/eyJjb21tYW5kcyI6W3siam9pbiI6InRoaXMgaXMgbXkgcm9vbSJ9XX0=
+" class="btn">Open using Nanome landing page</a>
+ 
 
 ## Code Examples
 
@@ -169,6 +172,6 @@ function testHybrid() {
 
 ## Additional Notes
 
-- The Nanome in-VR web browser catches the data/type and handles it so this works on All-in-one devices. This does not work on the all-in-one VR/AR devices' native browser due to them not exposing the necessary browser APIs. 
+- The Nanome in-VR web browser catches the data/type and handles it so this works on All-in-one devices. This does not work on the all-in-one VR/AR devices' native browser due to them not exposing the necessary browser APIs.
 - Sequential commands are stored in a collection that implies order
 - Opening a Session file (Nanome, Pymol, MOE, Maestro) or Spatial recording will prompt to clear your existing room if you already have Nanome open
