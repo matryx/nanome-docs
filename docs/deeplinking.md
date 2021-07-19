@@ -47,10 +47,12 @@ Please note that:
 Each URL contains a JSON stringified, base64 encoded JSON object and is appended to the "nanome" web data/type.
 
 An example URL looks like:
-  
- nanome://eyJjb21tYW5kcyI6W3siam9pbiI6InRoaXMgaXMgbXkgcm9vbSJ9XX0=
 
-Entering this url in the browser would automatically launch Nanome from the Windows Registry (PC Setup Installer) or the in-VR web browser would automatically handle the commands.
+ nanome:///eyJjb21tYW5kcyI6W3siam9pbiI6InRoaXMgaXMgbXkgcm9vbSJ9XX0=
+
+Entering this URL in the browser would automatically launch Nanome from the Windows Registry (PC Setup Installer) or the in-VR web browser would automatically handle the commands.
+
+Note: the 3rd forward-slash (`/`) in the URL is intentional and important.
 
 To create the URL, first create the commands JSON. This one is to load the Protein MMCIF file of PDB: 6LU7 (Covid19 Main Protease)
 
@@ -68,7 +70,7 @@ To create the URL, first create the commands JSON. This one is to load the Prote
 
 Now the JSON needs stringified and base64 encoded (btoa) then executed using the window.open() function:
 
-    const deep_link = "nanome://" + btoa(JSON.stringify(deep_link_commands));
+    const deep_link = "nanome:///" + btoa(JSON.stringify(deep_link_commands));
     window.open(deep_link);
 
 Wrapping this entire thing into a function to be triggered on a button press in javascript would enable your web platform to automatically push data to Nanome as described.
@@ -77,16 +79,16 @@ If you are accessing the button from inside the Nanome in-VR web browser, then i
 
 Example button:
 
-<a href="nanome://eyJjb21tYW5kcyI6W3siam9pbiI6InRoaXMgaXMgbXkgcm9vbSJ9XX0=
+<a href="nanome:///eyJjb21tYW5kcyI6W3siam9pbiI6InRoaXMgaXMgbXkgcm9vbSJ9XX0=
 " class="btn">Open in Nanome Example Button</a>
 
-Alternatively, you can pass it through Nanome's deep linking landing page by adding your URL to the end of this url "https://open.nanome.ai/#/"
+Alternatively, you can pass it through Nanome's deep linking landing page by adding your URL to the end of this URL "https://open.nanome.ai/#/"
 
 An example is below:
 
 <a href="https://open.nanome.ai/#/eyJjb21tYW5kcyI6W3siam9pbiI6InRoaXMgaXMgbXkgcm9vbSJ9XX0=
 " class="btn">Open using Nanome landing page</a>
- 
+
 
 ## Code Examples
 
@@ -110,7 +112,7 @@ function testLoad() {
         }
     ];
 
-    const deep_link = "nanome://" + btoa(JSON.stringify(load));
+    const deep_link = "nanome:///" + btoa(JSON.stringify(load));
     window.open(deep_link);
 }
 
@@ -132,7 +134,7 @@ function SampleScript() {
         }
     ]
 
-    const deep_link = "nanome://" + btoa(JSON.stringify(script));
+    const deep_link = "nanome:///" + btoa(JSON.stringify(script));
     window.open(deep_link);
 }
 
@@ -165,7 +167,7 @@ function testHybrid() {
         }
     ]
 
-    const deep_link = "nanome://" + btoa(JSON.stringify(hybrid));
+    const deep_link = "nanome:///" + btoa(JSON.stringify(hybrid));
     window.open(deep_link);
 }
 ```
