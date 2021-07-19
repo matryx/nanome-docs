@@ -45,6 +45,7 @@ export default {
 
   data: () => ({
     btoa: (x) => x,
+    isNanome: false,
     version: '1.22',
   }),
 
@@ -54,6 +55,7 @@ export default {
 
     const match = navigator.userAgent.match(/Nanome\/(\d+\.\d+)/)
     if (match) {
+      this.isNanome = true
       this.version = match[1]
     }
   },
@@ -68,7 +70,10 @@ export default {
           { type: 'load', sources: [{ type: 'http', path: url }] },
         ]
 
-        return `nanome://${this.btoa(JSON.stringify(command))}`
+        const baseURL = this.isNanome
+          ? 'nanome:///'
+          : 'https://open.nanome.ai/#/'
+        return baseURL + this.btoa(JSON.stringify(command))
       }
 
       return '/'
