@@ -14,4 +14,5 @@ The following is the list of plugins Nanome itself has created to date.
 - [Molecular Dynamics](moleculardynamics.md)
 - [Chemical Properties](chemicalproperties.md)
 - [Structure Prep](structureprep.md)
+- [Chemical Interactions](cheminteractions.md)
 - OpenMM Molecular Dynamics Simulations
