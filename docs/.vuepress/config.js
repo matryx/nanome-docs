@@ -37,6 +37,7 @@ module.exports = {
           '/plugins/docking',
           '/plugins/chemicalproperties',
           '/plugins/structureprep',
+          '/plugins/cheminteractions',
           '/plugins/createyourown',
           '/plugins/stackstudio'
         ]
