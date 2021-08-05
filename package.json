@@ -5,8 +5,11 @@
     "docs:build": "vuepress build docs",
     "docs:compress": "node ./docs/.vuepress/compress.js"
   },
+  "dependencies": {
+    "vue-slick-carousel": "^1.0.6"
+  },
   "devDependencies": {
-    "@vuepress/plugin-google-analytics": "^1.0.0-rc.1",
+    "@vuepress/plugin-google-analytics": "^1.8.2",
     "sharp": "^0.28.3",
     "vuepress": "^1.8.2",
     "vuepress-plugin-zooming": "^1.1.7"
