@@ -8,37 +8,37 @@ hero:
   - img: /assets/carousels/hero/discengine.png
     url: https://blog.matryx.ai/nanome-is-joining-forces-with-discngine-to-greatly-impact-the-sbdd-experience-1af0b83b3057
 carousels:
-  # - title: Advanced Tutorials
-  #   numSlides: 4
-  #   slides:
-  #     - title: Tools
-  #       img: /assets/carousels/advanced-tutorials/tools.png
-  #       description: Building blocks at nanoscale with atoms and molecules
-  #       file: https://nanome.s3.us-west-1.amazonaws.com/docs/tutorials/<version>/tools.nanosr
-  #     - title: Quick Tips
-  #       img: /assets/carousels/advanced-tutorials/quick-tips.png
-  #       description: Tips on some of the basic yet helpful functions of Nanome
-  #       file: https://nanome.s3.us-west-1.amazonaws.com/docs/tutorials/<version>/quick-tips.nanosr
-  #     - title: Building Molecules
-  #       img: /assets/carousels/advanced-tutorials/building-molecules.png
-  #       description: Select elements from the periodic table to design small molecules
-  #       file: https://nanome.s3.us-west-1.amazonaws.com/docs/tutorials/<version>/building-molecules.nanosr
-  #     - title: Docking
-  #       img: /assets/carousels/advanced-tutorials/docking.png
-  #       description: A demonstration of docking using the Autodock Smina Plugin
-  #       file: https://nanome.s3.us-west-1.amazonaws.com/docs/tutorials/<version>/docking.nanosr
-  #     - title: Medchem Workflow
-  #       img: /assets/carousels/advanced-tutorials/medchem-workflow.png
-  #       description: The golden path of the Medchemist Workflow
-  #       file: https://nanome.s3.us-west-1.amazonaws.com/docs/tutorials/<version>/medchem-workflow.nanosr
-  #     - title: RMSD
-  #       img: /assets/carousels/advanced-tutorials/rmsd.png
-  #       description: Learn to superimpose molecules with this structural alignment plugin
-  #       file: https://nanome.s3.us-west-1.amazonaws.com/docs/tutorials/<version>/rmsd.nanosr
-  #     - title: Real-Time Atom Scoring
-  #       img: /assets/carousels/advanced-tutorials/rtas.png
-  #       description: Visualize individual atomic binding affinity using our plugin leveraging DSX
-  #       file: https://nanome.s3.us-west-1.amazonaws.com/docs/tutorials/<version>/rtas.nanosr
+  - title: Advanced Tutorials
+    numSlides: 4
+    slides:
+      - title: Tools
+        img: /assets/carousels/advanced-tutorials/tools.png
+        description: Building blocks at nanoscale with atoms and molecules
+        file: https://nanome.s3.us-west-1.amazonaws.com/docs/tutorials/<version>/tools.nanosr
+      # - title: Quick Tips
+      #   img: /assets/carousels/advanced-tutorials/quick-tips.png
+      #   description: Tips on some of the basic yet helpful functions of Nanome
+      #   file: https://nanome.s3.us-west-1.amazonaws.com/docs/tutorials/<version>/quick-tips.nanosr
+      - title: Building Molecules
+        img: /assets/carousels/advanced-tutorials/building-molecules.png
+        description: Select elements from the periodic table to design small molecules
+        file: https://nanome.s3.us-west-1.amazonaws.com/docs/tutorials/<version>/building-molecules.nanosr
+      - title: Docking
+        img: /assets/carousels/advanced-tutorials/docking.png
+        description: A demonstration of docking using the Autodock Smina Plugin
+        file: https://nanome.s3.us-west-1.amazonaws.com/docs/tutorials/<version>/docking.nanosr
+      - title: Medchem Workflow
+        img: /assets/carousels/advanced-tutorials/medchem-workflow.png
+        description: The golden path of the Medchemist Workflow
+        file: https://nanome.s3.us-west-1.amazonaws.com/docs/tutorials/<version>/medchem-workflow.nanosr
+      - title: RMSD
+        img: /assets/carousels/advanced-tutorials/rmsd.png
+        description: Learn to superimpose molecules with this structural alignment plugin
+        file: https://nanome.s3.us-west-1.amazonaws.com/docs/tutorials/<version>/rmsd.nanosr
+      - title: Real-Time Atom Scoring
+        img: /assets/carousels/advanced-tutorials/rtas.png
+        description: Visualize individual atomic binding affinity using our plugin leveraging DSX
+        file: https://nanome.s3.us-west-1.amazonaws.com/docs/tutorials/<version>/rtas.nanosr
   - title: Nanome Youtube Channel
     numSlides: 4
     slides:
