@@ -37,6 +37,7 @@ module.exports = {
           '/plugins/docking',
           '/plugins/chemicalproperties',
           '/plugins/structureprep',
+          '/plugins/cheminteractions',
           '/plugins/createyourown',
           '/plugins/stackstudio'
         ]
@@ -74,6 +75,12 @@ module.exports = {
           '/help/faq',
           '/help/contact'
         ]
+      },
+      {
+        title: 'Open in Nanome button',
+        collapsable: true,
+        sidebarDepth: 1,
+        children: ['/deeplinking']
       }
     ],
     sidebarDepth: 2,
