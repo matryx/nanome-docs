@@ -57,24 +57,24 @@ Note: the 3rd forward-slash (`/`) in the URL is intentional and important.
 To create the URL, first create the commands JSON. This one is to load the Protein MMCIF file of PDB: 6LU7 (Covid19 Main Protease)
 
 ```js
-    const commands = [
-        {
-            type: "load",
-            sources: [
-                {
-                    type: "http",
-                    path: "https://files.rcsb.org/download/6LU7.cif"
-                }
-            ]
-        }
-    ]
+const commands = [
+    {
+        type: "load",
+        sources: [
+            {
+                type: "http",
+                path: "https://files.rcsb.org/download/6LU7.cif"
+            }
+        ]
+    }
+]
 ```
 
 Now the JSON needs stringified and base64 encoded (btoa) then executed using the window.open() function:
 
 ```js
-    const deepLink = "nanome:///" + btoa(JSON.stringify(commands))
-    window.open(deepLink)
+const deepLink = "nanome:///" + btoa(JSON.stringify(commands))
+window.open(deepLink)
 ```
 
 Wrapping this entire thing into a function to be triggered on a button press in javascript would enable your web platform to automatically push data to Nanome as described.
@@ -83,15 +83,13 @@ If you are accessing the button from inside the Nanome in-VR web browser, then i
 
 Example button:
 
-<a href="nanome:///<base64-payload>
-" class="btn">Open in Nanome Example Button</a>
+<a href="nanome:///<base64-payload>" class="btn">Open in Nanome Example Button</a>
 
 Alternatively, you can pass it through Nanome's deep linking landing page by adding your URL to the end of this URL "https://open.nanome.ai/#/"
 
 An example is below:
 
-<a href="https://open.nanome.ai/#/<base64-payload>
-" class="btn">Open using Nanome landing page</a>
+<a href="https://open.nanome.ai/#/<base64-payload>" class="btn">Open using Nanome landing page</a>
 
 
 ## Code Examples
@@ -99,24 +97,24 @@ An example is below:
 ### Loading multiple files (one from local and one from a direct link)
 
 ```js
-    const commands = [
-        {
-            type: "load",
-            sources: [
-                {
-                    type: "file",
-                    path: "C:\\Users\\<User>\\<PATH>\\6LU7.cif"
-                },
-                {
-                    type: "http",
-                    path: "https://files.rcsb.org/download/6LU7.cif"
-                }
-            ]
-        }
-    ]
+const commands = [
+    {
+        type: "load",
+        sources: [
+            {
+                type: "file",
+                path: "C:\\Users\\<User>\\<PATH>\\6LU7.cif"
+            },
+            {
+                type: "http",
+                path: "https://files.rcsb.org/download/6LU7.cif"
+            }
+        ]
+    }
+]
 
-    const deepLink = "nanome:///" + btoa(JSON.stringify(commands))
-    window.open(deepLink)
+const deepLink = "nanome:///" + btoa(JSON.stringify(commands))
+window.open(deepLink)
 ```
 
 ### Run script functions (LUA) directly
@@ -124,48 +122,48 @@ An example is below:
 Runs a Nanome Macro (Lua) commands directly in the JSON. See the [Nanome Macro documentation](https://github.com/nanome-ai/nanome-macros/blob/master/Documentation/API.md) for supported Macro Script commands.
 
 ```js
-    const commands = [
-        {
-            type: "script",
-            script:`
-                function main()
-                    Selection_All()
-                end`
-        }
-    ]
+const commands = [
+    {
+        type: "script",
+        script:`
+            function main()
+                Selection_All()
+            end`
+    }
+]
 
-    const deepLink = "nanome:///" + btoa(JSON.stringify(commands))
-    window.open(deepLink)
+const deepLink = "nanome:///" + btoa(JSON.stringify(commands))
+window.open(deepLink)
 ```
 
 ### Load a molecule and run a script
 
 ```js
-    const commands = [
-        {
-            type: "load",
-            sources: [
-                {
-                    type: "file",
-                    path: "C:\\Users\\<User>\\<PATH>\\1a9l.cif"
-                },
-                {
-                    type: "http",
-                    path: "https://files.rcsb.org/download/6LU7.cif"
-                }
-            ]
-        },
-        {
-            type: "script",
-            script:`
-                function main()
-                    Selection_All()
-                end`
-        }
-    ]
+const commands = [
+    {
+        type: "load",
+        sources: [
+            {
+                type: "file",
+                path: "C:\\Users\\<User>\\<PATH>\\1a9l.cif"
+            },
+            {
+                type: "http",
+                path: "https://files.rcsb.org/download/6LU7.cif"
+            }
+        ]
+    },
+    {
+        type: "script",
+        script:`
+            function main()
+                Selection_All()
+            end`
+    }
+]
 
-    const deepLink = "nanome:///" + btoa(JSON.stringify(commands))
-    window.open(deepLink)
+const deepLink = "nanome:///" + btoa(JSON.stringify(commands))
+window.open(deepLink)
 ```
 
 ## Additional Notes
