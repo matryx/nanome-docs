@@ -20,25 +20,25 @@ Please note that:
 
 > A scientist visits a web page that is showing a single molecule or project with information about it. Clicking the "Open in Nanome" button would launch Nanome and automatically load in a PDB, Nanome/Pymol session file, or any of our supported file types.
 
-<a href="https://open.nanome.ai/#/eyJjb21tYW5kcyI6W3siam9pbiI6InRoaXMgaXMgbXkgcm9vbSJ9XX0=" class="btn">Open a single file in Nanome</a>
+<a href="https://open.nanome.ai/#/<base64-payload>" class="btn">Open a single file in Nanome</a>
 
 - Loading Multiple files
 
 > A scientist visits a web page that has many ligands and a protein. The scientist could then select several compounds and click "Open in Nanome". The Nanome application launches automatically loading in the ligands aligned to the protein.
 
-<a href="https://open.nanome.ai/#/eyJjb21tYW5kcyI6W3siam9pbiI6InRoaXMgaXMgbXkgcm9vbSJ9XX0=" class="btn">Open multiple files in Nanome</a>
+<a href="https://open.nanome.ai/#/<base64-payload>" class="btn">Open multiple files in Nanome</a>
 
 - Run a script
 
 > A scientist can click a button in the web browser and it would would load and run a Nanome Macro (written in LUA) in the room and apply changes such as changing the molecular representation for the secondary structure, doing modifying molecular operations
 
-<a href="https://open.nanome.ai/#/eyJjb21tYW5kcyI6W3siam9pbiI6InRoaXMgaXMgbXkgcm9vbSJ9XX0=" class="btn">Run a script in Nanome</a>
+<a href="https://open.nanome.ai/#/<base64-payload>" class="btn">Run a script in Nanome</a>
 
 - Load molecule(s) and run a script (example code)
 
 > A scientist visits a web page for a project, selects multiple ligands and a protein, changes some aspect of the molecular representation (e.g. specific surface coloring) and clicks _Open in Nanome_. The Nanome application launches automatically loading in the ligands, aligning them to the protein and rendering a specific surface coloring.
 
-" class="btn">Open files and run a script in Nanome</a>
+<a href="https://open.nanome.ai/#/<base64-payload>" class="btn">Open files and run a script in Nanome</a>
 
 ## Usage
 
@@ -48,7 +48,7 @@ Each URL contains a JSON stringified, base64 encoded JSON object and is appended
 
 An example URL looks like:
 
- nanome:///eyJjb21tYW5kcyI6W3siam9pbiI6InRoaXMgaXMgbXkgcm9vbSJ9XX0=
+    nanome:///<base64-payload>
 
 Entering this URL in the browser would automatically launch Nanome from the Windows Registry (PC Setup Installer) or the in-VR web browser would automatically handle the commands.
 
@@ -56,22 +56,26 @@ Note: the 3rd forward-slash (`/`) in the URL is intentional and important.
 
 To create the URL, first create the commands JSON. This one is to load the Protein MMCIF file of PDB: 6LU7 (Covid19 Main Protease)
 
-    const deep_link_commands = [
+```js
+    const commands = [
         {
-            "type": "load",
-            "sources": [
+            type: "load",
+            sources: [
                 {
-                    "type": "http",
-                    "path": "https://files.rcsb.org/download/6LU7.cif"
+                    type: "http",
+                    path: "https://files.rcsb.org/download/6LU7.cif"
                 }
             ]
         }
-    ];
+    ]
+```
 
 Now the JSON needs stringified and base64 encoded (btoa) then executed using the window.open() function:
 
-    const deep_link = "nanome:///" + btoa(JSON.stringify(deep_link_commands));
-    window.open(deep_link);
+```js
+    const deepLink = "nanome:///" + btoa(JSON.stringify(commands))
+    window.open(deepLink)
+```
 
 Wrapping this entire thing into a function to be triggered on a button press in javascript would enable your web platform to automatically push data to Nanome as described.
 
@@ -79,14 +83,14 @@ If you are accessing the button from inside the Nanome in-VR web browser, then i
 
 Example button:
 
-<a href="nanome:///eyJjb21tYW5kcyI6W3siam9pbiI6InRoaXMgaXMgbXkgcm9vbSJ9XX0=
+<a href="nanome:///<base64-payload>
 " class="btn">Open in Nanome Example Button</a>
 
 Alternatively, you can pass it through Nanome's deep linking landing page by adding your URL to the end of this URL "https://open.nanome.ai/#/"
 
 An example is below:
 
-<a href="https://open.nanome.ai/#/eyJjb21tYW5kcyI6W3siam9pbiI6InRoaXMgaXMgbXkgcm9vbSJ9XX0=
+<a href="https://open.nanome.ai/#/<base64-payload>
 " class="btn">Open using Nanome landing page</a>
 
 
@@ -94,82 +98,74 @@ An example is below:
 
 ### Loading multiple files (one from local and one from a direct link)
 
-```
-function testLoad() {
-    const load = [
+```js
+    const commands = [
         {
-            "type": "load",
-            "sources": [
+            type: "load",
+            sources: [
                 {
-                    "type": "file",
-                    "path": "C:\\Users\\<User>\\<PATH>\\6LU7.cif"
+                    type: "file",
+                    path: "C:\\Users\\<User>\\<PATH>\\6LU7.cif"
                 },
                 {
-                    "type": "http",
-                    "path": "https://files.rcsb.org/download/6LU7.cif"
+                    type: "http",
+                    path: "https://files.rcsb.org/download/6LU7.cif"
                 }
             ]
         }
-    ];
+    ]
 
-    const deep_link = "nanome:///" + btoa(JSON.stringify(load));
-    window.open(deep_link);
-}
-
+    const deepLink = "nanome:///" + btoa(JSON.stringify(commands))
+    window.open(deepLink)
 ```
 
 ### Run script functions (LUA) directly
 
 Runs a Nanome Macro (Lua) commands directly in the JSON. See the [Nanome Macro documentation](https://github.com/nanome-ai/nanome-macros/blob/master/Documentation/API.md) for supported Macro Script commands.
 
-```
-function SampleScript() {
-    const script = [
+```js
+    const commands = [
         {
-            "type": "script",
-            "script":`
+            type: "script",
+            script:`
                 function main()
-                Selection_All();
-                end;`
+                    Selection_All()
+                end`
         }
     ]
 
-    const deep_link = "nanome:///" + btoa(JSON.stringify(script));
-    window.open(deep_link);
-}
-
+    const deepLink = "nanome:///" + btoa(JSON.stringify(commands))
+    window.open(deepLink)
 ```
 
 ### Load a molecule and run a script
 
-```
-function testHybrid() {
-    const hybrid = [
+```js
+    const commands = [
         {
-            "type": "load",
-            "sources": [
+            type: "load",
+            sources: [
                 {
-                    "type": "file",
-                    "path": "C:\\Users\\<User>\\<PATH>\\1a9l.cif"
+                    type: "file",
+                    path: "C:\\Users\\<User>\\<PATH>\\1a9l.cif"
                 },
                 {
-                    "type": "http",
-                    "path": "https://files.rcsb.org/download/6LU7.cif"
+                    type: "http",
+                    path: "https://files.rcsb.org/download/6LU7.cif"
                 }
             ]
         },
         {
-            "type": "script",
-            "script":`
+            type: "script",
+            script:`
                 function main()
-                Selection_All();
-                end;`
+                    Selection_All()
+                end`
         }
     ]
 
-    const deep_link = "nanome:///" + btoa(JSON.stringify(hybrid));
-    window.open(deep_link);
-}
+    const deepLink = "nanome:///" + btoa(JSON.stringify(commands))
+    window.open(deepLink)
 ```
 
 ## Additional Notes
