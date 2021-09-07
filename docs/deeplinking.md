@@ -20,25 +20,20 @@ Please note that:
 
 > A scientist visits a web page that is showing a single molecule or project with information about it. Clicking the "Open in Nanome" button would launch Nanome and automatically load in a PDB, Nanome/Pymol session file, or any of our supported file types.
 
-<a href="https://open.nanome.ai/#/<base64-payload>" class="btn">Open a single file in Nanome</a>
+<a href="https://open.nanome.ai/#/W3sidHlwZSI6ImxvYWQiLCJzb3VyY2VzIjpbeyJ0eXBlIjoiaHR0cCIsInBhdGgiOiJodHRwczovL2ZpbGVzLnJjc2Iub3JnL2Rvd25sb2FkLzZMVTcuY2lmIn1dfV0=" class="btn">Open a single file in Nanome</a>
 
 - Loading Multiple files
 
 > A scientist visits a web page that has many ligands and a protein. The scientist could then select several compounds and click "Open in Nanome". The Nanome application launches automatically loading in the ligands aligned to the protein.
 
-<a href="https://open.nanome.ai/#/<base64-payload>" class="btn">Open multiple files in Nanome</a>
+<a href="https://open.nanome.ai/#/W3sidHlwZSI6ImxvYWQiLCJzb3VyY2VzIjpbeyJ0eXBlIjoiaHR0cCIsInBhdGgiOiJodHRwczovL2ZpbGVzLnJjc2Iub3JnL2Rvd25sb2FkLzZMVTcuY2lmIn0seyJ0eXBlIjoiaHR0cCIsInBhdGgiOiJodHRwczovL2ZpbGVzLnJjc2Iub3JnL2Rvd25sb2FkLzVDRU8uY2lmIn1dfV0=" class="btn">Open multiple files in Nanome</a>
 
 - Run a script
 
-> A scientist can click a button in the web browser and it would would load and run a Nanome Macro (written in LUA) in the room and apply changes such as changing the molecular representation for the secondary structure, doing modifying molecular operations
+> A scientist can click a button in the web browser and it would would load and run a Nanome Macro (written in LUA) in the room and apply changes such as changing the molecular representation for the secondary structure, doing modifying molecular operations. [(See Lua Script here)](#run-script-functions-lua-directly)
 
-<a href="https://open.nanome.ai/#/<base64-payload>" class="btn">Run a script in Nanome</a>
+<a href="https://open.nanome.ai/#/W3sidHlwZSI6InNjcmlwdCIsInNjcmlwdCI6IlxuICAgICAgICAgICAgZnVuY3Rpb24gbWFpbiAoKVxuICAgICAgICAgICAgICAgIGlmIExpc3RfTGVuZ3RoKFNlbGVjdGlvbl9HZXRDb21wbGV4ZXMoKSkgPD0gMCB0aGVuXG4gICAgICAgICAgICAgICAgICAgIHJldHVybiBcIkVycm9yOiBObyBTdHJ1Y3R1cmUgU2VsZWN0ZWRcIlxuICAgICAgICAgICAgICAgIGVuZFxuICAgICAgICAgICAgICAgIENvbW1hbmRfU2V0UmliYm9uc1JlbmRlcihcInNlY29uZGFyeS1zdHJ1Y3R1cmVzXCIpXG4gICAgICAgICAgICAgICAgQ29tbWFuZF9TZXRTdXJmYWNlc1RyYW5zcGFyZW5jeSgwLjUpXG4gICAgICAgICAgICAgICAgQ29tbWFuZF9Db2xvcmluZ0F0b21zQm9uZHMoXCJkZWZhdWx0XCIsIG5pbCwgbmlsLCB0cnVlKVxuICAgICAgICAgICAgICAgIENvbW1hbmRfQ29sb3JpbmdSaWJib25zKFwiZGVmYXVsdFwiKVxuICAgICAgICAgICAgICAgIENvbW1hbmRfQ29sb3JpbmdTdXJmYWNlcyhcImRlZmF1bHRcIilcbiAgICAgICAgICAgICAgICByZXR1cm4gXCJTdWNjZXNzXCJcbiAgICAgICAgICAgIGVuZCJ9XQ==" class="btn">Run a script in Nanome</a>
 
-- Load molecule(s) and run a script (example code)
-
-> A scientist visits a web page for a project, selects multiple ligands and a protein, changes some aspect of the molecular representation (e.g. specific surface coloring) and clicks _Open in Nanome_. The Nanome application launches automatically loading in the ligands, aligning them to the protein and rendering a specific surface coloring.
-
-<a href="https://open.nanome.ai/#/<base64-payload>" class="btn">Open files and run a script in Nanome</a>
 
 ## Usage
 
@@ -83,13 +78,13 @@ If you are accessing the button from inside the Nanome in-VR web browser, then i
 
 Example button:
 
-<a href="nanome:///<base64-payload>" class="btn">Open in Nanome Example Button</a>
+<a href="nanome:///W3sidHlwZSI6ImxvYWQiLCJzb3VyY2VzIjpbeyJ0eXBlIjoiaHR0cCIsInBhdGgiOiJodHRwczovL2ZpbGVzLnJjc2Iub3JnL2Rvd25sb2FkLzZMVTcuY2lmIn1dfV0=" class="btn">Open in Nanome Example Button</a>
 
 Alternatively, you can pass it through Nanome's deep linking landing page by adding your URL to the end of this URL "https://open.nanome.ai/#/"
 
 An example is below:
 
-<a href="https://open.nanome.ai/#/<base64-payload>" class="btn">Open using Nanome landing page</a>
+<a href="https://open.nanome.ai/#/W3sidHlwZSI6ImxvYWQiLCJzb3VyY2VzIjpbeyJ0eXBlIjoiaHR0cCIsInBhdGgiOiJodHRwczovL2ZpbGVzLnJjc2Iub3JnL2Rvd25sb2FkLzZMVTcuY2lmIn1dfV0=" class="btn">Open using Nanome landing page</a>
 
 
 ## Code Examples
@@ -125,10 +120,18 @@ Runs a Nanome Macro (Lua) commands directly in the JSON. See the [Nanome Macro d
 const commands = [
     {
         type: "script",
-        script:`
-            function main()
-                Selection_All()
-            end`
+        script: `
+            function main ()
+                if List_Length(Selection_GetComplexes()) <= 0 then
+                    return "Error: No Structure Selected"
+                end
+                Command_SetRibbonsRender("secondary-structures")
+                Command_SetSurfacesTransparency(0.5)
+                Command_ColoringAtomsBonds("default", nil, nil, true)
+                Command_ColoringRibbons("default")
+                Command_ColoringSurfaces("default")
+                return "Success"
+            end`,
     }
 ]
 
