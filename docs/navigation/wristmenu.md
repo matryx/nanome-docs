@@ -49,3 +49,17 @@ The center area of the settings menu has an indicator for your current mic volum
 <vimg src="navigating-page/Wrist-ScreenshotTool.gif" />
 
 Use the screenshot tool to take a screenshot of your workspace and send it via email.
+
+### Camera as Desktop View
+
+<vimg src="navigating-page/camera_desktop_view.jpg" />
+
+This option allows the in-app camera to be mirrored to your desktop (Desktop VR only).
+
+## In-VR Web Browser
+
+<vimg src="navigating-page/wrist_menu_web_browser.jpg" />
+
+This is a web browser that can be accessed from within the virtual environment. The browser may viewed by only by a single user, or shared with everyone in the same workspace. Note: only one browser can be shared at a time.
+
+<vimg src="navigating-page/web_browser_no_keyboard.jpg" /> <vimg src="navigating-page/web_browser_with_keyboard.jpg" />
