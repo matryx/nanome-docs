@@ -72,7 +72,19 @@ Action buttons on the Entry List provide quick access to common actions on the w
 ## Load
 
 Load molecules or structures into your workspace. Supported file formats include:
-.pdb, .cif, .mmcif, .sdf, .mol, .xyz, .mol2, .ccp4, .dsn6, .dcd, .gro, .pqr, .trr, .xtc, .psf, .pse, .nanome, .png, .jpg, .jpeg, .pdf
+
+_Structural Coordinate File Formats_ <br />
+.pdb, .cif, .mmcif, .pse, .nanome, .sdf, .mol, .xyz, .mol2
+
+_Electron Density Map File Formats_ <br />
+.ccp4, .dsn6
+
+_Trajectory/Molecular Dynamics File Formats_ <br />
+.dcd, .gro, .pqr, .trr, .xtc, .psf
+
+_Image File Formats_ <br />
+.png, .jpg, .jpeg, .pdf
+
 
 ### Featured
 
