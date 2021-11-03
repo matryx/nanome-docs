@@ -36,13 +36,39 @@ Quickly manage the enabled menus and format them in certain layouts.
 
 ## Settings
 
-<vimg src="navigating-page/Wrist-AdvancedSettings.jpg" />
-
-Change settings such as volumes and environment background.
-
-<vimg src="navigating-page/Wrist-Volume.jpg" />
+<vimg src="navigating-page/Wrist_Settings_Menu1.jpg" />
 
 The center area of the settings menu has an indicator for your current mic volume. You can use this indicator to check if your mic is working.
+
+<vimg src="navigating-page/Wrist_Settings_Menu2.jpg" />
+
+Click on "Settings Menu" to change additional settings such as sound volumes, environment backgrounds, and avatar customizations.
+
+### Sound
+
+<vimg src="navigating-page/Wrist_Settings_Sound.jpg" />
+
+### User
+
+<vimg src="navigating-page/Wrist_Settings_User.jpg" />
+
+- Avatar Customizations
+
+Change your display name, hairstyle, hair color, eyeglasses color, and shirt color.
+
+<vimg src="navigating-page/Wrist_Settings_Avatar.jpg" />
+
+### Room
+
+<vimg src="navigating-page/Wrist_Settings_Room.jpg" />
+
+### Help
+
+<vimg src="navigating-page/Wrist_Settings_Help.jpg" />
+
+### Controls
+
+<vimg src="navigating-page/Wrist_Settings_Controls.jpg" />
 
 ## Screenshot Tool
 
