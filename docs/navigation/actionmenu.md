@@ -13,3 +13,7 @@ Action menu offers a quick access to all major features in Nanome anywhere. If y
 #### Example of using the action menu to change avatar color
 
 <vimg src="navigating-page/AvatarColor.gif" />
+
+#### Use the action menu to set up a meeting
+
+<vimg src="navigating-page/action-menu-create-meeting.png" />
