@@ -52,7 +52,7 @@ The Electron Density tab shows the configuration of viewing the Electron Density
 
 ### Alternative Conformations Menu
 
-<vimg src="features-page/hierarchy-residue-conformations.png" />
+<vimg src="navigating-page/hierarchy-residue-conformations.png" />
 <vimg src="navigating-page/residue-conformations.png" />
 
 This menu specifies residue conformations.
