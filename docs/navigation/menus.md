@@ -50,6 +50,13 @@ Frame data allows users to navigate and modify different frames of the same stru
 
 The Electron Density tab shows the configuration of viewing the Electron Density Map of the structure (Academic and Enterprise only).
 
+### Alternative Conformations Menu
+
+<vimg src="navigating-page/hierarchy-residue-conformations.png" />
+<vimg src="navigating-page/residue-conformations.png" />
+
+This menu specifies residue conformations.
+
 ## Menu Actions
 
 <vimg src="navigating-page/entry_list_updated.png" />
@@ -156,9 +163,9 @@ This tab contains options for the visual of ribbons.
 
 ### Surface
 
-<vimg src="navigating-page/Display-Surface-Menu.jpg" />
+<vimg src="navigating-page/Display-Surface-Menu-updated.png" />
 
-Toggle the visibility of solvent-excluded-surface or change its opacity.
+Toggle the visibility of solvent-excluded-surface, change its opacity, or change the probe length (in Angstroms).
 
 ### Sub Structure
 

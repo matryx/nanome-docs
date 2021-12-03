@@ -46,11 +46,11 @@ Click on "Settings Menu" to change additional settings such as sound volumes, en
 
 ### Sound
 
-<vimg src="navigating-page/Wrist_Settings_Sound.jpg" />
+<vimg src="navigating-page/Wrist_Settings_Sound_2.jpg" />
 
 ### User
 
-<vimg src="navigating-page/Wrist_Settings_User.jpg" />
+<vimg src="navigating-page/Wrist_Settings_User_2.jpg" />
 
 - Avatar Customizations
 
@@ -60,15 +60,19 @@ Change your display name, hairstyle, hair color, eyeglasses color, and shirt col
 
 ### Room
 
-<vimg src="navigating-page/Wrist_Settings_Room.jpg" />
+<vimg src="navigating-page/Wrist_Settings_Room_2.jpg" />
+
+### Stacks
+
+<vimg src="navigating-page/Wrist_Settings_Stacks.jpg" />
 
 ### Help
 
-<vimg src="navigating-page/Wrist_Settings_Help.jpg" />
+<vimg src="navigating-page/Wrist_Settings_Help_2.jpg" />
 
 ### Controls
 
-<vimg src="navigating-page/Wrist_Settings_Controls.jpg" />
+<vimg src="navigating-page/Wrist_Settings_Controls_2.jpg" />
 
 ## Screenshot Tool
 
@@ -81,6 +85,14 @@ Use the screenshot tool to take a screenshot of your workspace and send it via e
 <vimg src="navigating-page/camera_desktop_view.jpg" />
 
 This option allows the in-app camera to be mirrored to your desktop (Desktop VR only).
+
+## Notepad
+
+<vimg src="navigating-page/wrist-menu-notepad.png" />
+
+<vimg src="navigating-page/notepad.png" />
+
+This can be used as a sticky note.
 
 ## In-VR Web Browser
 
