@@ -100,7 +100,7 @@ title: Choosing Hardware
     </tbody>
 </table>
 
-## Nanome All In One (Quest 2 & Focus 3) vs PCVR Feature Comparison
+## Nanome All-In-One (Quest 2 & Focus 3) vs PCVR Feature Comparison
 
 The following tables below show brief overviews of the capabilities of the Oculus Quest 2, Vive Focus 3
 vs Desktop VR. Please also note the following:
@@ -123,19 +123,108 @@ significantly. ‘Shown Atom Count’ column is given nothing else is displayed 
     <tbody>
         <tr>
             <td style="background-color:#CFE2F3">Comfortable</td>
-            <td>72 FPS +</td>
+            <td style="background-color:#FFFFFF">72 FPS +</td>
         </tr>
         <tr>
             <td style="background-color:#FCE5CD">Moderate</td>
-            <td>60 FPS +</td>
+            <td style="background-color:#FFFFFF">60 FPS +</td>
         </tr>
         <tr>
             <td style="background-color:#F4CCCC">Not recommended</td>
-            <td>30 FPS or less</td>
+            <td style="background-color:#FFFFFF">30 FPS or less</td>
         </tr>
     </tbody>
 </table>
 
 ### Comfort Comparison
 
+<table>
+    <thead>
+        <tr>
+            <th>Shown Atom Count<sup>1,2</sup></th>
+            <th>Oculus Quest 2</th>
+            <th>HTC Vive Focus 3</th>
+            <th>Windows Desktop<sup>3</sup></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="background-color:#FFFFFF">2,500</td>
+            <td style="background-color:#CFE2F3">Comfortable</td>
+            <td style="background-color:#CFE2F3">Comfortable</td>
+            <td style="background-color:#CFE2F3">Comfortable</td>
+        </tr>
+        <tr>
+            <td style="background-color:#FFFFFF">5,000</td>
+            <td style="background-color:#FCE5CD">Moderate</td>
+            <td style="background-color:#FCE5CD">Moderate</td>
+            <td style="background-color:#CFE2F3">Comfortable</td>
+        </tr>
+        <tr>
+            <td style="background-color:#FFFFFF">10,000</td>
+            <td style="background-color:#F4CCCC">Not recommended</td>
+            <td style="background-color:#FCE5CD">Moderate</td>
+            <td style="background-color:#CFE2F3">Comfortable</td>
+        </tr>
+        <tr>
+            <td style="background-color:#FFFFFF">20,000</td>
+            <td style="background-color:#F4CCCC">Not recommended</td>
+            <td style="background-color:#F4CCCC">Not recommended</td>
+            <td style="background-color:#CFE2F3">Comfortable</td>
+        </tr>
+        <tr>
+            <td style="background-color:#FFFFFF">100,000</td>
+            <td style="background-color:#F4CCCC">Not recommended</td>
+            <td style="background-color:#F4CCCC">Not recommended</td>
+            <td style="background-color:#CFE2F3">Comfortable</td>
+        </tr>
+        <tr>
+            <td style="background-color:#FFFFFF">100,000+</td>
+            <td style="background-color:#F4CCCC">Not recommended</td>
+            <td style="background-color:#F4CCCC">Not recommended</td>
+            <td style="background-color:#D9ECD3">Depends on GPU model</td>
+        </tr>
+    </tbody>
+</table>
+
 ### Capability & Plugin Recommendation Comparison
+
+<table>
+    <tbody>
+        <tr>
+            <td><b>Feature</b></td>
+            <td><b>Oculus Quest 2 & HTC Vive Focus 3</b></td>
+            <td><b>Windows Desktop (both 2D and VR)</b></td>
+        </tr>
+        <tr>
+            <td><b>Energy Minimization</b></td>
+            <td>Plugins (Cloud/Remote server)</td>
+            <td>CPU based</td>
+        </tr>
+        <tr>
+            <td><b>Bonding and secondary structures</b></td>
+            <td>Running structure prep plugin strongly recommended</td>
+            <td>No prep needed</td>
+        </tr>
+        <tr>
+            <td><b>Voice Commands</b></td>
+            <td>Not Compatible</td>
+            <td>Compatible (full list here)</td>
+        </tr>
+        <tr>
+            <td><b>in-VR Web browser</b></td>
+            <td>Gecko (Light Firefox)</td>
+            <td>Chromium</td>
+        </tr>
+        <tr>
+            <td><b>Surface Generation</b></td>
+            <td>CPU based (slower, more precise)</td>
+            <td>GPU based (less precise but instantaneous), enables MD simulation playback with surfaces</td>
+        </tr>
+        <tr>
+            <td><b>File saving/loading</b></td>
+            <td>Vault plugin strongly recommended</td>
+            <td>Vault & local desktop saving/loading</td>
+        </tr>
+    </tbody>
+</table>
