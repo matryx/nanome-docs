@@ -74,6 +74,7 @@ module.exports = {
           '/help/troubleshooting',
           '/help/hardwarerequirements',
           '/help/faq',
+          '/help/choosinghardware',
           '/help/contact'
         ]
       },
