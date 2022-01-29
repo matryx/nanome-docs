@@ -42,15 +42,15 @@ carousels:
   - title: 2D Spatial Recordings
     numSlides: 4
     slides:
-      - title: Deep dive into Nanome’s tools
+      - title: Deep dive into Nanome's tools
         img: https://i.ytimg.com/vi/pVHMNvSBJAA/hqdefault.jpg
-        description: An overview of Nanome's tools
-        url: https://youtu.be/zvFNUMnCSkM
+        description: A closer look and introduction into Nanome's diverse tool set
+        url: https://youtu.be/pVHMNvSBJAA
       - title: Quick tips!
         img: https://i.ytimg.com/vi/zvFNUMnCSkM/hqdefault.jpg
         description: Helpful tips on some of the basic yet helpful functions of Nanome
         url: https://youtu.be/zvFNUMnCSkM
-      - title: Web Browswer
+      - title: Web Browser
         img: https://i.ytimg.com/vi/n_i7aZoZNew/hqdefault.jpg
         description: Learn about the web browser and how to use it effectively
         url: https://youtu.be/n_i7aZoZNew
