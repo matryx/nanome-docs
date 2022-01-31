@@ -44,11 +44,11 @@ carousels:
         description: Select elements from the periodic table to design small molecules
         url: https://youtu.be/HOSVatwMjms
       - title: Docking
-        url: /assets/carousels/advanced-tutorials/docking.png
+        img: /assets/carousels/advanced-tutorials/docking.png
         description: A demonstration of docking using the Autodock Smina Plugin
-        file: https://youtu.be/KpXwyNjJsqM
+        url: https://youtu.be/KpXwyNjJsqM
       - title: Medchem Workflow
-        url: /assets/carousels/advanced-tutorials/medchem-workflow.png
+        img: /assets/carousels/advanced-tutorials/medchem-workflow.png
         description: The golden path of the Medchemist Workflow
         url: https://youtu.be/NXmhhNbMFfI
       - title: RMSD
