@@ -38,27 +38,27 @@ carousels:
       - title: Tools
         img: /assets/carousels/advanced-tutorials/tools.png
         description: Building blocks at nanoscale with atoms and molecules
-        file: https://youtu.be/pVHMNvSBJAA
+        url: https://youtu.be/pVHMNvSBJAA
       - title: Building Molecules
         img: /assets/carousels/advanced-tutorials/building-molecules.png
         description: Select elements from the periodic table to design small molecules
-        file: https://youtu.be/HOSVatwMjms
+        url: https://youtu.be/HOSVatwMjms
       - title: Docking
-        img: /assets/carousels/advanced-tutorials/docking.png
+        url: /assets/carousels/advanced-tutorials/docking.png
         description: A demonstration of docking using the Autodock Smina Plugin
         file: https://youtu.be/KpXwyNjJsqM
       - title: Medchem Workflow
-        img: /assets/carousels/advanced-tutorials/medchem-workflow.png
+        url: /assets/carousels/advanced-tutorials/medchem-workflow.png
         description: The golden path of the Medchemist Workflow
-        file: https://youtu.be/NXmhhNbMFfI
+        url: https://youtu.be/NXmhhNbMFfI
       - title: RMSD
         img: /assets/carousels/advanced-tutorials/rmsd.png
         description: Learn to superimpose molecules with this structural alignment plugin
-        file: https://youtu.be/z1vab9HXglo
+        url: https://youtu.be/z1vab9HXglo
       - title: Real-Time Atom Scoring
         img: /assets/carousels/advanced-tutorials/rtas.png
         description: Visualize individual atomic binding affinity using our plugin leveraging DSX
-        file: https://youtu.be/fe8aNK3FR-s
+        url: https://youtu.be/fe8aNK3FR-s
   - title: Advanced Tutorials
     numSlides: 4
     slides:
