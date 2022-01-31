@@ -8,6 +8,57 @@ hero:
   - img: /assets/carousels/hero/discengine.png
     url: https://blog.matryx.ai/nanome-is-joining-forces-with-discngine-to-greatly-impact-the-sbdd-experience-1af0b83b3057
 carousels:
+  - title: Videos of Spatial Recordings
+    numSlides: 4
+    slides:
+      #- title: Deep dive into Nanome’s tools
+      #  img: https://i.ytimg.com/vi/pVHMNvSBJAA/hqdefault.jpg
+      #  description: An overview of Nanome's tools
+      #  url: https://youtu.be/zvFNUMnCSkM
+      #- title: Quick tips!
+      #  img: https://i.ytimg.com/vi/zvFNUMnCSkM/hqdefault.jpg
+      #  description: Helpful tips on some of the basic yet helpful functions of Nanome
+      #  url: https://youtu.be/zvFNUMnCSkM
+      #- title: Web Browswer
+      #  img: https://i.ytimg.com/vi/n_i7aZoZNew/hqdefault.jpg
+      #  description: Learn about the web browser and how to use it effectively
+      #  url: https://youtu.be/n_i7aZoZNew
+      #- title: Medchem Workflow
+      #  img: https://i.ytimg.com/vi/NXmhhNbMFfI/hqdefault.jpg
+      #  description: Deep dive into a medicinal chemist's workflow
+      #  file: https://youtu.be/NXmhhNbMFfI
+      #- title: Building Molecules
+      #  img: https://i.ytimg.com/vi/HOSVatwMjms/hqdefault.jpg
+      #  description: How to design small molecules with the Medchem tool and periodic table
+      #  file: https://youtu.be/HOSVatwMjms
+      #- title: Mutations and Advanced Selection
+      #  img: https://i.ytimg.com/vi/E0fIxc_-qwc/hqdefault.jpg
+      #  description: Mutate residues on a protein and use advanced selection techniques
+      #  file: https://youtu.be/E0fIxc_-qwc
+      - title: Tools
+        img: /assets/carousels/advanced-tutorials/tools.png
+        description: Building blocks at nanoscale with atoms and molecules
+        file: https://youtu.be/pVHMNvSBJAA
+      - title: Building Molecules
+        img: /assets/carousels/advanced-tutorials/building-molecules.png
+        description: Select elements from the periodic table to design small molecules
+        file: https://youtu.be/HOSVatwMjms
+      - title: Docking
+        img: /assets/carousels/advanced-tutorials/docking.png
+        description: A demonstration of docking using the Autodock Smina Plugin
+        file: https://youtu.be/KpXwyNjJsqM
+      - title: Medchem Workflow
+        img: /assets/carousels/advanced-tutorials/medchem-workflow.png
+        description: The golden path of the Medchemist Workflow
+        file: https://youtu.be/NXmhhNbMFfI
+      - title: RMSD
+        img: /assets/carousels/advanced-tutorials/rmsd.png
+        description: Learn to superimpose molecules with this structural alignment plugin
+        file: https://youtu.be/z1vab9HXglo
+      - title: Real-Time Atom Scoring
+        img: /assets/carousels/advanced-tutorials/rtas.png
+        description: Visualize individual atomic binding affinity using our plugin leveraging DSX
+        file: https://youtu.be/fe8aNK3FR-s
   - title: Advanced Tutorials
     numSlides: 4
     slides:
@@ -39,33 +90,6 @@ carousels:
         img: /assets/carousels/advanced-tutorials/rtas.png
         description: Visualize individual atomic binding affinity using our plugin leveraging DSX
         file: https://nanome.s3.us-west-1.amazonaws.com/docs/tutorials/<version>/rtas.nanosr
-  - title: 2D Spatial Recordings
-    numSlides: 4
-    slides:
-      - title: Deep dive into Nanome’s tools
-        img: https://i.ytimg.com/vi/pVHMNvSBJAA/hqdefault.jpg
-        description: An overview of Nanome's tools
-        url: https://youtu.be/zvFNUMnCSkM
-      - title: Quick tips!
-        img: https://i.ytimg.com/vi/zvFNUMnCSkM/hqdefault.jpg
-        description: Helpful tips on some of the basic yet helpful functions of Nanome
-        url: https://youtu.be/zvFNUMnCSkM
-      - title: Web Browswer
-        img: https://i.ytimg.com/vi/n_i7aZoZNew/hqdefault.jpg
-        description: Learn about the web browser and how to use it effectively
-        url: https://youtu.be/n_i7aZoZNew
-      - title: Medchem Workflow
-        img: https://i.ytimg.com/vi/NXmhhNbMFfI/hqdefault.jpg
-        description: Deep dive into a medicinal chemist's workflow
-        file: https://youtu.be/NXmhhNbMFfI
-      - title: Building Molecules
-        img: https://i.ytimg.com/vi/HOSVatwMjms/hqdefault.jpg
-        description: How to design small molecules with the Medchem tool and periodic table
-        file: https://youtu.be/HOSVatwMjms
-      - title: Mutations and Advanced Selection
-        img: https://i.ytimg.com/vi/E0fIxc_-qwc/hqdefault.jpg
-        description: Mutate residues on a protein and use advanced selection techniques
-        file: https://youtu.be/E0fIxc_-qwc
   - title: Nanome Youtube Channel
     numSlides: 4
     slides:
