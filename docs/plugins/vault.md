@@ -4,135 +4,36 @@ title: Vault
 
 # Nanome Vault
 
-The Nanome Vault allows for the distribution of files (PDB, SDF, PDF, PPT, etc.) to be drag-and-dropped into a web interface to be made available inside of the Nanome VR software.
+Nanome Vault is a plugin that enables easy cloud upload, download and storage from VR headsets and your web browser. This allows users to drag and drop a file to/from their web browser and make it instantly available in their Nanome session.
 
-## Installation (Windows)
+With the rise of all-in-one headsets like the Oculus Quest 2 and the Vive Focus 3, the barrier to entry to store and retrieve files has increased considerably due to the need to plug the headset into a computer and use Android File transfer manually. Nanome Vault allows users to open up a web browser on any computer to access cloud storage that is integrated directly into their Nanome session and linked to your Nanome account. You can visit the Nanome-hosted Vault Plugin at https://vault.nanome.ai. _Note that if you are an Enterprise customer, your Organization will have a different web address for the private-cloud deployment of the Nanome Vault, please contact your Nanome administrator for the correct URL_.
 
-Required dependencies:
+There are three primary folders in the Nanome Vault:
+- Shared: A public shared folder for everyone
+- MyOrg: A shared folder only accessible for users in your organization (requires Organization to be configured in https://home.nanome.ai)
+- MyAccount: A folder only accessible to you
 
-- Python3 & Pip
-- Nanome Library
-- Nanome Vault Plugin
+Inside of your MyAccount folder, there a few preset folders such as Pictures, Workspaces, Molecules. Users can create new folders, move files around, and even encrypt folders.
 
-Optional dependencies:
-
-- Ghostscript (required for pdf support)
-- ImageMagick (required for pdf support)
-- Libre Office (required for pdf, ppt, and odp support)
-
-### Installing Dependencies
-
-1. Install Python
-
-   - <https://www.python.org/ftp/python/3.8.0/python-3.8.0.exe>
-   - Don’t forget to click the checkbox to add Python3 to PATH
-
-2. Open a command prompt
-
-3. Type `python --version` to verify the version is Python 3.0+
-
-4. Upgrade your Pip library
-
-   `python -m pip install --upgrade pip`
-
-5. Install the latest Nanome Lib with `pip`
-
-   `pip install nanome`
-
-6. Install the Nanome Vault Plugin with `pip`
-
-   `pip install nanome-vault`
-
-### Installing Optional Dependencies
-
-<toggle-section>
-
-1. Install GhostScript
-
-   <https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs950/gs950w64.exe>
-
-2. Install ImageMagick
-
-   <https://imagemagick.org/download/binaries/ImageMagick-7.0.9-5-Q16-x64-dll.exe>
-
-3. Install Libre Office
-
-   <https://www.libreoffice.org/donate/dl/win-x86_64/6.3.3/en-US/LibreOffice_6.3.3_Win_x64.msi>
-
-4. Add Libre Office to the PATH environmental variable
-
-   Search "env" from the Windows Search Bar and click on the "Edit System Environment Variables" in the control panel.
-
-   <vimg src="plugins-page/search_env.png" />
-
-   Click on the "Environment Variables" button
-
-   <vimg src="plugins-page/find_env.png" />
-
-   Click the Edit button for the PATH variable
-
-   <vimg src="plugins-page/edit_path.png" />
-
-   Click the Browse button and select LibreOffice/program in the Program Files
-
-   <vimg src="plugins-page/browse_path.png" />
-
-</toggle-section>
-
-## Running Nanome Vault
-
-Run the Nanome Vault plugin with:\
-`nanome-vault -a localhost`
-
-The `-a` denotes the address of the Plugin Server IP
-
-<vimg src="plugins-page/running_plugin.png" />
-
-## Web Interface
-
-Once the Nanome Vault plugin is running, you can visit <http://localhost> in your browser to see the Web Interface.
+When accessing Vault from the web browser (at https://vault.nanome.ai), it will prompt you to login using your Nanome credentials.
 
 <vimg src="plugins-page/nanome-vault/web.png" />
 
-### Folders
-
-At the root level, there are two folders: **shared** and **account**.
-
-The **shared** folder is accessible to all users connected to the plugin, whereas the **account** folder is only accessible to your Nanome account.
-
-To log in on the web interface, either click the "log in" next to "Welcome!", or double-click the **account** folder. Enter your Nanome account credentials in the popup that appears and click "log in".
-
 <vimg src="plugins-page/nanome-vault/web-login.png" />
-
-Once you are logged in, you can use the **account** folder.
-
 <vimg src="plugins-page/nanome-vault/web-account.png" />
 
-### Uploading and Managing Files
-
-To upload files, you can either drag and drop a file onto the webpage, or click the upload button.
+From here you can drag and drop files into the web browser as well as rename, move, and delete them.
 
 <vimg src="plugins-page/nanome-vault/web-upload.png" />
 
-Try it out! Download a sample PDF and drag-and-drop it into the Web Interface. An example can be found here:\
-<https://drive.google.com/drive/folders/1JU4jVMH6X_uMjN03mIZCpm9rH62UCDVC>
 
-To create folders, you can either click the new folder button or right-click and select "new folder". This will prompt you for the folder name and create the folder in the current directory.
-
-To delete files or folders, right-click the item and select "delete", and then confirm in the dialog that appears.
-
-## VR Interface
-
-Launch Nanome and create a room. Open the Plugins Menu with the button on the Entry Menu to see your plugin populated.
-
-<vimg src="plugins-page/nanome-vault/plugin-list.png" />
-
-Like the web interface, at the root level there are two folders: **shared** and **account**.
-
-<vimg src="plugins-page/nanome-vault/plugin.png" />
-
-You can browse and load items from the folder structure by clicking on items in the list.
-
+After you launch Nanome, open up the Load Menu and go to the "Stacks" tab. This will show Nanome Vault that you can now click and navigate through the NAnome Vault and see what you have uploaded.
 <vimg src="plugins-page/nanome-vault/plugin-shared.png" />
 
-To upload structures from your workspace, browse to the directory you want to upload to and click on the "upload here" button. This will prompt you to select a structure. After you select a structure, upload it by selecting the format you want (PDB, SDF, or MMCIF).
+Additionally, users can upload from inside a Nanome Session to the Nanome Vault to use for other applications or come back to later. 
+
+Whenever you have a prompt to export (e.g. Workspace Session File, Molecule, Image, etc), there is a "where" field on the destination you would like to save your file to. Each of these file destination dropdowns contain a "Vault - Browse" option that lets you navigate through the Nanome vault and select a specific file save location. 
+
+This is particularly useful if you have made several ligand design iterations and wanted to upload them to share with other colleagues.
+
+
