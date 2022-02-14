@@ -10,6 +10,12 @@ module.exports = {
     sidebar: [
       '/',
       {
+        title: 'Nanome Control',
+        collapsable: true,
+        sidebarDepth: 1,
+        children: ['/controls/overview']
+      },
+      {
         title: 'Nanome Navigation',
         collapsable: true,
         sidebarDepth: 1,
