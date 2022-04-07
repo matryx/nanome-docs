@@ -103,16 +103,51 @@ To view a tutorial on how to capture 2D videos on PC, we recommend this PCMag ar
 
 To view a tutorial on how to capture mixed reality videos on an Oculus system, we recommend this VRfocus article here: [https://www.vrfocus.com/2017/07/a-guide-to-mixed-reality-capture-on-oculus-rift](https://www.vrfocus.com/2017/07/a-guide-to-mixed-reality-capture-on-oculus-rift)
 
-## How to find the log file of a previous session
+## How to find the log file (Logs) of Nanome sessions for PC-tethered VR
 
-<vimg src="howto-page/LogFile.png" />
+If you experience an issue with Nanome, please be sure to send us the logs for the event (both message.txt and detaileds.txt) so that we can investigate the issue. Feel free to email your bug report to support@nanome.ai.
 
-If your session crashes or you encounter any issues in Nanome, you can go to "C:\Users\\[USERNAME]\AppData\LocalLow\Nanome Inc_\Nanome\History" to retrieve the log file and send it to us at support@nanome.ai so that we can help you troubleshoot the problem.
+If you are using PC 2D mode or PC-tethered VR headsets, the logs for your session will be on your computer. If you open up your file explorer, please navigate to the following path:
 
-If you are using the Oculus Quest or Oculus Quest 2 VR headsets, then you can plug your device into a computer and go to "Quest\Internal shared storage\Android\data\com.Nanome.NanomeCurie\files\History" to access the log file.
+`C:\Users\\[USERNAME]\AppData\LocalLow\Nanome Inc_\Nanome\History`
 
 A log file's name follows the format of "YYYY-MM-DD_HH-MM-SS_details.txt" and is determined by the starting time of the session.
 
+For frequent users of Nanome, we recommend favoriting this path in your Windows File Explorer to quickly come back to later. 
+
+<vimg src="howto-page/LogFile.png" />
+
+## How to find the log file (Logs) of Nanome sessions for All-in-One VR (e.g. Quest 2/Vive Focus 3)
+
+If you experience an issue with Nanome, please be sure to send us the logs for the event (both message.txt and detaileds.txt) so that we can investigate the issue. Feel free to email your bug report to support@nanome.ai.
+### NOTE: 
+- #### The VR headset needs to be turned on during this process.
+- ####  The computer you are connecting the headset to does not need to be VR-Ready. It can be a generic low spec computer.
+
+
+
+All-in-one VR headsets such as the Quest 2 or the Vive Focus 3 are Android based operating systems and log files are saved directly onto the headset. In order to move them or make a copy, you will need to connect your VR device to your computer via a USB-C cable. After pluggin in your headset via USB-C to your computer, make sure to turn on the headset and put it on. You will be prompted in-VR to click "Allow" when prompted to let the computer read the headset's files. 
+
+
+Note that some USB-C cables are charging only cables and you will need one that can transmit data.
+
+Now that the computer has access to read the VR headset's storage, there are two methods depending on if you are on Windows or Mac.
+
+### Windows
+Open your Windows File Explorer and look to the left panel. There you can see Storage Devices that are connected to your computer. You will see an item to the left that lists the associated File Storage for the VR headset. Sometime it is named "Quest" or "Oculus".
+
+### Mac
+Please download and install [Android File Transfer]("https://www.android.com/filetransfer/") or your other favorite tool in order to access android device storage.
+
+After the VR device is plugged in, and "Allow" permission was granted from within the headset, a window will show up that you can navigate the Android Device Storage.
+
+Now navigate to:
+
+` "\Internal shared storage\Android\data\com.Nanome.NanomeCuriePublic\files\History"`
+
+A log file's name follows the format of "YYYY-MM-DD_HH-MM-SS_details.txt" and is determined by the starting time of the session.
+
+Make sure to copy the file and paste it onto your Desktop or Downloads folder for future use or bug reporting.
 ## How to access Nanome on the Oculus Quest family of headsets
 
 Nanome can be loaded onto the Oculus Quest or Oculus Quest 2 via a few different methods. In 2021, Nanome was added to the Oculus App Lab (see [here](https://www.oculus.com/experiences/quest/3077598929010226/)), which means Nanome can now be found in the Quest store. When searching for Nanome, the result will initially be hidden - you need to open the "App Lab" results to find the Nanome application. See the animation below for more details. (Note: this process was performed on a smartphone.)
@@ -145,6 +180,42 @@ If you are participating in our Oculus Quest Nanome beta, please request the pre
 **REMINDER:** During collaborative sessions with other users, those on different versions will NOT be able to see each other’s lobbies or will have features that may not fully function. For collaborative sessions with other users, please ensure you are on the same version of Nanome.
 
 If you'd like to leave us any feedback on the beta releases, you can fill out [this form](https://forms.gle/DsTkDCuqAzhP4vJR8).
+
+## How to record and share Passthrough Mixed Reality footage using Nanome
+For versions of Nanome that support Nanome mixed reality, users will want to record what they see and share it with their colleagues or post how awesome it is online.
+ 
+### Users with access to a Windows 10 Computer
+First, please download [Sidequest](https://sidequestvr.com/). This is the unofficial Quest App Store which has the ability to actually stream the video feed from the android device. 
+
+- Connect your Oculus Quest device to your PC with an USB cable, but without activating Oculus Link.
+- Open SideQuest and wait for it to connect with the Quest
+- If you want, click on the Wi-fi icon to make it connect via Wi-fi to the Quest, so that you be tetherless while recording the video. I would suggest to do it only if you have a fantastic Wi-fi connection, or the quality of the resulting video may degrade
+sidequest wireless
+- The button in the upper right corner of SideQuest that lets you connect your headset wirelessly
+- Click on the Streaming Icon of SideQuest in the menu that is in the upper right corner of your screen
+- In the resulting popup, select “Quest 2 Crop” and then “Start Stream”
+At this point you should see a window on your screen showing the AR content of the headset
+sidequest hot to stream ar
+
+Now you can record the screen content of Nanome. We suggest you to use Open Broadcaster Software (OBS), or the Xbox Game Bar on Windows 10 (you trigger it by pressing Win + G)
+
+### NOTE:
+- #### The VR headset needs to be turned on during this process.
+- ####  The computer you are connecting the headset to does not need to be VR-Ready. It can be a generic low spec computer.
+
+
+### Users with access to a Mac computer
+
+Unfortunately, Sidequest does not support streaming the content from the device with the mixed reality footage include. 
+
+This means we need to use a different tool which involve the terminal command line. 
+- Open your Mac's Terminal
+- [Download Brew](https://brew.sh/)
+- [Install Scrcpy](https://ports.macports.org/port/scrcpy/) by using `brew install scrcpy`
+- Run Scrcpy entering `scrcpy` in the terminal
+
+This will open a window that streams the video input of your VR device along with the Mixed Reality passthrough content.
+
 
 <!--
 ## How to load molecules or workspace
