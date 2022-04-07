@@ -136,6 +136,10 @@ Now that the computer has access to read the VR headset's storage, there are two
 ### Windows
 Open your Windows File Explorer and look to the left panel. There you can see Storage Devices that are connected to your computer. You will see an item to the left that lists the associated File Storage for the VR headset. Sometime it is named "Quest" or "Oculus".
 
+Now navigate to:
+
+` "\Internal shared storage\Android\data\com.Nanome.NanomeCuriePublic\files\History"`
+
 ### Mac
 Please download and install [Android File Transfer]("https://www.android.com/filetransfer/") or your other favorite tool in order to access android device storage.
 
