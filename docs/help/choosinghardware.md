@@ -141,13 +141,18 @@ significantly. ‘Shown Atom Count’ column is given nothing else is displayed 
 <table>
     <thead>
         <tr>
-            <th>Shown Atom Count<sup>1,2</sup></th>
-            <th>Oculus Quest 2</th>
-            <th>HTC Vive Focus 3</th>
-            <th>Windows Desktop<sup>3</sup></th>
+            <th></th>
+            <th colspan=2>(All-in-One, no PCVR)</th>
+            <th></th>
         </tr>
     </thead>
     <tbody>
+        <tr>
+            <th>Shown Atom Count<sup>1,2</sup></th>
+            <th>Oculus Quest 2</th>
+            <th>HTC Vive Focus 3</th>
+            <th>PCVR, PC Windows App<sup>3</sup></th>
+        </tr>
         <tr>
             <td style="background-color:#FFFFFF">2,500</td>
             <td style="background-color:#CFE2F3">Comfortable</td>
