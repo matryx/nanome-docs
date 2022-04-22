@@ -13,29 +13,25 @@ Supported headsets
 Note\*
 We also support the Oculus Rift (CV1), HTC Vive, and the Oculus Quest all-in-one VR headset (in BETA).
 
-#### The recommended specs for desktop computer:
+#### Recommended specs for desktop computer
+Intel i7 or Xeon
+RTX 3050ti, 3060, 3070 or 3080,
+Quadro RTX 3000, 4000, or 5000, Titan Xp 8GB ram and above
+Solid State Drive at least 256 GB
+Windows 10 Operating System
 
-- Intel i7 or Xeon
-- RTX 1660ti and above GPU, RTX 2060, 2070 or 2080, Quadro RTX 3000, 4000, or 5000, Titan Xp 8GB ram and above
-- 8GB RAM and above
-- 256 GB SSD
-- Windows 10 Operating System
-
-#### The recommended specs for laptop:
-
-- Intel i7
-- RTX 1660ti and above GPU
-- 8GB RAM and above
-- 256 GB SSD
-- Windows 10 Operating System
+#### Minimum recommended specs for a laptop
+Intel i7
+RTX 3050ti and above GPU
+8GB ram and above
+Solid State Drive at least 256 GB Windows 10 Operating System
 
 #### Examples of light weight VR ready laptops:
+MSI GS66 Stealth with RTX 3060
+MSI GS66 Stealth with RTX 3070
+MSI GS66 Stealth with RTX 3080
 
-- MSI Stealth 15M with GTX 3060
-- MSI Stealth 17M with GTX 3060
-
-#### The recommended specs for Nanome's private multi-user server (Enterprise Only):
-
-- 1 quad core CPU (e.g., Intel Xeon 3440, E3-1230 etc.) 4 GB RAM
-- 1 Gbps NIC / uplink port speed
-- Windows Server 2012 and above
+#### The recommended specs for a private and secure collaboration server:
+1 quad core CPU (e.g., Intel Xeon 3440, E3-1230 etc.) 4 GB RAM
+1 GBps NIC / uplink port speed
+Windows Server 2012 and above
