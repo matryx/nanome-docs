@@ -31,10 +31,8 @@ We also support the Oculus Rift (CV1), HTC Vive, and the Oculus Quest all-in-one
 
 #### Examples of light weight VR ready laptops:
 
-- MSI GS65 Stealth-296 with GTX 1660Ti
-- MSI GS65 Stealth-007 with RTX 2060
-- MSI GS65 Stealth-004 with RTX 2070
-- MSI GS65 Stealth-005 with RTX 2080
+- MSI Stealth 15M with GTX 3060
+- MSI Stealth 17M with GTX 3060
 
 #### The recommended specs for Nanome's private multi-user server (Enterprise Only):
 

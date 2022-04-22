@@ -13,6 +13,9 @@ Nanome is available on the Oculus Rift/S, HTC Vive, Vive Cosmos, Vive Pro, Valve
 ## Where can I download Nanome?
 Nanome can be downloaded for free from all major Virtual Reality stores including [Oculus](https://nanome.ai/pricing/), [Steam](https://nanome.ai/pricing/), and [VivePort](https://www.viveport.com/apps/0a467f78-2ed2-43eb-ada8-9d677d5acf54/Nanome/), or directly from [https://home.nanome.ai/setup](https://home.nanome.ai/setup). Premium versions with upgraded features are available for purchase from our website at [https://nanome.ai/pricing/](https://nanome.ai/pricing/).
 
+## How to I update Nanome to the latest version?
+Please download our [Nanome update guide](https://drive.google.com/file/d/1x6LEc1-kV3yp9XYgSqxnIsU8iv1ou4fk/view?usp=sharing) and follow the instructions to update your Nanome software.
+
 ## If I don’t have a VR device, can I still use Nanome?
 Yes, Nanome has a 2D desktop mode for users without VR devices. In 2D mode, users may join a Nanome room from a 2D interface. A 2D user moves a camera with their mouse and keyboard, enabling them to spectate and record sessions, but cannot interact with structures. 2D mode can be accessed on [Steam](https://nanome.ai/pricing/) or if Nanome is downloaded on our [website](https://home.nanome.ai/setup). While 2D mode can also be accessed on Oculus, you’ll need to have a headset connected.
 
