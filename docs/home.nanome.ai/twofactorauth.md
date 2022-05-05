@@ -1,5 +1,5 @@
 ---
-title: Two-Factor Authentifcation
+title: Two-Factor Authentication
 ---
 
 # Enabling Two-Factor Authentication (2FA)
