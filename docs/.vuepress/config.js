@@ -68,7 +68,8 @@ module.exports = {
           '/home.nanome.ai/accounttiers',
           '/home.nanome.ai/invoice',
           '/home.nanome.ai/licenses',
-          '/home.nanome.ai/meetings'
+          '/home.nanome.ai/meetings',
+          '/home.nanome.ai/twofactorauth'
         ]
       },
       {
