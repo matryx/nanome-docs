@@ -9,7 +9,7 @@ title: Troubleshooting
 ### These ports are REQUIRED from each machine/VR device:
 
 - (Authentication) TCP Port 443 to DNS api.nanome.ai
-- (Collaboration) UDP Ports 5055-5058 to DNS collaboration.nanome.ai
+- (Collaboration) UDP Ports 5055-5058 to DNS collaboration.nanome.ai, collaboration-us-east.nanome.ai, and collaboration-us-west.nanome.ai
 - (Plugins) TCP Port 8888 to DNS plugins.nanome.ai
 
 ### These ports are OPTIONAL from each machine/VR device
