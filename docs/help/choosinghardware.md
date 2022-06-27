@@ -13,6 +13,7 @@ title: Choosing Hardware
     <col style="width: 19%;" />
     <col style="width: 23%;" />
     <col style="width: 23%;" />
+    <col style="width: 23%;" />
     <thead>
         <tr>
             <th></th>
@@ -28,6 +29,7 @@ title: Choosing Hardware
             <td>Oculus (Rift-S, link)</td>
             <td>HTC Vive (Pro), Valve Index</td>
             <td>Windows Mixed Reality (HP Reverb G2)</td>
+            <td>Varjo XR3</td>
         </tr>
         <tr>
             <td>FB Log in required?</td>
@@ -36,11 +38,13 @@ title: Choosing Hardware
             <td>Y</td>
             <td>N</td>
             <td>N</td>
+            <td>N</td>
         </tr>
         <tr>
             <td>Multi-device provisioning and remote I.T. management</td>
             <td>N</td>
             <td>Yes with Vive business</td>
+            <td>N</td>
             <td>N</td>
             <td>N</td>
             <td>N</td>
@@ -52,6 +56,7 @@ title: Choosing Hardware
             <td>N</td>
             <td>N</td>
             <td>Y</td>
+            <td>N</td>
         </tr>
         <tr>
             <td>Device Use Management</td>
@@ -60,18 +65,19 @@ title: Choosing Hardware
             <td>N</td>
             <td>N</td>
             <td>N</td>
+            <td>N</td>
         </tr>
         <tr>
             <td>VPN Support</td>
             <td>Partial Support (requires APK file)</td>
             <td>Yes has Full Support</td>
-            <td colspan=3 style="text-align: center">With PC</td>
+            <td colspan=4 style="text-align: center">With PC</td>
         </tr>
         <tr>
             <td>Can connect to PC?</td>
             <td>Y</td>
             <td>Y</td>
-            <td colspan=3 style="text-align: center">---</td>
+            <td colspan=4 style="text-align: center">---</td>
         </tr>
         <tr>
             <td>Nanome I.T. Team Ease of Deployment Score (out of 10)</td>
@@ -80,6 +86,7 @@ title: Choosing Hardware
             <td>3</td>
             <td>7</td>
             <td>9</td>
+            <td>4</td>
         </tr>
         <tr>
             <td>Cost</td>
@@ -88,6 +95,7 @@ title: Choosing Hardware
             <td>Link cables can be purchased for $30-$100 + PC</td>
             <td>$1k+ + PC</td>
             <td>$600 + PC</td>
+            <td>$5,995.00 + annual subscription + PC</td>
         </tr>
         <tr>
             <td>Procurement</td>
@@ -96,6 +104,7 @@ title: Choosing Hardware
             <td><a href="https://support.oculus.com/articles/headsets-and-accessories/oculus-link/oculus-link-compatibility">Oculus Link Cable Requirements</a></td>
             <td>HTC <a href="https://www.vive.com/us/product/vive-pro/">Vive Pro</a>, Valve <a href="https://store.steampowered.com/valveindex">Index</a></td>
             <td><a href="https://www.hp.com/us-en/vr/reverb-g2-vr-headset.html">HP Reverb G2</a></td>
+            <td><a href="https://store.varjo.com/xr-3">Varjo.com</a></td>
         </tr>
     </tbody>
 </table>
