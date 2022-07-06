@@ -41,6 +41,7 @@ module.exports = {
           '/plugins/rmsd',
           '/plugins/realtimescoring',
           '/plugins/docking',
+          '/plugins/superimpose',
           '/plugins/chemicalproperties',
           '/plugins/structureprep',
           '/plugins/cheminteractions',
