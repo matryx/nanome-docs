@@ -81,6 +81,6 @@ After all moving atoms have been transformed, we update the complexes in the wor
 - gap penalty = -10
 - gap extend penalty = -.5
 
-### Superimpose
+#### Superimpose
 - If the alpha carbon overlay method is selected, we only pair the alpha carbons from each residue.
 - If all heavy atoms overlay method is selected, we attempt to pair all heavy atoms. In some cases, we cannot get a 1-1 pairing of heavy atoms. In this case, those residues are excluded from the superimpose
