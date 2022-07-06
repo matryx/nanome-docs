@@ -38,6 +38,7 @@ The following is the list of some our favorite plugins we have made so far:
 - [Chemical Properties](chemicalproperties.md)
 - [Structure Prep](structureprep.md)
 - [Chemical Interactions](cheminteractions.md)
+- [Superimpose Proteins](superimpose.md)
 - Hydrogens
 - Electrostatic Potential Maps
 - 2D Chemical Preview
