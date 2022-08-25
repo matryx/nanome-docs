@@ -21,7 +21,7 @@ A **Fixed Reference** structure is chosen, and **Moving Structures** are translo
 2. In the upper right, there are 3 available alignment modes.
     -   **Align to Entire Fixed Reference**: Uses a sequence based alignment to superimpose entire proteins on top of each other.
     -   **1 specific Chain from the Fixed Reference**: Uses a sequence based  alignment to superimpose the moving structures onto a specified chain on the Fixed Reference.
-    -   **By Binding Site**: The user selects a ligand on the fixed reference, and the surrounding binding site is aligned to the moving structures using a spatial based algorithm (See methodoligies for more details)
+    -   **By Binding Site**: The user selects a ligand on the fixed reference, and the surrounding binding site is aligned to the moving structures using Site-Motif (See methodoligies for more details)
 
 3. A list of proteins in the workspace appears in the main panel.  In this panel, choose **Fixed Reference** and **Moving Structures**, and subselect a chain for each, if aligning by chain (see 4, below).
     - By default, the first entry is set as Fixed, and designated by the yellow pin. When selected as Fixed, the box under Moving will be inactive.  To change this selection, select the pin next to the desired Fixed Reference protein.
@@ -59,9 +59,9 @@ Choose **Fixed** and **Moving structures** as above, and additionally choose a c
 
 We have two primary approaches to superimposing proteins:
 
-Full Protein alignments and Chain alignments both use a sequence based approach.
+Full Protein and Chain alignments both use a sequence based approach.
 
-Binding site overlays use a spatial based approach. FPocket is used to identify potential binding sites on the moving protein, and those results are compared to the fixed binding site using Site-Motif, which identifies the one with the best overlay.
+Binding site overlays use the Site-Motif algorithm, and use FPocket to identify inputs.
 
 ### Sequence Alignment
 
@@ -95,18 +95,29 @@ After all moving atoms have been transformed, we update the complexes in the wor
 - If the alpha carbon overlay method is selected, we only pair the alpha carbons from each residue.
 - If all heavy atoms overlay method is selected, we attempt to pair all heavy atoms. In some cases, we cannot get a 1-1 pairing of heavy atoms. In this case, those residues are excluded from the superimpose
 
+### Binding Site Alignments using Site-Motif
+Site-motif is described as *a graph based method for aligning protein binding sites in sequence-order independent fashion*. It can analyze the binding site of a protein and find the best alignment on another protein.
 
-### Binding Site Superimpose
+Our algorithm uses FPocket to identify potential binding sites on the moving protein, and those results are compared to the fixed binding site using Site-Motif. Site-Motif calculates alignments of each FPocket result to the fixed binding site, and the result with the longest alignment is used as the corresponding binding site. A transformation matrix is calculated to superimpose the moving binding site onto the fixed.
 
 #### Source Code
-[Fpocket](https://github.com/Discngine/fpocket)<br>
 [Site-Motif](https://github.com/nanome-ai/site-motif)<br>
+[Fpocket](https://github.com/Discngine/fpocket)
+
+Note that Nanome maintains a fork of the code from the original paper.
+The original codebase can be found [here](https://github.com/santhoshgits/MAPP-3D)
+
+Improvements to the codebase include:
+- Updating to Python3
+- Cut out unnecessary features for our use case
+- Logging
 
 #### Overview
 <br>
 <vimg src="plugins-page/superimpose_binding_site_diagram.png" />
 
 #### References
+Sankar S, Chandra N (2022) SiteMotif: A graph-based algorithm for deriving structural motifs in Protein Ligand binding sites. PLoS Comput Biol 18(2): e1009901. https://doi.org/10.1371/journal.pcbi.1009901
+
 Le Guilloux, V., Schmidtke, P. & Tuffery, P. Fpocket: An open source platform for ligand pocket detection. BMC Bioinformatics 10, 168 (2009). https://doi.org/10.1186/1471-2105-10-168
 
-Sankar S, Chandra N (2022) SiteMotif: A graph-based algorithm for deriving structural motifs in Protein Ligand binding sites. PLoS Comput Biol 18(2): e1009901. https://doi.org/10.1371/journal.pcbi.1009901
