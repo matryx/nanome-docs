@@ -16,7 +16,13 @@ A **Fixed Reference** structure is chosen, and **Moving Structures** are translo
 
 1. In the upper left, Superimpose Proteins Using **Backbone α carbons** is the default selection, and will result in an overlay based on all paired alpha carbons between the two proteins.   Switching this selection to Superimpose Proteins Using **All Heavy Atoms** uses backbone atoms and side chain atoms (all protein atoms except for Hydrogen) for all paired residues.
 
-2. In the upper right, **Align to Entire Fixed Reference** is the default selection and will result in overlay of the full proteins.  Changing this selection to **1 specific Chain from the Fixed Reference** will make the chain selection boxes active, and will result in overlay by just the selected chain in each protein.   
+2. In the upper right, there are 3 available alignment modes.
+
+    -   **Align to Entire Fixed Reference**: Uses a sequence based alignment to superimpose entire proteins on top of each other.
+
+    -   **1 specific Chain from the Fixed Reference**: Uses a sequence based  alignment to superimpose the moving structures onto a specified chain on the Fixed Reference.
+
+    -   **By Binding Site**: The user selects a ligand on the fixed reference, and the surrounding binding site is aligned to the moving structures using a spatial based algorithm (See methodoligies for more details)
 
 3. A list of proteins in the workspace appears in the main panel.  In this panel, choose **Fixed Reference** and **Moving Structures**, and subselect a chain for each, if aligning by chain (see 4, below).
     - By default, the first entry is set as Fixed, and designated by the yellow pin. When selected as Fixed, the box under Moving will be inactive.  To change this selection, select the pin next to the desired Fixed Reference protein.
@@ -40,7 +46,6 @@ Choose **Fixed** and **Moving structures** as above, and additionally choose a c
     
     - Note that selecting a chain on the plugin main panel will also apply green highlighting to the selected chain of the protein structure, to visualize the selections before running.
 
-
 <vimg src="plugins-page/superimpose_menu_2.png" />
 <vimg src="plugins-page/superimpose_rmsd_menu_2.png" />
 
@@ -53,23 +58,27 @@ Choose **Fixed** and **Moving structures** as above, and additionally choose a c
 
 ## Methodologies
 
-For this plugin, we heavily utilize tools in the biopython library.
+We have two primary approaches to superimposing proteins:
 
-### Primary modules
+Full Protein alignments and Chain alignments both use a sequence based approach.
+
+Binding site overlays use a spatial based approach. FPocket is used to identify potential binding sites on the moving protein, and those results are compared to the fixed binding site using Site-Motif, which identifies the one with the best overlay.
+
+### Sequence Alignment Primary modules
 [Bio.pairwise2](https://biopython.org/docs/1.75/api/Bio.pairwise2.html#module-Bio.pairwise2) <br>
 [Bio.PDB.Superimposer](https://biopython.org/docs/1.75/api/Bio.PDB.Superimposer.html#module-Bio.PDB.Superimposer)
 
-### Summary
+### Sequence Alignment Summary.
 For each pairing of fixed structure and moving structure:
 - A global alignment is run on protein residue sequences using Bio.pairwise2
-    
+
 - Aligned residue atoms are passed into Bio.PDB.Superimposer, which calculates an RMSD value and a transform matrix.
 
 - We apply the transform matrix to every moving atom on the complex.
 
 After all moving atoms have been transformed, we update the complexes in the workspace.
 
-### Implementation Details
+#### Implementation Details
 
 #### Alignment
 - For Entry mode, the entire protein sequence is aligned.
@@ -84,3 +93,12 @@ After all moving atoms have been transformed, we update the complexes in the wor
 #### Superimpose
 - If the alpha carbon overlay method is selected, we only pair the alpha carbons from each residue.
 - If all heavy atoms overlay method is selected, we attempt to pair all heavy atoms. In some cases, we cannot get a 1-1 pairing of heavy atoms. In this case, those residues are excluded from the superimpose
+
+
+### Binding Site Primary Tools
+[Fpocket] (https://github.com/Discngine/fpocket)
+[Site-Motif] (https://github.com/nanome-ai/site-motif)
+
+
+#### Overview
+<vimg src="plugins-page/superimpose_binding_site_diagram.png" />
