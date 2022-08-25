@@ -61,7 +61,7 @@ We have two primary approaches to superimposing proteins:
 
 Full Protein and Chain alignments both use a sequence based approach.
 
-Binding site overlays use the Site-Motif algorithm, and use FPocket to identify inputs.
+Binding site overlays use the Site-Motif algorithm, with FPocket for identifing inputs.
 
 ### Sequence Alignment
 
