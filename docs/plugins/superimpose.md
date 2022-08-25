@@ -14,14 +14,13 @@ A **Fixed Reference** structure is chosen, and **Moving Structures** are translo
 
 <vimg src="plugins-page/superimpose_menu.png" />
 
-1. In the upper left, Superimpose Proteins Using **Backbone α carbons** is the default selection, and will result in an overlay based on all paired alpha carbons between the two proteins.   Switching this selection to Superimpose Proteins Using **All Heavy Atoms** uses backbone atoms and side chain atoms (all protein atoms except for Hydrogen) for all paired residues.
+1. In the upper left, the user can select the Overlay Method.
+    -   **Backbone α carbons**: Overlay structures based on all paired alpha carbons between the two proteins.
+    -   **All Heavy Atoms**: Uses backbone atoms and side chain atoms (all protein atoms except for Hydrogen) for paired residues.
 
 2. In the upper right, there are 3 available alignment modes.
-
     -   **Align to Entire Fixed Reference**: Uses a sequence based alignment to superimpose entire proteins on top of each other.
-
     -   **1 specific Chain from the Fixed Reference**: Uses a sequence based  alignment to superimpose the moving structures onto a specified chain on the Fixed Reference.
-
     -   **By Binding Site**: The user selects a ligand on the fixed reference, and the surrounding binding site is aligned to the moving structures using a spatial based algorithm (See methodoligies for more details)
 
 3. A list of proteins in the workspace appears in the main panel.  In this panel, choose **Fixed Reference** and **Moving Structures**, and subselect a chain for each, if aligning by chain (see 4, below).
@@ -70,7 +69,7 @@ Binding site overlays use a spatial based approach. FPocket is used to identify 
 [Bio.pairwise2](https://biopython.org/docs/1.75/api/Bio.pairwise2.html#module-Bio.pairwise2) <br>
 [Bio.PDB.Superimposer](https://biopython.org/docs/1.75/api/Bio.PDB.Superimposer.html#module-Bio.PDB.Superimposer)
 
-#### Summary.
+#### Summary
 For each pairing of fixed structure and moving structure:
 - A global alignment is run on protein residue sequences using Bio.pairwise2
 
