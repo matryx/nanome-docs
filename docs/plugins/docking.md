@@ -8,7 +8,14 @@ The docking plugin interfaces with a variety of docking software to dock ligands
 
 - Smina
 - Autodock 4
-- Rhodium
 
-To use the plugin, select a receptor to bind to. Then, select one or more ligands to bind. Finally, if your chosen docking software supports it, select the site
-at which to dock the ligands. You will receive notifications when docking has finished.
+
+## Instructions
+
+To use the plugin, select a receptor to bind to.
+
+Then, select one or more ligands to bind.
+
+Finally, select the site at which to dock the ligands. For most cases, the ligand is used as the site, and it is placed in the approximate pocket of the receptor.
+
+You will receive notifications when docking has finished.

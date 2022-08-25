@@ -9,6 +9,7 @@ The Real-time Scoring plugin lets you score ligands against a receptor to determ
 Ligand efficiency is an important predictive property in medicinal chemistry and is used to rank compounds.  It is defined as the Gibbs free energy (ΔG) divided by the number of non-hydrogen atoms in the ligand.  Therefore, understanding the contribution of each non-hydrogen atom is of value toward predicting ligand efficiency.  
 
 
+## Instructions
 
 <vimg src="plugins-page/realtimescoring_plugin.png" />
 

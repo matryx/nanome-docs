@@ -7,7 +7,8 @@ title: Chemical Interactions
 The Chemical Interactions plugin visualizes ligand-receptor and protein-protein interactions. It utilizes [arpeggio](https://github.com/PDBeurope/arpeggio) for calculating interactions.
 
 
-# Instructions
+##  Instructions
+
 <br>
 <vimg src="plugins-page/chem_interactions_menu_labeled.png" />
 

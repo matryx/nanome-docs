@@ -37,14 +37,14 @@ module.exports = {
         children: [
           '/plugins/overview',
           '/plugins/vault',
-          '/plugins/minimization',
-          '/plugins/rmsd',
+          '/plugins/cheminteractions',
           '/plugins/realtimescoring',
+          '/plugins/minimization',
           '/plugins/docking',
           '/plugins/superimpose',
           '/plugins/chemicalproperties',
           '/plugins/structureprep',
-          '/plugins/cheminteractions',
+          '/plugins/rmsd',
           '/plugins/createyourown',
           '/plugins/stackstudio'
         ]
