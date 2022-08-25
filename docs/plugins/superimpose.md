@@ -64,11 +64,13 @@ Full Protein alignments and Chain alignments both use a sequence based approach.
 
 Binding site overlays use a spatial based approach. FPocket is used to identify potential binding sites on the moving protein, and those results are compared to the fixed binding site using Site-Motif, which identifies the one with the best overlay.
 
-### Sequence Alignment Primary modules
+### Sequence Alignment
+
+#### Primary modules
 [Bio.pairwise2](https://biopython.org/docs/1.75/api/Bio.pairwise2.html#module-Bio.pairwise2) <br>
 [Bio.PDB.Superimposer](https://biopython.org/docs/1.75/api/Bio.PDB.Superimposer.html#module-Bio.PDB.Superimposer)
 
-### Sequence Alignment Summary.
+#### Summary.
 For each pairing of fixed structure and moving structure:
 - A global alignment is run on protein residue sequences using Bio.pairwise2
 
@@ -80,11 +82,11 @@ After all moving atoms have been transformed, we update the complexes in the wor
 
 #### Implementation Details
 
-#### Alignment
+##### Alignment
 - For Entry mode, the entire protein sequence is aligned.
 - For Chain mode, only the specified chains are aligned.
 
-#### Global alignment scoring values
+##### Global alignment scoring values
 - match = 2
 - mismatch = -1
 - gap penalty = -10
@@ -95,10 +97,17 @@ After all moving atoms have been transformed, we update the complexes in the wor
 - If all heavy atoms overlay method is selected, we attempt to pair all heavy atoms. In some cases, we cannot get a 1-1 pairing of heavy atoms. In this case, those residues are excluded from the superimpose
 
 
-### Binding Site Primary Tools
-[Fpocket] (https://github.com/Discngine/fpocket)
-[Site-Motif] (https://github.com/nanome-ai/site-motif)
+### Binding Site Superimpose
 
+#### Source Code
+[Fpocket](https://github.com/Discngine/fpocket)<br>
+[Site-Motif](https://github.com/nanome-ai/site-motif)<br>
 
 #### Overview
+<br>
 <vimg src="plugins-page/superimpose_binding_site_diagram.png" />
+
+#### References
+Le Guilloux, V., Schmidtke, P. & Tuffery, P. Fpocket: An open source platform for ligand pocket detection. BMC Bioinformatics 10, 168 (2009). https://doi.org/10.1186/1471-2105-10-168
+
+Sankar S, Chandra N (2022) SiteMotif: A graph-based algorithm for deriving structural motifs in Protein Ligand binding sites. PLoS Comput Biol 18(2): e1009901. https://doi.org/10.1371/journal.pcbi.1009901
