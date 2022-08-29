@@ -79,10 +79,10 @@
           </a>
         </h3>
         <div><b>Operating System:</b> Windows 10</div>
-        <div><b>Processor:</b> i5-4590</div>
-        <div><b>Memory:</b> 4 GB RAM</div>
-        <div><b>Graphics:</b> NVIDIA GTX 780 (or AMD R9 290)</div>
-        <div><b>Storage:</b> 2 GB</div>
+        <div><b>Processor:</b> Intel i7</div>
+        <div><b>Memory:</b> 8 GB RAM</div>
+        <div><b>Graphics:</b> NVIDIA RTX 3050ti</div>
+        <div><b>Storage:</b> 256 GB SSD</div>
       </div>
 
       <div>
@@ -92,9 +92,9 @@
           </a>
         </h3>
         <div><b>Operating System:</b> Windows 10</div>
-        <div><b>Processor:</b> Intel i7</div>
+        <div><b>Processor:</b> Intel i7 or Xeon</div>
         <div><b>Memory:</b> 8 GB RAM</div>
-        <div><b>Graphics:</b> NVIDIA GTX 1070 (or AMD RX Vega 56)</div>
+        <div><b>Graphics:</b> NVIDIA RTX 3050ti, 3060, 3070 or 3080;<br>Quadro RTX 3000, 4000, or 5000; or Titan Xp</div>
         <div><b>Storage:</b> 256 GB SSD</div>
       </div>
     </div>
