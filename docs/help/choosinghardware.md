@@ -24,21 +24,12 @@ title: Choosing Hardware
     <tbody>
         <tr>
             <td></td>
-            <td>Oculus Quest 2 (Consumer)</td>
+            <td>Meta Quest Pro & Meta Quest 2 (Consumer)</td>
             <td>Vive Focus 3</td>
-            <td>Oculus (Rift-S, link)</td>
+            <td>Meta Quest Link (Supports Meta Quest Pro & Meta Quest 2)</td>
             <td>HTC Vive (Pro), Valve Index</td>
             <td>Windows Mixed Reality (HP Reverb G2)</td>
             <td>Varjo XR3</td>
-        </tr>
-        <tr>
-            <td>FB Log in required?</td>
-            <td>Y</td>
-            <td>N</td>
-            <td>Y</td>
-            <td>N</td>
-            <td>N</td>
-            <td>N</td>
         </tr>
         <tr>
             <td>Multi-device provisioning and remote I.T. management</td>
@@ -99,22 +90,22 @@ title: Choosing Hardware
         </tr>
         <tr>
             <td>Procurement</td>
-            <td><a href="http://www.oculus.com/">www.oculus.com</a></td>
-            <td>Nanome Inc. (support@nanome.ai) or <a href="https://store.us.vive.com/store/htcus/en_US/buy/productID.5526001900/themeID.4773718000/currency.USD">HTC</a></td>
-            <td><a href="https://support.oculus.com/articles/headsets-and-accessories/oculus-link/oculus-link-compatibility">Oculus Link Cable Requirements</a></td>
-            <td>HTC <a href="https://www.vive.com/us/product/vive-pro/">Vive Pro</a>, Valve <a href="https://store.steampowered.com/valveindex">Index</a></td>
+            <td><a href="https://www.meta.com/quest/">www.meta.com/quest</a></td>
+            <td>Nanome Inc. (support@nanome.ai) or <a href="https://business.vive.com/eu/solutions/streaming/">HTC</a></td>
+            <td><a href="https://www.meta.com/help/quest/articles/headsets-and-accessories/oculus-link/meta-quest-link-compatibility/">Meta Quest Link Cable Requirements</a></td>
+            <td>HTC <a href="https://business.vive.com/eu/product/vive-pro2/">Vive Pro</a>, Valve <a href="https://store.steampowered.com/valveindex">Index</a></td>
             <td><a href="https://www.hp.com/us-en/vr/reverb-g2-vr-headset.html">HP Reverb G2</a></td>
             <td><a href="https://store.varjo.com/xr-3">Varjo.com</a></td>
         </tr>
     </tbody>
 </table>
 
-## Nanome All-In-One (Quest 2 & Focus 3) vs PCVR Feature Comparison
+## Nanome All-In-One (Quest Pro, Quest 2 & Focus 3) vs PCVR Feature Comparison
 
-The following tables below show brief overviews of the capabilities of the Oculus Quest 2, Vive Focus 3
+The following tables below show brief overviews of the capabilities of the Meta Quest Pro, Meta Quest 2, Vive Focus 3
 vs Desktop VR. Please also note the following:
 1. ‘Shown Atom Count’ only refers to the count of atoms displayed in the workspace and larger
-structures can be loaded within the workspace in the Oculus Quest 2 & Vive Focus 3.
+structures can be loaded within the workspace in the Meta Quest 2 & Vive Focus 3.
 2. Surfaces (on/off), secondary structures (ribbons on/off), and supplemental materials
 (PDF/JPEGs, whiteboards, web browsers, labels) all affect performance in different ways
 significantly. ‘Shown Atom Count’ column is given nothing else is displayed in the scene.
@@ -158,7 +149,7 @@ significantly. ‘Shown Atom Count’ column is given nothing else is displayed 
     <tbody>
         <tr>
             <th>Shown Atom Count<sup>1,2</sup></th>
-            <th>Oculus Quest 2</th>
+            <th>Meta Quest Pro & Quest 2</th>
             <th>HTC Vive Focus 3</th>
             <th>PCVR, PC Windows App<sup>3</sup></th>
         </tr>
