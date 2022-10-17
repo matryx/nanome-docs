@@ -34,13 +34,13 @@ Yes, Nanome has a 2D desktop mode for users without VR devices. In 2D mode, user
 - Windows 10 Operating System
 
 ## Can I use Nanome on Mac/Linux?
-Nanome does not currently support Mac or Linux. Windows is the primary operating system for using VR headsets and represents the best way to use Nanome. Additionally, Nanome is compatible with the Oculus Quest mobile headset.
+Nanome does not currently support Mac or Linux. Windows is the primary operating system for using VR headsets and represents the best way to use Nanome using a PC. Alternatively, users can use all-in-one headsets such as the Meta Quest Pro, Meta Quest 2, or Vive Focus 3 devices.
 
 ## Do I need an Internet connection to use Nanome?
 A stable Internet connection is highly recommended when using Nanome, especially when collaborating with other users. Access to the web is also necessary to download structures from databases like RCSB and DrugBank Databases. For solo users with structures stored on their local machines, internet access is not required.
 
 ## How many users can join a Nanome session at the same time?
-Nanome currently supports up to 20 collaborators in a room. Soon, more spectators will be able to join in 3D.
+Nanome currently supports up to 20 XR collaborators in a room concurrently. Up to 50 more users can join via Nanome's 2D mode.
 
 ## What file formats does Nanome support? How can I import them?
 Nanome supports .pdb, .sdf, and features limited compatibility with other atomic coordinate files, like .cif. While .pdb or .sdf format are the most stable formats, we are always improving our parser’s ability to handle anomalies.
@@ -76,6 +76,38 @@ You should purchase the licenses from the license administrator Nanome account, 
 
 ## I have a coupon code. How do I redeem it?
 First, create an account or login at [https://nanome.ai/pricing/](https://nanome.ai/pricing/). Once you are logged in, you will notice a sidebar on the right with various options. Click plans and products and you will see our different premium tiers along with annual and monthly plans on top. Select the plan that your coupon covers. On the next menu, you'll see a form for credit card information as well as a blank to type in your coupon. You will have to put in your credit card information, but the coupon should neglect any actual fee. If your card was charged after the transaction, please contact us directly at support@nanome.ai and we will issue a refund immediately.
+
+## How to find the log file (Logs) of Nanome sessions for PC-tethered VR
+
+If you experience an issue with Nanome, please be sure to send us the logs for the event (both message.txt and detaileds.txt) so that we can investigate the issue. Feel free to email your bug report to support@nanome.ai.
+
+If you are using PC 2D mode or PC-tethered VR headsets, the logs for your session will be on your computer. If you open up your file explorer, please navigate to the following path:
+
+`C:\Users\\[USERNAME]\AppData\LocalLow\Nanome Inc_\Nanome\History`
+
+A log file's name follows the format of "YYYY-MM-DD_HH-MM-SS_details.txt" and is determined by the starting time of the session.
+
+For frequent users of Nanome, we recommend favoriting this path in your Windows File Explorer to quickly come back to later. 
+
+## How to find the log file (Logs) of Nanome sessions for All-in-One VR (e.g. Quest 2/Vive Focus 3)
+
+If you experience an issue with Nanome, please be sure to send us the logs for the event (both message.txt and detaileds.txt) so that we can investigate the issue. Feel free to email your bug report to support@nanome.ai.
+### NOTE: 
+- #### The VR headset needs to be turned on during this process.
+- ####  The computer you are connecting the headset to does not need to be VR-Ready. It can be a generic low spec computer.
+
+
+
+All-in-one VR headsets such as the Quest 2 or the Vive Focus 3 are Android based operating systems and log files are saved directly onto the headset. In order to move them or make a copy, you will need to connect your VR device to your computer via a USB-C cable. After pluggin in your headset via USB-C to your computer, make sure to turn on the headset and put it on. You will be prompted in-VR to click "Allow" when prompted to let the computer read the headset's files. 
+
+
+Note that some USB-C cables are charging only cables and you will need one that can transmit data.
+
+Now that the computer has access to read the VR headset's storage, there are two methods depending on if you are on Windows or Mac.
+
+### Windows
+Open your Windows File Explorer and look to the left panel. There you can see Storage Devices that are connected to your computer. You will see an item to the left that lists the associated File Storage for the VR headset. Sometime it is named "Quest" or "Oculus".
+
 
 ## I have requests/ideas for new features, where can I send them?
 Please email your requests to support@nanome.ai. We take all our users' feedback seriously, and your idea just might turn into the next big feature in Nanome.
