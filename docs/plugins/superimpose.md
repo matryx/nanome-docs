@@ -14,9 +14,14 @@ A **Fixed Reference** structure is chosen, and **Moving Structures** are translo
 
 <vimg src="plugins-page/superimpose_menu.png" />
 
-1. In the upper left, Superimpose Proteins Using **Backbone α carbons** is the default selection, and will result in an overlay based on all paired alpha carbons between the two proteins.   Switching this selection to Superimpose Proteins Using **All Heavy Atoms** uses backbone atoms and side chain atoms (all protein atoms except for Hydrogen) for all paired residues.
+1. In the upper left, the user can select the Overlay Method.
+    -   **Backbone α carbons**: Overlay structures based on all paired alpha carbons between the two proteins.
+    -   **All Heavy Atoms**: Uses backbone atoms and side chain atoms (all protein atoms except for Hydrogen) for paired residues.
 
-2. In the upper right, **Align to Entire Fixed Reference** is the default selection and will result in overlay of the full proteins.  Changing this selection to **1 specific Chain from the Fixed Reference** will make the chain selection boxes active, and will result in overlay by just the selected chain in each protein.   
+2. In the upper right, there are 3 available alignment modes.
+    -   **Align to Entire Fixed Reference**: Uses a sequence based alignment to superimpose entire proteins on top of each other.
+    -   **1 specific Chain from the Fixed Reference**: Uses a sequence based  alignment to superimpose the moving structures onto a specified chain on the Fixed Reference.
+    -   **By Binding Site**: The user selects a ligand on the fixed reference, and the surrounding binding site is aligned to the moving structures using Site-Motif (See methodoligies for more details)
 
 3. A list of proteins in the workspace appears in the main panel.  In this panel, choose **Fixed Reference** and **Moving Structures**, and subselect a chain for each, if aligning by chain (see 4, below).
     - By default, the first entry is set as Fixed, and designated by the yellow pin. When selected as Fixed, the box under Moving will be inactive.  To change this selection, select the pin next to the desired Fixed Reference protein.
@@ -40,7 +45,6 @@ Choose **Fixed** and **Moving structures** as above, and additionally choose a c
     
     - Note that selecting a chain on the plugin main panel will also apply green highlighting to the selected chain of the protein structure, to visualize the selections before running.
 
-
 <vimg src="plugins-page/superimpose_menu_2.png" />
 <vimg src="plugins-page/superimpose_rmsd_menu_2.png" />
 
@@ -53,29 +57,35 @@ Choose **Fixed** and **Moving structures** as above, and additionally choose a c
 
 ## Methodologies
 
-For this plugin, we heavily utilize tools in the biopython library.
+We have two primary approaches to superimposing proteins:
 
-### Primary modules
+Full Protein and Chain alignments both use a sequence based approach.
+
+Binding site overlays use the Site-Motif algorithm, with FPocket for identifing inputs.
+
+### Sequence Alignment
+
+#### Primary modules
 [Bio.pairwise2](https://biopython.org/docs/1.75/api/Bio.pairwise2.html#module-Bio.pairwise2) <br>
 [Bio.PDB.Superimposer](https://biopython.org/docs/1.75/api/Bio.PDB.Superimposer.html#module-Bio.PDB.Superimposer)
 
-### Summary
+#### Summary
 For each pairing of fixed structure and moving structure:
 - A global alignment is run on protein residue sequences using Bio.pairwise2
-    
+
 - Aligned residue atoms are passed into Bio.PDB.Superimposer, which calculates an RMSD value and a transform matrix.
 
 - We apply the transform matrix to every moving atom on the complex.
 
 After all moving atoms have been transformed, we update the complexes in the workspace.
 
-### Implementation Details
+#### Implementation Details
 
-#### Alignment
+##### Alignment
 - For Entry mode, the entire protein sequence is aligned.
 - For Chain mode, only the specified chains are aligned.
 
-#### Global alignment scoring values
+##### Global alignment scoring values
 - match = 2
 - mismatch = -1
 - gap penalty = -10
@@ -84,3 +94,30 @@ After all moving atoms have been transformed, we update the complexes in the wor
 #### Superimpose
 - If the alpha carbon overlay method is selected, we only pair the alpha carbons from each residue.
 - If all heavy atoms overlay method is selected, we attempt to pair all heavy atoms. In some cases, we cannot get a 1-1 pairing of heavy atoms. In this case, those residues are excluded from the superimpose
+
+### Binding Site Alignments using Site-Motif
+Site-motif is described as *a graph based method for aligning protein binding sites in sequence-order independent fashion*. It can analyze the binding site of a protein and find the best alignment on another protein.
+
+Our algorithm uses FPocket to identify potential binding sites on the moving protein, and those results are compared to the fixed binding site using Site-Motif. Site-Motif calculates alignments of each FPocket result to the fixed binding site, and the result with the longest alignment is used as the corresponding binding site. A transformation matrix is calculated to superimpose the moving binding site onto the fixed.
+
+#### Source Code
+[Site-Motif](https://github.com/nanome-ai/site-motif)<br>
+[Fpocket](https://github.com/Discngine/fpocket)
+
+Note that Nanome maintains a fork of the code from the original paper.
+The original codebase can be found [here](https://github.com/santhoshgits/MAPP-3D)
+
+Improvements to the codebase include:
+- Updating to Python3
+- Cut out unnecessary features for our use case
+- Logging
+
+#### Overview
+<br>
+<vimg src="plugins-page/superimpose_binding_site_diagram.png" />
+
+#### References
+Sankar S, Chandra N (2022) SiteMotif: A graph-based algorithm for deriving structural motifs in Protein Ligand binding sites. PLoS Comput Biol 18(2): e1009901. https://doi.org/10.1371/journal.pcbi.1009901
+
+Le Guilloux, V., Schmidtke, P. & Tuffery, P. Fpocket: An open source platform for ligand pocket detection. BMC Bioinformatics 10, 168 (2009). https://doi.org/10.1186/1471-2105-10-168
+
