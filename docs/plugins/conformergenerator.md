@@ -25,7 +25,7 @@ Access the Conformer Generator plugin from the Stacks Menu.
 <vimg src="plugins-page/conformer-generator/input-protein.png" />
 <vimg src="plugins-page/conformer-generator/input-ligand.png" />
 
-1. In the upper left, the user can select a) a protein and then a ligand or b) a ligand
+1. In the upper left, the user can select either a protein entry containing a ligand or an individual ligand entry
 2. Next the number of conformers to be returned (50, 100 or 200 conformers) is chosen from the pulldown
 3. Users may optionally choose to have the conformer set locked with the seed structure
 4. Clicking Generate runs the plugin.  During calculation, this button reads “Generating”
