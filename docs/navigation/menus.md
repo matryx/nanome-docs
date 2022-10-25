@@ -6,17 +6,17 @@ title: Main Menus
 
 ## Entry List
 
-<vimg src="navigating-page/entry_list_updated_1-20.png" />
+<vimg src="navigating-page/entry_list_updated_1-24.png" />
 
 The Entry List is a list of all of the structures that have been loaded into the environment.
 
 The Load, Plugin, Display, Color, Modify, Select, Macro, and Spatial Tutorial Menus can be displayed by clicking their respective icons located at the bottom of the Entry List.
 
-## Quest Limiter
+## Device Limiter
 
-<vimg src="navigating-page/Limiter.jpg" />
+<vimg src="navigating-page/Limiter.png" />
 
-The Quest Limiter is an indicator that shows how close the current amount of atoms is to hitting the limit of Quest's computing capability. This indicator only shows up in the Quest version of Nanome software. When the amount of atoms approaches or hit the limit, the following prompts will show up.
+The Device Limiter is an indicator that shows how close the current amount of atoms is to hitting the limit of a standalone device's computing capability. This indicator only shows up in the when using a device in standalone mode (if applicable). When the amount of atoms approaches or hit the limit, the following prompts will show up.
 
 <vimg src="navigating-page/Limiter-Close.jpg" />
 <vimg src="navigating-page/Limiter-Max.jpg" />
@@ -311,20 +311,24 @@ Expand or shrink the selection range by physical proximity.
 
 [Please view the macros page to learn more.](https://docs.nanome.ai/macros.html)
 
+## Content Discovery
+
+<vimg src="navigating-page/content_discovery_menu.png" />
+
+Tutorials of advanced concepts and features in Nanome, presented using spatial recordings.
+
 ## Advanced Tutorials
 
-<vimg src="navigating-page/advanced_tutorials_menu.png" />
-
-Tutorials of advanced concepts and features in Nanome, presented using spatial recordings. Clicking "Record Your Own" will bring up the [Spatial Recording](https://docs.nanome.ai/navigation/menus.html#spatial-recordings) Menu.
-
-### Spatial Tutorials
-
-See [Advanced Tutorials](https://docs.nanome.ai/navigation/menus.html#advanced-tutorials).
+See [Content Discovery](https://docs.nanome.ai/navigation/menus.html#content-discovery).
 
 ## Spatial Recordings
 
 <vimg src="navigating-page/spat_rec_menu.png" />
 
 Record your entire workspace, including structures, menus, and virtual movements; then, playback at a later time. During the playback you can pause and even interact with the structures in the recording.
+
+Spatial recordings can be accessed from either the Wrist Menu (see below) or the [Action Menu](https://docs.nanome.ai/navigation/actionmenu.html).
+
+<vimg src="navigating-page/wrist_menu_spatrec.png" />
 
 As of April 2021 (Nanome 1.20), this feature is in BETA - in particular, spatial recordings created in version 1.20 will not be playable in future versions.
