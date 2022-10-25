@@ -13,7 +13,7 @@ module.exports = {
         title: 'Nanome Controls',
         collapsable: true,
         sidebarDepth: 1,
-        children: ['/controls/overview']
+        children: ['/controls/overview'],
       },
       {
         title: 'Nanome Navigation',
@@ -27,8 +27,8 @@ module.exports = {
           '/navigation/actionmenu',
           '/navigation/toolsmenu',
           '/navigation/2dui',
-          '/navigation/voicecommand'
-        ]
+          '/navigation/voicecommand',
+        ],
       },
       {
         title: 'Nanome Plugins (Stacks)',
@@ -36,30 +36,31 @@ module.exports = {
         sidebarDepth: 1,
         children: [
           '/plugins/overview',
-          '/plugins/vault',
-          '/plugins/cheminteractions',
-          '/plugins/realtimescoring',
-          '/plugins/minimization',
-          '/plugins/docking',
-          '/plugins/superimpose',
           '/plugins/chemicalproperties',
-          '/plugins/structureprep',
+          '/plugins/cheminteractions',
+          '/plugins/conformergenerator',
+          '/plugins/docking',
+          '/plugins/minimization',
+          '/plugins/realtimescoring',
           '/plugins/rmsd',
+          '/plugins/structureprep',
+          '/plugins/superimpose',
+          '/plugins/vault',
           '/plugins/createyourown',
-          '/plugins/stackstudio'
-        ]
+          '/plugins/stackstudio',
+        ],
       },
       {
         title: 'Nanome Macros',
         collapsable: true,
         sidebarDepth: 1,
-        children: ['/macros/overview']
+        children: ['/macros/overview'],
       },
       {
         title: 'How To',
         collapsable: true,
         sidebarDepth: 2,
-        children: ['/howto/howto']
+        children: ['/howto/howto'],
       },
       {
         title: 'home.nanome.ai',
@@ -70,8 +71,8 @@ module.exports = {
           '/home.nanome.ai/invoice',
           '/home.nanome.ai/licenses',
           '/home.nanome.ai/meetings',
-          '/home.nanome.ai/twofactorauth'
-        ]
+          '/home.nanome.ai/twofactorauth',
+        ],
       },
       {
         title: 'Help',
@@ -83,23 +84,23 @@ module.exports = {
           '/help/hardwarerequirements',
           '/help/faq',
           '/help/choosinghardware',
-          '/help/contact'
-        ]
+          '/help/contact',
+        ],
       },
       {
         title: 'Open in Nanome button',
         collapsable: true,
         sidebarDepth: 1,
-        children: ['/deeplinking']
-      }
+        children: ['/deeplinking'],
+      },
     ],
     sidebarDepth: 2,
     lastUpdated: 'Last Updated',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Nanome.ai', link: 'https://nanome.ai/' },
-      { text: 'Download', link: 'https://home.nanome.ai/setup' }
-    ]
+      { text: 'Download', link: 'https://home.nanome.ai/setup' },
+    ],
   },
   plugins: [
     ['@vuepress/google-analytics', { ga: 'UA-79179574-15' }],
@@ -108,10 +109,10 @@ module.exports = {
       {
         delay: 2000,
         options: {
-          scaleBase: 0.8
+          scaleBase: 0.8,
         },
-        selector: '.vimg > img'
-      }
-    ]
-  ]
+        selector: '.vimg > img',
+      },
+    ],
+  ],
 }
