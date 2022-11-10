@@ -4,7 +4,7 @@ title: Wrist Menu
 
 # Wrist Menu
 
-<vimg src="navigating-page/wrist_menu_updated.png" />
+<vimg src="navigating-page/wrist-menu-1-24.png" />
 
 Wrist menu contains access to features independent from the content of the workspace such as quick menu access, room management.
 

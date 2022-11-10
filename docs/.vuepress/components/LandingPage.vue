@@ -65,7 +65,7 @@
       </a> -->
       <img
         class="headsets"
-        src="/assets/original/gettingStarted-page/Headsets4.png"
+        src="/assets/original/gettingStarted-page/SupportedHeadsets.png"
         alt="headsets"
       />
     </div>
