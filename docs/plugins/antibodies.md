@@ -8,7 +8,8 @@ The Antibody Representation plugin adds the IMGT color scheme, labels antibody r
 
 <table>
 <tr>
-<td><vimg src="plugins-page/antibodies/image1.png"/></td><td>The plugin is accessible through the stacks menu.   Select the antibody structure in the Entry list, click Activate and then Run.   The structure will update with heavy and light chains colored in grays and CDR loops colored according to the IMGT scheme.</td>
+<td width="50%" ><vimg src="plugins-page/antibodies/image1.png"/></td>
+<td width="50%" >The plugin is accessible through the stacks menu. Select the antibody structure in the Entry list, click Activate and then Run.   The structure will update with heavy and light chains colored in grays and CDR loops colored according to the IMGT scheme.</td>
 </tr>
 <tr>
 <td><vimg src="plugins-page/antibodies/image4.png" /></td>
