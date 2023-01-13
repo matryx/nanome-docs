@@ -1,17 +1,15 @@
 <template>
   <div>
     <form v-if="!success" @submit.prevent="onSubmit" class="contact">
-      <h2>
-        Tell us more about yourself and the right team will contact you.
-      </h2>
+      <h2>Tell us more about yourself and the right team will contact you.</h2>
       <div class="row">
         <label>
           <h3>First Name <span class="required">*</span></h3>
           <input v-model="firstName" type="text" required />
         </label>
         <label>
-          <h3>Last Name</h3>
-          <input v-model="lastName" type="text" />
+          <h3>Last Name <span class="required">*</span></h3>
+          <input v-model="lastName" type="text" required />
         </label>
       </div>
       <div class="row">
@@ -20,8 +18,8 @@
           <input v-model="email" type="email" required />
         </label>
         <label>
-          <h3>Organization / Affiliation Name</h3>
-          <input v-model="organizationName" type="text" />
+          <h3>Organization / Affiliation</h3>
+          <input v-model="org" type="text" />
         </label>
       </div>
       <label>
@@ -83,79 +81,46 @@
 <script>
 export default {
   data: () => ({
-    firstName: "",
-    lastName: "",
-    email: "",
-    organizationName: "",
-    profession: "",
-    referrer: "",
-    content: "",
+    firstName: '',
+    lastName: '',
+    email: '',
+    org: '',
+    profession: '',
+    referrer: '',
+    content: '',
     success: false,
-    error: ""
+    error: '',
   }),
 
   methods: {
     async onSubmit() {
-      const url = "https://nanome.zendesk.com/api/v2/requests.json";
+      let message = ''
+      if (this.org) message += `Organization / Affiliation: ${this.org}\n\n`
+      if (this.profession) message += `Profession: ${this.profession}\n\n`
+      if (this.referrer) message += `Referrer: ${this.referrer}\n\n`
+      message += `Message: \n${this.content}`
 
-      const request = this.buildRequest();
+      const data = new FormData()
+      data.append('first_name', this.firstName)
+      data.append('last_name', this.lastName)
+      data.append('email', this.email)
+      data.append('message', message)
 
-      const res = await fetch(url, {
-        method: "POST",
-        headers: {
-          "Content-type": "application/json"
-        },
-        body: JSON.stringify({ request })
-      });
+      const res = await fetch(
+        'https://hook.integromat.com/hunbolbb299tldil4nkanx2hj9kyd3iu',
+        { method: 'POST', body: data }
+      )
 
       if (!res.ok) {
-        this.error =
-          "There was an error processing your request. Please try again later.";
-        this.success = false;
-        return; 
+        this.error = `There was an error processing your request. Please try again later.`
+        this.success = false
+        return
       }
 
-      this.success = true;
+      this.success = true
     },
-
-    buildRequest() {
-      const requester = {};
-      let subject = "";
-      const comment = {
-        body: ""
-      };
-
-      requester.name = this.firstName;
-      if (this.lastName) {
-        requester.name += " " + this.lastName;
-      }
-
-      subject = `${requester.name} is interested in Nanome`;
-
-      requester.email = this.email;
-
-      if (this.organizationName) {
-        comment.body += `Organization / Affiliation Name: ${this.organizationName} \n\n`;
-      }
-
-      if (this.profession) {
-        comment.body += `Profession: ${this.profession} \n\n`;
-      }
-
-      if (this.referrer) {
-        comment.body += `Referrer: ${this.referrer} \n\n`;
-      }
-
-      comment.body += `Message: \n ${this.content}`;
-
-      return {
-        requester,
-        subject,
-        comment
-      };
-    }
-  }
-};
+  },
+}
 </script>
 
 <style scoped>
