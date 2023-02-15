@@ -33,7 +33,7 @@ title: Choosing Hardware
         </tr>
         <tr>
             <td>Multi-device provisioning and remote I.T. management</td>
-            <td>N</td>
+            <td>Yes with Quest for Business</td>
             <td>Yes with Vive business</td>
             <td>N</td>
             <td>N</td>
