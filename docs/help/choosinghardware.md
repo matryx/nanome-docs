@@ -51,7 +51,7 @@ title: Choosing Hardware
         </tr>
         <tr>
             <td>Device Use Management</td>
-            <td>3rd party (<a href="http://arborxr.com">arborxr.com</a>, <a href="https://grove.us/">grove.us</a>)</td>
+            <td>Yes with Quest for Business, and 3rd party (<a href="http://arborxr.com">arborxr.com</a>, <a href="https://grove.us/">grove.us</a>)</td>
             <td>Yes with Vive business, and 3rd party (<a href="http://arborxr.com">arborxr.com</a>)</td>
             <td>N</td>
             <td>N</td>
@@ -60,7 +60,7 @@ title: Choosing Hardware
         </tr>
         <tr>
             <td>VPN Support</td>
-            <td>Partial Support (requires APK file)</td>
+            <td>Yes with Quest for Business and MobileIron (requires APK file)</td>
             <td>Yes has Full Support</td>
             <td colspan=4 style="text-align: center">With PC</td>
         </tr>
@@ -72,7 +72,7 @@ title: Choosing Hardware
         </tr>
         <tr>
             <td>Nanome I.T. Team Ease of Deployment Score (out of 10)</td>
-            <td>2</td>
+            <td>4</td>
             <td>5</td>
             <td>3</td>
             <td>7</td>
