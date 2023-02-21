@@ -81,7 +81,7 @@ title: Choosing Hardware
         </tr>
         <tr>
             <td>Cost</td>
-            <td>Quest 2 <br>$299 + recommended headstrap ($50/each)<br>Quest Pro<br>$1499</td>
+            <td><b>Quest 2</b><br>$299 + recommended headstrap ($50/pc)<br><b>Quest Pro</b><br>$1499</td>
             <td>$1300/hmd, optional vive business annual fee</td>
             <td>Link cables can be purchased for $30-$100 + PC</td>
             <td>$1k+ + PC</td>
@@ -90,7 +90,7 @@ title: Choosing Hardware
         </tr>
         <tr>
             <td>Procurement</td>
-            <td><a href="https://www.meta.com/quest/products/quest-2/">Meta Quest 2</a> + <a href="https://www.meta.com/quest/Quest-pro">Quest Pro</a></td>
+            <td><a href="https://www.meta.com/quest/products/quest-2/">Meta Quest 2</a><br><a href="https://www.meta.com/quest/Quest-pro">Quest Pro</a></td>
             <td>Nanome Inc. (support@nanome.ai) or <a href="https://business.vive.com/eu/solutions/streaming/">HTC</a></td>
             <td><a href="https://www.meta.com/help/quest/articles/headsets-and-accessories/oculus-link/meta-quest-link-compatibility/">Meta Quest Link Cable Requirements</a></td>
             <td>HTC <a href="https://business.vive.com/eu/product/vive-pro2/">Vive Pro</a>, Valve <a href="https://store.steampowered.com/valveindex">Index</a></td>
