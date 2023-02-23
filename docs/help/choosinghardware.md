@@ -10,6 +10,7 @@ title: Choosing Hardware
     <col style="width: 15%;" />
     <col style="width: 10%;" />
     <col style="width: 10%;" />
+    <col style="width: 10%;" />
     <col style="width: 19%;" />
     <col style="width: 23%;" />
     <col style="width: 23%;" />
@@ -17,7 +18,7 @@ title: Choosing Hardware
     <thead>
         <tr>
             <th></th>
-            <th colspan=2>All in One Headsets (no PC)</th>
+            <th colspan=3>All in One Headsets (no PC)</th>
             <th colspan=4>PCVR</th>
         </tr>
     </thead>
@@ -26,6 +27,7 @@ title: Choosing Hardware
             <td></td>
             <td>Meta Quest Pro & Meta Quest 2 (Consumer)</td>
             <td>Vive Focus 3</td>
+            <td>Pico Neo 3</td>
             <td>Meta Quest Link (Supports Meta Quest Pro & Meta Quest 2)</td>
             <td>HTC Vive (Pro), Valve Index</td>
             <td>Windows Mixed Reality (HP Reverb G2)</td>
@@ -35,6 +37,7 @@ title: Choosing Hardware
             <td>Multi-device provisioning and remote I.T. management</td>
             <td>Yes with Quest for Business</td>
             <td>Yes with Vive business</td>
+            <td>Yes with Quest for Business</td>
             <td>N</td>
             <td>N</td>
             <td>N</td>
@@ -46,6 +49,7 @@ title: Choosing Hardware
             <td>N</td>
             <td>N</td>
             <td>N</td>
+            <td>N</td>
             <td>Y</td>
             <td>N</td>
         </tr>
@@ -53,6 +57,7 @@ title: Choosing Hardware
             <td>Device Use Management</td>
             <td>Yes with Quest for Business, and 3rd party (<a href="http://arborxr.com">arborxr.com</a>, <a href="https://grove.us/">grove.us</a>)</td>
             <td>Yes with Vive business, and 3rd party (<a href="http://arborxr.com">arborxr.com</a>)</td>
+            <td>Yes with Quest for Business, and 3rd party (<a href="http://arborxr.com">arborxr.com</a>, <a href="https://grove.us/">grove.us</a>)</td>
             <td>N</td>
             <td>N</td>
             <td>N</td>
@@ -60,12 +65,14 @@ title: Choosing Hardware
         </tr>
         <tr>
             <td>VPN Support</td>
-            <td>Yes with Quest for Business and MobileIron (requires APK file)</td>
+            <td>Partial Support(requires sideloaded APK file)</td>
             <td>Yes has Full Support</td>
+            <td>Partial Support(requires sideloaded APK file)</td>
             <td colspan=4 style="text-align: center">With PC</td>
         </tr>
         <tr>
             <td>Can connect to PC?</td>
+            <td>Y</td>
             <td>Y</td>
             <td>Y</td>
             <td colspan=4 style="text-align: center">---</td>
@@ -83,6 +90,7 @@ title: Choosing Hardware
             <td>Cost</td>
             <td><b>Quest 2</b><br>$299 + recommended headstrap ($50/pc)<br><b>Quest Pro</b><br>$1499</td>
             <td>$1300/hmd, optional vive business annual fee</td>
+            <td>TBD</td>
             <td>Link cables can be purchased for $30-$100 + PC</td>
             <td>$1k+ + PC</td>
             <td>$600 + PC</td>
@@ -91,6 +99,7 @@ title: Choosing Hardware
         <tr>
             <td>Procurement</td>
             <td><a href="https://www.meta.com/quest/products/quest-2/">Meta Quest 2</a><br><a href="https://www.meta.com/quest/Quest-pro">Quest Pro</a></td>
+            <td>Nanome Inc. (support@nanome.ai) or <a href="https://business.vive.com/eu/solutions/streaming/">HTC</a></td>
             <td>Nanome Inc. (support@nanome.ai) or <a href="https://business.vive.com/eu/solutions/streaming/">HTC</a></td>
             <td><a href="https://www.meta.com/help/quest/articles/headsets-and-accessories/oculus-link/meta-quest-link-compatibility/">Meta Quest Link Cable Requirements</a></td>
             <td>HTC <a href="https://business.vive.com/eu/product/vive-pro2/">Vive Pro</a>, Valve <a href="https://store.steampowered.com/valveindex">Index</a></td>
