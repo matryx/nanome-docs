@@ -27,7 +27,7 @@ title: Choosing Hardware
             <td></td>
             <td>Meta Quest Pro & Meta Quest 2 (Consumer)</td>
             <td>Vive Focus 3</td>
-            <td>Pico Neo 3</td>
+            <td>Pico Neo 4</td>
             <td>Meta Quest Link (Supports Meta Quest Pro & Meta Quest 2)</td>
             <td>HTC Vive (Pro), Valve Index</td>
             <td>Windows Mixed Reality (HP Reverb G2)</td>
@@ -37,7 +37,7 @@ title: Choosing Hardware
             <td>Multi-device provisioning and remote I.T. management</td>
             <td>Yes with Quest for Business</td>
             <td>Yes with Vive business</td>
-            <td>Yes with Quest for Business</td>
+            <td>TBD</td>
             <td>N</td>
             <td>N</td>
             <td>N</td>
@@ -57,7 +57,7 @@ title: Choosing Hardware
             <td>Device Use Management</td>
             <td>Yes with Quest for Business, and 3rd party (<a href="http://arborxr.com">arborxr.com</a>, <a href="https://grove.us/">grove.us</a>)</td>
             <td>Yes with Vive business, and 3rd party (<a href="http://arborxr.com">arborxr.com</a>)</td>
-            <td>Yes with Quest for Business, and 3rd party (<a href="http://arborxr.com">arborxr.com</a>, <a href="https://grove.us/">grove.us</a>)</td>
+            <td>3rd party (<a href="https://managexr.com/">ManageXR</a>, and <a href="http://arborxr.com">arborxr.com</a>)</td>
             <td>N</td>
             <td>N</td>
             <td>N</td>
@@ -81,6 +81,7 @@ title: Choosing Hardware
             <td>Nanome I.T. Team Ease of Deployment Score (out of 10)</td>
             <td>4</td>
             <td>5</td>
+            <td>4</td>
             <td>3</td>
             <td>7</td>
             <td>9</td>
@@ -90,7 +91,7 @@ title: Choosing Hardware
             <td>Cost</td>
             <td><b>Quest 2</b><br>$299 + recommended headstrap ($50/pc)<br><b>Quest Pro</b><br>$1499</td>
             <td>$1300/hmd, optional vive business annual fee</td>
-            <td>TBD</td>
+            <td>$499</td>
             <td>Link cables can be purchased for $30-$100 + PC</td>
             <td>$1k+ + PC</td>
             <td>$600 + PC</td>
@@ -100,7 +101,7 @@ title: Choosing Hardware
             <td>Procurement</td>
             <td><a href="https://www.meta.com/quest/products/quest-2/">Meta Quest 2</a><br><a href="https://www.meta.com/quest/Quest-pro">Quest Pro</a></td>
             <td>Nanome Inc. (support@nanome.ai) or <a href="https://business.vive.com/eu/solutions/streaming/">HTC</a></td>
-            <td>Nanome Inc. (support@nanome.ai) or <a href="https://business.vive.com/eu/solutions/streaming/">HTC</a></td>
+            <td><a href="https://www.picoxr.com/global/products/pico4">PicoXR</a><br>(Unavailable in US)</td>
             <td><a href="https://www.meta.com/help/quest/articles/headsets-and-accessories/oculus-link/meta-quest-link-compatibility/">Meta Quest Link Cable Requirements</a></td>
             <td>HTC <a href="https://business.vive.com/eu/product/vive-pro2/">Vive Pro</a>, Valve <a href="https://store.steampowered.com/valveindex">Index</a></td>
             <td><a href="https://www.hp.com/us-en/vr/reverb-g2-vr-headset.html">HP Reverb G2</a></td>
