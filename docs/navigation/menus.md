@@ -76,6 +76,12 @@ Action buttons on the Entry List provide quick access to common actions on the w
 |<vimg src="navigating-page/sequence_menu_button_updated.png" />Sequence | View the seqences of multiple chains and align them.| <vimg src="navigating-page/Entry-SequenceMenu.jpg" /> |
 |<vimg src="navigating-page/Entry-Delete-Button.jpg" /> Delete | Delete the selected entities.||
 
+### Spatial ("Quick") Anchor
+
+<vimg src="navigating-page/quick-anchor.png" />
+
+When saving a workspace, you have the option to create a spatial anchor for your current physical location. When you re-launch Nanome in this same physical location, you'll be able to quickly access this workspace from the Nanome Lobby. (Only one workspace can be saved with a spatial anchor at a time.)
+
 ## Load
 
 Load molecules or structures into your workspace. Supported file formats include:
@@ -166,6 +172,13 @@ This tab contains options for the visual of ribbons.
 <vimg src="navigating-page/Display-Surface-Menu-updated.png" />
 
 Toggle the visibility of solvent-excluded-surface, change its opacity, or change the probe length (in Angstroms).
+
+#### Mesh Surfaces (PCVR only)
+
+<vimg src="navigating-page/mesh-surface.png" />
+
+If you are using PCVR, you also have the option to display a mesh surface. This option can be found in the [Action Menu](https://docs.nanome.ai/navigation/actionmenu.html).
+Navigate to Display/Styles > Surface Styles, then check the "Mesh Surface" option.
 
 ### Sub Structure
 
