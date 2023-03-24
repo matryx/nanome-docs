@@ -62,7 +62,7 @@ title: Choosing Hardware
             <td>N</td>
         </tr>
         <tr>
-            <td>Device Use Management</td>
+            <td>Device Management Dashboard</td>
             <td>Yes with Quest for Business, and 3rd party (<a href="http://arborxr.com">arborxr.com</a>, <a href="https://managexr.com/">ManageXR</a>)</td>
             <td>Yes with Quest for Business, and 3rd party (<a href="http://arborxr.com">arborxr.com</a>, <a href="https://managexr.com/">ManageXR</a>)</td>
             <td>Yes with Vive for Business, and 3rd party (<a href="http://arborxr.com">arborxr.com</a>)</td>
