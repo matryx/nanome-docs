@@ -89,7 +89,7 @@ title: Choosing Hardware
         </tr>
         <tr>
             <td>Cost</td>
-            <td><b>Quest 2</b><br>$299 + recommended headstrap ($50/pc)<br><b>Quest Pro</b><br>$1499</td>
+            <td><b>Quest 2</b><br>$299 + recommended headstrap ($50/pc)<br><b>Quest Pro</b><br>$999</td>
             <td>$1300/hmd, optional vive business annual fee</td>
             <td>$499</td>
             <td>Link cables can be purchased for $30-$100 + PC</td>
