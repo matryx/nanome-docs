@@ -34,10 +34,10 @@ title: Choosing Hardware
             <td>Varjo XR3</td>
         </tr>
         <tr>
-            <td>Multi-device provisioning and remote I.T. management</td>
-            <td>Yes with Quest for Business</td>
-            <td>Yes with Vive business</td>
-            <td>TBD</td>
+            <td>MR passthrough compatible</td>
+            <td>Yes<br>Quest Pro full color<br>Quest 2 black and white</td>
+            <td>Yes black and white</td>
+            <td>Yes on Pico Neo 4</td>
             <td>N</td>
             <td>N</td>
             <td>N</td>
