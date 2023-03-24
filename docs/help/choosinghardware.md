@@ -27,7 +27,7 @@ title: Choosing Hardware
             <td></td>
             <td>Meta Quest Pro & Meta Quest 2 (Consumer)</td>
             <td>Vive Focus 3</td>
-            <td>Pico Neo 4</td>
+            <td>Pico Neo 3</td>
             <td>Meta Quest Link (Supports Meta Quest Pro & Meta Quest 2)</td>
             <td>HTC Vive (Pro), Valve Index</td>
             <td>Windows Mixed Reality (HP Reverb G2)</td>
