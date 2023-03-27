@@ -21,7 +21,7 @@ title: Choosing Hardware
     <thead>
         <tr>
             <th></th>
-            <th colspan=5>All in One Headsets (no PC)</th>
+            <th colspan=6>All in One Headsets (no PC)</th>
             <th colspan=4>PCVR</th>
         </tr>
     </thead>
