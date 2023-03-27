@@ -13,6 +13,7 @@ title: Choosing Hardware
     <col style="width: 10%;" />
     <col style="width: 10%;" />
     <col style="width: 10%;" />
+    <col style="width: 10%;" />
     <col style="width: 19%;" />
     <col style="width: 23%;" />
     <col style="width: 23%;" />
@@ -31,7 +32,8 @@ title: Choosing Hardware
             <td>Meta Quest 2</td>
             <td>Vive Focus 3</td>
             <td>Vive XR Elite</td>
-            <td>Pico Neo 3<br>&<br>Pico Neo 4</td>
+            <td>Pico Neo 4</td>
+            <td>Pico Neo 3</td>
             <td>Meta Quest Link (Supports Meta Quest Pro & Meta Quest 2)</td>
             <td>HTC Vive (Pro), Valve Index</td>
             <td>Windows Mixed Reality (HP Reverb G2)</td>
@@ -43,7 +45,8 @@ title: Choosing Hardware
             <td>Yes, black and white</td>
             <td>Yes, black and white</td>
             <td>Yes, full color</td>
-            <td>Yes on Pico Neo 4</td>
+            <td>Yes, full color</td>
+            <td>Yes, black and white</td>
             <td>N</td>
             <td>N</td>
             <td>N</td>
@@ -51,6 +54,7 @@ title: Choosing Hardware
         </tr>
         <tr>
             <td>Completely offline installation</td>
+            <td>N</td>
             <td>N</td>
             <td>N</td>
             <td>N</td>
@@ -68,6 +72,7 @@ title: Choosing Hardware
             <td>Yes with Vive for Business, and 3rd party (<a href="http://arborxr.com">arborxr.com</a>)</td>
             <td>Yes with Vive for Business, and 3rd party (<a href="http://arborxr.com">arborxr.com</a>)</td>
             <td>Yes with Pico for Business, and 3rd party (<a href="http://arborxr.com">arborxr.com</a>, and <a href="https://managexr.com/">ManageXR</a>)</td>
+            <td>Yes with Pico for Business, and 3rd party (<a href="http://arborxr.com">arborxr.com</a>, and <a href="https://managexr.com/">ManageXR</a>)</td>
             <td>N</td>
             <td>N</td>
             <td>N</td>
@@ -80,10 +85,12 @@ title: Choosing Hardware
             <td>Yes has Full Support</td>
             <td>Yes has Full Support</td>
             <td>Partial Support (requires sideloaded APK file)</td>
+            <td>Partial Support (requires sideloaded APK file)</td>
             <td colspan=4 style="text-align: center">With PC</td>
         </tr>
         <tr>
             <td>Can connect to PC?</td>
+            <td>Y</td>
             <td>Y</td>
             <td>Y</td>
             <td>Y</td>
@@ -98,6 +105,7 @@ title: Choosing Hardware
             <td>5</td>
             <td>5</td>
             <td>4</td>
+            <td>4</td>
             <td>3</td>
             <td>7</td>
             <td>9</td>
@@ -110,6 +118,7 @@ title: Choosing Hardware
             <td>$1300/hmd, optional vive business annual fee</td>
             <td>$1100, optional vive business annual fee</td>
             <td>$499</td>
+            <td>$380</td>
             <td>Link cables can be purchased for $30-$100 + PC</td>
             <td>$1k+ + PC</td>
             <td>$600 + PC</td>
@@ -121,6 +130,7 @@ title: Choosing Hardware
             <td><a href="https://www.meta.com/quest/Quest-pro">Quest Pro</a>
             <td>Nanome Inc. (support@nanome.ai) or <a href="https://business.vive.com/eu/solutions/streaming/">HTC</a></td>
             <td>Nanome Inc. (support@nanome.ai) or <a href="https://business.vive.com/eu/solutions/streaming/">HTC</a></td>
+            <td><a href="https://www.picoxr.com/global/products/pico4">PicoXR</a><br></td>
             <td><a href="https://www.picoxr.com/global/products/pico4">PicoXR</a><br></td>
             <td><a href="https://www.meta.com/help/quest/articles/headsets-and-accessories/oculus-link/meta-quest-link-compatibility/">Meta Quest Link Cable Requirements</a></td>
             <td>HTC <a href="https://business.vive.com/eu/product/vive-pro2/">Vive Pro</a>, Valve <a href="https://store.steampowered.com/valveindex">Index</a></td>
