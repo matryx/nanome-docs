@@ -133,6 +133,12 @@ My Files tab allows users to load structures from their local directory.
 
 Recent files loaded in Nanome.
 
+### Cancel a load
+
+
+
+Cancel the loading of structures from the menu source tab, perfect for if your structure is taking too long to load or you made a mistake in the PDB code.
+
 ## Stacks
 
 <vimg src="navigating-page/Plugin-List.jpg" />
