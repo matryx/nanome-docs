@@ -133,6 +133,21 @@ My Files tab allows users to load structures from their local directory.
 
 Recent files loaded in Nanome.
 
+### Cancel a load
+
+<table>
+<tr>
+<td width="50%" ><vimg src="plugins-page/antibodies/image1.png"/></td>
+<td width="50%" >The plugin is accessible through the stacks menu. Select the antibody structure in the Entry list, click Activate and then Run.   The structure will update with heavy and light chains colored in grays and CDR loops colored according to the IMGT scheme.</td>
+</tr>
+<tr>
+<td><vimg src="navigating-page/loadingtoolong.jpg" /></td>
+<td><vimg src="navigating-page/cancelledload.jpg" /></td>
+</tr>
+</table>
+
+Cancel the loading of structures from the menu source tab, perfect for if your structure is taking too long to load or you made a mistake in the PDB code.
+
 ## Stacks
 
 <vimg src="navigating-page/Plugin-List.jpg" />
