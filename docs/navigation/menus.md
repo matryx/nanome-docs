@@ -137,8 +137,8 @@ Recent files loaded in Nanome.
 
 <table>
 <tr>
-<td width="50%" ><vimg src="plugins-page/antibodies/image1.png"/></td>
-<td width="50%" >The plugin is accessible through the stacks menu. Select the antibody structure in the Entry list, click Activate and then Run.   The structure will update with heavy and light chains colored in grays and CDR loops colored according to the IMGT scheme.</td>
+<td width="50%" ></td>
+<td width="50%" ></td>
 </tr>
 <tr>
 <td><vimg src="navigating-page/loadingtoolong.jpg" /></td>
