@@ -4,13 +4,13 @@ title: Lobby
 
 # Lobby
 
-<vimg src="navigating-page/main_lobby.png" />
+<vimg src="navigating-page/124loginscreen.jpg" />
 
 The Nanome Lobby is where users can sign into an account or sign up. By toggling the 'Remember Me' button, users can automatically be signed in the next time they start Nanome. Users can also start the Nanome Basics tutorial by selecting 'Start Tutorial'.
 
 ## Creating an Account
 
-<vimg src="navigating-page/lobby_sign_up.png" />
+<vimg src="navigating-page/124accountcreation.jpg" />
 
 An email address is required to create a Nanome account.
 
@@ -36,7 +36,7 @@ Once the Nanome Basics tutorial is completed, you can move onto Advanced Tutoria
 
 Refresh, Creating a Room, and Settings
 
-<vimg src="navigating-page/Lobby-Navigation.jpg" />
+<vimg src="navigating-page/lobbytopbar1.24.3numbered.jpg" />
 
 ### (1) Refresh
 
@@ -44,7 +44,7 @@ Users can refresh the available room list by selecting the 'Refresh' button at t
 
 ### (2) Creating a Room
 
-<vimg src="navigating-page/create_room.png" />
+<vimg src="navigating-page/createroom.jpg" />
 
 There are three Room Types a user can create depending on their Nanome Licence.
 
@@ -54,19 +54,19 @@ Room Types:
 - Private Rooms: A password is set for the room. Available to Academic and Enterprise
 - Single User: Offline mode which no one else can join. Available to Academic and Enterprise
 
-<vimg src="navigating-page/Lobby-ServerTypeAndVersion.jpg" />
-
-### (3) Server Type
+### (3) Public / My Org Server Selector
 
 Indicates connection to Nanome Public Server or Custom Private Server
 
-### (4) Version
+### (4) Meetings 
 
-Indicates Nanome version
+<vimg src="navigating-page/1.24.3meetingslobby.jpg />
+
+NEED DESCRIPTION HERE
 
 ### (5) Settings
 
-<vimg src="navigating-page/settings_lobby.png" />
+<vimg src="navigating-page/lobbysettings.jpg" />
 
 In the Setting tab, users can adjust various settings.
 
@@ -78,6 +78,6 @@ By selecting the Configuration button in the Setting tab, users can view the Nan
 
 ## Update Banner
 
-<vimg src="navigating-page/update_banner_1-20.jpg" />
+<vimg src="navigating-page/1243updatebanner.jpg" />
 
 The update banner features the latest features that are added in the version that the users are in.
