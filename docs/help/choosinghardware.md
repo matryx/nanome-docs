@@ -114,7 +114,7 @@ title: Choosing Hardware
         <tr>
             <td>Cost</td>
             <td>$999</td>
-            <td>$299 +recommended headstrap ($50/pc)</td>
+            <td>$349 +recommended headstrap ($50/pc)</td>
             <td>$1300/hmd, optional vive business annual fee</td>
             <td>$1100, optional vive business annual fee</td>
             <td>$499</td>
@@ -126,8 +126,8 @@ title: Choosing Hardware
         </tr>
         <tr>
             <td>Procurement</td>
-            <td><a href="https://www.meta.com/quest/products/quest-2/">Meta Quest 2</a><br></td>
             <td><a href="https://www.meta.com/quest/Quest-pro">Quest Pro</a>
+            <td><a href="https://www.meta.com/quest/products/quest-2/">Meta Quest 2</a><br></td>
             <td>Nanome Inc. (support@nanome.ai) or <a href="https://business.vive.com/eu/solutions/streaming/">HTC</a></td>
             <td>Nanome Inc. (support@nanome.ai) or <a href="https://business.vive.com/eu/solutions/streaming/">HTC</a></td>
             <td><a href="https://www.picoxr.com/global/products/pico4">PicoXR</a><br></td>
