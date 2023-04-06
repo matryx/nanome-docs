@@ -44,9 +44,9 @@ Refresh, Creating a Room, and Settings
 
 <vimg src="navigating-page/lobbytopbar1.24.3numbered.jpg" />
 
-### (1) Refresh
+### (1) Join by Meeting ID
 
-Users can refresh the available room list by selecting the 'Refresh' button at the top of the Lobby Navigation Bar Buttons.
+Users can join a prescheduled meeting in Nanome by entering the Meeting ID provided by the room host. Find out how to <a href="https://docs.nanome.ai/home.nanome.ai/meetings.html">create meetings here. </a>
 
 ### (2) Creating a Room
 
@@ -66,9 +66,9 @@ Indicates connection to Nanome Public Server or Custom Private Server
 
 ### (4) Meetings 
 
-<vimg src="navigating-page/1.24.3meetingslobby.jpg />
+<vimg src="navigating-page/1.24.3meetingslobby.jpg" />
 
-NEED DESCRIPTION HERE
+ADD DESCRIPTION
 
 ### (5) Settings
 
