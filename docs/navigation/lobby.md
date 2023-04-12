@@ -10,13 +10,13 @@ The Nanome Lobby is where users can sign into an account or sign up. By toggling
 
 ## Update Banner
 
-<vimg src="navigating-page/1243updatebanner.jpg" />
+<vimg src="navigating-page/1243updatebanner.png" />
 
 The update banner features the latest features that are added in the version that the users are in.
 
 ## Creating an Account
 
-<vimg src="navigating-page/124accountcreation.jpg" />
+<vimg src="navigating-page/124accountcreation.png" />
 
 An email address is required to create a Nanome account.
 
@@ -42,7 +42,7 @@ Once the Nanome Basics tutorial is completed, you can move onto Advanced Tutoria
 
 Refresh, Creating a Room, and Settings
 
-<vimg src="navigating-page/lobbytopbar1.24.3numbered.jpg" />
+<vimg src="navigating-page/lobbytopbar1.24.3numbered.png" />
 
 ### (1) Join by Meeting ID
 
@@ -50,7 +50,7 @@ Users can join a prescheduled meeting in Nanome by entering the Meeting ID provi
 
 ### (2) Creating a Room
 
-<vimg src="navigating-page/createroom.jpg" />
+<vimg src="navigating-page/createroom.png" />
 
 There are three Room Types a user can create depending on their Nanome Licence.
 
@@ -66,13 +66,13 @@ Indicates connection to Nanome Public Server or Custom Private Server
 
 ### (4) Meetings 
 
-<vimg src="navigating-page/1.24.3meetingslobby.jpg" />
+<vimg src="navigating-page/1.24.3meetingslobby.png" />
 
 The Meetings tab is the central location for users to manage and join scheduled meetings. <a href="https://blog.matryx.ai/nanome-v1-23-the-meetings-update-6bac8c553d4b">Check out our blog post for more details. </a>
 
 ### (5) Settings
 
-<vimg src="navigating-page/lobbysettings.jpg" />
+<vimg src="navigating-page/lobbysettings.png" />
 
 In the Setting tab, users can adjust various settings.
 
@@ -80,11 +80,11 @@ In the Setting tab, users can adjust various settings.
 
 By selecting the Configuration button in the Setting tab, users can view the Nanome Configuration file, which contains additional settings that cannot be controlled directly from within the app. The Configuration file can be located in the same directory as the app build directory.
 
-<vimg src="navigating-page/Lobby-ConfigurationViewer.jpg" />
+<vimg src="navigating-page/Lobby-ConfigurationViewer.png" />
 
 ## Lobby Left Window
 
-<vimg src="navigating-page/1243lobbyleftwindow.jpg" />
+<vimg src="navigating-page/1243lobbyleftwindow.png" />
 
 The left window in the lobby offers a quick way to make changes to how you interact with Nanome and other users.
 
