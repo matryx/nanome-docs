@@ -74,29 +74,14 @@
     <div class="requirements">
       <div>
         <h3>
-          <a href="https://docs.nanome.ai/help/hardwarerequirements.html">
-            Minimum Requirements
+          <a href="https://docs.nanome.ai/help/pchardware.html">
+            Please see minimum and recommended PC requirements here.
           </a>
         </h3>
-        <div><b>Operating System:</b> Windows 10</div>
-        <div><b>Processor:</b> Intel i7</div>
-        <div><b>Memory:</b> 8 GB RAM</div>
-        <div><b>Graphics:</b> NVIDIA RTX 3050ti</div>
-        <div><b>Storage:</b> 256 GB SSD</div>
+        
       </div>
 
-      <div>
-        <h3>
-          <a href="https://docs.nanome.ai/help/hardwarerequirements.html">
-            Recommended Requirements
-          </a>
-        </h3>
-        <div><b>Operating System:</b> Windows 10</div>
-        <div><b>Processor:</b> Intel i7 or Xeon</div>
-        <div><b>Memory:</b> 8 GB RAM</div>
-        <div><b>Graphics:</b> NVIDIA RTX 3050ti, 3060, 3070 or 3080;<br>Quadro RTX 3000, 4000, or 5000; or Titan Xp</div>
-        <div><b>Storage:</b> 256 GB SSD</div>
-      </div>
+      
     </div>
 
     <!-- <div class="home-video">

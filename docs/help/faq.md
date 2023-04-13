@@ -20,18 +20,7 @@ Please download our [Nanome update guide](https://drive.google.com/file/d/1x6LEc
 Yes, Nanome has a 2D desktop mode for users without VR devices. In 2D mode, users may join a Nanome room from a 2D interface. A 2D user moves a camera with their mouse and keyboard, enabling them to spectate and record sessions, but cannot interact with structures. 2D mode can be accessed on [Steam](https://nanome.ai/pricing/) or if Nanome is downloaded on our [website](https://home.nanome.ai/setup). While 2D mode can also be accessed on Oculus, you’ll need to have a headset connected.
 
 ## What are the System Requirements to run Nanome in VR?
-#### The recommended specs for desktop computer:
-- Intel i7 or Xeon
-- GTX 1070 GPU, 1080, 1080Ti, Titan Xp
-- 8GB RAM
-- 256 GB SSD
-- Windows 10 Operating System
-#### The recommended specs for laptop:
-- Intel i7
-- GTX 1060 GPU
-- 8GB RAM
-- 256 GB SSD
-- Windows 10 Operating System
+Please see <a href="https://docs.nanome.ai/help/pchardware.md">minimum and recommend specs here. </a>
 
 ## Can I use Nanome on Mac/Linux?
 Nanome does not currently support Mac or Linux. Windows is the primary operating system for using VR headsets and represents the best way to use Nanome using a PC. Alternatively, users can use all-in-one headsets such as the Meta Quest Pro, Meta Quest 2, or Vive Focus 3 devices.
