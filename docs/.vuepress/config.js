@@ -83,6 +83,7 @@ module.exports = {
           // '/help/howto',
           '/help/troubleshooting',
           '/help/hardwarerequirements',
+          '/help/pchardware',
           '/help/faq',
           '/help/choosinghardware',
           '/help/contact',
