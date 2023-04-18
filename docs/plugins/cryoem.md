@@ -44,5 +44,7 @@ Color Options:
 #### Viewport Editor
 We provide the ability to use only show a small subset of the loaded map.
 
+<vimg src="plugins-page/cryo-em/CryoEditViewport.png" />
+
 When you press the Apply Viewport button. A gray sphere will be rendered near your map. This sphere can be moved to cover the section of your map you wish to keep. It can be resized using the viewport radius, with a max size of 50 angstroms. When the sphere is placed where you want, press Apply viewport, and the map should be trimmed to just what is inside of the sphere.
     
