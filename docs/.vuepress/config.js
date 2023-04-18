@@ -47,6 +47,7 @@ module.exports = {
           '/plugins/structureprep',
           '/plugins/vault',
           '/plugins/rmsd',
+          '/plugins/cryoem',
           '/plugins/createyourown',
           '/plugins/stackstudio',
         ],
