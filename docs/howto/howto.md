@@ -22,7 +22,7 @@ title: How to
 
 ## How to load a MD trajectory file
 
-<vimg src="howto-page/LoadTrajectory.gif" />
+https://user-images.githubusercontent.com/125503369/235212408-5e740ee3-1cb3-49a3-9bd9-0cc5aba5137a.mp4
 
 Nanome supports the following MD trajectory files: .PDB, .PSE, .DCD, .GRO, .XTC, .TRR. 
 1. Go to the [Load menu](https://docs.nanome.ai/navigation/menus.html#load).
