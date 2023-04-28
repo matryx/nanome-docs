@@ -4,7 +4,7 @@ title: How to
 
 ## How to enable/disable auto height adjustment
 
-<vimg src="howto-page/autoheightsetting.jpg" />
+<vimg src="howto-page/autoheightsetting.png" />
 
  Auto height calibration can be toggled on/off using the action menu. If users are having height issues, we recommend using this toggle to help troubleshoot the issue. By default, the toggle is off when users are in Mixed Reality Passthrough and turned on when users are in virtual reality. If height issues persist, we recommend resetting your floor height by calibrating your device. EX: with meta devices, this is done by resetting the guardian.
 
