@@ -93,8 +93,8 @@ module.exports = {
       {
         title: 'Open in Nanome button',
         collapsable: true,
-        sidebarDepth: 1,
-        children: ['/deeplinking'],
+        sidebarDepth: 2,
+        children: ['/integration/deeplinking', '/integration/quickdrop'],
       },
     ],
     sidebarDepth: 2,
