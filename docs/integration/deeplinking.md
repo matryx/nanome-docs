@@ -37,7 +37,7 @@ Please note that:
 
 ## Usage
 
-### Constructing the the URL
+### Constructing the URL
 
 Each URL contains a JSON stringified, base64 encoded JSON object and is appended to the "nanome" web data/type.
 
