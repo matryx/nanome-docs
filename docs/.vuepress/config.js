@@ -107,6 +107,7 @@ module.exports = {
   },
   plugins: [
     ['@vuepress/google-analytics', { ga: 'UA-79179574-15' }],
+    ['vuepress-plugin-sitemap', { hostname: 'https://docs.nanome.ai' }],
     [
       'vuepress-plugin-zooming',
       {
