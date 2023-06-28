@@ -10,9 +10,6 @@ Supported headsets
 
 <vimg src="gettingStarted-page/SupportedHeadsets2023.png" />
 
-Note\*
-We also support the Oculus Rift (CV1), HTC Vive, and the Oculus Quest all-in-one VR headset (in BETA).
-
 #### Recommended specs for desktop computer
 Please see <a href="https://docs.nanome.ai/help/pchardware.html"> minimum and recommended PC specs here. </a>
 
