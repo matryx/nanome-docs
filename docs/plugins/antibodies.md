@@ -25,7 +25,6 @@ Select CDR loops from the table by clicking on the labeled buttons.  The 3D stru
 
 *5GGS close up of the interface of PD-1 with the CDR loops of the antibody fragment, with 2 loops selected in the table and on the structure*
 
-
 ## Application of CDR Selections
 Selection of CDR loops from the Regions table can be used in conjunction with other Nanome menus and plugins. Some examples of plugins are **Chemical Interactions** and **High Quality Surfaces**.
 
@@ -58,3 +57,9 @@ Selection of CDR loops from the Regions table can be used in conjunction with ot
 
 <vimg src="plugins-page/antibodies/image5.png" />
 
+
+## Citations
+
+David Příhoda. (2021). AbNumber: Convenience Python APIs for antibody numbering and alignment using ANARCI (Version 0.3.2). Retrieved from https://github.com/prihoda/AbNumber/
+
+Dunbar, J., & Deane, C. M. (2016). ANARCI: antigen receptor numbering and receptor classification. Bioinformatics, 32(2), 298-300. https://doi.org/10.1093/bioinformatics/btv552
