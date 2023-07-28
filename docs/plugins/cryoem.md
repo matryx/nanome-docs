@@ -27,7 +27,9 @@ There are two ways to load a map into Nanome
     - Find the maps and models you have already  uploaded, select them, and press Load.
 
     #### Load from EMDB
-    <vimg width=50px src="plugins-page/cryo-em/CryoEMDBMenu.png" />
+    <vimg src="plugins-page/cryo-em/CryoEMDBMenu.png" />
+    <i>Load from EMDB Menu</i>
+
     Find the EMDB ID for the map you wish to load. Enter the id in the Textbox and press Load
     - The Browse EMDB button will open EMDB in the web browser
     - Files must be under 500MB. Unfortunately there is no way to tell unless you try loading it.
@@ -53,11 +55,11 @@ Color Options:
 - **BFactor**: Colored according to model BFactor
 - **Chain**: Each chain on the model is given a different color.
 
-#### Viewport Editor
-We provide the ability to use only show a small subset of the loaded map.
+#### Map Boxing Options
+We provide the ability to use only show a subset of the loaded map.
 
 There are 3 ways to edit the section of the map rendered.
 
-1. **Show Full Map**: This will render the entire map
+1. **Show Full Map**: This will render the entire map. This is the default load mode, so its useful for resetting after using other boxing methods.
 2. **Box Around Model**: When a model has been added to the Mapgroup, this will only render the map around the model.
 3. **Box Around Selection**: The map will be rendered around selected atoms on the model. This is useful around larger models, when you only want to see a small subset.
