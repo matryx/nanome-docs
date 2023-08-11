@@ -18,19 +18,21 @@ A **Fixed Reference** structure is chosen, and **Moving Structures** are translo
     -   **Backbone α carbons**: Overlay structures based on all paired alpha carbons between the two proteins.
     -   **All Heavy Atoms**: Uses backbone atoms and side chain atoms (all protein atoms except for Hydrogen) for paired residues.
 
-2. In the upper right, there are 3 available alignment modes.
+2. In the upper right, there are 4 available alignment modes.
     -   **Align to Entire Fixed Reference**: Uses a sequence based alignment to superimpose entire proteins on top of each other.
-    -   **1 specific Chain from the Fixed Reference**: Uses a sequence based  alignment to superimpose the moving structures onto a specified chain on the Fixed Reference.
-    -   **By Binding Site**: The user selects a ligand on the fixed reference, and the surrounding binding site is aligned to the moving structures using Site-Motif (See methodoligies for more details)
+    -   **1 specific Chain from the Fixed Reference**: Uses a sequence based alignment to superimpose the moving structures onto a specified chain on the Fixed Reference.
+    -   **By Binding Site**: The user selects a ligand on the Fixed Reference, and the surrounding binding site is aligned to the moving structures using Site-Motif (See Methodologies for more details)
+    -   **By Selection**:   The user selects specific residues in the fixed reference and the moving structures are aligned by that selection only.  Users may choose to specify residues on both the fixed and moving structures but only selections in the fixed reference are required for the plugin to run.
 
-3. A list of proteins in the workspace appears in the main panel.  In this panel, choose **Fixed Reference** and **Moving Structures**, and subselect a chain for each, if aligning by chain (see 4, below).
+3. A list of proteins in the workspace appears in the main panel.  In this panel, choose **Fixed Reference** and **Moving Structures**, and subselect a chain or ligand for each, if aligning by chain or binding site, respectively (see 4, below).
     - By default, the first entry is set as Fixed, and designated by the yellow pin. When selected as Fixed, the box under Moving will be inactive.  To change this selection, select the pin next to the desired Fixed Reference protein.
 
     - Choose one or more Moving Structures by selecting the boxes under the Moving Structures column.  This box will turn green when selected.  
     
     - Once selections are made, the Superimpose button in the lower right will become active and show the number of proteins selected.  (e.g. “Superimpose (3)” for a Fixed Reference and 2 Moving Structures).  Click this button to superimpose the proteins and calculate RMSD values.   The button will change to “calculating” as the process is being completed.  
     
-    - Once complete, the proteins will be superimposed and locked, for visual inspection.  The RMSD tables pulldown menu in the lower right will become active.   Each superimpose run will generate a new table, with the most recent run appearing at the top of the pulldown list.  Select the run to open the table in the workspace.  Tables can be closed and reopened in the workspace.
+    - Once complete, the proteins will be superimposed and locked, for visual inspection. The RMSD tables pulldown menu in the lower left will become active. Each superimpose run will generate a new table, with the most recent run appearing at the top of the pulldown list.  Select the run to open the table in the workspace. Tables can be closed and reopened in the workspace.   
+
 
 <vimg src="plugins-page/superimpose_protein.png" />
 <em>Two superimposed proteins</em>
@@ -40,18 +42,21 @@ A **Fixed Reference** structure is chosen, and **Moving Structures** are translo
 <em>RMSD table describing above superimposed proteins </em>
 
 
-4. When aligning by chain, the main panel chain selection boxes will become active. 
-Choose **Fixed** and **Moving structures** as above, and additionally choose a chain for each protein to be superimposed.  
+4. When aligning by chain, the main panel chain selection boxes will become active. Choose **Fixed** and **Moving Structures** as above, and additionally choose a chain for each protein to be superimposed  
     
     - Note that selecting a chain on the plugin main panel will also apply green highlighting to the selected chain of the protein structure, to visualize the selections before running.
 
 <vimg src="plugins-page/superimpose_menu_2.png" />
 <vimg src="plugins-page/superimpose_rmsd_menu_2.png" />
 
-5. **RMSD tables** report fixed and moving structures (with chain when relevant) RMSD values, and the number of paired residues/atoms
-    
+5. When aligning by Binding Site, the Overlay method will automatically change to **All Heavy Atoms**.
+    - An option to **Extract binding sites into new entry items** appears.  This creates a new set of entries containing only the superimposed binding site atoms of each protein.
+    - Choose **Fixed** and **Moving Structures** as above and additionally choose a ligand from the Fixed reference to establish the binding site for superimposition.
+
+6. When aligning by selection, the user must make a selection in the **Fixed Reference**.  These selections can be made by using the selector tool on the 3D structure itself, or by using menus such as Hierarchy and Antibody Regions table
+
+7. **RMSD tables** report out fixed and moving structures (with chain when relevant) RMSD values, #paired residues, and #paired atoms
     - Note that when superimposing by backbone alpha carbons, the #of paired residues = #of paired atoms;  when superimposing by all heavy atoms, the # paired residues will be ~8x less than the #of paired atoms because there are on average ~8 heavy atoms per residue.
-    
     - For two identical proteins, the RMSD would be zero.  Values close to zero indicate highly similar proteins.  Values over 10 are very different.  A combination of visual inspection and RMSD values gives a reasonable indication of how similar the structures are.
 
 
