@@ -12,7 +12,7 @@ A **Fixed Reference** structure is chosen, and **Moving Structures** are translo
 
 ## Instructions
 
-<vimg src="plugins-page/superimpose_menu.png" />
+<vimg src="plugins-page/superimpose/superimpose_menu.png" />
 
 1. In the upper left, the user can select the Overlay Method.
     -   **Backbone α carbons**: Overlay structures based on all paired alpha carbons between the two proteins.
@@ -34,11 +34,11 @@ A **Fixed Reference** structure is chosen, and **Moving Structures** are translo
     - Once complete, the proteins will be superimposed and locked, for visual inspection. The RMSD tables pulldown menu in the lower left will become active. Each superimpose run will generate a new table, with the most recent run appearing at the top of the pulldown list.  Select the run to open the table in the workspace. Tables can be closed and reopened in the workspace.   
 
 
-<vimg src="plugins-page/superimpose_protein.png" />
+<vimg src="plugins-page/superimpose/superimpose_protein.png" />
 <em>Two superimposed proteins</em>
 <p></p>
 
-<vimg src="plugins-page/superimpose_rmsd_menu.png" />
+<vimg src="plugins-page/superimpose/superimpose_rmsd_menu.png" />
 <em>RMSD table describing above superimposed proteins </em>
 
 
@@ -46,25 +46,25 @@ A **Fixed Reference** structure is chosen, and **Moving Structures** are translo
     
     - Note that selecting a chain on the plugin main panel will also apply green highlighting to the selected chain of the protein structure, to visualize the selections before running.
 
-<vimg src="plugins-page/superimpose_menu_2.png" />
-<vimg src="plugins-page/superimpose_rmsd_menu_2.png" />
+<vimg src="plugins-page/superimpose/superimpose_menu_2.png" />
+<vimg src="plugins-page/superimpose/superimpose_rmsd_menu_2.png" />
 
 5. When aligning by Binding Site, the Overlay method will automatically change to **All Heavy Atoms**.
     - An option to **Extract binding sites into new entry items** appears.  This creates a new set of entries containing only the superimposed binding site atoms of each protein.
     - Choose **Fixed** and **Moving Structures** as above and additionally choose a ligand from the Fixed reference to establish the binding site for superimposition.
 
-    <vimg src="plugins-page/superimpose-5a.png" />
+    <vimg src="plugins-page/superimpose/superimpose-5a.png" />
     *Note the Extract binding sites into new entry items button*
     <br><br>
-    <vimg src="plugins-page/superimpose-5b.png" />
+    <vimg src="plugins-page/superimpose/superimpose-5b.png" />
 
 
 6. When aligning by selection, the user must make a selection in the **Fixed Reference**.  These selections can be made by using the selector tool on the 3D structure itself, or by using menus such as Hierarchy and Antibody Regions table
 
-    <vimg src="plugins-page/superimpose-6a.png" />
+    <vimg src="plugins-page/superimpose/superimpose-6a.png" />
     *Making a selection in the Fixed Reference using the hierarchy menu.*
     <br><br>
-    <vimg src="plugins-page/superimpose-6b.png" />
+    <vimg src="plugins-page/superimpose/superimpose-6b.png" />
     *Structures superimposed based on a selection in the fixed reference*
 
 
@@ -132,7 +132,7 @@ Improvements to the codebase include:
 
 #### Overview
 <br>
-<vimg src="plugins-page/superimpose_binding_site_diagram.png" />
+<vimg src="plugins-page/superimpose/superimpose_binding_site_diagram.png" />
 
 #### References
 Sankar S, Chandra N (2022) SiteMotif: A graph-based algorithm for deriving structural motifs in Protein Ligand binding sites. PLoS Comput Biol 18(2): e1009901. https://doi.org/10.1371/journal.pcbi.1009901
