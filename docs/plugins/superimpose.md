@@ -53,10 +53,23 @@ A **Fixed Reference** structure is chosen, and **Moving Structures** are translo
     - An option to **Extract binding sites into new entry items** appears.  This creates a new set of entries containing only the superimposed binding site atoms of each protein.
     - Choose **Fixed** and **Moving Structures** as above and additionally choose a ligand from the Fixed reference to establish the binding site for superimposition.
 
+    <vimg src="plugins-page/superimpose-5a.png" />
+    *Note the Extract binding sites into new entry items button*
+    <br><br>
+    <vimg src="plugins-page/superimpose-5b.png" />
+
+
 6. When aligning by selection, the user must make a selection in the **Fixed Reference**.  These selections can be made by using the selector tool on the 3D structure itself, or by using menus such as Hierarchy and Antibody Regions table
 
-7. **RMSD tables** report out fixed and moving structures (with chain when relevant) RMSD values, #paired residues, and #paired atoms
-    - Note that when superimposing by backbone alpha carbons, the #of paired residues = #of paired atoms;  when superimposing by all heavy atoms, the # paired residues will be ~8x less than the #of paired atoms because there are on average ~8 heavy atoms per residue.
+    <vimg src="plugins-page/superimpose-6a.png" />
+    *Making a selection in the Fixed Reference using the hierarchy menu.*
+    <br><br>
+    <vimg src="plugins-page/superimpose-6b.png" />
+    *Structures superimposed based on a selection in the fixed reference*
+
+
+7. **RMSD tables** report out fixed and moving structures (with chain when relevant) RMSD values, **paired residues**, and paired atoms
+    - Note that when superimposing by backbone alpha carbons, the of paired residues = of paired atoms;  when superimposing by all heavy atoms, the # paired residues will be ~8x less than the #of paired atoms because there are on average ~8 heavy atoms per residue.
     - For two identical proteins, the RMSD would be zero.  Values close to zero indicate highly similar proteins.  Values over 10 are very different.  A combination of visual inspection and RMSD values gives a reasonable indication of how similar the structures are.
 
 
