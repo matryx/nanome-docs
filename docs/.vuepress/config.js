@@ -46,6 +46,7 @@ module.exports = {
           '/plugins/realtimescoring',
           '/plugins/structureprep',
           '/plugins/vault',
+          '/plugins/scenesviewer',
           '/plugins/rmsd',
           '/plugins/createyourown',
           '/plugins/stackstudio',
