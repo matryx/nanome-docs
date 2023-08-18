@@ -46,7 +46,7 @@ module.exports = {
           '/plugins/realtimescoring',
           '/plugins/structureprep',
           '/plugins/vault',
-          '/plugins/scenesviewer',
+          '/plugins/sceneviewer',
           '/plugins/rmsd',
           '/plugins/cryoem',
           '/plugins/createyourown',
