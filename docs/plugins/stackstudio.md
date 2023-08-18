@@ -6,7 +6,7 @@ title: Stack Studio
 
 *A drag and drop interface for creating Plugin Menus*
 
-Stack studio is a GUI for creating plugin user interfaces that appear before users in Nanome. A Nanome plugin usually contains two major components: plugin scripts and plugin UI. While the scripts contain the behavior and computation of the plugin, the plugin UI is what the users sees and accesses in Nanome software. To create a sophisticated Nanome plugin, it's very likely that you would need to both write the script and create the UI. 
+Stack studio is a GUI for creating plugin user interfaces that appear before users in Nanome. A Nanome plugin usually contains two major components: plugin scripts and plugin UI. While the scripts contain the behavior and computation of the plugin, the plugin UI is what the users sees and accesses in Nanome software. To create a sophisticated Nanome plugin, it's very likely that you would need to both write the script and create the UI.
 
 ## Get Started
 
@@ -23,7 +23,7 @@ Currently, Stack Studio is still in beta and we would love to hear your feedback
 2. Once you extract the file, open Nanome.exe from the extracted content. Once Nanome.exe is running, you should be seeing the interface below.
 <vimg src="plugins-page/pluginator/stackstudio.JPG" />
 
-3. Create a JSON file at your prefered location. Copy paste the the RMSD plugin menu content from [here](https://raw.githubusercontent.com/nanome-ai/plugin-rmsd/master/nanome_rmsd/rmsd_pluginator.json) into the JSON file.
+3. Create a JSON file at your prefered location. Copy paste the RMSD plugin menu content from [here](https://raw.githubusercontent.com/nanome-ai/plugin-rmsd/master/nanome_rmsd/rmsd_pluginator.json) into the JSON file.
 
 4. Open file option in Stack Studio and select [Import]. Choose the JSON file that you just created.
 <vimg src="plugins-page/pluginator/import.JPG" />
@@ -59,7 +59,7 @@ Editor provides options in editing the layout of a node, the node's content, and
 
 <vimg src="plugins-page/pluginator/layout.JPG" />
 
-Here in layout tab, you can change the way children nodes are laid out under the node that you are editing. 
+Here in layout tab, you can change the way children nodes are laid out under the node that you are editing.
 
 #### Content Tab
 
@@ -87,7 +87,7 @@ When you add content to a new node, these are the contents currently available.
 
 <vimg src="plugins-page/pluginator/button.JPG" />
 
-Button is the fundamental interactable component of a plugin menu. When cliced on, a button sends an event to the plugin script with its name as payload. A button can include five sub-components, all of which being optional: __Text__, __Icon__, __Mesh__, __Outline__, __Tooltip__. A button contains five states: __Idle__, __Selected__, __Highlighted__, __Both__, __Unusable__. You can customize the the properties, such as color and visibility, of all five sub-components under all five states.
+Button is the fundamental interactable component of a plugin menu. When cliced on, a button sends an event to the plugin script with its name as payload. A button can include five sub-components, all of which being optional: __Text__, __Icon__, __Mesh__, __Outline__, __Tooltip__. A button contains five states: __Idle__, __Selected__, __Highlighted__, __Both__, __Unusable__. You can customize the properties, such as color and visibility, of all five sub-components under all five states.
 
 ### Mesh
 
@@ -173,5 +173,3 @@ __ctrl-s, ctrl-o__ – export import
 __F2__ – rename selected node
 
 __delete, backspace__ – delete selected node
-
-

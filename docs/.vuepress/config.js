@@ -48,6 +48,7 @@ module.exports = {
           '/plugins/vault',
           '/plugins/scenesviewer',
           '/plugins/rmsd',
+          '/plugins/cryoem',
           '/plugins/createyourown',
           '/plugins/stackstudio',
         ],
@@ -84,6 +85,7 @@ module.exports = {
           // '/help/howto',
           '/help/troubleshooting',
           '/help/hardwarerequirements',
+          '/help/pchardware',
           '/help/faq',
           '/help/choosinghardware',
           '/help/contact',
@@ -92,8 +94,8 @@ module.exports = {
       {
         title: 'Open in Nanome button',
         collapsable: true,
-        sidebarDepth: 1,
-        children: ['/deeplinking'],
+        sidebarDepth: 2,
+        children: ['/integration/deeplinking', '/integration/quickdrop'],
       },
     ],
     sidebarDepth: 2,
@@ -106,6 +108,7 @@ module.exports = {
   },
   plugins: [
     ['@vuepress/google-analytics', { ga: 'UA-79179574-15' }],
+    ['vuepress-plugin-sitemap', { hostname: 'https://docs.nanome.ai' }],
     [
       'vuepress-plugin-zooming',
       {

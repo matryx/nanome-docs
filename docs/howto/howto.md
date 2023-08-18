@@ -2,6 +2,12 @@
 title: How to
 ---
 
+## How to enable/disable auto height adjustment
+
+<vimg src="howto-page/autoheightsetting.png" />
+
+ Auto height calibration can be toggled on/off using the action menu. If users are having height issues, we recommend using this toggle to help troubleshoot the issue. By default, the toggle is off when users are in Mixed Reality Passthrough and turned on when users are in virtual reality. If height issues persist, we recommend resetting your floor height by calibrating your device. EX: with meta devices, this is done by resetting the guardian.
+
 ## How to export a molecule for future access or other softwares
 
 1. Select the structure you want to save.
@@ -16,7 +22,7 @@ title: How to
 
 ## How to load a MD trajectory file
 
-<vimg src="howto-page/LoadTrajectory.gif" />
+<video src="https://user-images.githubusercontent.com/125503369/235212408-5e740ee3-1cb3-49a3-9bd9-0cc5aba5137a.mp4" controls="controls" style="max-width: 720px;" loop muted playsinline></video>
 
 Nanome supports the following MD trajectory files: .PDB, .PSE, .DCD, .GRO, .XTC, .TRR. 
 1. Go to the [Load menu](https://docs.nanome.ai/navigation/menus.html#load).

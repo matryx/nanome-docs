@@ -8,23 +8,10 @@ title: Hardware Requirements
 
 Supported headsets
 
-<vimg src="gettingStarted-page/SupportedHeadsets.png" />
-
-Note\*
-We also support the Oculus Rift (CV1), HTC Vive, and the Oculus Quest all-in-one VR headset (in BETA).
+<vimg src="gettingStarted-page/SupportedHeadsets2023.png" />
 
 #### Recommended specs for desktop computer
-Intel i7 or Xeon
-RTX 3050ti, 3060, 3070 or 3080,
-Quadro RTX 3000, 4000, or 5000, Titan Xp 8GB ram and above
-Solid State Drive at least 256 GB
-Windows 10 Operating System
-
-#### Minimum recommended specs for a laptop
-Intel i7
-RTX 3050ti and above GPU
-8GB ram and above
-Solid State Drive at least 256 GB Windows 10 Operating System
+Please see <a href="https://docs.nanome.ai/help/pchardware.html"> minimum and recommended PC specs here. </a>
 
 #### Examples of light weight VR ready laptops:
 MSI GS66 Stealth with RTX 3060

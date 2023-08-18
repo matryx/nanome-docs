@@ -6,7 +6,8 @@
     "docs:compress": "node ./docs/.vuepress/compress.js"
   },
   "dependencies": {
-    "vue-slick-carousel": "^1.0.6"
+    "vue-slick-carousel": "^1.0.6",
+    "vuepress-plugin-sitemap": "^2.3.1"
   },
   "devDependencies": {
     "@vuepress/plugin-google-analytics": "^1.8.2",
