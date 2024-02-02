@@ -8,7 +8,7 @@ title: Choosing Hardware
 
 <table>
     <col style="width: 15%;" />
-    <col style="width: 10%;" />
+    <!-- <col style="width: 10%;" />
     <col style="width: 10%;" />
     <col style="width: 10%;" />
     <col style="width: 10%;" />
@@ -17,11 +17,11 @@ title: Choosing Hardware
     <col style="width: 19%;" />
     <col style="width: 23%;" />
     <col style="width: 23%;" />
-    <col style="width: 23%;" />
+    <col style="width: 23%;" /> -->
     <thead>
         <tr>
             <th></th>
-            <th colspan=6>All in One Headsets (no PC)</th>
+            <th colspan=7>All in One Headsets (no PC)</th>
             <th colspan=4>PCVR</th>
         </tr>
     </thead>
@@ -29,23 +29,25 @@ title: Choosing Hardware
         <tr>
             <td></td>
             <td>Meta Quest Pro</td>
+            <td>Meta Quest 3</td>
             <td>Meta Quest 2</td>
             <td>Vive Focus 3</td>
             <td>Vive XR Elite</td>
             <td>Pico Neo 4</td>
             <td>Pico Neo 3</td>
-            <td>Meta Quest Link (Supports Meta Quest Pro & Meta Quest 2)</td>
+            <td>Meta Quest Link (Supports Meta Quest Pro & Meta Quest 2/3)</td>
             <td>HTC Vive (Pro), Valve Index</td>
             <td>Windows Mixed Reality (HP Reverb G2)</td>
             <td>Varjo XR3</td>
         </tr>
         <tr>
             <td>Mixed Reality passthrough compatible</td>
-            <td>Yes, full color</td>
+            <td>Yes, full color & stereoscopic</td>
+            <td>Yes, full color & stereoscopic</td>
             <td>Yes, black and white</td>
             <td>Yes, black and white</td>
-            <td>Yes, full color</td>
-            <td>Yes, full color</td>
+            <td>Yes, full color, not stereoscopic</td>
+            <td>Yes, black and white</td>
             <td>Yes, black and white</td>
             <td>N</td>
             <td>N</td>
@@ -62,11 +64,13 @@ title: Choosing Hardware
             <td>N</td>
             <td>N</td>
             <td>N</td>
+            <td>N</td>
             <td>Y</td>
             <td>N</td>
         </tr>
         <tr>
             <td>Device Management Dashboard</td>
+            <td>Yes with Quest for Business, and 3rd party (<a href="http://arborxr.com">arborxr.com</a>, <a href="https://managexr.com/">ManageXR</a>)</td>
             <td>Yes with Quest for Business, and 3rd party (<a href="http://arborxr.com">arborxr.com</a>, <a href="https://managexr.com/">ManageXR</a>)</td>
             <td>Yes with Quest for Business, and 3rd party (<a href="http://arborxr.com">arborxr.com</a>, <a href="https://managexr.com/">ManageXR</a>)</td>
             <td>Yes with Vive for Business, and 3rd party (<a href="http://arborxr.com">arborxr.com</a>)</td>
@@ -80,6 +84,7 @@ title: Choosing Hardware
         </tr>
         <tr>
             <td>VPN Support</td>
+            <td>Partial Support (requires sideloaded APK file)</td>
             <td>Partial Support (requires sideloaded APK file)</td>
             <td>Partial Support (requires sideloaded APK file)</td>
             <td>Yes has Full Support</td>
@@ -96,10 +101,12 @@ title: Choosing Hardware
             <td>Y</td>
             <td>Y</td>
             <td>Y</td>
+            <td>Y</td>
             <td colspan=4 style="text-align: center">---</td>
         </tr>
         <tr>
             <td>Nanome I.T. Team Ease of Deployment Score (out of 10)</td>
+            <td>4</td>
             <td>4</td>
             <td>4</td>
             <td>5</td>
@@ -114,7 +121,8 @@ title: Choosing Hardware
         <tr>
             <td>Cost</td>
             <td>$999</td>
-            <td>$349 +recommended headstrap ($50/pc)</td>
+            <td>$499 +recommended headstrap ($50/pc)</td>
+            <td>$299 +recommended headstrap ($50/pc)</td>
             <td>$1300/hmd, optional vive business annual fee</td>
             <td>$1100, optional vive business annual fee</td>
             <td>$499</td>
@@ -126,7 +134,8 @@ title: Choosing Hardware
         </tr>
         <tr>
             <td>Procurement</td>
-            <td><a href="https://www.meta.com/quest/Quest-pro">Quest Pro</a>
+            <td><a href="https://www.meta.com/quest/Quest-pro">Meta Quest Pro</a>
+            <td><a href="https://www.meta.com/quest/quest-3/">Meta Quest 3</a>
             <td><a href="https://www.meta.com/quest/products/quest-2/">Meta Quest 2</a><br></td>
             <td>Nanome Inc. (support@nanome.ai) or <a href="https://business.vive.com/eu/solutions/streaming/">HTC</a></td>
             <td>Nanome Inc. (support@nanome.ai) or <a href="https://business.vive.com/eu/solutions/streaming/">HTC</a></td>
