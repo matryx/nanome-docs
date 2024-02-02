@@ -8,7 +8,7 @@ title: Hardware Requirements
 
 Supported headsets
 
-<vimg src="gettingStarted-page/SupportedHeadsets2023.png" />
+<vimg src="gettingStarted-page/SupportedHeadsets2023-2.png" />
 
 #### Recommended specs for desktop computer
 Please see <a href="https://docs.nanome.ai/help/pchardware.html"> minimum and recommended PC specs here. </a>
