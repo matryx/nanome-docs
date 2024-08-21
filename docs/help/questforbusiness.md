@@ -22,4 +22,7 @@ QFB integrates with major Mobile Device Management (MDM) platforms, including Mi
 - Meta Quest 2
 - Meta Quest Pro
 - Meta Quest 3
-- Meta Quest 3s
+
+<vimg src="help/qfb_dashboard.png" />
+
+For more information, check out official quest for business page [here](https://forwork.meta.com/quest/business-subscription/).
