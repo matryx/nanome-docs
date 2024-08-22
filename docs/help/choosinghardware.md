@@ -35,7 +35,7 @@ title: Choosing Hardware
             <td>Pico Neo 4</td>
             <td>Pico Neo 3</td>
             <td>Meta Quest Link (Supports Meta Quest Pro & Meta Quest 2/3)</td>
-            <td>SteamVR (Supports Valve Index, HTC Vive Pro, Bigscreen Beyond) </td>            
+            <td>SteamVR (Supports Valve Index, HTC Vive Pro) </td>            
         </tr>
         <tr>
             <td>Mixed Reality passthrough compatible</td>
@@ -80,17 +80,6 @@ title: Choosing Hardware
             <td>N</td>
             <td>N</td>
             <td>Y</td>                        
-        </tr>
-        <tr>
-            <td>Device Management Dashboard</td>
-            <td>Yes with Quest for Business, and 3rd party (<a href="http://arborxr.com">arborxr.com</a>, <a href="https://managexr.com/">ManageXR</a>)</td>
-            <td>Yes with Quest for Business, and 3rd party (<a href="http://arborxr.com">arborxr.com</a>, <a href="https://managexr.com/">ManageXR</a>)</td>
-            <td>Yes with Quest for Business, and 3rd party (<a href="http://arborxr.com">arborxr.com</a>, <a href="https://managexr.com/">ManageXR</a>)</td>            
-            <td>Yes with Vive for Business, and 3rd party (<a href="http://arborxr.com">arborxr.com</a>)</td>
-            <td>Yes with Pico for Business, and 3rd party (<a href="http://arborxr.com">arborxr.com</a>, and <a href="https://managexr.com/">ManageXR</a>)</td>
-            <td>Yes with Pico for Business, and 3rd party (<a href="http://arborxr.com">arborxr.com</a>, and <a href="https://managexr.com/">ManageXR</a>)</td>
-            <td>N</td>
-            <td>N</td>                        
         </tr>
         <tr>
             <td>VPN Support</td>
