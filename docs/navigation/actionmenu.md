@@ -21,3 +21,9 @@ Action menu offers a quick access to all major features in Nanome anywhere. If y
 #### Use the action menu to activate MR passthrough (Meta Quest Pro and Meta Quest 2 only)
 
 <vimg src="navigating-page/action-menu-MR.png" />
+
+#### Use the action menu to change Presenter Setup Options.
+
+When guests join the room, the presenter can toggle options to position all users in the presenter's current position, hide guests, or hide all users.
+
+<vimg src="navigating-page/action-menu-presenter-config.png" />
