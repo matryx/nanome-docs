@@ -53,6 +53,12 @@ Here are some of the key functionalities:
 
 These tools provide a comprehensive suite for handling and analyzing data tables, making it easier to derive meaningful insights from your datasets.
 
+### Creating Tables
+You can create a table by uploading a CSV file through the Chat input, or by dragging and dropping a file into the interface.
+<vimg src="mara/drag-drop.png" />
+The drag and drop interface contains two drop zones; the left side will upload the file to the chat, and the right side will upload the file and create a new table using that data.
+
+Supported file types for tables: `.csv`, `.xlsx`
 ## Molecular Visualization
 MARA allows you to visualize structures in 3D using Molstar, and update the representation using natural language.
 
