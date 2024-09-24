@@ -38,9 +38,13 @@ Along with natural language, prompts can be augmented with files, or a SMILES ca
 - Upload buttons opens a file picker to select files to upload
 
 ## Data Table
-With the MARA data table, you can perform a variety of tasks to analyze and manipulate your data. Here are some of the key functionalities:
+With the MARA data table, you can perform a variety of tasks to analyze and manipulate your data.
 
-- **Query and Extract Data from CSV File:** You can ask natural language queries to extract specific data from a CSV file. This is useful for quick insights without manual analysis.
+<vimg src="mara/data-table.png" />
+
+Here are some of the key functionalities:
+
+- **Query and Extract Data from Table:** You can ask natural language queries to extract specific data from a CSV file. This is useful for quick insights without manual analysis.
 - **Generate a 2D or 3D Scatter Plot:** You can create scatter plots from your CSV data, which can be either 2D or 3D. This helps in visualizing the relationships between different data points.
 - **Export Data to CSV File:** You can write data into a CSV file, creating or overwriting it as needed. This is ideal for exporting processed or analyzed data into a CSV format.
 - **Filter and Extract CSV Data Based on a Query:** You can filter and extract specific rows from a CSV file based on a query, allowing you to focus on the most relevant data.
@@ -49,6 +53,17 @@ With the MARA data table, you can perform a variety of tasks to analyze and mani
 
 These tools provide a comprehensive suite for handling and analyzing data tables, making it easier to derive meaningful insights from your datasets.
 
-
 ## Molecular Visualization
-MARA allows you to visualize molecules in 3D, and update the representation using natural language. You can also save the visualization to a file.
+MARA allows you to visualize structures in 3D using Molstar, and update the representation using natural language.
+
+<vimg src="mara/mol-viz.png" />
+
+Example Prompts:
+* Show all residues in chain D as ball and stick
+* Color residues 101-207 blue
+* Hide waters
+* Spin the molecule
+* Focus on ligand 50D
+* Download as [ molx| stl | obj | glb | usdz ]
+* Highlight residues 149-150 in green
+* Set style to illustrative
