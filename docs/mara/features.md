@@ -26,8 +26,6 @@ This is the primary interface for interacting with MARA. It is a chat interface 
     - Drawing 2D structures of molecules from SMILES strings.
     - Generating 3D conformers for given molecules.
     - Displaying protein sequences and alignments visually.
-* **Custom Tasks:**
-    - Custom tools can be added to use API endpoints, Python scripts, or database access for specialized tasks.
 
 ### Chat Input
 <vimg src="mara/chat-input.png" />
