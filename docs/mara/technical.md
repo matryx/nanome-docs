@@ -5,8 +5,8 @@ title: Technical Documentation
 # Technical Documentation
 
 ## Architecture
-
-Coming soon!
+<vimg src="mara/architecture.png" />
+Enterprise deployment layout
 
 ## Tool Creation
 
