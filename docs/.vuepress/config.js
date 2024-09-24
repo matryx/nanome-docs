@@ -15,6 +15,7 @@ module.exports = {
         sidebarDepth: 1,
         children: [
           '/mara/navigation',
+          '/mara/features',
           '/mara/resources',
           '/mara/deployment',
           '/mara/technical',
