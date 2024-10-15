@@ -8,9 +8,9 @@ This section provides additional information and resources for on-prem enteprise
 
 ## Recommended Infrastructure
 
-The following diagram illustrates how network traffic in Nanome works, as well as what we recommend for your enterprise network.
+The following diagram illustrates how network traffic in Nanome works, as well as what we recommend for your enterprise network infrastructure.
 
-<vimg src="help/recommended-infrastructure.png" />
+<vimg src="help/recommended_infrastructure.png" />
 
 ## IT & Networking Requirements
 
@@ -40,7 +40,6 @@ The following inbound ports are required for VM #1 to connect to the VR devices:
 - TCP 443, 80, 8888
 
 The following inbound ports are required for VM #2 to allow connection to plugin webpages (like Vault and Data Table):
-
 - TCP 80, 443
 
 ### Outbound Ports
@@ -63,4 +62,31 @@ The following outbound ports are needed on each of the VR devices for external t
 
 ## Plugin Deployment Procedure & Security Info
 
-`code block`
+### Steps for Deployment
+
+(See our [_README doc_](https://github.com/nanome-ai/nanome-plugin-deployer) for more details.)
+
+- Step 1: Provision the Dedicated Plugins Virtual Machine.
+- Step 2: SSH into the VM + Install Git & Docker.
+- Step 3: Pull the Nanome Plugin Deployer and run it.
+- Step 4: Docker Container Health Check.
+- Step 5: Validate the connection from the VR client.
+
+
+### Plugins that Require DNS Entries
+
+The Data Table, Vault, and Quickdrop plugins will be hosted differently than other plugins and will exist as DNS entries under your domain.
+
+```
+NTS_IP=<NTS_IP>
+
+./deploy.sh -a $NTS_IP \
+  --plugin data-table --nginx --url nanome-table.example.com \
+  --plugin vault --nginx --url nanome-vault.example.com \
+  --service quickdrop --nginx --url nanome-quickdrop.example.com
+```
+
+### HTTPS for Web Plugins and Services:
+
+By default, self-signed certs in the nginx/certs folder are used, but if you'd like to provide your own certs, simply replace _default.crt_ and _default.key_ with your own certs.
+
