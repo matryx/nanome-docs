@@ -88,6 +88,7 @@ module.exports = {
           '/help/pchardware',
           '/help/choosinghardware',
           '/help/questforbusiness',
+          '/help/enterprise',
           '/help/faq',
           '/help/contact',
         ],
