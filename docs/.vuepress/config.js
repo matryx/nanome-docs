@@ -10,6 +10,16 @@ module.exports = {
     sidebar: [
       '/',
       {
+        title: 'Nanome 2.0',
+        collapsable: true,
+        sidebarDepth: 1,
+        children: [
+          '/nanome_v2/login',
+          '/nanome_v2/environment',
+          '/nanome_v2/applicationmenu',
+        ],
+      },
+      {
         title: 'MARA',
         collapsable: true,
         sidebarDepth: 1,
