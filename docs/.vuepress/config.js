@@ -16,7 +16,11 @@ module.exports = {
         children: [
           '/nanome_v2/login',
           '/nanome_v2/environment',
-          '/nanome_v2/applicationmenu',
+          '/nanome_v2/mainmenus',
+          '/nanome_v2/wristmenu',
+          '/nanome_v2/collaboration',
+          '/nanome_v2/sampleworkflows',
+          '/nanome_v2/tips',
         ],
       },
       {
