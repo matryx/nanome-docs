@@ -10,7 +10,74 @@ module.exports = {
     sidebar: [
       '/',
       {
-        title: 'Nanome 2.0',
+        title: 'Nanome 1.x (1st Gen)',
+        collapsable: true,
+        sidebarDepth: 1,
+        children: [
+          '/nanome1x/overview',
+          {
+            title: 'Nanome Controls',
+            collapsable: true,
+            children: ['/nanome1x/controls/overview']
+          },
+          {
+            title: 'Nanome Navigation',
+            collapsable: true,
+            children: [
+              '/nanome1x/navigation/lobby',
+              '/nanome1x/navigation/environment',
+              '/nanome1x/navigation/menus',
+              '/nanome1x/navigation/wristmenu',
+              '/nanome1x/navigation/actionmenu',
+              '/nanome1x/navigation/toolsmenu',
+              '/nanome1x/navigation/2dui',
+              '/nanome1x/navigation/voicecommand'
+            ]
+          },
+          {
+            title: 'Nanome Plugins (Stacks)',
+            collapsable: true,
+            children: [
+              '/nanome1x/plugins/overview',
+              '/nanome1x/plugins/cheminteractions',
+              '/nanome1x/plugins/superimpose',
+              '/nanome1x/plugins/antibodies',
+              '/nanome1x/plugins/chemicalproperties',
+              '/nanome1x/plugins/conformergenerator',
+              '/nanome1x/plugins/docking',
+              '/nanome1x/plugins/minimization',
+              '/nanome1x/plugins/realtimescoring',
+              '/nanome1x/plugins/structureprep',
+              '/nanome1x/plugins/vault',
+              '/nanome1x/plugins/sceneviewer',
+              '/nanome1x/plugins/rmsd',
+              '/nanome1x/plugins/cryoem',
+              '/nanome1x/plugins/createyourown',
+              '/nanome1x/plugins/stackstudio'
+            ]
+          },
+          {
+            title: 'Nanome Macros',
+            collapsable: true,
+            children: ['/nanome1x/macros/overview']
+          },
+          {
+            title: 'How To',
+            collapsable: true,
+            children: ['/nanome1x/howto/howto']
+          },
+          {
+            title: 'Open in Nanome button',
+            collapsable: true,
+            children: [
+              '/nanome1x/integration/deeplinking', 
+              '/nanome1x/integration/quickdrop'
+            ]
+          }
+        ]
+      },
+      {
+        title: 'Nanome 2.0 (2nd Gen)',
         collapsable: true,
         sidebarDepth: 1,
         children: [
@@ -36,63 +103,7 @@ module.exports = {
         ],
       },
       {
-        title: 'Nanome Controls',
-        collapsable: true,
-        sidebarDepth: 1,
-        children: ['/controls/overview'],
-      },
-      {
-        title: 'Nanome Navigation',
-        collapsable: true,
-        sidebarDepth: 1,
-        children: [
-          '/navigation/lobby',
-          '/navigation/environment',
-          '/navigation/menus',
-          '/navigation/wristmenu',
-          '/navigation/actionmenu',
-          '/navigation/toolsmenu',
-          '/navigation/2dui',
-          '/navigation/voicecommand',
-        ],
-      },
-      {
-        title: 'Nanome Plugins (Stacks)',
-        collapsable: true,
-        sidebarDepth: 1,
-        children: [
-          '/plugins/overview',
-          '/plugins/cheminteractions',
-          '/plugins/superimpose',
-          '/plugins/antibodies',
-          '/plugins/chemicalproperties',
-          '/plugins/conformergenerator',
-          '/plugins/docking',
-          '/plugins/minimization',
-          '/plugins/realtimescoring',
-          '/plugins/structureprep',
-          '/plugins/vault',
-          '/plugins/sceneviewer',
-          '/plugins/rmsd',
-          '/plugins/cryoem',
-          '/plugins/createyourown',
-          '/plugins/stackstudio',
-        ],
-      },
-      {
-        title: 'Nanome Macros',
-        collapsable: true,
-        sidebarDepth: 1,
-        children: ['/macros/overview'],
-      },
-      {
-        title: 'How To',
-        collapsable: true,
-        sidebarDepth: 2,
-        children: ['/howto/howto'],
-      },
-      {
-        title: 'home.nanome.ai',
+        title: 'Account Management\nhome.nanome.ai',
         collapsable: true,
         sidebarDepth: 1,
         children: [
@@ -118,13 +129,7 @@ module.exports = {
           '/help/faq',
           '/help/contact',
         ],
-      },
-      {
-        title: 'Open in Nanome button',
-        collapsable: true,
-        sidebarDepth: 2,
-        children: ['/integration/deeplinking', '/integration/quickdrop'],
-      },
+      }
     ],
     sidebarDepth: 2,
     lastUpdated: 'Last Updated',
