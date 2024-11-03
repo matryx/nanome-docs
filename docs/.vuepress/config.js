@@ -11,27 +11,56 @@ module.exports = {
       '/',
       {
         title: 'Nanome 1.x (1st Gen)',
-        collapsable: true,
         sidebarDepth: 1,
+        collapsable: true,
         children: [
-          '/nanome1x/overview',
+          {
+            title: 'Overview',
+            path: '/nanome1x/overview'
+          },
           {
             title: 'Nanome Controls',
             collapsable: true,
-            children: ['/nanome1x/controls/overview']
+            sidebarDepth: 1,
+
+            children: ['/controls/overview']
           },
           {
             title: 'Nanome Navigation',
             collapsable: true,
             children: [
-              '/nanome1x/navigation/lobby',
-              '/nanome1x/navigation/environment',
-              '/nanome1x/navigation/menus',
-              '/nanome1x/navigation/wristmenu',
-              '/nanome1x/navigation/actionmenu',
-              '/nanome1x/navigation/toolsmenu',
-              '/nanome1x/navigation/2dui',
-              '/nanome1x/navigation/voicecommand'
+              {
+                title: 'Lobby',
+                path: '/nanome1x/navigation/lobby'
+              },
+              {
+                title: 'Environment',
+                path: '/nanome1x/navigation/environment'
+              },
+              {
+                title: 'Main Menus',
+                path: '/nanome1x/navigation/menus'
+              },
+              {
+                title: 'Wrist Menu',
+                path: '/nanome1x/navigation/wristmenu'
+              },
+              {
+                title: 'Action Menu',
+                path: '/nanome1x/navigation/actionmenu'
+              },
+              {
+                title: 'Tools Menu',
+                path: '/nanome1x/navigation/toolsmenu'
+              },
+              {
+                title: '2D UI',
+                path: '/nanome1x/navigation/2dui'
+              },
+              {
+                title: 'Voice Command',
+                path: '/nanome1x/navigation/voicecommand'
+              }
             ]
           },
           {
@@ -53,25 +82,41 @@ module.exports = {
               '/nanome1x/plugins/rmsd',
               '/nanome1x/plugins/cryoem',
               '/nanome1x/plugins/createyourown',
-              '/nanome1x/plugins/stackstudio'
+              '/nanome1x/plugins/stackstudio',
             ]
           },
           {
             title: 'Nanome Macros',
             collapsable: true,
-            children: ['/nanome1x/macros/overview']
+            children: [
+              {
+                title: 'Overview',
+                path: '/nanome1x/macros/overview'
+              }
+            ]
           },
           {
             title: 'How To',
             collapsable: true,
-            children: ['/nanome1x/howto/howto']
+            children: [
+              {
+                title: 'How To',
+                path: '/nanome1x/howto/howto'
+              }
+            ]
           },
           {
             title: 'Open in Nanome button',
             collapsable: true,
             children: [
-              '/nanome1x/integration/deeplinking', 
-              '/nanome1x/integration/quickdrop'
+              {
+                title: 'Deep Linking',
+                path: '/nanome1x/integration/deeplinking'
+              },
+              {
+                title: 'Quick Drop',
+                path: '/nanome1x/integration/quickdrop'
+              }
             ]
           }
         ]
@@ -95,6 +140,7 @@ module.exports = {
         collapsable: true,
         sidebarDepth: 1,
         children: [
+          '/mara/overview',
           '/mara/navigation',
           '/mara/features',
           '/mara/resources',
