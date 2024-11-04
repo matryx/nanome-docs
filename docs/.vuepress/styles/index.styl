@@ -139,3 +139,24 @@
 
   li.slick-active button
     background #eee
+
+// Updated sidebar styling
+.sidebar-group {
+  .sidebar-heading {
+    color: #2c3e50 !important;
+  }
+  
+  // Style for nested items
+  .sidebar-group {
+    .sidebar-heading,
+    .sidebar-link {
+      color: rgba(44, 62, 80, 0.45) !important;
+    }
+  }
+}
+
+// Active/hover states
+.sidebar-link:hover,
+.sidebar-link.active {
+  color: #3eaf7c !important;
+}

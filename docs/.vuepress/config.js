@@ -10,10 +10,133 @@ module.exports = {
     sidebar: [
       '/',
       {
+        title: 'Nanome 1.x (1st Gen)',
+        sidebarDepth: 1,
+        collapsable: true,
+        children: [
+          {
+            title: 'Overview',
+            path: '/nanome1x/overview'
+          },
+          {
+            title: 'Nanome Controls',
+            collapsable: true,
+            sidebarDepth: 1,
+
+            children: ['/controls/overview']
+          },
+          {
+            title: 'Nanome Navigation',
+            collapsable: true,
+            children: [
+              {
+                title: 'Lobby',
+                path: '/nanome1x/navigation/lobby'
+              },
+              {
+                title: 'Environment',
+                path: '/nanome1x/navigation/environment'
+              },
+              {
+                title: 'Main Menus',
+                path: '/nanome1x/navigation/menus'
+              },
+              {
+                title: 'Wrist Menu',
+                path: '/nanome1x/navigation/wristmenu'
+              },
+              {
+                title: 'Action Menu',
+                path: '/nanome1x/navigation/actionmenu'
+              },
+              {
+                title: 'Tools Menu',
+                path: '/nanome1x/navigation/toolsmenu'
+              },
+              {
+                title: '2D UI',
+                path: '/nanome1x/navigation/2dui'
+              },
+              {
+                title: 'Voice Command',
+                path: '/nanome1x/navigation/voicecommand'
+              }
+            ]
+          },
+          {
+            title: 'Nanome Plugins (Stacks)',
+            collapsable: true,
+            children: [
+              '/nanome1x/plugins/overview',
+              '/nanome1x/plugins/cheminteractions',
+              '/nanome1x/plugins/superimpose',
+              '/nanome1x/plugins/antibodies',
+              '/nanome1x/plugins/chemicalproperties',
+              '/nanome1x/plugins/conformergenerator',
+              '/nanome1x/plugins/docking',
+              '/nanome1x/plugins/minimization',
+              '/nanome1x/plugins/realtimescoring',
+              '/nanome1x/plugins/structureprep',
+              '/nanome1x/plugins/vault',
+              '/nanome1x/plugins/sceneviewer',
+              '/nanome1x/plugins/rmsd',
+              '/nanome1x/plugins/cryoem',
+              '/nanome1x/plugins/createyourown',
+              '/nanome1x/plugins/stackstudio',
+            ]
+          },
+          {
+            title: 'Nanome Macros',
+            collapsable: true,
+            children: ['/nanome1x/macros/overview']
+          },
+          {
+            title: 'How To',
+            collapsable: true,
+            children: [
+
+              {
+                title: 'How To',
+                path: '/nanome1x/howto/howto'
+              }
+            ]
+          },
+          {
+            title: 'Open in Nanome button',
+            collapsable: true,
+            children: [
+              {
+                title: 'Deep Linking',
+                path: '/nanome1x/integration/deeplinking'
+              },
+              {
+                title: 'Quick Drop',
+                path: '/nanome1x/integration/quickdrop'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        title: 'Nanome 2.0 (2nd Gen)',
+        collapsable: true,
+        sidebarDepth: 1,
+        children: [
+          '/nanome_v2/login',
+          '/nanome_v2/environment',
+          '/nanome_v2/mainmenus',
+          '/nanome_v2/wristmenu',
+          '/nanome_v2/collaboration',
+          '/nanome_v2/sampleworkflows',
+          '/nanome_v2/tips',
+        ],
+      },
+      {
         title: 'MARA',
         collapsable: true,
         sidebarDepth: 1,
         children: [
+          '/mara/overview',
           '/mara/navigation',
           '/mara/features',
           '/mara/resources',
@@ -22,66 +145,11 @@ module.exports = {
         ],
       },
       {
-        title: 'Nanome Controls',
-        collapsable: true,
-        sidebarDepth: 1,
-        children: ['/controls/overview'],
-      },
-      {
-        title: 'Nanome Navigation',
+        title: 'Account Management\nhome.nanome.ai',
         collapsable: true,
         sidebarDepth: 1,
         children: [
-          '/navigation/lobby',
-          '/navigation/environment',
-          '/navigation/menus',
-          '/navigation/wristmenu',
-          '/navigation/actionmenu',
-          '/navigation/toolsmenu',
-          '/navigation/2dui',
-          '/navigation/voicecommand',
-        ],
-      },
-      {
-        title: 'Nanome Plugins (Stacks)',
-        collapsable: true,
-        sidebarDepth: 1,
-        children: [
-          '/plugins/overview',
-          '/plugins/cheminteractions',
-          '/plugins/superimpose',
-          '/plugins/antibodies',
-          '/plugins/chemicalproperties',
-          '/plugins/conformergenerator',
-          '/plugins/docking',
-          '/plugins/minimization',
-          '/plugins/realtimescoring',
-          '/plugins/structureprep',
-          '/plugins/vault',
-          '/plugins/sceneviewer',
-          '/plugins/rmsd',
-          '/plugins/cryoem',
-          '/plugins/createyourown',
-          '/plugins/stackstudio',
-        ],
-      },
-      {
-        title: 'Nanome Macros',
-        collapsable: true,
-        sidebarDepth: 1,
-        children: ['/macros/overview'],
-      },
-      {
-        title: 'How To',
-        collapsable: true,
-        sidebarDepth: 2,
-        children: ['/howto/howto'],
-      },
-      {
-        title: 'home.nanome.ai',
-        collapsable: true,
-        sidebarDepth: 1,
-        children: [
+          '/home.nanome.ai/overview_home_nanome',
           '/home.nanome.ai/accounttiers',
           '/home.nanome.ai/invoice',
           '/home.nanome.ai/licenses',
@@ -94,7 +162,6 @@ module.exports = {
         collapsable: true,
         sidebarDepth: 1,
         children: [
-          // '/help/howto',
           '/help/troubleshooting',
           '/help/hardwarerequirements',
           '/help/pchardware',
@@ -104,13 +171,7 @@ module.exports = {
           '/help/faq',
           '/help/contact',
         ],
-      },
-      {
-        title: 'Open in Nanome button',
-        collapsable: true,
-        sidebarDepth: 2,
-        children: ['/integration/deeplinking', '/integration/quickdrop'],
-      },
+      }
     ],
     sidebarDepth: 2,
     lastUpdated: 'Last Updated',

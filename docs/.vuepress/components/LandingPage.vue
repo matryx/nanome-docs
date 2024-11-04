@@ -17,7 +17,7 @@
 
     <h2>Featured Sections</h2>
     <div class="featured">
-      <a href="/navigation/menus.html">
+      <a href="/nanome1x/navigation/menus.html">
         <div class="home-video">
           <video
             src="https://media.giphy.com/media/jq6CX2eDIckqP47Bk3/giphy.mp4"
@@ -30,7 +30,7 @@
         <h3>Main Menus</h3>
         <span>All the menus of Nanome</span>
       </a>
-      <a href="/navigation/toolsmenu.html">
+      <a href="/nanome1x/navigation/toolsmenu.html">
         <div class="home-video">
           <video
             src="https://media.giphy.com/media/mIyglT252D52nxnXAH/giphy.mp4"
@@ -43,7 +43,7 @@
         <h3>Tools Menu</h3>
         <span>All the tools of Nanome</span>
       </a>
-      <a href="/plugins/overview.html">
+      <a href="/nanome1x/plugins/overview.html">
         <div class="home-video">
           <video
             src="https://media.giphy.com/media/XbOZ8ZJiLGeobFiwxt/giphy.mp4"
