@@ -88,17 +88,13 @@ module.exports = {
           {
             title: 'Nanome Macros',
             collapsable: true,
-            children: [
-              {
-                title: 'Overview',
-                path: '/nanome1x/macros/overview'
-              }
-            ]
+            children: ['/nanome1x/macros/overview']
           },
           {
             title: 'How To',
             collapsable: true,
             children: [
+
               {
                 title: 'How To',
                 path: '/nanome1x/howto/howto'
@@ -153,6 +149,7 @@ module.exports = {
         collapsable: true,
         sidebarDepth: 1,
         children: [
+          '/home.nanome.ai/overview_home_nanome',
           '/home.nanome.ai/accounttiers',
           '/home.nanome.ai/invoice',
           '/home.nanome.ai/licenses',
@@ -165,7 +162,6 @@ module.exports = {
         collapsable: true,
         sidebarDepth: 1,
         children: [
-          // '/help/howto',
           '/help/troubleshooting',
           '/help/hardwarerequirements',
           '/help/pchardware',
