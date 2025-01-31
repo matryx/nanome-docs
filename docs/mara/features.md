@@ -29,11 +29,13 @@ This is the primary interface for interacting with MARA. It is a chat interface 
 
 ### Chat Input
 <vimg src="mara/chat-input.png" />
-Along with natural language, prompts can be augmented with files, or a SMILES can be drawn using a Ketcher  chemical structure editor.
+Along with natural language, prompts can be augmented with files, or a SMILES can be drawn using a Ketcher chemical structure editor.
 
 - Hexagon button opens the chemical structure drawing tool
 
 - Upload buttons opens a file picker to select files to upload
+
+(December 2024) MAE, MOE, and PSE session files can also be uploaded to a chat prompt.
 
 ## Data Table
 With the MARA data table, you can perform a variety of tasks to analyze and manipulate your data.
